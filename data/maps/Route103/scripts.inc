@@ -12,6 +12,20 @@ Route103_OnLoad:
 	call_if_set FLAG_SYS_GAME_CLEAR, Route103_EventScript_OpenAlteringCave
 	end
 
+Route103_EventScript_SuperRodFisherman::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_SUPER_ROD, Route103_EventScript_ReceivedSuperRod
+	msgbox Route103_Text_YouWantSuperRod, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route103_EventScript_DeclineSuperRod
+	msgbox Route103_Text_SuperRodIsSuper, MSGBOX_DEFAULT
+	giveitem ITEM_SUPER_ROD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_SUPER_ROD
+	msgbox Route103_Text_TryDroppingRodInWater, MSGBOX_DEFAULT
+	release
+	end
+
 Route103_EventScript_OpenAlteringCave::
 	setmetatile 45, 5, METATILE_General_CaveEntrance_Top, TRUE
 	setmetatile 45, 6, METATILE_General_CaveEntrance_Bottom, FALSE
@@ -351,3 +365,37 @@ Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 
+
+	Route103_EventScript_ReceivedSuperRod::
+	msgbox Route103_Text_GoAfterSeafloorPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+Route103_EventScript_DeclineSuperRod::
+	msgbox Route103_Text_DontYouLikeToFish, MSGBOX_DEFAULT
+	release
+	end
+
+Route103_Text_YouWantSuperRod:
+	.string "Hey there, TRAINER!\n"
+	.string "A SUPER ROD really is super!\p"
+	.string "Say all you want, but this baby can\n"
+	.string "catch POKéMON off the seafloor!\p"
+	.string "What do you think?\n"
+	.string "You want it, don't you?$"
+
+Route103_Text_SuperRodIsSuper:
+	.string "You bet, you bet!\n"
+	.string "After all, a SUPER ROD is really super!$"
+
+Route103_Text_TryDroppingRodInWater:
+	.string "If there's any water, try dropping in\n"
+	.string "your ROD and see what bites!$"
+
+Route103_Text_DontYouLikeToFish:
+	.string "Hunh?\n"
+	.string "Don't you like to fish?$"
+
+Route103_Text_GoAfterSeafloorPokemon:
+	.string "Go after the slippery water-type\n"
+	.string "POKéMON with your SUPER ROD.$"
