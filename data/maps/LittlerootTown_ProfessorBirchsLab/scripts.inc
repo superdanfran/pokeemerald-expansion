@@ -130,6 +130,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter::
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival::
+    call LittlerootTown_ProfessorBirchsLab_EventScript_GiveEndlessCandy
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival
@@ -515,6 +516,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT
 	closemessage
+	call LittlerootTown_ProfessorBirchsLab_EventScript_GiveTeraOrb
 	applymovement LOCALID_RIVAL, LittlerootTown_ProfessorBirchsLab_Movement_RivalApproachPlayer
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -532,7 +534,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 20
+	giveitem ITEM_QUICK_BALL, 20
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 0
@@ -540,7 +543,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 20
+	giveitem ITEM_QUICK_BALL, 20
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 1
@@ -554,6 +558,22 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	special SetUnlockedPokedexFlags
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
+	return
+
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveEndlessCandy::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_TakeThisEndlessCandy, MSGBOX_DEFAULT
+	giveitem ITEM_ENDLESS_CANDY
+	waitfanfare
+	setvar VAR_RESULT, 0
+	return
+
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveTeraOrb::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_TakeThisTeraOrb, MSGBOX_DEFAULT
+	giveitem ITEM_TERA_ORB
+	waitfanfare
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_TeraOrbTaken, MSGBOX_DEFAULT
+	setflag B_FLAG_TERA_ORB_CHARGED
+	setvar VAR_RESULT, 0
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait::
@@ -800,6 +820,17 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "to find different POKéMON.\p"
 	.string "If I find any cool POKéMON, you bet\n"
 	.string "I'll try to get them with POKé BALLS.$"
+
+LittlerootTown_ProfessorBirchsLab_Text_TakeThisTeraOrb:
+	.string "BIRCH: Also, take this.$"
+
+LittlerootTown_ProfessorBirchsLab_Text_TeraOrbTaken:
+	.string "BIRCH: Now you can terastalise! This\n"
+	.string "means your POKéMON can change type\n"
+	.string "mid-battle!$"
+
+LittlerootTown_ProfessorBirchsLab_Text_TakeThisEndlessCandy:
+	.string "BIRCH: Also, take this.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "Hey, your BAG's full.$"

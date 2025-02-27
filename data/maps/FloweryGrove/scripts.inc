@@ -1,0 +1,2 @@
+FloweryGrove_MapScripts::
+	.byte 0

@@ -22,6 +22,7 @@ void ItemUseOutOfBattle_PPRecovery(u8);
 void ItemUseOutOfBattle_PPUp(u8);
 void ItemUseOutOfBattle_RareCandy(u8);
 void ItemUseOutOfBattle_DynamaxCandy(u8);
+void ItemUseOutOfBattle_EndlessCandy(u8);
 void ItemUseOutOfBattle_TMHM(u8);
 void ItemUseOutOfBattle_Repel(u8);
 void ItemUseOutOfBattle_Lure(u8);

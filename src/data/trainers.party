@@ -231,9 +231,21 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nickit
+Ability: Stakeout
+Level: 12
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sucker Punch
+- Snarl
+- Quick Attack
+
+Greavard
+Ability: Fluffy
+Level: 12
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Headbutt
+- Lick
+- Snarl
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -320,11 +332,35 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Impidimp @ Safety Goggles
+Ability: Prankster
+Level: 18
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Wave
+- Swagger
+- Fake Out
+- Sucker Punch
+
+Nickit @ Quick Claw
+Ability: Stakeout
+Level: 18
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sucker Punch
+- Beat Up
+- Night Slash
+- Play Rough
+
+Greavard @ Black Glasses
+Ability: Fluffy
+Level: 18
+Tera Type: Dark
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Ice Fang
+- Thief
+- Shadow Ball
+- Confuse Ray
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -388,11 +424,23 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Qwilfish-Hisui @ Adrenaline Orb
+Ability: Intimidate
+Level: 18
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Barb Barrage
+- Fell Stinger
+
+Salandit @ Rindo Berry
+Ability: Oblivious
+Level: 18
+Tera Type: Water
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Trailblaze
+- Shadow Claw
+- Leech Life
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -401,15 +449,24 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zorua @ Eject Pack
+Ability: Illusion
+Level: 18
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Knock Off
+- Snarl
+- Skitter Smack
 
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Woobat @ Sitrus Berry
+Ability: Unaware
+Level: 18
+Tera Type: Dark
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Confusion
+- Attract
+- Assurance
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -1039,15 +1096,24 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Litwick  
+Ability: Flame Body
+Level: 16
+IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Will-O-Wisp
+- Burning Jealousy
+- Fire Spin
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Scorbunny
+Ability: Blaze
+Level: 16
+IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Fire Spin  
+- Acrobatics  
+- Quick Attack  
+- Low Kick
 
 === TRAINER_AUSTINA ===
 Name: AUSTINA
@@ -1150,15 +1216,23 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
-- Headbutt
-- Tail Whip
-- Surf
+Sinistea
+Ability: Cursed Body
+Level: 16
+IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Will-O-Wisp
+- Mega Drain
+- Shadow Ball
+
+Vanillite @ Eviolite
+Ability: Weak Armor
+Level: 16
+IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Icicle Spear
+- Iron Defense
+- Hyper Voice
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -2123,8 +2197,8 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 7
+Fidough @ Nugget
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAPHNE ===
@@ -2527,8 +2601,8 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 7
+Indeedee @ Nugget
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MOLLIE ===
@@ -3169,11 +3243,23 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Machop
-Level: 13
+Stufful
+Ability: Fluffy
+Level: 19
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Baby-Doll Eyes
+- Brutal Swing
+- Strength
+
+Pawmo
+Ability: Iron Fist
+Level: 19
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Arm Thrust
+- Nuzzle
+- Quick Attack
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -4794,33 +4880,36 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 
-Geodude
-Level: 12
+Glimmet (F) @ Absorb Bulb
+Ability: Toxic Debris
+Level: 14
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Light Screen
+- Reflect
+- Ancient Power
+- Spikes
 
-Geodude
-Level: 12
+Rolycoly (F) @ Eviolite
+Ability: Steam Engine
+Level: 14
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
 - Rock Tomb
+- Rapid Spin
+- Will-O-Wisp
+- Tackle
 
-Nosepass @ Oran Berry
+Growlithe-Hisui (F) @ Assault Vest
+Ability: Intimidate
 Level: 15
+Tera Type: Grass
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+- Thunder Fang
+- Fire Fang
+- Bite
+- Smack Down
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -4828,32 +4917,35 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 
-Machop
-Level: 16
+Kubfu @ Expert Belt
+Ability: Inner Focus
+Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
+- Brick Break
+- Thunder Punch
+- U-turn
 - Bulk Up
 
-Meditite
-Level: 16
+Sneasel-Hisui
+Ability: Pickpocket
+Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
+- Fake Out
+- Brick Break
+- Poison Jab
+- X-Scissor
 
-Makuhita @ Sitrus Berry
-Level: 19
+Pignite @ Eviolite
+Ability: Blaze
+Tera Type: Ground
+Level: 21
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
+- Drain Punch
+- Fire Punch
+- High Horsepower
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
@@ -5252,8 +5344,8 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 9
+Tandemaus
+Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_GEORGIA ===
@@ -5949,7 +6041,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
+Maschiff
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5962,11 +6054,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 5
+Yungoos
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seedot
+Toedscool
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5979,8 +6071,8 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 10
+Rockruff
+Level: 14
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 
@@ -5993,12 +6085,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Dwebble
+Level: 12
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
-Geodude
-Level: 8
+Binacle
+Level: 12
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JOEY ===
@@ -6010,8 +6102,8 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 9
+Pawmi
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEN ===
@@ -6215,11 +6307,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
+Squawkabilly-Green
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Taillow
+Smoliv
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6329,16 +6421,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 5
+Tympole
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 7
+Tadbulb
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CLAUDE ===
@@ -6371,17 +6459,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 10
+Magikarp @ Eviolite
+Ability: Rattled
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flail
 
 === TRAINER_NED ===
 Name: NED
@@ -6390,11 +6472,21 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Tentacool
-Level: 11
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Arrokuda
+Ability: Swift Swim
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Flip Turn
+- Aqua Jet
+
+Wingull
+Ability: Hydration
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rain Dance
+- Dual Wingbeat
 
 === TRAINER_DALE ===
 Name: DALE
@@ -7838,11 +7930,16 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Meditite
-Level: 13
+Gyarados
+Ability: Intimidate
+Level: 19
+Tera Type: Fighting
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ice Fang
+- Crunch
+- Whirlpool
 
 === TRAINER_LAURA ===
 Name: LAURA
@@ -7851,11 +7948,24 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Meditite
-Level: 13
+Farfetch'd-Galar
+Ability: Scrappy
+Level: 19
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Rock Smash
+- Brutal Swing
+- Detect
+
+Poliwhirl
+Ability: Water Absorb
+Level: 19
+Tera Type: Fighting
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Brick Break
+- Chilling Water
+- Hypnosis
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -8806,12 +8916,12 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Seedot
-Level: 6
+Hatenna
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lotad
-Level: 6
+Milcery
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MIU_AND_YUKI ===
@@ -8943,15 +9053,23 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wingull
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Wattrel
+Ability: Competitive
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Quick Attack
+- Discharge
+- Pluck
 
-Machop
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Inkay
+Ability: Suction Cups
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Swagger
+- Psybeam
+- Pluck
 
 === TRAINER_EDMOND ===
 Name: EDMOND
@@ -8962,9 +9080,21 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wiglett
+Ability: Sand Veil
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Chilling Water
+- Sucker Punch
+- Aqua Jet
+
+Sandygast
+Ability: Water Compaction
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sandstorm
+- Mega Drain
+- Bulldoze
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -9510,8 +9640,9 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
-Level: 5
+Sprigatito
+Ability: Protean
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
@@ -9565,8 +9696,9 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Torchic
-Level: 5
+Fuecoco
+Ability: Unaware
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
@@ -9620,8 +9752,9 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
-Level: 5
+Quaxly
+Ability: Moxie
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
@@ -9675,8 +9808,9 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
-Level: 5
+Sprigatito
+Ability: Protean
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
@@ -9730,8 +9864,9 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
-Level: 5
+Fuecoco
+Ability: Unaware
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
@@ -9785,8 +9920,9 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
-Level: 5
+Quaxly
+Ability: Moxie
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
@@ -10560,12 +10696,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Geodude-Alola
+Level: 12
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Geodude
-Level: 8
+Slugma
+Level: 12
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_BRENDEN ===
@@ -10601,11 +10737,24 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Makuhita
-Level: 13
+Mienfoo
+Ability: Inner Focus
+Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- U-turn
+- Low Kick
+
+Meditite
+Ability: Pure Power
+Level: 19
+Tera Type: Psychic
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Confusion
+- Force Palm
+- Detect
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
@@ -10990,14 +11139,14 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Basic Trainer
 
-Wingull
-Level: 13
+Tatsugiri-Curly
+Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Treecko
-Level: 15
+Floragato
+Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
@@ -11053,11 +11202,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
+Lechonk
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
+Smoliv
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11070,12 +11219,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 6
+Smoliv
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
-Level: 6
+Squawkabilly-White
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JANICE ===
@@ -11257,11 +11406,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
+Scatterbug
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
+Weedle
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11274,20 +11423,20 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 3
+Grubbin
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
-Level: 3
+Grubbin
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
-Level: 3
+Grubbin
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
-Level: 3
+Grubbin
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSE ===
@@ -11299,12 +11448,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 8
+Skorupi
+Level: 12
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Nincada
-Level: 8
+Paras
+Level: 12
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DOUG ===
@@ -11363,12 +11512,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nincada
-Level: 6
+Nymble
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nincada
-Level: 6
+Tarountula
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_2 ===
@@ -11549,8 +11698,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Nacli
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Silicobra
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ERIC ===
@@ -12976,8 +13129,8 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 9
+Wishiwashi
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAILEY ===
@@ -12989,9 +13142,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hippopotas
+Ability: Sand Stream
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Helping Hand
+- Protect
+- Fire Fang
+
+Silicobra
+Ability: Sand Veil
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Coil
+- Scale Shot
+- Bulldoze
 
 === TRAINER_CHANDLER ===
 Name: CHANDLER
@@ -13000,15 +13165,24 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Tentacool
-Level: 12
+Frillish
+Ability: Water Absorb
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Protect
+- Will-O-Wisp
+- Water Pulse
 
-Tentacool
-Level: 12
+Wooper-Paldea
+Ability: Water Absorb
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Chilling Water
+- Trailblaze
+- Toxic
 
 === TRAINER_KALEB ===
 Name: KALEB
@@ -13859,12 +14033,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Mudbray
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Geodude
-Level: 8
+Rockruff
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOHNSON ===
@@ -13876,12 +14050,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 8
+Applin
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lotad
-Level: 8
+Grookey
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MELINA ===
@@ -14128,12 +14302,14 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lotad
-Level: 13
+Dolliv @ Oran berry
+Ability: Harvest
+Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Torchic
-Level: 15
+Crocalor
+Ability: Unaware
+Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
@@ -14145,12 +14321,14 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torkoal
-Level: 13
+Sizzlipede
+Ability: Flame Body
+Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Mudkip
-Level: 15
+Quaxwell
+Ability: Moxie
+Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ROXANNE_2 ===
