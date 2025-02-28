@@ -430,8 +430,9 @@ Qwilfish-Hisui @ Adrenaline Orb
 Ability: Intimidate
 Level: 18
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Barb Barrage
+- Poison Fang
 - Fell Stinger
+- Bite
 
 Salandit @ Rindo Berry
 Ability: Oblivious
@@ -5771,15 +5772,25 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Plusle @ Oran Berry
-Level: 14
+Plusle
+Ability: Lightning Rod
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Helping Hand
+- Thunderbolt
 
 Minun @ Oran Berry
-Level: 14
+Ability: Volt Absorb
+Tera Type: Grass
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Electroweb
+- Grass Knot
+- Alluring Voice
+- Tera Blast
 
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
@@ -6322,15 +6333,23 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Aron
-Level: 15
+Naclstack @ Eviolite
+Ability: Purifying Salt
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Salt Cure
+- Body Press
+- Stomping Tantrum
 
-Electrike
-Level: 13
+Boltund @ Lum Berry
+Ability: Strong Jaw
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Thunder Fang
+- Fire Fang
 
 === TRAINER_WALLACE ===
 Name: WALLACE
@@ -9465,15 +9484,23 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle / Prefer Status Moves
 
-Lombre
-Level: 14
+Gimmighoul-Roaming
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Light Screen
+- Reflect
+- Protect
 
-Nuzleaf
-Level: 14
+Gimmighoul
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Confuse Ray
+- Power Gem
+- Protect
 
 === TRAINER_HECTOR ===
 Name: HECTOR
@@ -11000,12 +11027,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 13
+Dolliv @ Oran berry
+Ability: Harvest
+Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Torchic
-Level: 15
+Crocalor
+Ability: Unaware
+Level: 18
+Tera Type: Fire
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
@@ -11017,12 +11047,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 13
+Tatsugiri-Curly
+Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Treecko
-Level: 15
+Floragato
+Ability: Protean
+Level: 18
+Tera Type: Grass
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_PAXTON ===
@@ -11124,12 +11156,15 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 13
+Sizzlipede
+Ability: Flame Body
+Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Mudkip
-Level: 15
+Quaxwell
+Ability: Moxie
+Level: 18
+Tera Type: Water
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
@@ -11146,7 +11181,9 @@ Level: 17
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Floragato
+Ability: Protean
 Level: 18
+Tera Type: Grass
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
@@ -13191,15 +13228,23 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Minun @ Oran Berry
-Level: 14
+Gyarados
+Ability: Moxie
+Tera Type: Grass
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Waterfall
+- Rain Dance
 
-Plusle @ Oran Berry
-Level: 14
+Corvisquire
+Ability: Big Pecks
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pluck
+- Hone Claws
 
 === TRAINER_JOSEPH ===
 Name: JOSEPH
@@ -13208,15 +13253,24 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle / Prefer Status Moves
 
-Electrike
-Level: 14
+Dottler
+Ability: Telepathy
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sticky Web
+- Shadow Ball
+- Trick Room
+- Protect
 
-Voltorb
-Level: 14
+Bellibolt
+Ability: Electromorphosis
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charge Beam
+- Hyper Voice
+- Thunder Wave
 
 === TRAINER_ALYSSA ===
 Name: ALYSSA
@@ -14310,6 +14364,7 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 Crocalor
 Ability: Unaware
 Level: 18
+Tera Type: Fire
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
