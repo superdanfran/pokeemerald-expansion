@@ -13,6 +13,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE01_GET, 15},
         {FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS, 18},
         {FLAG_BADGE02_GET, 21},
+        {FLAG_HIDE_ROUTE_110_RIVAL, 28},
         {FLAG_BADGE03_GET, 36},
         {FLAG_BADGE04_GET, 44},
         {FLAG_BADGE05_GET, 55},

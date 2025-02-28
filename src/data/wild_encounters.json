@@ -823,29 +823,29 @@
                 "species": "SPECIES_WAILMER"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
-                "species": "SPECIES_WAILMER"
+                "min_level": 18,
+                "max_level": 18,
+                "species": "SPECIES_KRABBY"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_WAILMER"
+                "min_level": 18,
+                "max_level": 18,
+                "species": "SPECIES_CHINCHOU"
               },
               {
-                "min_level": 20,
-                "max_level": 25,
-                "species": "SPECIES_WAILMER"
+                "min_level": 18,
+                "max_level": 18,
+                "species": "SPECIES_BASCULIN_WHITE_STRIPED"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
-                "species": "SPECIES_WAILMER"
+                "min_level": 18,
+                "max_level": 18,
+                "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 40,
-                "max_level": 45,
-                "species": "SPECIES_WAILMER"
+                "min_level": 18,
+                "max_level": 18,
+                "species": "SPECIES_MAGIKARP"
               }
             ]
           }
