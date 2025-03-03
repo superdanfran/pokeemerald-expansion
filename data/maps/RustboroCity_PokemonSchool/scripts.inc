@@ -172,6 +172,16 @@ RustboroCity_PokemonSchool_EventScript_Scott::
 	release
 	end
 
+RustboroCity_PokemonSchool_EventScript_Nemona::
+	lock
+	faceplayer
+	goto_if_set FLAG_MET_NEMONA_RUSTBORO, RustboroCity_PokemonSchool_EventScript_NemonaSpokeAlready
+	msgbox RustboroCity_PokemonSchool_Text_NemonaIntro, MSGBOX_DEFAULT
+	playbgm MUS_ENCOUNTER_MAY, TRUE
+	goto RustboroCity_PokemonSchool_NemonaBattle
+	release
+	end
+
 RustboroCity_PokemonSchool_EventScript_ScottSpokeAlready::
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_PokemonSchool_EventScript_ScottNoticeBadge
 	msgbox RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown, MSGBOX_DEFAULT
@@ -349,3 +359,78 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "It's hard to tell what you're like as\n"
 	.string "a TRAINER from a LEAGUE BADGE.$"
 
+RustboroCity_PokemonSchool_Text_NemonaIntro:
+	.string "Buenas! The professor told me you'd\n"
+	.string "be coming here!.\p"
+	.string "I've been dying to meet you!\n"
+	.string "I'm NEMONA. I'm visiting from the\p"
+	.string "PALDEA region with my SCHOOL,\n"
+	.string "the NARANJA ACADEMY.$"
+
+RustboroCity_PokemonSchool_Text_NemonaLetsBattle:
+	.string "How about you show me all you've learned\n"
+	.string "... in a battle?$"
+
+RustboroCity_PokemonSchool_NemonaBattle::
+	msgbox RustboroCity_PokemonSchool_Text_NemonaLetsBattle, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, RustboroCity_PokemonSchool_EventScript_NemonaBattleSprigatito
+	case 1, RustboroCity_PokemonSchool_EventScript_NemonaBattleFuecoco
+	case 2, RustboroCity_PokemonSchool_EventScript_NemonaBattleQuaxly
+	end
+
+RustboroCity_PokemonSchool_EventScript_NemonaBattleSprigatito::
+	trainerbattle_no_intro TRAINER_NEMONA_SCHOOL_SPRIGATITO, RustboroCity_PokemonSchool_Text_NemonaDefeated
+	goto RustboroCity_PokemonSchool_EventScript_NemonaDefeated
+	end
+
+RustboroCity_PokemonSchool_EventScript_NemonaBattleFuecoco::
+	trainerbattle_no_intro TRAINER_NEMONA_SCHOOL_FUECOCO, RustboroCity_PokemonSchool_Text_NemonaDefeated
+	goto RustboroCity_PokemonSchool_EventScript_NemonaDefeated
+	end
+
+RustboroCity_PokemonSchool_EventScript_NemonaBattleQuaxly::
+	trainerbattle_no_intro TRAINER_NEMONA_SCHOOL_QUAXLY, RustboroCity_PokemonSchool_Text_NemonaDefeated
+	goto RustboroCity_PokemonSchool_EventScript_NemonaDefeated
+	end
+
+RustboroCity_PokemonSchool_Text_NemonaDefeated::
+	.string "Amazing!\n"
+	.string "Look at you! Such potential!$"
+	end
+
+RustboroCity_PokemonSchool_EventScript_NemonaDefeated::
+	msgbox RustboroCity_PokemonSchool_Text_NemonaTakeThis, MSGBOX_DEFAULT
+	call RustboroCity_PokemonSchool_EventScript_GiveTeraOrb
+	msgbox RustboroCity_PokemonSchool_Text_NemonaExplainTeraOrb, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_MET_NEMONA_RUSTBORO
+	end
+
+RustboroCity_PokemonSchool_Text_NemonaTakeThis:
+.string "I know what's gonna really spice up\n"
+.string "your battling, {PLAYER}!\p"
+.string "Take this, straight from PALDEA!$"
+
+RustboroCity_PokemonSchool_Text_NemonaExplainTeraOrb:
+	.string "NEMONA: That's a TERA ORB.\p"
+	.string "It can change the type of your POKéMON\n"
+	.string "and give them a huge power boost!\p"
+	.string "I hope it gives you an edge over ROXANNE!\p"
+	.string "Press START in battle when you select\n"
+	.string "a move and see what happens!$"
+
+RustboroCity_PokemonSchool_EventScript_GiveTeraOrb::
+	giveitem ITEM_TERA_ORB
+	waitfanfare
+	setflag B_FLAG_TERA_ORB_CHARGED
+	return
+
+RustboroCity_PokemonSchool_EventScript_NemonaSpokeAlready::
+	msgbox RustboroCity_PokemonSchool_Text_GoodLuck, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_PokemonSchool_Text_GoodLuck:
+	.string "NEMONA: Good luck with ROXANNE!\p"
+	.string "Don't forget to TERASTALIZE!$"
