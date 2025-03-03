@@ -4902,15 +4902,24 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will-O-Wisp
 - Tackle
 
-Growlithe-Hisui (F) @ Assault Vest
+Growlithe-Hisui (F)
 Ability: Intimidate
-Level: 15
-Tera Type: Grass
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Fang
 - Fire Fang
 - Bite
 - Smack Down
+
+Trumbeak (F) @ Loaded Dice
+Ability: Skill Link
+Level: 15
+Tera Type: Rock
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Pluck
+- Rock Smash
+- Bullet Seed
+- Rock Blast
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -6053,7 +6062,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Maschiff
-Level: 5
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BILLY ===
@@ -6319,11 +6328,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Squawkabilly-Green
-Level: 4
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Smoliv
-Level: 3
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TIMMY ===
@@ -11240,11 +11249,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Lechonk
-Level: 4
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Smoliv
-Level: 4
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALEY_1 ===
@@ -11444,11 +11453,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Scatterbug
-Level: 4
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
-Level: 4
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYLE ===
@@ -13169,6 +13178,41 @@ AI: Check Bad Move
 Wishiwashi
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_EMMIE ===
+Name: EMMIE
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Basic Trainer
+
+Wooloo
+Ability: Fluffy
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Double Kick
+- Cotton Guard
+
+Flaaffy
+Ability: Static
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thundershock
+- Confuse Ray
+- Trailblaze
+- Thunder Wave
+
+Stufful
+Ability: Fluffy
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Strength
+- Brutal Swing
+- Low Sweep
+- Baby-Doll Eyes
 
 === TRAINER_HAILEY ===
 Name: HAILEY

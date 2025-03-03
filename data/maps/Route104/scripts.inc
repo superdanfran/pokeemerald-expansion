@@ -998,6 +998,11 @@ Route104_EventScript_Darian::
 	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route104_EventScript_Emmie::
+	trainerbattle_single TRAINER_EMMIE, Route104_Text_EmmieIntro, Route104_Text_EmmieDefeat
+	msgbox Route104_Text_EmmiePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route104_Text_BrineyLivesInSeasideCottage:
 	.string "That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"

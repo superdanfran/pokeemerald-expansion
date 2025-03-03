@@ -427,6 +427,18 @@ Route104_Text_DarianPostBattle:
 	.string "Hey, MAGIKARP, you sure don't live up\n"
 	.string "to your name, do you?$"
 
+Route104_Text_EmmieIntro:
+	.string "Hi! I just caught these cute\p"
+	.string "little guys! ...Oh, you want to\n"
+	.string "fight? Umm... Okay!$"
+
+Route104_Text_EmmieDefeat:
+	.string "Oh…$"
+
+Route104_Text_EmmiePostBattle:
+	.string "I was going to use this for vet\n"
+	.string "bills, but I guess you can have it...$"
+
 Route105_Text_FosterIntro:
 	.string "There's supposed to be a mystical\n"
 	.string "rock around here.\l"
