@@ -11066,6 +11066,90 @@ Level: 18
 Tera Type: Grass
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
+=== TRAINER_NEMONA_SCHOOL_SPRIGATITO ===
+Name: NEMONA
+Class: Rival
+Pic: Nemona
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+
+Pawmi
+Ability: Static
+Level: 15
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Nuzzle
+- Spark
+- Bite
+- Dig
+
+Quaxly
+Ability: Torrent
+Level: 15
+Tera Type: Water
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Aqua Cutter
+- Acrobatics
+- Disarming Voice
+- Feather Dance
+
+=== TRAINER_NEMONA_SCHOOL_QUAXLY ===
+Name: NEMONA
+Class: Rival
+Pic: Nemona
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+
+Pawmi
+Ability: Static
+Level: 15
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Nuzzle
+- Spark
+- Bite
+- Dig
+
+Fuecoco
+Ability: Blaze
+Level: 15
+Tera Type: Fire
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Incinerate
+- Snarl
+- Disarming Voice
+- Yawn
+
+=== TRAINER_NEMONA_SCHOOL_FUECOCO ===
+Name: NEMONA
+Class: Rival
+Pic: Nemona
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+
+Pawmi
+Ability: Static
+Level: 15
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Nuzzle
+- Spark
+- Bite
+- Dig
+
+Sprigatito
+Ability: Overgrow
+Level: 15
+Tera Type: Grass
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Seed Bomb
+- Hone Claws
+- Acrobatics
+- Disarming Voice
+
 === TRAINER_PAXTON ===
 Name: PAXTON
 Class: Expert
@@ -13190,7 +13274,7 @@ AI: Basic Trainer
 
 Wooloo
 Ability: Fluffy
-Level: 15
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Headbutt
 - Double Kick
@@ -13198,7 +13282,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Flaaffy
 Ability: Static
-Level: 15
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thundershock
 - Confuse Ray
@@ -13207,7 +13291,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Stufful
 Ability: Fluffy
-Level: 16
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Strength
 - Brutal Swing
