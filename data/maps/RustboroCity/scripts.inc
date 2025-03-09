@@ -677,6 +677,32 @@ RustboroCity_EventScript_EmployeeFacePlayerRight::
 	waitmovement 0
 	return
 
+RustboroCity_EventScript_Gimmighoul::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_GIMMIGHOUL, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_GIMMIGHOUL, 10
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, RustboroCity_EventScript_DefeatedGimmighoul
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, RustboroCity_EventScript_DefeatedGimmighoul
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, RustboroCity_EventScript_DefeatedGimmighoul
+	setflag FLAG_DEFEATED_GIMMIGHOUL
+	release
+	end
+
+RustboroCity_EventScript_DefeatedGimmighoul::
+	setflag FLAG_DEFEATED_GIMMIGHOUL
+	goto Common_EventScript_RemoveStaticPokemon
+	giveitem ITEM_GIMMIGHOUL_COIN, 50
+	end
+
+
 RustboroCity_EventScript_Rival::
 	lockall
 	call_if_unset FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_PlayRivalMusic

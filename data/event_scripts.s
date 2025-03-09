@@ -1156,3 +1156,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 
 	.include "data/maps/FloweryGrove/scripts.inc"
+
+	.include "data/maps/MauvilleCity_PowerStation/scripts.inc"

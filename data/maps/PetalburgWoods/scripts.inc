@@ -91,7 +91,7 @@ PetalburgWoods_EventScript_DevonResearcherPostBattle::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox PetalburgWoods_Text_ThatWasAwfullyClose, MSGBOX_DEFAULT
-	giveitem ITEM_GREAT_BALL
+	giveitem ITEM_WISE_GLASSES
 	goto_if_eq VAR_RESULT, FALSE, PetalburgWoods_EventScript_BagFull
 	goto PetalburgWoods_EventScript_DevonResearcherFinish
 	end
@@ -324,7 +324,7 @@ PetalburgWoods_Text_NotAOneToBeFound:
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "Hello, have you seen any POKéMON\n"
-	.string "called SHROOMISH around here?\p"
+	.string "called APPLIN around here?\p"
 	.string "I really love that POKéMON.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
@@ -367,7 +367,7 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "That was awfully close!\p"
 	.string "Thanks to you, he didn't rob me of\n"
 	.string "these important papers.\p"
-	.string "I know, I'll give you a GREAT BALL as\n"
+	.string "I know, I'll give you some WISE GLASSES as\n"
 	.string "my thanks!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
@@ -381,7 +381,7 @@ PetalburgWoods_Text_ICantBeWastingTime:
 
 PetalburgWoods_Text_YoureLoadedWithItems:
 	.string "You're loaded with items.\n"
-	.string "I can't give you this GREAT BALL.$"
+	.string "I can't give you these WISE GLASSES.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
 	.string "I caught a whole bunch of POKéMON!\p"

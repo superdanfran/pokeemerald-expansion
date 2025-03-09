@@ -213,13 +213,13 @@
 // Sky Battles
 #define B_FLAG_SKY_BATTLE                 0     // If this flag has a value, the player will be able to engage in scripted Sky Battles.
 #define B_VAR_SKY_BATTLE                  0     // If this var has a value, the game will remember the positions of Pokémon used in Sky Battles.
-#define B_SKY_BATTLE_STRICT_ELIGIBILITY   FALSE // If TRUE, Sky Battles will use the eligibility from Pokémon XY. If FALSE, all Flying-types or Pokémon with Levitate are allowed.
+#define B_SKY_BATTLE_STRICT_ELIGIBILITY   TRUE // If TRUE, Sky Battles will use the eligibility from Pokémon XY. If FALSE, all Flying-types or Pokémon with Levitate are allowed.
 
 // Flag and Var settings
 #define B_RESET_FLAGS_VARS_AFTER_WHITEOUT TRUE // If TRUE, Overworld_ResetBattleFlagsAndVars will reset battle-related Flags and Vars when the player whites out.
 
 // Ingame partner flag
-#define B_SHOW_PARTNER_TARGET             FALSE // Shows the battler partner will target.
+#define B_SHOW_PARTNER_TARGET             TRUE // Shows the battler partner will target.
 
 // Terrain settings
 #define B_TERRAIN_BG_CHANGE         TRUE       // If set to TRUE, terrain moves permanently change the default battle background until the effect fades.
