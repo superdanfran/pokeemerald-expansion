@@ -339,9 +339,9 @@ Ability: Prankster
 Level: 18
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Thunder Wave
-- Swagger
 - Fake Out
 - Sucker Punch
+- Scary Face
 
 Nickit @ Quick Claw
 Ability: Stakeout
@@ -2196,11 +2196,14 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Fidough @ Nugget
 Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Baby-Doll Eyes
+- Play Rough
+- Charm
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -2600,11 +2603,15 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Stall
 
-Indeedee @ Nugget
+Furfrou-Dandy @ Nugget
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Toxic
+- Protect
+- Sand Attack
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -4881,40 +4888,43 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Smart Trainer / Ace Pokemon
+Double Battle: Yes
+AI: Smart Trainer / Ace Pokemon / Prediction
 
 Glimmet (F) @ Absorb Bulb
 Ability: Toxic Debris
-Level: 14
+Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Light Screen
 - Reflect
 - Ancient Power
 - Spikes
 
-Rolycoly (F) @ Eviolite
-Ability: Steam Engine
-Level: 14
+Lileep (F)
+Ability: Storm Drain
+Level: 15
+Calm Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rock Tomb
-- Rapid Spin
-- Will-O-Wisp
-- Tackle
+- Ingrain  
+- Confuse Ray  
+- Rock Tomb  
+- Mega Drain
 
-Growlithe-Hisui (F)
+Growlithe-Hisui (F) @ Passho Berry
 Ability: Intimidate
-Level: 14
+Level: 15
+Jolly Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Fang
 - Fire Fang
 - Bite
 - Smack Down
 
-Trumbeak (F) @ Loaded Dice
+Trumbeak (F) @ Salac Berry
 Ability: Skill Link
-Level: 15
+Level: 16
 Tera Type: Rock
+Brave Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Pluck
 - Rock Smash
@@ -4927,7 +4937,7 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon
 
 Kubfu @ Expert Belt
@@ -4937,7 +4947,16 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Brick Break
 - Thunder Punch
 - U-turn
-- Bulk Up
+- Protect
+
+Passimian
+Ability: Receiver
+Level: 20
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Coaching
+- Upper Hand
+- Taunt
+- Protect
 
 Sneasel-Hisui
 Ability: Pickpocket
@@ -4948,15 +4967,24 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Jab
 - X-Scissor
 
-Pignite @ Eviolite
+Pignite
 Ability: Blaze
-Tera Type: Ground
-Level: 21
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 20
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Drain Punch
 - Fire Punch
 - High Horsepower
-- Bulk Up
+- Helping Hand
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 21
+Tera Type: Fighting
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- X-Scissor
+- Crush Claw
+- Low Sweep
+- Aerial Ace
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -5352,11 +5380,23 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tandemaus
-Level: 12
+Ability: Own Tempo
+Level: 14
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Double Hit
+- Encore
+- Super Fang
+
+Deerling-Spring (F)
+Ability: Serene Grace
+Level: 14
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Trailblaze
+- Body Slam
+- Bulldoze
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6072,15 +6112,21 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Yungoos
-Level: 6
+Ability: Strong Jaw
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Mud-Slap
 
 Toedscool
-Level: 7
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Drain
+- Mud Slap
+- Stun Spore
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -6089,12 +6135,33 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Rockruff
+Ability: Keen Eye
 Level: 14
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+- Rock Tomb
+- Fire Fang
+- Thunder Fang
+- Trailblaze
+
+Larvitar @ Flame Orb
+Ability: Guts
+Level: 14
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Rock Tomb
+
+Bunnelby @ Oran Berry
+Ability: Huge Power
+Level: 15
+Tera Type: Rock
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Tomb
+- Dig
+- Surf
+- Bounce
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6103,15 +6170,25 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
 Dwebble
-Level: 12
+Ability: Weak Armor
+Level: 14
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Stealth Rock
+- Shell Smash
+- Bug Bite
+- Rock Tomb
 
-Binacle
-Level: 12
+Beedrill @ Oran Berry
+Ability: Sniper
+Level: 15
+Tera Type: Rock
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Fell Stinger
+- Aerial Ace
+- X-Scissor
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -6119,12 +6196,35 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Basic Trainer / HP Aware / Powerful Status
 
-Pawmi
-Level: 14
+Helioptile
+Ability: Dry Skin
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Charge
+- Bulldoze
+- Thunder Wave
+
+Wingull
+Ability: Rain Dish
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Roost
+- Wing Attack
+- Rain Dance
+
+Croagunk
+Ability: Dry Skin
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Low Kick
+- Chilling Water
+- Rain Dance
+- Acid Spray
 
 === TRAINER_BEN ===
 Name: BEN
@@ -6485,13 +6585,13 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Magikarp @ Eviolite
 Ability: Rattled
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Flail
+- Bounce
 
 === TRAINER_NED ===
 Name: NED
@@ -6499,7 +6599,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
 Arrokuda
@@ -6515,6 +6615,13 @@ Level: 16
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Rain Dance
 - Dual Wingbeat
+
+Tirtouga
+Ability: Swift Swim
+Level: 16
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Flip Turn
+- Aqua Jet
 
 === TRAINER_DALE ===
 Name: DALE
@@ -8942,15 +9049,25 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer / HP Aware
 
 Hatenna
-Level: 12
+Ability: Magic Bounce
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Life Dew
+- Disarming Voice
+- Psybeam
+- Heal Pulse
 
 Milcery
-Level: 12
+Ability: Aroma Veil
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Draining Kiss
+- Attract
+- Charm
+- Protect
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -10730,15 +10847,24 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
 Geodude-Alola
-Level: 12
+Ability: Sturdy
+Level: 14
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunder Punch
+- Stealth Rock
+- Rock Throw
 
 Slugma
-Level: 12
+Ability: Flame Body
+Level: 15
+Tera Type: Rock
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ancient Power
+- Mud Shot
+- Incinerate
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -11346,16 +11472,24 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Basic Trainer
 
 Smoliv
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Trailblaze
+- Helping Hand
+- Mega Drain
 
 Squawkabilly-White
+Ability: Intimidate
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Quick Attack
+- Protect
+- Pounce
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -11576,15 +11710,24 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
-
-Skorupi
-Level: 12
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+AI: Basic Trainer / Try To Faint
 
 Paras
-Level: 12
+Ability: Effect Spore
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- X-Scissor
+- Spore
+- Giga Drain
+
+Skorupi
+Ability: Battle Armor
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Fell Stinger
+- Poison Fang
+- Hone Claws
+- Bite
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11642,13 +11785,20 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nymble
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 Tarountula
+Ability: Stakeout
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pounce
+- Sticky Web
+- Gastro Acid
+
+Nymble
+Ability: Tinted Lens
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pounce
+- Trailblaze
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
@@ -11826,15 +11976,25 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
 Nacli
-Level: 12
+Ability: Sturdy
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Polish
+- Smack Down
+- Mud Shot
+- Stealth Rock
 
 Silicobra
-Level: 12
+Ability: Shed Skin
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brutal Swing
+- Glare
+- Mud Slap
+- Poison Tail
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13257,11 +13417,14 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Wishiwashi
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tearful Look
+- Dive
+- Water Gun
 
 === TRAINER_EMMIE ===
 Name: EMMIE
@@ -14213,15 +14376,24 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Mudbray
-Level: 12
+Ability: Stamina
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Smash
+- Stomp
+- Bulldoze
+- Heavy Slam
 
 Rockruff
-Level: 12
+Ability: Steadfast
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Rock Tomb
+- Trailblaze
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -14230,15 +14402,20 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Applin
-Level: 12
+Applin @ Salac Berry
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
 
 Grookey
-Level: 12
+Ability: Grassy Surge
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Grassy Glide
+- Low Kick
+- Acrobatics
 
 === TRAINER_MELINA ===
 Name: MELINA
