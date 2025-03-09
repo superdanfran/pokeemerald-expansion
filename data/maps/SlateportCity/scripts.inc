@@ -156,6 +156,42 @@ SlateportCity_Pokemart_EnergyGuru:
 	.2byte ITEM_HP_UP
 	pokemartlistend
 
+SlateportCity_EventScript_MintMerchant::
+	lock
+	faceplayer
+	message SlateportCity_Text_MintMerchantGotAKick
+	waitmessage
+	pokemart SlateportCity_Pokemart_MintMerchant
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SlateportCity_Pokemart_MintMerchant:
+	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_LAX_MINT
+	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_MILD_MINT
+	.2byte ITEM_RASH_MINT
+	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_CALM_MINT
+	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_SERIOUS_MINT
+	pokemartlistend
+
 SlateportCity_EventScript_EffortRibbonWoman::
 	lock
 	faceplayer
@@ -945,6 +981,10 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
 	.string "I'm the ENERGY GURU! I'll go for it and\n"
 	.string "sell you what you need!$"
+
+SlateportCity_Text_MintMerchantGotAKick:
+	.string "My name's the MINT MERCHANT and my mints\n"
+	.string "got a kick!$"
 
 SlateportCity_Text_OhYourPokemon:
 	.string "Oh?\n"
