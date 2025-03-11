@@ -426,13 +426,23 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Qwilfish-Hisui @ Adrenaline Orb
-Ability: Intimidate
+Varoom @ Air Balloon
+Ability: Overcoat
 Level: 18
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Poison Fang
-- Fell Stinger
-- Bite
+- Toxic
+- Headbutt
+- Iron Head
+- Bulldoze
+
+Murkrow @ Eviolite
+Ability: Prankster
+Level: 18
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Confuse Ray
+- Thunder Wave
+- Hex
+- U-turn
 
 Salandit @ Rindo Berry
 Ability: Oblivious
@@ -9860,20 +9870,45 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Cramorant @ Water Gem
+Ability: Gulp Missile
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Dive
+- Air Slash
+- Pounce
+- Flip Turn
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Togedemaru @ Sitrus berry
+Ability: Lightning Rod
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Pin Missile
+- Magnet Rise
+- Thunder Wave
+- Thunderbolt
 
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dolliv @ Sitrus berry
+Ability: Harvest
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Energy Ball
+- Helping Hand
+- Protect
+- Leech Seed
+
+Crocalor @ Wise Glasses
+Ability: Unaware
+Level: 28
+Tera Type: Fire
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Yawn
+- Flamethrower
+- Hyper Voice
+- Snarl
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -10028,20 +10063,45 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Cramorant @ Water Gem
+Ability: Gulp Missile
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Dive
+- Air Slash
+- Pounce
+- Flip Turn
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Togedemaru @ Sitrus berry
+Ability: Lightning Rod
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Pin Missile
+- Magnet Rise
+- Thunder Wave
+- Thunderbolt
 
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dolliv @ Sitrus berry
+Ability: Harvest
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Energy Ball
+- Helping Hand
+- Protect
+- Leech Seed
+
+Crocalor @ Wise Glasses
+Ability: Unaware
+Level: 28
+Tera Type: Fire
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Yawn
+- Flamethrower
+- Hyper Voice
+- Snarl
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -11160,7 +11220,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Dolliv @ Oran berry
 Ability: Harvest
