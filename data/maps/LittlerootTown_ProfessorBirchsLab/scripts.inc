@@ -131,6 +131,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival::
     call LittlerootTown_ProfessorBirchsLab_EventScript_GiveEndlessCandy
+	call LittlerootTown_ProfessorBirchsLab_EventScript_GiveInfiniteRepel
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival
 	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival
@@ -562,6 +563,12 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveEndlessCandy::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_TakeThisEndlessCandy, MSGBOX_DEFAULT
 	giveitem ITEM_ENDLESS_CANDY
+	waitfanfare
+	setvar VAR_RESULT, 0
+	return
+
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveInfiniteRepel::
+	giveitem ITEM_INFINITE_REPEL
 	waitfanfare
 	setvar VAR_RESULT, 0
 	return
