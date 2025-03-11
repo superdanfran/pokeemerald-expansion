@@ -169,6 +169,8 @@ const u8 gText_TheBattle[] = _("the battle");
 const u8 gText_ThePokemonList[] = _("the POKéMON LIST");
 const u8 gText_TheShop[] = _("the shop");
 const u8 gText_ThePC[] = _("the PC");
+const u8 gText_InfiniteRepelOn[] = _("The Infinite Repel is now ACTIVATED!\n Wild Pokemon will be repelled!{PAUSE_UNTIL_PRESS}");
+const u8 gText_InfiniteRepelOff[] = _("The Infinite Repel is now DEACTIVATED!\n Wild Pokemon will appear!{PAUSE_UNTIL_PRESS}");
 
 const u8 *const gBagMenu_ReturnToStrings[] =
 {
