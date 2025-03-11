@@ -5870,9 +5870,13 @@ static void Task_DisplayLevelUpStatsPg1(u8 taskId)
 {
     if (WaitFanfare(FALSE) && IsPartyMenuTextPrinterActive() != TRUE && ((JOY_NEW(A_BUTTON)) || (JOY_NEW(B_BUTTON))))
     {
-        PlaySE(SE_SELECT);
+        /*PlaySE(SE_SELECT);
         DisplayLevelUpStatsPg1(taskId);
-        gTasks[taskId].func = Task_DisplayLevelUpStatsPg2;
+        gTasks[taskId].func = Task_DisplayLevelUpStatsPg2;*/
+        //PlaySE(SE_SELECT);
+        //DisplayLevelUpStatsPg2(taskId);
+        sInitialLevel += 1; // so the Pokemon doesn't learn a move meant for its previous level
+        gTasks[taskId].func = Task_TryLearnNewMoves;
     }
 }
 
