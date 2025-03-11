@@ -142,6 +142,10 @@ static const u8 sEndlessCandyDesc[] = _("Raises the level\n"
                                         "of a Pokémon by\n"
                                         "one. Infinite use.");
 
+static const u8 sInfiniteRepelDesc[] = _("Repels all wild\n"
+                                          "Pokemon for any\n"
+                                          "number of steps");
+
 const struct Item gItemsInfo[] =
 {
     [ITEM_NONE] =
@@ -14158,5 +14162,18 @@ const struct Item gItemsInfo[] =
         .effect = gItemEffect_RareCandy,
         .iconPic = gItemIcon_RareCandy,
         .iconPalette = gItemIconPalette_RareCandy,
+    },
+    
+    [ITEM_INFINITE_REPEL] =
+   {
+       .name = _("Infinite Repel"),
+       .price = 0,
+       .description = sInfiniteRepelDesc,
+       .importance = 1,
+       .pocket = POCKET_KEY_ITEMS,
+       .type = ITEM_USE_BAG_MENU,
+       .fieldUseFunc = ItemUseOutOfBattle_InfiniteRepel,
+       .iconPic = gItemIcon_Repel,
+       .iconPalette = gItemIconPalette_MaxRepel,
     },
 };
