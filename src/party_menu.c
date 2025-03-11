@@ -5769,10 +5769,24 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     s16 *arrayPtr = ptr->data;
     u16 *itemPtr = &gSpecialVar_ItemId;
     bool8 cannotUseEffect;
-    u8 holdEffectParam = GetItemHoldEffectParam(*itemPtr);
-
+    u8 holdEffectParam = ItemId_GetHoldEffectParam(*itemPtr);
+    u32 i;
+    u32 CandyCap = 100;
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
-    if (!(B_RARE_CANDY_CAP && sInitialLevel >= GetCurrentLevelCap()))
+
+    /*for (i = 0; i < NUM_SOFT_CAPS; i++)
+    {
+        if (!FlagGet(sLevelCapFlags[i]))
+        {
+            CandyCap = sLevelCaps[i];
+            break;
+        }
+    }*/
+
+
+
+    if (sInitialLevel != MAX_LEVEL)
+    /*if (!(B_RARE_CANDY_CAP && sInitialLevel >= GetCurrentLevelCap()))*/
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
         cannotUseEffect = ExecuteTableBasedItemEffect(mon, *itemPtr, gPartyMenu.slotId, 0);
