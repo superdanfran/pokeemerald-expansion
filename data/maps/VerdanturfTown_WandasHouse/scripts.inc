@@ -1,14 +1,43 @@
+.set LOCALID_WALLY, 1
+
 VerdanturfTown_WandasHouse_MapScripts::
 	.byte 0
 
 VerdanturfTown_WandasHouse_EventScript_Wally::
 	lock
 	faceplayer
+	goto_if_set FLAG_WALLY_PRE_GYM, VerdanturfTown_WandasHouse_EventScript_WallyPreWattson
 	goto_if_set FLAG_WALLY_SPEECH, VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech
 	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeech, MSGBOX_DEFAULT
 	setflag FLAG_WALLY_SPEECH
 	release
 	end
+
+VerdanturfTown_WandasHouse_EventScript_WallyPreWattson::
+	msgbox VerdanturfTown_WandasHouse_Text_IWantToChallengeWattson, MSGBOX_DEFAULT
+	closemessage
+	// applymovement LOCALID_WALLY, VerdanturfTown_Movement_WallyExit
+	// playse SE_EXIT
+	// removeobject LOCALID_WALLY
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_HIDE_MAUVILLE_CITY_WALLY
+	clearflag FLAG_WALLY_PRE_GYM
+	release
+	end
+
+VerdanturfTown_Movement_WallyExit:
+	walk_left
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	delay_16
+	walk_down
+	walk_in_place_down
+	step_end
 
 VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech::
 	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeechShort, MSGBOX_DEFAULT
@@ -81,6 +110,17 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 	msgbox VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande, MSGBOX_DEFAULT
 	release
 	end
+
+VerdanturfTown_WandasHouse_Text_IWantToChallengeWattson:
+	.string "WALLY: Hi, {PLAYER}, I'm glad\n"
+	.string "to see you.\p"
+	.string "I have a favour to ask of you.\n"
+	.string "I want to challenge WATTSON's\l"
+	.string "GYM, but I'm not sure if I'm\l"
+	.string "ready.\p"
+	.string "{PLAYER}, could you meet me in\n"
+	.string "MAUVILLE so I can test my skill?.\p"
+	.string "I'll see you there!$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 	.string "WALLY: I lost to you, {PLAYER}, but I'm\n"
