@@ -4096,15 +4096,26 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Prefer Status Moves / Predict Switch
 
-Dustox
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Spidops
+Ability: Stakeout
+Level: 26
+Adamant Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sticky Web
+- Skitter Smack
+- Silk Trap
+- Toxic Spikes
 
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Vivillon-Meadow
+Ability: Compound Eyes
+Level: 26
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Air Slash
+- Struggle Bug
 
 === TRAINER_JEFFREY_2 ===
 Name: JEFFREY
@@ -4209,12 +4220,16 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Abra
-Level: 15
+Indeedee-F
+Ability: Psychic Surge
+Level: 26
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
+- Psybeam
+- Helping Hand
+- Endure
 
 === TRAINER_PRESTON ===
 Name: PRESTON
@@ -5525,22 +5540,37 @@ Pic: Sr And Jr
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer / Prefer Status Moves
 
-Zigzagoon
-Level: 15
+Greedent @ Sitrus Berry
+Ability: Cheek Pouch
+Level: 26
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tail Whip
-- Headbutt
-- Odor Sleuth
+- Body Slam
+- Seed Bomb
+- Rest
+- Sleep Talk
 
-Makuhita
-Level: 17
+Cyclizar
+Ability: Regenerator
+Level: 26
+Naive Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Focus Energy
-- Arm Thrust
+- U-turn
+- Shed Tail
+- Shift Gear
+- Breaking Swipe
+
+Scovillain @ Red Card
+Ability: Moody
+Level: 26
+Mild Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Fang
+- Flamethrower
+- Spicy Extract
+- Seed Bomb
 
 === TRAINER_ANNA_AND_MEG_2 ===
 Name: ANNA & MEG
@@ -5835,6 +5865,7 @@ AI: Basic Trainer / Double Battle
 
 Plusle
 Ability: Lightning Rod
+Tera Type: Flying
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Nuzzle
@@ -5843,13 +5874,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Minun @ Oran Berry
 Ability: Volt Absorb
-Tera Type: Grass
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Electroweb
-- Grass Knot
+- Helping Hand
 - Alluring Voice
-- Tera Blast
 
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
@@ -7043,11 +7072,25 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Doduo
-Level: 17
+Combusken @ Absorb Bulb
+Ability: Speed Boost
+Level: 26
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flame Charge
+- Double Kick
+- Aerial Ace
+
+Grovyle @ Salac Berry
+Ability: Unburden
+Level: 26
+Naive Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Trailblaze
+- Giga Drain
+- Low Sweep
 
 === TRAINER_DYLAN_2 ===
 Name: DYLAN
@@ -7108,11 +7151,23 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Doduo
-Level: 17
+Ribombee @ Honey
+Ability: Dazzling
+Level: 26
+Serious Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pollen Puff
+- Draining Kiss
+
+Accelgor @ Lum Berry
+Ability: Unburden
+Level: 26
+Timid Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Struggle Bug
+- Giga Drain
 
 === TRAINER_MARIA_2 ===
 Name: MARIA
@@ -9814,20 +9869,48 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Litleo (F) @ Normal Gem
+Ability: Moxie
+Level: 27
+Adamant Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Fang
+- Wild Charge
+- Swift
+- Trailblaze
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tatsugiri-Curly @ Leftovers
+Ability: Storm Drain
+Level: 27
+Bold Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Helping Hand
+- Taunt
+- Dragon Cheer
+- Chilling Water
 
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Morpeko @ Berry Juice
+Ability: Hunger Switch
+Level: 27
+Rash Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bite
+- Spark
+- Thunder Wave
+- Volt Switch
+
+Floragato @ Muscle Band
+Ability: Protean
+Level: 28
+Tera Type: Grass
+Hasty Nature
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Seed Bomb
+- U-turn
+- Quick Attack
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -9862,6 +9945,7 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn
 Fuecoco
 Ability: Unaware
 Level: 10
+Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
@@ -9876,6 +9960,7 @@ AI: Smart Trainer
 Cramorant @ Water Gem
 Ability: Gulp Missile
 Level: 27
+Jolly Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Dive
 - Air Slash
@@ -9885,25 +9970,28 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Togedemaru @ Sitrus berry
 Ability: Lightning Rod
 Level: 27
+Serious Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Pin Missile
 - Magnet Rise
 - Thunder Wave
 - Thunderbolt
 
-Dolliv @ Sitrus berry
-Ability: Harvest
+Poltchageist
+Ability: Hospitality
 Level: 27
+Modest Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Energy Ball
-- Helping Hand
-- Protect
-- Leech Seed
+- Life Dew
+- Rage Powder
+- Mega Drain
+- Stun Spore
 
 Crocalor @ Wise Glasses
 Ability: Unaware
 Level: 28
 Tera Type: Fire
+Mild Nature
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Yawn
 - Flamethrower
@@ -9951,20 +10039,49 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Eldegoss (M)
+Ability: Cotton Down
+Level: 27
+Sassy Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Giga Drain
+- Helping Hand
+- Protect
+- Pollen Puff
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Centiskorch (F)
+Ability: Flame Body
+Level: 27
+Hasty Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Leech Life
+- Flame Wheel
+- Attract
+- Protect
 
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Emolga (F) @ Flying Gem
+Ability: Motor Drive
+Level: 27
+Naive Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Acrobatics
+- Encore
+- Volt Switch
+- Thunder Wave
+
+Quaxwell
+Ability: Moxie
+Level: 28
+Tera Type: Water
+Lonely Nature
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Cutter
+- Air Slash
+- Low Sweep
+- Facade
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -9999,6 +10116,7 @@ AI: Basic Trainer
 Sprigatito
 Ability: Protean
 Level: 10
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
@@ -10007,20 +10125,48 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Litleo (F) @ Normal Gem
+Ability: Moxie
+Level: 27
+Adamant Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Fang
+- Wild Charge
+- Swift
+- Trailblaze
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tatsugiri-Curly @ Leftovers
+Ability: Storm Drain
+Level: 27
+Bold Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Helping Hand
+- Taunt
+- Dragon Cheer
+- Chilling Water
 
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Morpeko @ Berry Juice
+Ability: Hunger Switch
+Level: 27
+Rash Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bite
+- Spark
+- Thunder Wave
+- Volt Switch
+
+Floragato @ Muscle Band
+Ability: Protean
+Level: 28
+Tera Type: Grass
+Hasty Nature
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Seed Bomb
+- U-turn
+- Quick Attack
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -10055,6 +10201,7 @@ AI: Basic Trainer
 Fuecoco
 Ability: Unaware
 Level: 10
+Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
@@ -10069,6 +10216,7 @@ AI: Smart Trainer
 Cramorant @ Water Gem
 Ability: Gulp Missile
 Level: 27
+Jolly Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Dive
 - Air Slash
@@ -10078,25 +10226,28 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Togedemaru @ Sitrus berry
 Ability: Lightning Rod
 Level: 27
+Serious Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Pin Missile
 - Magnet Rise
 - Thunder Wave
 - Thunderbolt
 
-Dolliv @ Sitrus berry
-Ability: Harvest
+Poltchageist
+Ability: Hospitality
 Level: 27
+Modest Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Energy Ball
-- Helping Hand
-- Protect
-- Leech Seed
+- Life Dew
+- Rage Powder
+- Mega Drain
+- Stun Spore
 
 Crocalor @ Wise Glasses
 Ability: Unaware
 Level: 28
 Tera Type: Fire
+Mild Nature
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Yawn
 - Flamethrower
@@ -10136,6 +10287,7 @@ AI: Basic Trainer
 Quaxly
 Ability: Moxie
 Level: 10
+Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
@@ -10144,20 +10296,49 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Eldegoss (M)
+Ability: Cotton Down
+Level: 27
+Sassy Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Giga Drain
+- Helping Hand
+- Protect
+- Pollen Puff
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Centiskorch (F)
+Ability: Flame Body
+Level: 27
+Hasty Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Leech Life
+- Flame Wheel
+- Attract
+- Protect
 
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Emolga (F) @ Flying Gem
+Ability: Motor Drive
+Level: 27
+Naive Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Acrobatics
+- Encore
+- Volt Switch
+- Thunder Wave
+
+Quaxwell
+Ability: Moxie
+Level: 28
+Tera Type: Water
+Lonely Nature
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Cutter
+- Air Slash
+- Low Sweep
+- Facade
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -10187,31 +10368,53 @@ Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Whismur
-Level: 11
+Cetoddle @ Lum Berry
+Ability: Thick Fat
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Take Down
+- Rest
 
-Zigzagoon
-Level: 11
+Tinkatink @ Assault Vest
+Ability: Own Tempo
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Brutal Swing
+- Pounce
+- Play Rough
 
-Aron
-Level: 11
+Zorua-Hisui @ Iron Ball
+Ability: Illusion
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Trick
+- Swift
+- U-turn
 
-Poochyena
-Level: 11
+Poochyena @ Choice Band
+Ability: Strong Jaw
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
 
-Taillow
-Level: 11
+Fletchling @ Sharp Beak
+Ability: Gale Wings
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fly
+- Brave Bird
 
-Makuhita
-Level: 11
+Eevee @ Eviolite
+Ability: Adaptability
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Swift
+- Baby-Doll Eyes
 
 === TRAINER_DAVIS ===
 Name: DAVIS
@@ -10389,32 +10592,59 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Basic Trainer
 
-Wingull
-Level: 11
+Riolu
+Ability: Prankster
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Coaching
+- Sunny Day
+- Vacuum Wave
 
-Shroomish
-Level: 11
+Magby
+Ability: Flame Body
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Ember
+- Sunny Day
+- Acid Spray
 
-Marill
-Level: 11
+Budew
+Ability: Leaf Guard
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Sunny Day
+- Weather Ball
 
-Roselia
-Level: 11
+Cleffa
+Ability: Friend Guard
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metronome
+- Reflect
+- Light Screen
+- Helping Hand
 
-Skitty
-Level: 11
+Tyrogue @ Flame Orb
+Ability: Guts
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Bulk Up
+- Brick Break
 
-Goldeen
-Level: 11
+Bonsly
+Ability: Sturdy
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Counter
+- Flail
 
 === TRAINER_HALLE ===
 Name: HALLE
@@ -11222,16 +11452,25 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Dolliv @ Oran berry
-Ability: Harvest
+Poltchageist-Artisan
+Ability: Heatproof
 Level: 17
+Modest Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Foul Play
+- Mega Drain
+- Hex
 
 Crocalor
 Ability: Unaware
 Level: 18
 Tera Type: Fire
+Mild Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Incinerate
+- Yawn
+- Bite
+- Round
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -11240,17 +11479,26 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tatsugiri-Curly
+Ability: Storm Drain
 Level: 17
+Bold Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Water Pulse
+- Icy Wind
 
 Floragato
 Ability: Protean
 Level: 18
 Tera Type: Grass
+Hasty Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Magical Leaf
+- Quick Attack
+- Bite
+- Aerial Ace
 
 === TRAINER_NEMONA_SCHOOL_SPRIGATITO ===
 Name: NEMONA
@@ -11438,13 +11686,22 @@ AI: Basic Trainer
 Sizzlipede
 Ability: Flame Body
 Level: 17
+Hasty Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Flame Wheel
+- Bug Bite
+- Wrap
 
 Quaxwell
 Ability: Moxie
 Level: 18
 Tera Type: Water
+Lonely Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Aqua Jet
+- Water Pulse
+- Low Sweep
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -13583,7 +13840,6 @@ AI: Basic Trainer / Double Battle
 
 Gyarados
 Ability: Moxie
-Tera Type: Grass
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Crunch
@@ -13592,6 +13848,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Corvisquire
 Ability: Big Pecks
+Tera Type: Grass
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pluck
@@ -13606,7 +13863,7 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer / Double Battle / Prefer Status Moves
 
-Dottler
+Dottler @ Eviolite
 Ability: Telepathy
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -13630,11 +13887,16 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Magnemite
-Level: 15
+Pikachu
+Ability: Static
+Level: 26
+Timid Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Agility
+- Nuzzle
+- Electro Ball
 
 === TRAINER_MARCOS ===
 Name: MARCOS
@@ -14484,11 +14746,16 @@ Pic: Running Triathlete F
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Doduo
-Level: 17
+Electabuzz
+Ability: Vital Spirit
+Level: 26
+Tera Type: Fighting
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Low Sweep
+- Helping Hand
+- Thunder Punch
 
 === TRAINER_BRANDI ===
 Name: BRANDI
@@ -14496,12 +14763,35 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Basic Trainer / Force Setup First Turn
 
-Ralts
-Level: 17
+Elgyem
+Ability: Synchronize
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Trick Room
+- Protect
+- Light Screen
+- Reflect
+
+Slowpoke-Galar @ Room Service
+Ability: Own Tempo
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slack Off
+- Trick Room
+- Zen Headbutt
+- Skill Swap
+
+Gothorita
+Ability: Shadow Tag
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic Terrain
+- Helping Hand
+- Trick Room
+- Dark Pulse
 
 === TRAINER_AISHA ===
 Name: AISHA
@@ -14510,11 +14800,24 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Double Battle
 
-Meditite
-Level: 17
+Sawk
+Ability: Inner Focus
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Low Sweep
+- Helping Hand
+- Zen Headbutt
+- Ice Punch
+
+Throh @ Syrupy Apple
+Ability: Inner Focus
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Circle Throw
+- Fling
+- Rock Slide
 
 === TRAINER_MAKAYLA ===
 Name: MAKAYLA
@@ -14721,16 +15024,25 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Dolliv @ Oran berry
-Ability: Harvest
+Poltchageist-Artisan
+Ability: Heatproof
 Level: 17
+Modest Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Foul Play
+- Mega Drain
+- Hex
 
 Crocalor
 Ability: Unaware
 Level: 18
 Tera Type: Fire
+Mild Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Incinerate
+- Yawn
+- Bite
+- Round
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -14744,12 +15056,22 @@ AI: Basic Trainer
 Sizzlipede
 Ability: Flame Body
 Level: 17
+Hasty Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Flame Wheel
+- Bug Bite
+- Wrap
 
 Quaxwell
 Ability: Moxie
 Level: 18
+Tera Type: Water
+Lonely Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Aqua Jet
+- Water Pulse
+- Low Sweep
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE

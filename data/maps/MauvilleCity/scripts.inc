@@ -67,6 +67,7 @@ MauvilleCity_EventScript_TVExplained::
 MauvilleCity_EventScript_WallysUncle::
 	lock
 	faceplayer
+	goto_if_set FLAG_WALLY_PRE_GYM, MauvilleCity_EventScript_UncleWallyNotHere
 	goto_if_set FLAG_DECLINED_WALLY_BATTLE_MAUVILLE, MauvilleCity_EventScript_UncleAskPlayerToBattleWally
 	msgbox MauvilleCity_Text_UncleHesTooPeppy, MSGBOX_DEFAULT
 	closemessage
@@ -79,6 +80,14 @@ MauvilleCity_EventScript_UncleAskPlayerToBattleWally::
 	msgbox MauvilleCity_Text_UncleCanYouBattleWally, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+MauvilleCity_EventScript_UncleWallyNotHere::
+	msgbox MauvilleCity_Text_UncleCanYouFindWally, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
 	end
@@ -479,7 +488,7 @@ MauvilleCity_Text_UncleYourePushingIt:
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
 	.string "WALLY: I'm not pushing it.\p"
-	.string "If I combine forces with RALTS,\n"
+	.string "If I combine forces with KIRLIA,\n"
 	.string "we can beat anyone!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
@@ -502,6 +511,13 @@ MauvilleCity_Text_UncleCanYouBattleWally:
 	.string "battle with him just this once?\p"
 	.string "I don't think he's going to listen to\n"
 	.string "any reason the way he is now.$"
+
+MauvilleCity_Text_UncleCanYouFindWally:
+	.string "UNCLE: Ah, {PLAYER}{KUN}!\p"
+	.string "WALLY wanted to see you, \n"
+	.string "but he's at my home in VERDANTURF.\p"
+	.string "Could you go and say hi to him?\n"
+	.string "He has something he wants to say.$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
 	.string "WALLY: {PLAYER}, please!\n"
