@@ -223,17 +223,19 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: GRUNT
+Name: GRUNT EDDY
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
+Mugshot: Blue
 
 Nickit
 Ability: Stakeout
 Level: 12
+Naughty Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Sucker Punch
 - Snarl
@@ -242,6 +244,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Greavard
 Ability: Fluffy
 Level: 12
+Relaxed Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Headbutt
 - Lick
@@ -326,7 +329,7 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
-Name: GRUNT
+Name: GRUNT EDDY
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -337,8 +340,9 @@ AI: Smart Trainer
 Impidimp @ Safety Goggles
 Ability: Prankster
 Level: 18
+Impish Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Thunder Wave
+- Metronome
 - Fake Out
 - Sucker Punch
 - Scary Face
@@ -346,6 +350,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Nickit @ Quick Claw
 Ability: Stakeout
 Level: 18
+Naughty Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Sucker Punch
 - Beat Up
@@ -356,11 +361,12 @@ Greavard @ Black Glasses
 Ability: Fluffy
 Level: 18
 Tera Type: Dark
+Relaxed Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Ice Fang
 - Thief
 - Shadow Ball
-- Confuse Ray
+- Bite
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2242,7 +2248,9 @@ Double Battle: No
 AI: Basic Trainer
 
 Fidough @ Nugget
+Ability: Own Tempo
 Level: 10
+Relaxed Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Baby-Doll Eyes
 - Play Rough
@@ -2650,6 +2658,7 @@ AI: Basic Trainer / Stall
 
 Furfrou-Dandy @ Nugget
 Level: 14
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Toxic
@@ -5035,13 +5044,14 @@ AI: Smart Trainer / Ace Pokemon / Prediction
 Glimmet (F) @ Absorb Bulb
 Ability: Toxic Debris
 Level: 15
+Bold Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Light Screen
 - Reflect
 - Ancient Power
 - Spikes
 
-Lileep (F)
+Lileep (F) @ Big Root
 Ability: Storm Drain
 Level: 15
 Calm Nature
@@ -5541,6 +5551,7 @@ AI: Basic Trainer
 Tandemaus
 Ability: Own Tempo
 Level: 14
+Serious Nature
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Double Hit
 - Encore
@@ -5549,6 +5560,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Deerling-Spring (F)
 Ability: Serene Grace
 Level: 14
+Brave Nature
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Trailblaze
 - Body Slam
@@ -6272,8 +6284,14 @@ Double Battle: No
 AI: Check Bad Move
 
 Maschiff
+Ability: Intimidate
 Level: 7
+Bold Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Snarl
+- Lick
+- Tackle
+- Leer
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -6287,12 +6305,14 @@ AI: Basic Trainer
 Yungoos
 Ability: Strong Jaw
 Level: 10
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Mud-Slap
 
 Toedscool
 Level: 10
+Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mega Drain
 - Mud Slap
@@ -6310,6 +6330,7 @@ AI: Basic Trainer
 Rockruff
 Ability: Keen Eye
 Level: 14
+Adamant Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 - Fire Fang
@@ -6319,6 +6340,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Larvitar @ Flame Orb
 Ability: Guts
 Level: 14
+Lonely Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bite
 - Rock Tomb
@@ -6327,6 +6349,7 @@ Bunnelby @ Oran Berry
 Ability: Huge Power
 Level: 15
 Tera Type: Rock
+Naughty Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 - Dig
@@ -6345,6 +6368,7 @@ AI: Basic Trainer / Double Battle
 Dwebble
 Ability: Weak Armor
 Level: 14
+Impish Nature
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Stealth Rock
 - Shell Smash
@@ -6355,6 +6379,7 @@ Beedrill @ Oran Berry
 Ability: Sniper
 Level: 15
 Tera Type: Rock
+Hasty Nature
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Fell Stinger
 - Aerial Ace
@@ -6372,6 +6397,7 @@ AI: Basic Trainer / HP Aware / Powerful Status
 Helioptile
 Ability: Dry Skin
 Level: 15
+Rash Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Shock
 - Charge
@@ -6381,6 +6407,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Wingull
 Ability: Rain Dish
 Level: 15
+Calm Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Water Pulse
 - Roost
@@ -6390,6 +6417,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Croagunk
 Ability: Dry Skin
 Level: 15
+Naughty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Low Kick
 - Chilling Water
@@ -6637,12 +6665,23 @@ Double Battle: No
 AI: Check Bad Move
 
 Squawkabilly-Green
+Ability: Hustle
 Level: 6
+Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Mimic
+- Quick Attack
+- Growl
 
 Smoliv
-Level: 5
+Ability: Early Bird
+Level: 6
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Sweet Scent
+- Absorb
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -6756,15 +6795,27 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tympole
+Ability: Water Absorb
 Level: 12
+Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble Beam
+- Echoed Voice
+- Acid
+- Supersonic
 
 Tadbulb
+Ability: Static
 Level: 12
+Gentle Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Water Gun
+- Mud Shot
+- Acid Spray
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -9367,18 +9418,20 @@ Music: Twins
 Double Battle: Yes
 AI: Basic Trainer / HP Aware
 
-Hatenna
+Cappy (Hatenna)
 Ability: Magic Bounce
 Level: 14
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Life Dew
 - Disarming Voice
 - Psybeam
 - Heal Pulse
 
-Milcery
+Milky (Milcery)
 Ability: Aroma Veil
 Level: 14
+Gentle Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Draining Kiss
 - Attract
@@ -10112,7 +10165,12 @@ AI: Basic Trainer
 Sprigatito
 Ability: Protean
 Level: 10
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Tail Whip
+- Leafage
+- Bite
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
@@ -10198,6 +10256,10 @@ Ability: Unaware
 Level: 10
 Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Ember
+- Round
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN
@@ -10282,7 +10344,12 @@ AI: Basic Trainer
 Quaxly
 Ability: Moxie
 Level: 10
+Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pound
+- Growl
+- Water Gun
+- Wing Attack
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: BRENDAN
@@ -11393,6 +11460,7 @@ AI: Basic Trainer / Double Battle
 Geodude-Alola
 Ability: Sturdy
 Level: 14
+Brave Nature
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Thunder Punch
 - Stealth Rock
@@ -11402,6 +11470,7 @@ Slugma
 Ability: Flame Body
 Level: 15
 Tera Type: Rock
+Quiet Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ancient Power
 - Mud Shot
@@ -11763,6 +11832,7 @@ AI: Basic Trainer
 Pawmi
 Ability: Static
 Level: 15
+Brave Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Nuzzle
 - Spark
@@ -11773,6 +11843,7 @@ Quaxly
 Ability: Torrent
 Level: 15
 Tera Type: Water
+Hardy Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Aqua Cutter
 - Acrobatics
@@ -11791,6 +11862,7 @@ AI: Basic Trainer
 Pawmi
 Ability: Static
 Level: 15
+Brave Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Nuzzle
 - Spark
@@ -11801,6 +11873,7 @@ Fuecoco
 Ability: Blaze
 Level: 15
 Tera Type: Fire
+Modest Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Incinerate
 - Snarl
@@ -11819,6 +11892,7 @@ AI: Basic Trainer
 Pawmi
 Ability: Static
 Level: 15
+Brave Nature
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Nuzzle
 - Spark
@@ -11829,6 +11903,7 @@ Sprigatito
 Ability: Overgrow
 Level: 15
 Tera Type: Grass
+Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seed Bomb
 - Hone Claws
@@ -12026,13 +12101,25 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lechonk
-Level: 6
+Lechonk @ Oran Berry
+Ability: Gluttony
+Level: 8
+Lax Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Tail Whip
+- Disarming Voice
+- Echoed Voice
 
-Smoliv
-Level: 6
+Eevee @ Oran Berry
+Ability: Adaptability
+Level: 8
+Quirky Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Covet
+- Tail Whip
+- Sand Attack
+- Quick Attack
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -12044,7 +12131,9 @@ Double Battle: Yes
 AI: Basic Trainer
 
 Smoliv
+Ability: Early Bird
 Level: 12
+Naive Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Trailblaze
 - Helping Hand
@@ -12053,6 +12142,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Squawkabilly-White
 Ability: Intimidate
 Level: 12
+Naughty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aerial Ace
 - Quick Attack
@@ -12239,12 +12329,23 @@ Double Battle: No
 AI: Check Bad Move
 
 Scatterbug
+Ability: Shield Dust
 Level: 6
+Naive Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Stun Spore
+- Bug Bite
 
 Weedle
+Ability: Shield Dust
 Level: 6
+Timid Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Bug Bite
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -12253,23 +12354,43 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Grubbin
+Grubby (Grubbin)
 Level: 8
+Jolly Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vice Grip
+- Mud Slap
+- String Shot
+- Bug Bite
 
-Grubbin
+Bibi (Grubbin)
 Level: 8
+Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vice Grip
+- Mud Slap
+- String Shot
+- Bug Bite
 
-Grubbin
+Binzy (Grubbin)
 Level: 8
+Naughty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vice Grip
+- Mud Slap
+- String Shot
+- Bug Bite
 
-Grubbin
+Arnold (Grubbin)
 Level: 8
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vice Grip
+- Mud Slap
+- String Shot
+- Bug Bite
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -12283,6 +12404,7 @@ AI: Basic Trainer / Try To Faint
 Paras
 Ability: Effect Spore
 Level: 15
+Hasty Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - X-Scissor
 - Spore
@@ -12291,6 +12413,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Skorupi
 Ability: Battle Armor
 Level: 15
+Lax Nature
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Fell Stinger
 - Poison Fang
@@ -12351,11 +12474,12 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tarountula
 Ability: Stakeout
 Level: 12
+Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pounce
 - Sticky Web
@@ -12561,9 +12685,10 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer / Double Battle
 
-Nacli
+Nacli @ Salac Berry
 Ability: Sturdy
 Level: 14
+Naughty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Polish
 - Smack Down
@@ -12573,6 +12698,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Silicobra
 Ability: Shed Skin
 Level: 14
+Brave Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Brutal Swing
 - Glare
@@ -14037,6 +14163,7 @@ AI: Basic Trainer
 
 Wishiwashi
 Level: 12
+Naive Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tearful Look
 - Dive
@@ -14050,27 +14177,31 @@ Gender: Female
 Music: Girl
 Double Battle: No
 AI: Basic Trainer
+Mugshot: Pink
 
-Wooloo
+Cupcake (Wooloo)
 Ability: Fluffy
 Level: 13
+Relaxed Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Headbutt
 - Double Kick
 - Cotton Guard
 
-Flaaffy
+Crumpet (Flaaffy)
 Ability: Static
 Level: 13
+Rash Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thundershock
 - Confuse Ray
 - Trailblaze
 - Thunder Wave
 
-Stufful
+Biscuit (Stufful)
 Ability: Fluffy
 Level: 14
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Strength
 - Brutal Swing
@@ -15098,6 +15229,7 @@ AI: Basic Trainer
 Mudbray
 Ability: Stamina
 Level: 14
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Smash
 - Stomp
@@ -15107,6 +15239,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Rockruff
 Ability: Steadfast
 Level: 14
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Rock Tomb
@@ -15122,13 +15255,16 @@ Double Battle: No
 AI: Basic Trainer / Double Battle
 
 Applin @ Salac Berry
+Ability: Ripen
 Level: 14
+Jolly Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
 
 Grookey
 Ability: Grassy Surge
 Level: 14
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Grassy Glide
 - Low Kick
