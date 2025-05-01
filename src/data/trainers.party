@@ -424,7 +424,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
-Name: GRUNT
+Name: GRUNT JACK
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -435,6 +435,7 @@ AI: Basic Trainer
 Varoom @ Air Balloon
 Ability: Overcoat
 Level: 18
+Naughty Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Toxic
 - Headbutt
@@ -444,6 +445,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Murkrow @ Eviolite
 Ability: Prankster
 Level: 18
+Hasty Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Confuse Ray
 - Thunder Wave
@@ -454,13 +456,14 @@ Salandit @ Rindo Berry
 Ability: Oblivious
 Level: 18
 Tera Type: Water
+Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Trailblaze
 - Shadow Claw
 - Leech Life
 
 === TRAINER_GRUNT_MUSEUM_2 ===
-Name: GRUNT
+Name: GRUNT MORGAN
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -471,6 +474,7 @@ AI: Basic Trainer
 Zorua @ Eject Pack
 Ability: Illusion
 Level: 18
+Lax Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Knock Off
 - Snarl
@@ -480,6 +484,7 @@ Woobat @ Sitrus Berry
 Ability: Unaware
 Level: 18
 Tera Type: Dark
+Modest Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Confusion
 - Attract
@@ -1118,6 +1123,7 @@ AI: Basic Trainer
 Litwick  
 Ability: Flame Body
 Level: 16
+Modest Nature
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Will-O-Wisp
 - Burning Jealousy
@@ -1126,6 +1132,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Scorbunny
 Ability: Blaze
 Level: 16
+Hasty Nature
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Fire Spin  
 - Acrobatics  
@@ -1238,6 +1245,7 @@ AI: Basic Trainer
 Sinistea
 Ability: Cursed Body
 Level: 16
+Modest Nature
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Will-O-Wisp
 - Mega Drain
@@ -1246,6 +1254,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Vanillite @ Eviolite
 Ability: Weak Armor
 Level: 16
+Bold Nature
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Icicle Spear
 - Iron Defense
@@ -3308,6 +3317,7 @@ AI: Basic Trainer
 Stufful
 Ability: Fluffy
 Level: 19
+Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Baby-Doll Eyes
 - Brutal Swing
@@ -5094,6 +5104,7 @@ AI: Smart Trainer / Ace Pokemon
 Kubfu @ Expert Belt
 Ability: Inner Focus
 Level: 20
+Impish Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Brick Break
 - Thunder Punch
@@ -5103,6 +5114,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Passimian
 Ability: Receiver
 Level: 20
+Jolly Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Coaching
 - Upper Hand
@@ -5112,6 +5124,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Sneasel-Hisui
 Ability: Pickpocket
 Level: 20
+Adamant Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fake Out
 - Brick Break
@@ -5121,6 +5134,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Pignite
 Ability: Blaze
 Level: 20
+Relaxed Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Drain Punch
 - Fire Punch
@@ -5131,6 +5145,7 @@ Zangoose @ Toxic Orb
 Ability: Toxic Boost
 Level: 21
 Tera Type: Fighting
+Naughty Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - X-Scissor
 - Crush Claw
@@ -5144,7 +5159,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Smart Trainer
+AI: Smart Trainer / Ace Pokemon
 
 Electrode-Hisui
 Ability: Soundproof
@@ -6850,6 +6865,7 @@ AI: Basic Trainer
 Magikarp @ Eviolite
 Ability: Rattled
 Level: 25
+Hardy Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bounce
 
@@ -6865,6 +6881,7 @@ AI: Basic Trainer
 Arrokuda
 Ability: Swift Swim
 Level: 16
+Jolly Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flip Turn
 - Aqua Jet
@@ -6872,6 +6889,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Wingull
 Ability: Hydration
 Level: 16
+Gentle Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Rain Dance
 - Dual Wingbeat
@@ -6879,6 +6897,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Tirtouga
 Ability: Swift Swim
 Level: 16
+Naughty Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flip Turn
 - Aqua Jet
@@ -8391,6 +8410,7 @@ AI: Basic Trainer
 Farfetch'd-Galar
 Ability: Scrappy
 Level: 19
+Adamant Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Rock Smash
 - Brutal Swing
@@ -8400,6 +8420,7 @@ Poliwhirl
 Ability: Water Absorb
 Level: 19
 Tera Type: Fighting
+Lax Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Brick Break
 - Chilling Water
@@ -9572,6 +9593,7 @@ AI: Basic Trainer
 Wattrel
 Ability: Competitive
 Level: 16
+Rash Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Quick Attack
 - Discharge
@@ -9580,6 +9602,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Inkay
 Ability: Suction Cups
 Level: 16
+Quiet Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swagger
 - Psybeam
@@ -9592,11 +9615,12 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Wiglett
 Ability: Sand Veil
 Level: 16
+Brave Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Chilling Water
 - Sucker Punch
@@ -9605,6 +9629,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Sandygast
 Ability: Water Compaction
 Level: 16
+Gentle Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sandstorm
 - Mega Drain
@@ -11514,6 +11539,7 @@ AI: Basic Trainer
 Mienfoo
 Ability: Inner Focus
 Level: 19
+Adamant Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fake Out
 - U-turn
@@ -11523,6 +11549,7 @@ Meditite
 Ability: Pure Power
 Level: 19
 Tera Type: Psychic
+Modest Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Confusion
 - Force Palm
@@ -14215,11 +14242,12 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Hippopotas
 Ability: Sand Stream
 Level: 16
+Impish Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Helping Hand
 - Protect
@@ -14228,6 +14256,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Silicobra
 Ability: Sand Veil
 Level: 16
+Lonely Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Coil
 - Scale Shot
@@ -14245,6 +14274,7 @@ AI: Basic Trainer
 Frillish
 Ability: Water Absorb
 Level: 16
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shadow Ball
 - Protect
@@ -14254,6 +14284,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Wooper-Paldea
 Ability: Water Absorb
 Level: 16
+Bold Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Chilling Water
 - Trailblaze
