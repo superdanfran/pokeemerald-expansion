@@ -3580,6 +3580,7 @@ AI: Smart Trainer / Double Battle
 Rotom
 Ability: Levitate
 Level: 30
+Modest Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electro Ball
 - Volt Switch
@@ -3589,6 +3590,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Bronzong
 Ability: Levitate
 Level: 30
+Tera Type: Electric
+Quiet Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Charge Beam
 - Confuse Ray
@@ -5111,7 +5114,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - U-turn
 - Protect
 
-Passimian
+Passimian @ Focus Band
 Ability: Receiver
 Level: 20
 Jolly Nature
@@ -5131,7 +5134,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Jab
 - X-Scissor
 
-Pignite
+Pignite @ Sitrus Berry
 Ability: Blaze
 Level: 20
 Relaxed Nature
@@ -5161,7 +5164,7 @@ Music: Male
 Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon
 
-Electrode-Hisui
+Electrode-Hisui @ Normal Gem
 Ability: Soundproof
 Level: 31
 Hasty Nature
@@ -5171,7 +5174,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Volt Switch
 - Explosion
 
-Stunfisk
+Stunfisk @ Rocky Helmet
 Ability: Static
 Level: 31
 Serious Nature
@@ -5181,18 +5184,20 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Pounce
 - Thunderbolt
 
-Golem-Alola
+Golem-Alola @ Quick Claw
 Ability: Galvanize
 Level: 31
+Sassy Nature
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Hyper Beam
 - Thunder Punch
 - Body Slam
 - Body Press
 
-Kilowattrel
+Kilowattrel @ Magnet
 Ability: Competitive
 Level: 31
+Jolly Nature
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Dual Wingbeat
 - Volt Switch
@@ -5203,6 +5208,7 @@ Porygon-Z @ Electric Seed
 Ability: Analytic
 Level: 32
 Tera Type: Electric
+Modest Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Magnet Rise
 - Charge Beam
@@ -6025,6 +6031,7 @@ Plusle
 Ability: Lightning Rod
 Tera Type: Flying
 Level: 26
+Timid Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Nuzzle
 - Helping Hand
@@ -6033,6 +6040,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Minun @ Oran Berry
 Ability: Volt Absorb
 Level: 26
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Electroweb
 - Helping Hand
@@ -6451,6 +6459,7 @@ AI: Basic Trainer
 Boltund @ Choice Band
 Ability: Strong Jaw
 Level: 30
+Jolly Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunder Fang
 - Fire Fang
@@ -6460,6 +6469,7 @@ Mightyena
 Ability: Strong Jaw
 Level: 30
 Tera Type: Electric
+Adamant Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunder Fang
 - Fire Fang
@@ -6710,6 +6720,7 @@ AI: Basic Trainer
 Naclstack @ Eviolite
 Ability: Purifying Salt
 Level: 26
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Salt Cure
 - Body Press
@@ -6718,6 +6729,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Boltund @ Lum Berry
 Ability: Strong Jaw
 Level: 26
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Crunch
 - Thunder Fang
@@ -6909,23 +6921,36 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Tentacool
-Level: 11
+Drednaw
+Ability: Strong Jaw
+Level: 26
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Ice Fang
+- Smart Strike
+- Waterfall
 
-Wailmer
-Level: 14
+Pyukumuku
+Ability: Innards Out
+Level: 26
+Calm Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Protect
+- Venom Drench
 
-Tentacool
-Level: 11
+Araquanid
+Ability: Water Bubble
+Level: 26
+Careful Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wailmer
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Ring
+- Liquidation
+- Leech Life
+- Rest
 
 === TRAINER_NOLAN ===
 Name: NOLAN
@@ -10008,6 +10033,7 @@ AI: Basic Trainer / Double Battle / Prefer Status Moves
 
 Gimmighoul-Roaming
 Level: 26
+Timid Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Confuse Ray
 - Light Screen
@@ -10016,6 +10042,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gimmighoul
 Level: 26
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shadow Ball
 - Confuse Ray
@@ -10716,6 +10743,7 @@ AI: Basic Trainer
 Cetoddle @ Lum Berry
 Ability: Thick Fat
 Level: 26
+Gentle Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Ice Shard
 - Take Down
@@ -10724,6 +10752,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tinkatink @ Assault Vest
 Ability: Own Tempo
 Level: 26
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Metal Claw
 - Brutal Swing
@@ -10733,6 +10762,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Zorua-Hisui @ Iron Ball
 Ability: Illusion
 Level: 26
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Trick
 - Swift
@@ -10741,12 +10771,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Poochyena @ Choice Band
 Ability: Strong Jaw
 Level: 26
+Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 
 Fletchling @ Sharp Beak
 Ability: Gale Wings
 Level: 26
+Naughty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fly
 - Brave Bird
@@ -10754,6 +10786,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Eevee @ Eviolite
 Ability: Adaptability
 Level: 26
+Tera Type: Normal
+Hardy Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
 - Swift
@@ -10941,6 +10975,7 @@ AI: Basic Trainer
 Riolu
 Ability: Prankster
 Level: 26
+Gentle Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Helping Hand
 - Coaching
@@ -10950,6 +10985,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Magby
 Ability: Flame Body
 Level: 26
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Helping Hand
 - Ember
@@ -10959,6 +10995,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Budew
 Ability: Leaf Guard
 Level: 26
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Giga Drain
 - Sunny Day
@@ -10967,6 +11004,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Cleffa
 Ability: Friend Guard
 Level: 26
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Metronome
 - Reflect
@@ -10976,6 +11014,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tyrogue @ Flame Orb
 Ability: Guts
 Level: 26
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fake Out
 - Bulk Up
@@ -10984,6 +11023,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Bonsly
 Ability: Sturdy
 Level: 26
+Bold Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sucker Punch
 - Counter
@@ -13069,6 +13109,7 @@ Hitmonchan
 Ability: Iron Fist
 Level: 30
 Tera Type: Electric
+Brave Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Punch
 - Bullet Punch
@@ -13225,6 +13266,7 @@ AI: Smart Trainer
 Kirlia
 Ability: Trace
 Level: 28
+Modest Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dazzling Gleam
 - Reflect
@@ -14302,6 +14344,7 @@ AI: Basic Trainer / Double Battle
 Gyarados
 Ability: Moxie
 Level: 26
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Crunch
 - Waterfall
@@ -14311,6 +14354,7 @@ Corvisquire
 Ability: Big Pecks
 Tera Type: Grass
 Level: 26
+Brave Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pluck
 - Hone Claws
@@ -14327,6 +14371,7 @@ AI: Basic Trainer / Double Battle / Prefer Status Moves
 Dottler @ Eviolite
 Ability: Telepathy
 Level: 26
+Calm Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sticky Web
 - Shadow Ball
@@ -14336,6 +14381,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Bellibolt
 Ability: Electromorphosis
 Level: 26
+Bold Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Charge Beam
 - Hyper Voice
@@ -15314,6 +15360,7 @@ Electabuzz
 Ability: Vital Spirit
 Level: 26
 Tera Type: Fighting
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Low Sweep
 - Helping Hand
@@ -15331,6 +15378,7 @@ AI: Basic Trainer / Force Setup First Turn
 Elgyem
 Ability: Synchronize
 Level: 26
+Timid Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Trick Room
 - Protect
@@ -15340,6 +15388,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Slowpoke-Galar @ Room Service
 Ability: Own Tempo
 Level: 26
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Slack Off
 - Trick Room
@@ -15349,6 +15398,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Gothorita
 Ability: Shadow Tag
 Level: 26
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic Terrain
 - Helping Hand
@@ -17311,6 +17361,8 @@ AI: Smart Trainer / Double Battle
 Vikavolt
 Ability: Levitate
 Level: 30
+Tera Type: Electric
+Timid Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunderbolt
 - Sticky Web
@@ -17318,7 +17370,9 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bug Buzz
 
 Galvantula
+Ability: Swarm
 Level: 30
+Hasty Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electroweb
 - Electro Ball
