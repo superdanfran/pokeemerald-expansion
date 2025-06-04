@@ -13,8 +13,11 @@ VerdanturfTown_Mart_EventScript_Clerk::
 
 	.align 2
 VerdanturfTown_Mart_Pokemart:
+	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_TART_APPLE
+	.2byte ITEM_SYRUPY_APPLE
 	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_NEST_BALL
+	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL

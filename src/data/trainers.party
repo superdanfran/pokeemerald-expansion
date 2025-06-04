@@ -223,7 +223,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: GRUNT EDDY
+Name: EDDY
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -329,7 +329,7 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
-Name: GRUNT EDDY
+Name: EDDY
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -424,7 +424,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
-Name: GRUNT JACK
+Name: JACK
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -463,7 +463,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Leech Life
 
 === TRAINER_GRUNT_MUSEUM_2 ===
-Name: GRUNT MORGAN
+Name: MORGAN
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -5053,6 +5053,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Pink
 
 Glimmet (F) @ Absorb Bulb
 Ability: Toxic Debris
@@ -5102,7 +5103,8 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Smart Trainer / Ace Pokemon
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Blue
 
 Kubfu @ Expert Belt
 Ability: Inner Focus
@@ -5162,7 +5164,8 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Smart Trainer / Ace Pokemon
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Yellow
 
 Electrode-Hisui @ Normal Gem
 Ability: Soundproof
@@ -5221,9 +5224,9 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Purple
 
 Numel
 Level: 24
@@ -5263,9 +5266,9 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Pink
 
 Spinda
 Level: 27
@@ -5305,9 +5308,9 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Basic Trainer / Risky
+Double Battle: Yes
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Blue
 
 Swablu
 Level: 29
@@ -5839,15 +5842,29 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
+Mugshot: Pink
 
-Taillow @ Oran Berry
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Staraptor @ Assault Vest
+Ability: Reckless
+Level: 34
+Tera Type: Fighting
+Adamant Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Brave Bird
+- Take Down
+- Dual Wingbeat
+- Close Combat
 
-Zigzagoon @ Oran Berry
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Ursaluna @ Sitrus Berry
+Ability: Unnerve
+Level: 34
+Jolly Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- High Horsepower
+- Play Rough
+- Bulk Up
+- Close Combat
 
 === TRAINER_MIGUEL_1 ===
 Name: MIGUEL
@@ -5978,11 +5995,29 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+Mugshot: Green
+AI: Smart Trainer
 
-Roselia @ Oran Berry
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Trevenant @ Liechi Berry
+Ability: Harvest
+Level: 34
+Brave Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Forests Curse
+- X-Scissor
+- Poison Jab
+
+Scolipede @ Assault Vest
+Ability: Speed Boost
+Level: 34
+Tera Type: Rock
+Jolly Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rollout
+- Bulldoze
+- X-Scissor
+- Poison Jab
 
 === TRAINER_VANESSA ===
 Name: VANESSA
@@ -6202,15 +6237,18 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+Mugshot: Purple
+AI: Smart Trainer
 
-Meditite
-Level: 18
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- High Jump Kick
-- Meditate
-- Confusion
-- Detect
+Lucario @ Lucarionite
+Ability: Steadfast
+Level: 34
+Hardy Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aura Sphere
+- Force Palm
+- Meteor Mash
+- Dragon Pulse
 
 === TRAINER_SHELBY_1 ===
 Name: SHELBY
@@ -12236,19 +12274,36 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+Mugshot: Blue
+AI: Smart Trainer
 
-Marill
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Palafin @ Assault Vest
+Level: 34
+Adamant Nature
+Tera Type: Water
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Jet Punch
+- Flip Turn
 
-Shroomish
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Whimsicott @ Misty Seed
+Ability: Prankster
+Level: 34
+Quirky Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Light Screen
+- Misty Terrain
+- Stun Spore
+- Dazzling Gleam
 
-Numel
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Armarouge @ Sitrus Berry
+Ability: Weak Armor
+Modest Nature
+Level: 34
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flash Cannon
+- Flamethrower
+- Psychic
+- Aura Sphere
 
 === TRAINER_HALEY_2 ===
 Name: HALEY
@@ -14443,6 +14498,7 @@ AI: Basic Trainer / Double Battle
 Tsareena
 Ability: Queenly Majesty
 Level: 34
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Triple Axel
 - Grassy Glide
@@ -14452,6 +14508,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Flapple @ Iapapa Berry
 Ability: Gluttony
 Level: 34
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Grav Apple
 - Dragon Rush
@@ -14470,6 +14527,7 @@ AI: Basic Trainer / Double Battle / HP Aware
 Comfey @ Grassy Seed
 Ability: Flower Veil
 Level: 34
+Timid Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Grassy Terrain
 - Grass Knot
@@ -14479,6 +14537,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Eldegoss @ Sitrus Berry
 Ability: Cotton Down
 Level: 34
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Grassy Terrain
 - Giga Drain
@@ -14496,6 +14555,7 @@ AI: Basic Trainer / Double Battle
 
 Toedscruel
 Level: 34
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spore
 - Magical Leaf
@@ -14514,6 +14574,7 @@ AI: Basic Trainer / Double Battle
 Marowak-Alola @ Iron Ball
 Ability: Cursed Body
 Level: 34
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shadow Bone
 - Bone Rush

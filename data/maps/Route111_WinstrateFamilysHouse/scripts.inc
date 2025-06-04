@@ -15,7 +15,7 @@ Route111_WinstrateFamilysHouse_EventScript_Victoria::
 	setvar VAR_0x8008, LOCALID_WINSTRATE_HOUSE_VICTORIA
 	goto_if_set FLAG_RECEIVED_MACHO_BRACE, Route111_WinstrateFamilysHouse_EventScript_ReceivedMachoBrace
 	msgbox Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace, MSGBOX_DEFAULT
-	giveitem ITEM_MACHO_BRACE
+	giveitem ITEM_ASSAULT_VEST
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_MACHO_BRACE
 	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
@@ -65,12 +65,11 @@ Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
 	.string "challenge, I'll have you know.$"
 
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
-	.string "We use this MACHO BRACE to more\n"
-	.string "effectively strengthen our POKéMON\l"
-	.string "in training.\p"
+	.string "We use this ASSAULT VEST for more\n"
+	.string "reliable offense in POKéMON battles.\p"
 	.string "Since you've beaten all of us here,\n"
 	.string "I don't know if you need it, but we\l"
-	.string "would like you to have our MACHO BRACE.$"
+	.string "would like you to have our ASSAULT VEST.$"
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
 	.string "When it comes to POKéMON battles,\n"
