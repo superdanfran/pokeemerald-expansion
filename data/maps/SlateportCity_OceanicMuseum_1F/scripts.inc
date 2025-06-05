@@ -289,16 +289,24 @@ SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
 SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
 	.string "Aiyeeeh!\n"
 	.string "What are you doing here?\p"
-	.string "Me? I'm the TEAM AQUA member\n"
-	.string "you thumped before, remember?\l"
+	.string "Me? I'm the guy you thumped\n"
+	.string "before, remember?\l"
 	.string "Back in RUSTURF TUNNEL?\p"
-	.string "Here, take this!\n"
-	.string "You have to forgive me!$"
+	.string "Look, I don't want to do this anymore.\p"
+	.string "I joined TEAM AQUA because I thought\n"
+	.string "our mission was important.\p"
+	.string "Our mission IS important.\p"
+	.string "But the things I've had to do…\n"
+	.string "Theft is barely anything compared.\p"
+	.string "Here, take this.\n"
+	.string "Take back what we've stolen in the name\n"
+	.string "Of POKéMON!\p"
+	.string "You have to forgive me.$"
 
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
-	.string "That TM, it suits you more than it\n"
-	.string "does me.\p"
-	.string "Hope I never see you again!\n"
+	.string "That TM, I hope it does you more\n"
+	.string "good than it ever did for me.\p"
+	.string "Hope I never have to see you again!\n"
 	.string "Wahahaha!$"
 
 SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:

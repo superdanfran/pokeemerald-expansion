@@ -184,17 +184,17 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SQUAWKABILLY_GREEN"
+                "species": "SPECIES_FLABEBE"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SQUAWKABILLY_GREEN"
+                "species": "SPECIES_TREECKO"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_APPLIN"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 4,
@@ -204,7 +204,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_APPLIN"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 3,
@@ -289,12 +289,12 @@
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_WIMPOD"
+                "species": "SPECIES_POLIWAG"
               },
               {
                 "min_level": 2,
                 "max_level": 3,
-                "species": "SPECIES_TATSUGIRI_DROOPY"
+                "species": "SPECIES_POLIWAG"
               }
             ]
           }
@@ -348,12 +348,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SQUAWKABILLY_GREEN"
+                "species": "SPECIES_SKIDDO"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SQUAWKABILLY_GREEN"
+                "species": "SPECIES_SKIDDO"
               },
               {
                 "min_level": 2,
@@ -363,7 +363,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SQUAWKABILLY_WHITE"
+                "species": "SPECIES_SQUAWKABILLY_GREEN"
               }
             ]
           },
@@ -1876,7 +1876,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PAWMI"
+                "species": "SPECIES_TREECKO"
               },
               {
                 "min_level": 6,
@@ -1945,12 +1945,12 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_DRILBUR"
+                "species": "SPECIES_MUDBRAY"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_YAMASK_GALAR"
+                "species": "SPECIES_MUDBRAY"
               },
               {
                 "min_level": 8,
@@ -2462,7 +2462,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_JANGMO_O"
+                "species": "SPECIES_CUFANT"
               },
               {
                 "min_level": 15,
@@ -2982,7 +2982,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_TATSUGIRI_STRETCHY"
+                "species": "SPECIES_SKRELP"
               },
               {
                 "min_level": 15,
@@ -9055,17 +9055,17 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MEOWTH_GALAR"
+                "species": "SPECIES_PONYTA_GALAR"
+              },
+              {
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_PONYTA_GALAR"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
                 "species": "SPECIES_MEOWTH_GALAR"
-              },
-              {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 3,
@@ -9085,7 +9085,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_PONYTA_GALAR"
+                "species": "SPECIES_MEOWTH_GALAR"
               },
               {
                 "min_level": 3,

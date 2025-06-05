@@ -427,25 +427,28 @@ RusturfTunnel_Text_Peeko:
 
 RusturfTunnel_Text_GruntIntro:
 	.string "Grah, keelhaul it all!\p"
-	.string "That hostage POKéMON turned out to\n"
-	.string "be worthless!\p"
-	.string "And to think I made a getaway…\n"
+	.string "Taking that hostage POKéMON wasn't\n"
+	.string "worth it!\p"
+	.string "And to think I almost got away…\n"
 	.string "In this tunnel to nowhere!\p"
 	.string "Hey! You!\n"
-	.string "So you want to battle me?$"
+	.string "Are we really doing this again?$"
 
 RusturfTunnel_Text_GruntDefeat:
-	.string "Urrrggh! My career in crime comes to\n"
-	.string "a dead end!$"
+	.string "Urrrggh!\p"
+	.string "I can't do this anymore.\p"
+	.string "I never wanted to hurt people\n"
+	.string "like this.$"
 
 RusturfTunnel_Text_GruntTakePackage:
 	.string "This is plain not right…\p"
 	.string "The BOSS told me this would be a\n"
 	.string "slick-and-easy job to pull.\p"
-	.string "All I had to do was steal some package\n"
+	.string "All I had to do was grab some package\n"
 	.string "from DEVON.\p"
+	.string "It was meant to be harmless!\p"
 	.string "Tch!\n"
-	.string "You want it back that badly, take it!$"
+	.string "You want it back that badly, take it.$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "PEEKO!\n"
