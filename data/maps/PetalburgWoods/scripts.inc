@@ -344,10 +344,11 @@ PetalburgWoods_Text_YouHaveToHelpMe:
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
 	.string "Hunh? What do you think you're doing?\n"
-	.string "What, you're going to protect him?\p"
+	.string "What, you're going to protect him?\n"
+	.string "Step aside!\p"
 	.string "No one who crosses TEAM AQUA\n"
 	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
+	.string "You asked for this!$"
 
 PetalburgWoods_Text_YoureKiddingMe:
 	.string "You're kidding me! You're tough!$"
@@ -355,10 +356,10 @@ PetalburgWoods_Text_YoureKiddingMe:
 PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "Grrr… You've got some nerve\n"
 	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
+	.string "You need to watch yourself.\p"
+	.string "TEAM AQUA are ruthless and we won't\n"
+	.string "stop until you're washed away…\p"
+	.string "Hey, look, TEAM AQUA are also\n"
 	.string "after something in RUSTBORO.\p"
 	.string "I'll let you go today!$"
 
