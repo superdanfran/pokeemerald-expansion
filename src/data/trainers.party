@@ -4038,37 +4038,41 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Eevee-Starter @ Eviolite
+Erebus (Eevee-Starter) (M) @ Eviolite
 Ability: Adaptability
 Level: 36
 Shiny: Yes
+Hardy Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hyper Voice
 - Body Slam
 - Shadow Ball
 - Alluring Voice
 
-Espeon
+Hemera (Espeon) (F)
 Ability: Magic Bounce
 Level: 36
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hyper Voice
 - Psychic Noise
 - Shadow Ball
 - Draining Kiss
 
-Jolteon @ Flame Orb
+Hermes (Jolteon) (M) @ Flame Orb
 Ability: Quick Feet
 Level: 36
+Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hyper Voice
 - Electro Ball
 - Dig
 - Trailblaze
 
-Sylveon
+Aurora (Sylveon) (F)
 Ability: Pixilate
 Level: 36
+Rash Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hyper Voice
 - Magical Leaf
@@ -9352,6 +9356,7 @@ AI: Basic Trainer
 Grafaiai
 Ability: Prankster
 Level: 34
+Calm Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic
 - Metronome
@@ -9360,6 +9365,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Azumarill
 Ability: Huge Power
 Level: 34
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Play Rough
 - Liquidation
@@ -9369,6 +9375,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Squawkabilly-Yellow
 Ability: Sheer Force
 Level: 34
+Rash Nature
 Tera Type: Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Air Slash
