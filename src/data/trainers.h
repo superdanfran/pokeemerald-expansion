@@ -6620,12 +6620,12 @@ F_TRAINER_FEMALE |
 #line 2750
     [DIFFICULTY_NORMAL][TRAINER_STEVE_1] =
     {
-#line 2751
-        .trainerName = _("STEVE"),
-#line 2752
-        .trainerClass = TRAINER_CLASS_POKEMANIAC,
-#line 2753
-        .trainerPic = TRAINER_PIC_POKEMANIAC,
+#line 2769
+        .trainerName = _("BUGGFORD"),
+#line 2770
+        .trainerClass = TRAINER_CLASS_BUG_MANIAC,
+#line 2771
+        .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
 #line 2704
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
@@ -6646,6 +6646,11 @@ F_TRAINER_FEMALE |
             .lvl = 19,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 2782
+                MOVE_TACKLE,
+                MOVE_STRING_SHOT,
+                MOVE_BUG_BITE,
             },
         },
     },
@@ -9182,6 +9187,15 @@ F_TRAINER_FEMALE |
             .lvl = 18,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 3814
+            .teraType = TYPE_FIRE,
+            .moves = {
+#line 3817
+                MOVE_ENERGY_BALL,
+                MOVE_WILL_O_WISP,
+                MOVE_SCORCHING_SANDS,
+                MOVE_WEATHER_BALL,
+            },
             },
             {
 #line 3779
@@ -9193,6 +9207,11 @@ F_TRAINER_FEMALE |
             .lvl = 18,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 3824
+            .teraType = TYPE_FIRE,
+            .moves = {
+#line 3827
+                MOVE_ERUPTION,
             },
         },
     },
@@ -22396,6 +22415,75 @@ F_TRAINER_FEMALE |
         .party = (const struct TrainerMon[])
         {
             {
+#line 9327
+            .species = SPECIES_TORTERRA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 9327
+            .heldItem = ITEM_YACHE_BERRY,
+#line 9331
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+#line 9328
+            .ability = ABILITY_OVERGROW,
+#line 9329
+            .lvl = 36,
+#line 9330
+            .nature = NATURE_RELAXED,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 9332
+                MOVE_STEALTH_ROCK,
+                MOVE_EARTHQUAKE,
+                MOVE_LEAF_STORM,
+                MOVE_STONE_EDGE,
+            },
+            },
+            {
+#line 9337
+            .species = SPECIES_SKARMORY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 9337
+            .heldItem = ITEM_ASSAULT_VEST,
+#line 9341
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+#line 9338
+            .ability = ABILITY_WEAK_ARMOR,
+#line 9339
+            .lvl = 36,
+#line 9340
+            .nature = NATURE_NAIVE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 9342
+                MOVE_BODY_PRESS,
+                MOVE_DRILL_RUN,
+                MOVE_WHIRLWIND,
+                MOVE_IRON_HEAD,
+            },
+            },
+            {
+#line 9347
+            .species = SPECIES_KLEAVOR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 9347
+            .heldItem = ITEM_FOCUS_BAND,
+#line 9351
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+#line 9348
+            .ability = ABILITY_SHEER_FORCE,
+#line 9349
+            .lvl = 36,
+#line 9350
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 9352
+                MOVE_COUNTER,
+                MOVE_LUNGE,
+                MOVE_STONE_AXE,
+                MOVE_VACUUM_WAVE,
+            },
+            },
+            {
 #line 9074
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -22405,6 +22493,13 @@ F_TRAINER_FEMALE |
             .lvl = 18,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 9362
+                MOVE_BODY_PRESS,
+                MOVE_FOUL_PLAY,
+                MOVE_CURSE,
+                MOVE_HEAVY_SLAM,
+            },
             },
             {
 #line 9078
@@ -22416,6 +22511,15 @@ F_TRAINER_FEMALE |
             .lvl = 18,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 9369
+            .teraType = TYPE_FLYING,
+            .moves = {
+#line 9372
+                MOVE_EXPLOSION,
+                MOVE_THUNDER_PUNCH,
+                MOVE_ROCK_POLISH,
+                MOVE_TERA_BLAST,
+            },
             },
         },
     },

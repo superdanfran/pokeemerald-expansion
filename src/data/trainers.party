@@ -2766,17 +2766,32 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
 
 === TRAINER_STEVE_1 ===
-Name: STEVE
-Class: Pokemaniac
-Pic: Pokemaniac
+Name: BUGGFORD
+Class: Bug Maniac
+Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Aron
-Level: 19
+Caterpie @ Assault Vest
+Ability: Shield Dust
+Level: 100
+Bold Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Bug Bite
+
+Weedle @ Eviolite
+Ability: Shield Dust
+Level: 100
+Adamant Nature
+Tera Type: Bug
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Bug Bite
 
 === TRAINER_THALIA_1 ===
 Name: THALIA
@@ -3786,21 +3801,49 @@ Level: 23
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE_1 ===
-Name: BERNIE
+Name: BRYANT
 Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales @ Wise Glasses
+Ability: Drought
+Tera Type: Fire
+Timid Nature
+IVs: 0 Atk
+- Energy Ball
+- Will-O-Wisp
+- Scorching Sands
+- Weather Ball
 
-Wingull
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Typhlosion @ Choice Specs
+Ability: Blaze
+Tera Type: Fire
+Quiet Nature
+IVs: 0 Atk  
+- Eruption
+
+Leavanny @ Muscle Band
+Ability: Chlorophyll
+Tera Type: Fire
+Adamant Nature
+- Tera Blast
+- Seed Bomb
+- Triple Axel
+- X-Scissor
+
+Heliolisk @ Wise Glasses
+Ability: Solar Power
+Tera Type: Electric
+Modest Nature
+IVs: 0 Atk
+- Grass Knot
+- Thunderbolt
+- Dragon Pulse
+- Hyper Voice
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -5061,17 +5104,17 @@ Mugshot: Pink
 
 Glimmet (F) @ Absorb Bulb
 Ability: Toxic Debris
-Level: 15
+Level: 14
 Bold Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Light Screen
-- Reflect
+- Mud Shot
+- Venoshock
 - Ancient Power
 - Spikes
 
 Lileep (F) @ Big Root
 Ability: Storm Drain
-Level: 15
+Level: 14
 Calm Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ingrain  
@@ -9249,6 +9292,7 @@ AI: Basic Trainer / Prefer Status Moves / Force Setup First Turn
 Murkrow @ Eviolite
 Ability: Prankster
 Level: 35
+Bold Nature
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Tailwind
 - Quash
@@ -9258,6 +9302,8 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Brambleghast
 Ability: Wind Rider
 Level: 35
+Adamant Nature
+Tera Type: Grass
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seed Bomb
 - Phantom Force
@@ -9267,27 +9313,70 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Pidgeot @ Flying Gem
 Ability: Keen Eye
 Level: 35
+Naive Nature
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Tailwind
 - Hurricane
 - Rain Dance
 
 === TRAINER_NANCY ===
-Name: NANCY
-Class: Picnicker
+Name: HANNA
+Class: Hiker
 Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Torterra @ Yache Berry
+Ability: Overgrow
+Level: 36
+Relaxed Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Stealth Rock
+- Earthquake
+- Leaf Storm
+- Stone Edge
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory @ Assault Vest
+Ability: Weak Armor
+Level: 36
+Naive Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Body Press
+- Drill Run
+- Whirlwind
+- Iron Head
+
+Kleavor @ Focus Band
+Ability: Sheer Force
+Level: 36
+Adamant Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Counter
+- Lunge
+- Stone Axe
+- Vacuum Wave
+
+Bastiodon @ Air Balloon
+Ability: Sturdy
+Level: 36
+Lax Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Body Press
+- Foul Play
+- Curse
+- Heavy Slam
+
+Golem-Alola @ Magnet
+Ability: Galvanize
+Tera Type: Flying
+Jolly Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Explosion
+- Thunder Punch
+- Rock Polish
+- Tera Blast
 
 === TRAINER_MARTHA ===
 Name: MARTHA
@@ -10261,7 +10350,7 @@ AI: Basic Trainer
 
 Sprigatito
 Ability: Protean
-Level: 10
+Level: 7
 Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
@@ -10348,7 +10437,7 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Fuecoco
 Ability: Unaware
-Level: 10
+Level: 7
 Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -10436,7 +10525,7 @@ AI: Basic Trainer
 
 Quaxly
 Ability: Moxie
-Level: 10
+Level: 7
 Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pound
@@ -11952,7 +12041,7 @@ Tera Type: Water
 Hardy Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Aqua Cutter
-- Acrobatics
+- Wing Attack
 - Disarming Voice
 - Feather Dance
 
@@ -12013,7 +12102,7 @@ Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seed Bomb
 - Hone Claws
-- Acrobatics
+- Slash
 - Disarming Voice
 
 === TRAINER_PAXTON ===
@@ -12745,21 +12834,45 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic Terrain
 
 === TRAINER_LENNY ===
-Name: LENNY
+Name: HANK
 Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hippowdon @ Leftovers
+Ability: Sand Stream
+Tera Type: Ground
+- Crunch
+- Slack Off
+- High Horsepower
+- Fire Fang
 
-Machop
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gabite @ Eviolite
+Ability: Rough Skin
+Tera Type: Dragon
+- Dragon Claw
+- Rock Tomb
+- Bulldoze
+- Swords Dance
+
+Orthworm @ Chople Berry
+Ability: Earth Eater
+Tera Type: Steel
+- Body Press
+- Coil
+- Heavy Slam
+- Body Slam
+
+Probopass @ Air Balloon
+Ability: Sand Force
+Tera Type: Rock
+- Flash Cannon
+- Discharge
+- Power Gem
+- Tera Blast
 
 === TRAINER_LUCAS_1 ===
 Name: LUCAS
@@ -12768,15 +12881,23 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rillaboom @ Normal Gem
+Ability: Overgrow
+- Grassy Glide
+- Fake Out
+- Acrobatics
+- Drum Beating
 
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sinistcha @ Bright Powder
+Ability: Hospitality
+Tera Type: Grass
+IVs: 0 Atk
+- Life Dew
+- Matcha Gotcha
+- Scald
+- Shadow Ball
 
 === TRAINER_ALAN ===
 Name: ALAN
@@ -14690,21 +14811,37 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bulk Up
 
 === TRAINER_ANGELINA ===
-Name: ANGELINA
-Class: Picnicker
+Name: Alma
+Class: Hiker
 Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gogoat @ Assault Vest
+Ability: Grass Pelt
+Tera Type: Grass
+- Horn Leech
+- Zen Headbutt
+- Bulk Up
+- Rock Slide
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ampharos @ Wise Glasses
+Ability: Mold Breaker
+IVs: 0 Atk
+- Dragon Pulse
+- Thunderbolt
+- Dazzling Gleam
+- Power Gem
+
+Sawsbuck @ Quick Claw
+Ability: Serene Grace
+Tera Type: Electric
+- Horn Leech
+- Play Rough
+- Zen Headbutt
+- Wild Charge
 
 === TRAINER_KAI ===
 Name: KAI
