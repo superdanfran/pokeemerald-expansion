@@ -194,7 +194,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_MANKEY"
+                "species": "SPECIES_RIOLU"
               },
               {
                 "min_level": 4,
@@ -204,7 +204,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_MANKEY"
+                "species": "SPECIES_RIOLU"
               },
               {
                 "min_level": 3,
@@ -313,12 +313,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MASCHIFF"
+                "species": "SPECIES_FARFETCHD_GALAR"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MASCHIFF"
+                "species": "SPECIES_FARFETCHD_GALAR"
               },
               {
                 "min_level": 4,
@@ -462,17 +462,17 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_WIGLETT"
+                "species": "SPECIES_DRILBUR"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_PIKIPEK"
+                "species": "SPECIES_DRILBUR"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PYUKUMUKU"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 5,
@@ -497,12 +497,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ROOKIDEE"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_WIGLETT"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 4,
@@ -1380,7 +1380,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_FLITTLE"
+                "species": "SPECIES_DRILBUR"
               },
               {
                 "min_level": 7,
@@ -1415,7 +1415,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_TINKATINK"
+                "species": "SPECIES_CHARCADET"
               },
               {
                 "min_level": 8,
@@ -9035,7 +9035,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_SQUAWKABILLY_GREEN"
+                "species": "SPECIES_MUDBRAY"
               },
               {
                 "min_level": 3,
