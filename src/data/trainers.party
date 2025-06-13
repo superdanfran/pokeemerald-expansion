@@ -465,8 +465,8 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: MORGAN
 Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
+Pic: Aqua Grunt F
+Gender: Female
 Music: Aqua
 Double Battle: No
 AI: Basic Trainer
