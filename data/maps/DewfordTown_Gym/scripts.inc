@@ -132,6 +132,47 @@ DewfordTown_Gym_EventScript_CheckLilith::
 DewfordTown_Gym_EventScript_StopCountingTrainers::
 	return
 
+DewfordTown_Gym_EventScript_Nessa::
+	trainerbattle_single TRAINER_NESSA_1, DewfordTown_Gym_Text_NessaIntro, DewfordTown_Gym_Text_NessaDefeat, DewfordTown_Gym_EventScript_NessaDefeated, NO_MUSIC
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_NessaRematch
+	goto_if_unset FLAG_RECEIVED_TM_CHILLING_WATER, DewfordTown_Gym_EventScript_GiveChillingWater2
+	msgbox DewfordTown_Gym_Text_NessaPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Gym_EventScript_NessaDefeated::
+	call DewfordTown_Gym_EventScript_AnimateFlashFullBrightness
+	message DewfordTown_Gym_Text_ReceivedKnuckleBadge
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
+	msgbox DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis, MSGBOX_DEFAULT
+	setflag FLAG_DEFEATED_DEWFORD_GYM
+	setflag FLAG_BADGE02_GET
+	addvar VAR_PETALBURG_GYM_STATE, 1
+	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
+	setvar VAR_0x8008, 2
+	call Common_EventScript_SetGymTrainers
+	call DewfordTown_Gym_EventScript_GiveChillingWater
+	closemessage
+	release
+	end
+
+DewfordTown_Gym_EventScript_GiveChillingWater::
+	giveitem ITEM_TM_CHILLING_WATER
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
+	msgbox DewfordTown_Gym_Text_ExplainChillingWater, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_CHILLING_WATER
+	return
+
+DewfordTown_Gym_EventScript_GiveChillingWater2:
+	giveitem ITEM_TM_CHILLING_WATER
+	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
+	msgbox DewfordTown_Gym_Text_ExplainChillingWater, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_CHILLING_WATER
+	release
+	end
+
 DewfordTown_Gym_EventScript_Brawly::
 	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
