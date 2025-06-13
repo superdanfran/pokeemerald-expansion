@@ -437,10 +437,10 @@ Ability: Overcoat
 Level: 18
 Naughty Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Toxic
+- Poison Gas
 - Headbutt
-- Iron Head
-- Bulldoze
+- Gyro Ball
+- Sludge
 
 Murkrow @ Eviolite
 Ability: Prankster
@@ -449,7 +449,7 @@ Hasty Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Confuse Ray
 - Thunder Wave
-- Hex
+- Mean Look
 - U-turn
 
 Salandit @ Rindo Berry
@@ -459,8 +459,9 @@ Tera Type: Water
 Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Trailblaze
-- Shadow Claw
+- Poison Tail
 - Leech Life
+- Will-O-Wisp
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: MORGAN
@@ -478,7 +479,8 @@ Lax Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Knock Off
 - Snarl
-- Skitter Smack
+- Night Shade
+- Swift
 
 Woobat @ Sitrus Berry
 Ability: Unaware
