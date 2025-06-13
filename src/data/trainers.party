@@ -3811,7 +3811,6 @@ AI: Basic Trainer
 
 Ninetales @ Wise Glasses
 Ability: Drought
-Tera Type: Fire
 Timid Nature
 IVs: 0 Atk
 - Energy Ball
@@ -3821,14 +3820,12 @@ IVs: 0 Atk
 
 Typhlosion @ Choice Specs
 Ability: Blaze
-Tera Type: Fire
 Quiet Nature
 IVs: 0 Atk  
 - Eruption
 
 Leavanny @ Muscle Band
 Ability: Chlorophyll
-Tera Type: Fire
 Adamant Nature
 - Tera Blast
 - Seed Bomb
@@ -12844,7 +12841,6 @@ AI: Basic Trainer
 
 Hippowdon @ Leftovers
 Ability: Sand Stream
-Tera Type: Ground
 - Crunch
 - Slack Off
 - High Horsepower
@@ -12852,7 +12848,6 @@ Tera Type: Ground
 
 Gabite @ Eviolite
 Ability: Rough Skin
-Tera Type: Dragon
 - Dragon Claw
 - Rock Tomb
 - Bulldoze
@@ -12860,7 +12855,6 @@ Tera Type: Dragon
 
 Orthworm @ Chople Berry
 Ability: Earth Eater
-Tera Type: Steel
 - Body Press
 - Coil
 - Heavy Slam
@@ -14821,7 +14815,6 @@ AI: Basic Trainer
 
 Gogoat @ Assault Vest
 Ability: Grass Pelt
-Tera Type: Grass
 - Horn Leech
 - Zen Headbutt
 - Bulk Up

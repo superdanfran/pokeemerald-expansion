@@ -223,6 +223,10 @@ RustboroCity_EventScript_CuttersHouseSign::
 	msgbox RustboroCity_Text_CuttersHouse, MSGBOX_SIGN
 	end
 
+RustboroCity_EventScript_Growlithe::
+	msgbox RustboroCity_Text_Growlithe, MSGBOX_SIGN
+	end
+
 RustboroCity_EventScript_LittleBoy::
 	lock
 	faceplayer
@@ -1287,6 +1291,11 @@ RustboroCity_Text_TrainersSchoolSign:
 
 RustboroCity_Text_CuttersHouse:
 	.string "CUTTER'S HOUSE$"
+
+RustboroCity_Text_Growlithe:
+	.string "The Growlithe holds a piece of paper\n"
+	.string "in its mouth advertising the\n"
+	.string "POKéMON TRAINER'S SCHOOL.$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
 	.string "I've been developing an added feature\n"
