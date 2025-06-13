@@ -16,6 +16,17 @@ RustboroCity_PokemonCenter_1F_EventScript_Nurse::
 	release
 	end
 
+RustboroCity_PokemonCenter_1F_EventScript_KalosGifts::
+	goto_if_set FLAG_RECEIVED_KALOS_GIFT, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftGiven
+	msgbox RustboroCity_PokemonCenter_1F_Text_KalosGifts, MSGBOX_DEFAULT
+	givemon SPECIES_FROAKIE, 5
+	setflag FLAG_RECEIVED_KALOS_GIFT
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_KalosGiftGiven::
+	msgbox RustboroCity_PokemonCenter_1F_Text_KalosGiftBonneChance, MSGBOX_DEFAULT
+	end
+
 RustboroCity_PokemonCenter_1F_EventScript_Man::
 	msgbox RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities, MSGBOX_NPC
 	end
@@ -38,10 +49,20 @@ RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
 	.string "Just like people, there are male and\n"
 	.string "female POKéMON.\p"
 	.string "But no one seems to have any idea how\n"
-	.string "they're different.$"
+	.string "they're different.\p"
+	.string "I've heard some POKéMON can even\n"
+	.string "change genders! Aren't POKéMON amazing?$"
 
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 	.string "The man next door gave me an HM!\p"
 	.string "I used it to teach my POKéMON how to\n"
 	.string "CUT down skinny trees.$"
 
+RustboroCity_PokemonCenter_1F_Text_KalosGifts:
+	.string "Bonjour! Salut! Allo allo!\p"
+	.string "I just got back from the KALOS region\n"
+	.string "and I caught these cute guys.\p"
+	.string "Do you want one?.$"
+
+RustboroCity_PokemonCenter_1F_Text_KalosGiftBonneChance:
+	.string "Bonne chance!.$"
