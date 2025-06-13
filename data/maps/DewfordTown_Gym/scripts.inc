@@ -420,6 +420,27 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "You win!\n"
 	.string "Go after that BADGE!$"
 
+DewfordTown_Gym_Text_NessaIntro:
+	.string "Welcome, Challenger!\n"
+	.string "Were you expecting Brawly?\p"
+	.string "I'm Nessa, and I'm in charge\n"
+	.string "of DEWFORD GYM now.\n"
+	.string "This won't be an easy battle.\p"
+	.string "Are you ready?\n"
+	.string "I'll wash you away!$"
+
+DewfordTown_Gym_Text_NessaDefeat:
+	.string "I see why I failed,\n"
+	.string "I underestimated your spirit!\p"
+	.string "You sunk me!\p"
+	.string "Take this.$"
+
+DewfordTown_Gym_Text_ExplainChillingWater:
+	.string "That TM51 contains CHILLING WATER.\p"
+	.string "Use it to attack your foe with water\n"
+	.string "so cold that it saps their power!\p"
+	.string "… … … … … …$"
+
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "I'm BRAWLY!\n"
 	.string "DEWFORD's GYM LEADER!\p"
