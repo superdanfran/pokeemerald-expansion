@@ -903,8 +903,8 @@ F_TRAINER_FEMALE |
 #line 433
                 MOVE_TOXIC,
                 MOVE_HEADBUTT,
-                MOVE_IRON_HEAD,
-                MOVE_BULLDOZE,
+                MOVE_GYRO_BALL,
+                MOVE_SLUDGE,
             },
             },
             {
@@ -925,7 +925,7 @@ F_TRAINER_FEMALE |
 #line 442
                 MOVE_CONFUSE_RAY,
                 MOVE_THUNDER_WAVE,
-                MOVE_HEX,
+                MOVE_MEAN_LOOK,
                 MOVE_U_TURN,
             },
             },
@@ -948,8 +948,9 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 452
                 MOVE_TRAILBLAZE,
-                MOVE_SHADOW_CLAW,
+                MOVE_POISON_TAIL,
                 MOVE_LEECH_LIFE,
+                MOVE_WILL_O_WISP,
             },
             },
         },
@@ -991,7 +992,8 @@ F_TRAINER_FEMALE |
 #line 469
                 MOVE_KNOCK_OFF,
                 MOVE_SNARL,
-                MOVE_SKITTER_SMACK,
+                MOVE_NIGHT_SHADE,
+                MOVE_SWIFT,
             },
             },
             {
@@ -6620,11 +6622,11 @@ F_TRAINER_FEMALE |
 #line 2750
     [DIFFICULTY_NORMAL][TRAINER_STEVE_1] =
     {
-#line 2769
-        .trainerName = _("BUGGFORD"),
-#line 2770
-        .trainerClass = TRAINER_CLASS_BUG_MANIAC,
 #line 2771
+        .trainerName = _("BUGGFORD"),
+#line 2772
+        .trainerClass = TRAINER_CLASS_BUG_MANIAC,
+#line 2773
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
 #line 2704
@@ -6647,7 +6649,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 2782
+#line 2784
                 MOVE_TACKLE,
                 MOVE_STRING_SHOT,
                 MOVE_BUG_BITE,
