@@ -710,7 +710,7 @@
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_TINKATINK"
+                "species": "SPECIES_WATTREL"
               },
               {
                 "min_level": 18,
@@ -745,12 +745,12 @@
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_CRAMORANT"
+                "species": "SPECIES_WATTREL"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_CRAMORANT"
+                "species": "SPECIES_WATTREL"
               },
               {
                 "min_level": 18,
@@ -1186,7 +1186,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_DUNSPARCE"
+                "species": "SPECIES_TINKATINK"
               },
               {
                 "min_level": 30,
@@ -2987,12 +2987,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CRAMORANT"
+                "species": "SPECIES_FINIZEN"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CRAMORANT"
+                "species": "SPECIES_FINIZEN"
               }
             ]
           }
@@ -3160,17 +3160,17 @@
               {
                 "min_level": 15,
                 "max_level": 15,
+                "species": "SPECIES_FINNEON"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
                 "species": "SPECIES_FINIZEN"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_DONDOZO"
-              },
-              {
-                "min_level": 15,
-                "max_level": 15,
-                "species": "SPECIES_DONDOZO"
+                "species": "SPECIES_FINIZEN"
               }
             ]
           }
@@ -8734,7 +8734,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_ALOMOMOLA"
+                "species": "SPECIES_FINNEON"
               },
               {
                 "min_level": 15,
