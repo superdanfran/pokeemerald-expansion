@@ -1136,9 +1136,9 @@ Ability: Blaze
 Level: 16
 Hasty Nature
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Fire Spin  
-- Acrobatics  
-- Quick Attack  
+- Fire Spin
+- Trailblaze
+- Quick Attack
 - Low Kick
 
 === TRAINER_AUSTINA ===
@@ -15549,7 +15549,7 @@ Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Grassy Glide
 - Low Kick
-- Acrobatics
+- Fake Out
 
 === TRAINER_MELINA ===
 Name: MELINA
