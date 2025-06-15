@@ -26,6 +26,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	goto RustboroCity_Gym_EventScript_GiveRockTomb
+	goto RustboroCity_Gym_EventScript_GiveRockTeraShard
 	end
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
@@ -33,6 +34,14 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_Gym_EventScript_GiveRockTeraShard::
+	giveitem ITEM_ROCK_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_ROCK_TERA_SHARD
+	msgbox RustboroCity_Gym_Text_ExplainRockTeraShard, MSGBOX_DEFAULT
 	release
 	end
 
@@ -219,6 +228,11 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "the move to a POKéMON.\p"
 	.string "Remember, a TM can be used only once,\n"
 	.string "so think before you use it.$"
+
+RustboroCity_Gym_Text_ExplainRockTeraShard:
+	.string "That is a ROCK TERA SHARD,\n"
+	.string "it will change the TERA TYPE of your\n"
+	.string "POKéMON to ROCK TYPE. But only once.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "Since you are so strong, you should\n"
