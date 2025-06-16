@@ -2645,7 +2645,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 1139
                 MOVE_FIRE_SPIN,
-                MOVE_ACROBATICS,
+                MOVE_TRAILBLAZE,
                 MOVE_QUICK_ATTACK,
                 MOVE_LOW_KICK,
             },
@@ -38348,7 +38348,7 @@ F_TRAINER_FEMALE |
 #line 15540
                 MOVE_GRASSY_GLIDE,
                 MOVE_LOW_KICK,
-                MOVE_ACROBATICS,
+                MOVE_FAKE_OUT,
             },
             },
         },
