@@ -87,10 +87,10 @@
 #define FLAG_UNUSED_0x049    0x49 // Unused Flag
 #define FLAG_UNUSED_0x04A    0x4A // Unused Flag
 #define FLAG_UNUSED_0x04B    0x4B // Unused Flag
-#define FLAG_UNUSED_0x04C    0x4C // Unused Flag
-#define FLAG_UNUSED_0x04D    0x4D // Unused Flag
-#define FLAG_UNUSED_0x04E    0x4E // Unused Flag
-#define FLAG_UNUSED_0x04F    0x4F // Unused Flag
+#define FLAG_UNUSED_0x04C    0x4C // OW_FLAG_POKE_RIDER
+#define FLAG_UNUSED_0x04D    0x4D // OW_FLAG_NO_TRAINER_SEE
+#define FLAG_UNUSED_0x04E    0x4E // OW_FLAG_NO_COLLISION
+#define FLAG_UNUSED_0x04F    0x4F // OW_FLAG_NO_ENCOUNTER
 
 // Scripts
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50
