@@ -19,14 +19,40 @@ RustboroCity_PokemonCenter_1F_EventScript_Nurse::
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_KalosGifts::
+	lock
+	faceplayer
 	goto_if_set FLAG_RECEIVED_KALOS_GIFT, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftGiven
 	msgbox RustboroCity_PokemonCenter_1F_Text_KalosGifts, MSGBOX_DEFAULT
-	givemon SPECIES_FROAKIE, 5
-	setflag FLAG_RECEIVED_KALOS_GIFT
+	multichoicedefault 20, 8, MULTI_KALOS_STARTER, 1, FALSE
+	switch VAR_RESULT
+	case 0, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftChespin
+	case 1, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftFennekin
+	case 2, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftFroakie
+	case MULTI_B_PRESSED, RustboroCity_PokemonCenter_1F_Text_KalosGiftsCancel
+	release
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_KalosGiftGiven::
 	msgbox RustboroCity_PokemonCenter_1F_Text_KalosGiftBonneChance, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_KalosGiftChespin::
+	givemon SPECIES_CHESPIN, 5
+	setflag FLAG_RECEIVED_KALOS_GIFT
+	release
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_KalosGiftFennekin::
+	givemon SPECIES_FENNEKIN, 5
+	setflag FLAG_RECEIVED_KALOS_GIFT
+	release
+	end
+
+RustboroCity_PokemonCenter_1F_EventScript_KalosGiftFroakie::
+	givemon SPECIES_FROAKIE, 5
+	setflag FLAG_RECEIVED_KALOS_GIFT
+	release
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_Man::
@@ -63,8 +89,11 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 RustboroCity_PokemonCenter_1F_Text_KalosGifts:
 	.string "Bonjour! Salut! Allo allo!\p"
 	.string "I just got back from the KALOS region\n"
-	.string "and I caught these cute guys.\p"
+	.string "and I caught these petit cuties!\p"
 	.string "Do you want one?.$"
+
+RustboroCity_PokemonCenter_1F_Text_KalosGiftsCancel:
+	.string "Ah, that's okay if you need time to choose.$"
 
 RustboroCity_PokemonCenter_1F_Text_KalosGiftBonneChance:
 	.string "Bonne chance!.$"
