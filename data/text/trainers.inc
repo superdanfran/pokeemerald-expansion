@@ -428,9 +428,8 @@ Route104_Text_DarianPostBattle:
 	.string "to your name, do you?$"
 
 Route104_Text_EmmieIntro:
-	.string "Hi! I just caught these cute\p"
-	.string "little guys! ...Oh, you want to\n"
-	.string "fight? Umm... Okay!$"
+	.string "Hi! I just caught these cute little guys!\p"
+	.string "…Oh, you want to fight? Umm… Okay!$"
 
 Route104_Text_EmmieDefeat:
 	.string "Oh…$"
