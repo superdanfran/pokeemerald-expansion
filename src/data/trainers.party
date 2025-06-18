@@ -3323,30 +3323,43 @@ Level: 39
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_TAKAO ===
-Name: TAKAO
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
+Name: Peri
+Class: Parasol Lady
+Pic: Parasol Lady
+Gender: Female
+Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Stufful
-Ability: Fluffy
+Eiscue @ Never-melt Ice
+Ability: Ice Face
 Level: 19
-Adamant Nature
+Impish Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Baby-Doll Eyes
-- Brutal Swing
-- Strength
+- Rain Dance
+- Chilling Water
+- Powder Snow
 
-Pawmo
-Ability: Iron Fist
+Brionne
+Ability: Liquid Voice
 Level: 19
+Modest Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Arm Thrust
-- Nuzzle
-- Quick Attack
+- Chilling Water
+- Disarming Voice
+- Sing
+- Rain Dance
+
+Pincurchin
+Ability: Lightning Rod
+Level: 19
+Calm Nature
+Tera Type: Water
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Chilling Water
+- Thunder Shock
+- Thunder Wave
+- Rain Dance
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -5206,12 +5219,63 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 === TRAINER_NESSA_1 ===
 Name: NESSA
 Class: Leader
-Pic: Leader Brawly
+Pic: Nessa
 Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Blue
+
+Alomomola @ Sitrus Berry  
+Ability: Healer  
+Level: 20
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Modest Nature  
+- Chilling Water  
+- Wide Guard  
+- Aqua Ring  
+- Icy Wind  
+
+Drednaw @ Rindo Berry  
+Ability: Shell Armor  
+Level: 20
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Adamant Nature  
+- Razor Shell  
+- Ice Fang  
+- Protect  
+- Jaw Lock  
+
+Veluza @ Shed Shell  
+Ability: Mold Breaker  
+Level: 20
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Impish Nature  
+- Aqua Jet  
+- Tackle  
+- Ice Fang  
+- Flip Turn  
+
+Clodsire @ Focus Band
+Ability: Unaware
+Level: 20
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Quiet Nature
+- Acid Spray
+- Poison Sting
+- Mud-Slap
+- Chilling Water
+
+Masquerain @ Life Orb
+Ability: Intimidate
+Level: 21
+Tera Type: Water
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Timid Nature
+- Chilling Water
+- Bug Buzz
+- Air Slash
+- Stun Spore
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -8508,42 +8572,66 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Gyarados
-Ability: Intimidate
+Croagunk @ Sitrus Berry
+Ability: Dry Skin
 Level: 19
-Tera Type: Fighting
+Naughty Nature 
+Tera Type: Water
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Ice Fang
-- Crunch
-- Whirlpool
+- Chilling Water
+- Low Kick
+- Sucker Punch
+- Poison Sting
+
+Crabrawler @ Punching Glove
+Ability: Iron Fist
+Level: 19
+Adamant Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Chilling Water
+- Jet Punch
+- Upper Hand
+- Coaching
 
 === TRAINER_LAURA ===
-Name: LAURA
-Class: Battle Girl
-Pic: Battle Girl
+Name: MELANIE
+Class: Lady
+Pic: Lady
 Gender: Female
 Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Farfetch'd-Galar
-Ability: Scrappy
+Binacle
+Ability: Tough Claws
 Level: 19
 Adamant Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Rock Smash
-- Brutal Swing
-- Detect
+- Fury Swipes
+- Razor Shell
+- Sand Attack
+- Rock Blast
 
-Poliwhirl
-Ability: Water Absorb
+Shellder
+Ability: Skill Link
 Level: 19
-Tera Type: Fighting
+Bold Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Ice Shard
+- Chilling Water
+- Icicle Spear
+- Rock Blast
+
+Dratini
+Ability: Marvel Scale
+Level: 19
+Tera Type: Water
 Lax Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Brick Break
+- Twister
 - Chilling Water
-- Hypnosis
+- Thunder Wave
+- Scale Shot
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -11713,24 +11801,26 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Mienfoo
-Ability: Inner Focus
+Pyukumuku @ Rocky Helmet
+Ability: Innards Out
 Level: 19
+Hardy Nature
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Counter
+- Purify
+- Taunt
+
+Makuhita @ Flame Orb
+Ability: Guts
+Level: 19
+Tera Type: Water
 Adamant Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Chilling Water
+- Low Sweep
+- Helping Hand
 - Fake Out
-- U-turn
-- Low Kick
-
-Meditite
-Ability: Pure Power
-Level: 19
-Tera Type: Psychic
-Modest Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Confusion
-- Force Palm
-- Detect
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA

@@ -661,7 +661,7 @@
 #define FLAG_RECEIVED_ALOLA_GIFT  0x266 // Unused Flag
 #define FLAG_RECEIVED_GALAR_GIFT  0x267 // Unused Flag
 #define FLAG_RECEIVED_ROCK_TERA_SHARD  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
+#define FLAG_RECEIVED_WATER_TERA_SHARD  0x269 // Unused Flag
 #define FLAG_UNUSED_0x26A  0x26A // Unused Flag
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag

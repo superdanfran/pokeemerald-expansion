@@ -56,6 +56,20 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINERS_COUNT][TRAINER_
 {
     [DIFFICULTY_NORMAL] =
     {
+        [TRAINER_ROXANNE_1] =
+        {
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("Here I come!{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_ENEMY_MON_UNAFFECTED] = COMPOUND_STRING("Are you giving this me best shot?{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("Watch out!{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_PLAYER_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("Great effort!{PAUSE_UNTIL_PRESS}"),
+        },
+    
+        [TRAINER_NESSA_1] =
+        {
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("Sorry mate, but you're washed!{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_ENEMY_MON_UNAFFECTED] = COMPOUND_STRING("There's no sinking this ship!{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("Don't you dare underestimate me!{PAUSE_UNTIL_PRESS}"),
+        }
     },
 };
 

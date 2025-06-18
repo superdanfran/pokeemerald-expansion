@@ -173,6 +173,18 @@ DewfordTown_Gym_EventScript_GiveChillingWater2:
 	release
 	end
 
+DewfordTown_Gym_EventScript_GiveWaterTeraShard::
+	giveitem ITEM_WATER_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_WATER_TERA_SHARD
+	release
+	end
+
+DewfordTown_Gym_EventScript_NessaRematch::
+	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
+	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
+	end
+
 DewfordTown_Gym_EventScript_Brawly::
 	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -344,18 +356,18 @@ DewfordTown_Gym_Text_GymGuidePostVictory:
 	.string "Your future is bright, too!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
-	.string "Might is right!\n"
-	.string "Come on!$"
+	.string "I'll bring the rain!\n"
+	.string "Let's go!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Not enough power…$"
+	.string "You've dried me up…$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
-	.string "Your skill overcame my strength!\n"
-	.string "Your technique is commendable!$"
+	.string "It's okay!\n"
+	.string "The rain will come again eventually!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for BRAWLY to be\n"
+	.string "There's no need for NESSA to be\n"
 	.string "involved!\p"
 	.string "I'll crush you!$"
 
@@ -382,7 +394,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "I battle in the dark to make my heart\n"
 	.string "stronger.\p"
 	.string "But because it's so dark, I can never\n"
-	.string "see BRAWLY's face…$"
+	.string "see NESSA's face…$"
 
 DewfordTown_Gym_Text_LilithIntro:
 	.string "Ufufu…\n"
@@ -440,6 +452,10 @@ DewfordTown_Gym_Text_ExplainChillingWater:
 	.string "Use it to attack your foe with water\n"
 	.string "so cold that it saps their power!\p"
 	.string "… … … … … …$"
+
+DewfordTown_Gym_Text_NessaPostBattle:
+	.string "You had no problem handling our\n"
+	.string "surging might! No wonder you won.$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "I'm BRAWLY!\n"
