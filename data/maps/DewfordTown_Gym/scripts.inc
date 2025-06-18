@@ -154,6 +154,7 @@ DewfordTown_Gym_EventScript_NessaDefeated::
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
 	call DewfordTown_Gym_EventScript_GiveChillingWater
+	call DewfordTown_Gym_EventScript_GiveWaterTeraShard
 	closemessage
 	release
 	end
@@ -177,8 +178,7 @@ DewfordTown_Gym_EventScript_GiveWaterTeraShard::
 	giveitem ITEM_WATER_TERA_SHARD
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_WATER_TERA_SHARD
-	release
-	end
+	return
 
 DewfordTown_Gym_EventScript_NessaRematch::
 	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
