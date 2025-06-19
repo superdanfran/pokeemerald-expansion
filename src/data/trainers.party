@@ -2264,8 +2264,9 @@ Level: 10
 Relaxed Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Baby-Doll Eyes
-- Play Rough
+- Tackle
 - Charm
+- Lick
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -2668,7 +2669,7 @@ Double Battle: No
 AI: Basic Trainer / Stall
 
 Furfrou-Dandy @ Nugget
-Level: 14
+Level: 12
 Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -12203,6 +12204,36 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Hone Claws
 - Slash
 - Disarming Voice
+
+=== TRAINER_DENDRA ===
+Name: DENDRA
+Class: Instructor
+Pic: Dendra
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+
+Tyrogue  
+Ability: Guts  
+Level: 14
+Adamant Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out  
+- Tackle  
+- Focus Energy  
+- Counter  
+
+Makuhita @ Oran Berry  
+Ability: Thick Fat  
+Level: 15  
+Tera Type: Fighting  
+Lonely Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bulk Up  
+- Detect  
+- Arm Thrust  
+- Focus Energy  
 
 === TRAINER_PAXTON ===
 Name: PAXTON

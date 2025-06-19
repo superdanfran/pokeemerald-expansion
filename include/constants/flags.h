@@ -520,8 +520,8 @@
 #define FLAG_DEFEATED_GIMMIGHOUL             0x1DF // Unused Flag
 #define FLAG_WALLY_PRE_GYM                   0x1E0 // Unused Flag
 #define FLAG_RECEIVED_TM_CHILLING_WATER      0x1E1 // Unused Flag
-#define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
-#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
+#define FLAG_DENDRA_BATTLE                   0x1E2 // Unused Flag
+#define FLAG_DENDRA_TRADE_DONE               0x1E3 // Unused Flag
 
 // Mystery Gift Flags (Unknown)
 #define FLAG_MYSTERY_GIFT_DONE               0x1E4
@@ -1225,7 +1225,7 @@
 #define FLAG_UNUSED_0x493                                           0x493 // Unused Flag
 #define FLAG_HIDE_DEWFORD_GIMMIGHOUL                                0x494 // Unused Flag
 #define FLAG_DEFEATED_GIMMIGHOUL_DEWFORD                            0x495 // Unused Flag
-#define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
+#define FLAG_MET_DENDRA_RUSTBORO                                    0x496 // Unused Flag
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag

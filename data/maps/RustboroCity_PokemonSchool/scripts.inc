@@ -182,6 +182,94 @@ RustboroCity_PokemonSchool_EventScript_Nemona::
 	release
 	end
 
+RustboroCity_PokemonSchool_EventScript_Dendra::
+	lock
+	faceplayer
+	goto_if_set FLAG_MET_DENDRA_RUSTBORO, RustboroCity_PokemonSchool_EventScript_DendraSpokeAlready
+	goto_if_set FLAG_DENDRA_TRADE_DONE, RustboroCity_PokemonSchool_EventScript_DendraTradeCompleted
+	goto_if_set FLAG_DENDRA_BATTLE, RustboroCity_PokemonSchool_EventScript_DendraTrade
+	goto_if_unset FLAG_MET_NEMONA_RUSTBORO, RustboroCity_PokemonSchool_EventScript_DendraTalkToNemona
+	msgbox RustboroCity_PokemonSchool_Text_DendraIntro, MSGBOX_DEFAULT
+	goto RustboroCity_PokemonSchool_EventScript_DendraWantToBattle
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraTalkToNemona::
+	msgbox RustboroCity_PokemonSchool_EventScript_DendraTalkToNemona, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraWantToBattle::
+	msgbox RustboroCity_PokemonSchool_Text_DendraWantToBattle, MSGBOX_DEFAULT
+	waitmessage
+	multichoicedefault 20, 8, MULTI_YESNO, 0, FALSE
+	switch VAR_RESULT
+	case 0, RustboroCity_PokemonSchool_EventScript_DendraBattle
+	case 1, RustboroCity_PokemonSchool_EventScript_DendraBattleLater
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraBattle::
+	trainerbattle_no_intro TRAINER_DENDRA, RustboroCity_PokemonSchool_Text_DendraDefeated
+	goto RustboroCity_PokemonSchool_EventScript_DendraDefeated
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraBattleLater::
+	msgbox RustboroCity_PokemonSchool_Text_DendraBattleLater, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraDefeated::
+	msgbox RustboroCity_PokemonSchool_Text_DendraGift, MSGBOX_DEFAULT
+	setflag FLAG_DENDRA_BATTLE
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraTrade::
+	msgbox RustboroCity_PokemonSchool_Text_DendraWantToTrade, MSGBOX_DEFAULT
+	multichoicedefault 20, 8, MULTI_YESNO, 0, FALSE
+	switch VAR_RESULT
+	case 0, RustboroCity_PokemonSchool_EventScript_DendraTradeAccepted
+	case 1, RustboroCity_PokemonSchool_EventScript_DendraTradeLater
+	return
+
+RustboroCity_PokemonSchool_EventScript_DendraTradeAccepted::
+	goto_if_set FLAG_DENDRA_TRADE_DONE, RustboroCity_PokemonSchool_EventScript_DendraTradeCompleted
+	setvar VAR_0x8008, INGAME_TRADE_MEDITITE
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, RustboroCity_PokemonSchool_EventScript_DendraTradeLater
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox RustboroCity_PokemonSchool_Text_DendraGoodLuck, MSGBOX_DEFAULT
+	setflag FLAG_DENDRA_TRADE_DONE
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraTradeLater::
+	msgbox RustboroCity_PokemonSchool_Text_DendraTradeLater, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraTradeCompleted::
+	msgbox RustboroCity_PokemonSchool_Text_DendraGoodLuck, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_PokemonSchool_EventScript_DendraSpokeAlready::
+	msgbox RustboroCity_PokemonSchool_Text_DendraGoodLuck, MSGBOX_DEFAULT
+	release
+	end
+
 RustboroCity_PokemonSchool_EventScript_ScottSpokeAlready::
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_PokemonSchool_EventScript_ScottNoticeBadge
 	msgbox RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown, MSGBOX_DEFAULT
@@ -434,3 +522,46 @@ RustboroCity_PokemonSchool_EventScript_NemonaSpokeAlready::
 RustboroCity_PokemonSchool_Text_GoodLuck:
 	.string "NEMONA: Good luck with ROXANNE!\p"
 	.string "Don't forget to TERASTALIZE!$"
+
+RustboroCity_PokemonSchool_Text_DendraIntro:
+	.string "Osu, kid! You here to train for\n"
+	.string "the gym? I see the fighting spirit\n"
+	.string "in your eyes!\p"
+	.string "Call me DENDRA. I'm NEMONA's\n"
+	.string "instructor at the NARANJA ACADEMY.$"
+
+RustboroCity_PokemonSchool_Text_DendraWantToBattle:
+	.string "DENDRA: Want to warm up for your battle?\p"
+	.string "If you beat me I can give you something\n"
+	.string "that will thrash ROXANNE!$"
+
+RustboroCity_PokemonSchool_Text_DendraWantToTrade:
+	.string "You beat me fair and square.\n"
+	.string "How about we trade?$"
+
+RustboroCity_PokemonSchool_Text_DendraTalkToNemona:
+	.string "Hey, kid. That girl at the front wants\n"
+	.string "to talk to you.$"
+
+RustboroCity_PokemonSchool_Text_DendraBattleLater:
+	.string "Hey, I don't mind waiting!$"
+
+RustboroCity_PokemonSchool_Text_DendraDefeated::
+	.string "No way! I got crushed!$"
+	end
+
+RustboroCity_PokemonSchool_Text_DendraGift::
+	.string "Thanks for the battle!\p"
+	.string "I got a lot out of this. Us adults are\n"
+	.string "learning every day too!\p"
+	.string "But, you beat me fair and square.\n"
+	.string "How about we trade?$"
+	end
+
+RustboroCity_PokemonSchool_Text_DendraGoodLuck::
+	.string "Look after little Sippy for me!$"
+	end
+
+RustboroCity_PokemonSchool_Text_DendraTradeLater::
+	.string "We can always trade later!$"
+	end
