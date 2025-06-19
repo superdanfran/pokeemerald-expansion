@@ -1063,8 +1063,12 @@ static const struct InGameTrade sIngameTrades[] =
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_SKITTY,
-        .teraType = TYPE_FIRE,
-        .nature = NATURE_NAUGHTY
+        .teraType = TYPE_ELECTRIC,
+        .nature = NATURE_NAUGHTY,
+        .move1 = MOVE_THUNDER_PUNCH,
+        .move2 = MOVE_FIRE_PUNCH,
+        .move3 = MOVE_ICE_PUNCH,
+        .move4 = MOVE_BULLET_PUNCH
     }
 };
 

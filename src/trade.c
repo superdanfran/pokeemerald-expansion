@@ -163,6 +163,10 @@ struct InGameTrade {
     u16 requestedSpecies;
     u16 teraType;
     u16 nature;
+    u16 move1;
+    u16 move2;
+    u16 move3;
+    u16 move4;
 };
 
 static EWRAM_DATA u8 *sMenuTextTileBuffer = NULL;
@@ -4562,6 +4566,10 @@ static void CreateInGameTradePokemonInternal(u8 whichPlayerMon, u8 whichInGameTr
     SetMonData(pokemon, MON_DATA_MET_LOCATION, &metLocation);
     SetMonData(pokemon, MON_DATA_TERA_TYPE, &inGameTrade->teraType);
     SetMonData(pokemon, MON_DATA_HIDDEN_NATURE, &inGameTrade->nature);
+    SetMonData(pokemon, MON_DATA_MOVE1, &inGameTrade->move1);
+    SetMonData(pokemon, MON_DATA_MOVE2, &inGameTrade->move2);
+    SetMonData(pokemon, MON_DATA_MOVE3, &inGameTrade->move3);
+    SetMonData(pokemon, MON_DATA_MOVE4, &inGameTrade->move4);
 
     mailNum = 0;
     if (inGameTrade->heldItem != ITEM_NONE)
