@@ -41,3 +41,41 @@ EVs: 252 Atk / 252 SpA / 6 SpD
 - Protect
 - Solar Beam
 - Dragon Claw
+
+=== PARTNER_ARVEN ===
+Name: ARVEN
+Class: Rival
+Pic: Arven
+Gender: Male
+Music: Male
+
+Mabosstiff
+Ability: Intimidate
+Adamant Nature
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Psychic Fangs
+- Fire Fang
+- Play Rough
+
+Cloyster
+Ability: Skill Link
+Naive Nature
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Blast
+- Icicle Spear
+- Liquidation
+- Shell Smash
+
+Garganacl
+Ability: Purifying Salt
+Relaxed Nature
+Tera Type: Fairy
+Level: 38
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Press
+- Iron Defense
+- Salt Cure
+- Stone Edge

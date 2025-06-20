@@ -5227,15 +5227,15 @@ Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Blue
 
-Alomomola @ Sitrus Berry  
-Ability: Healer  
-Level: 20
+Mareanie @ Black Sludge
+Ability: Merciless
+Level: 19
+Relaxed Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Modest Nature  
-- Chilling Water  
-- Wide Guard  
-- Aqua Ring  
-- Icy Wind  
+- Wide Guard
+- Pin Missile
+- Poison Jab
+- Venoshock
 
 Drednaw @ Rindo Berry  
 Ability: Shell Armor  
@@ -5257,15 +5257,14 @@ Impish Nature
 - Ice Fang  
 - Flip Turn  
 
-Clodsire @ Focus Band
-Ability: Unaware
-Level: 20
+Corsola-Galar @ Eviolite
+Ability: Cursed Body
+Bold Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Quiet Nature
-- Acid Spray
-- Poison Sting
-- Mud-Slap
+- Ancient Power
+- Hex
 - Chilling Water
+- Protect
 
 Masquerain @ Life Orb
 Ability: Intimidate
