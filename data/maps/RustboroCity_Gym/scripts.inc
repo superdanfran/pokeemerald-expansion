@@ -26,7 +26,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	goto RustboroCity_Gym_EventScript_GiveRockTomb
-	goto RustboroCity_Gym_EventScript_GiveRockTeraShard
+	call RustboroCity_Gym_EventScript_GiveRockTeraShard
 	end
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
@@ -245,6 +245,7 @@ RustboroCity_Gym_Text_GymStatue:
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "RUSTBORO CITY POKéMON GYM\p"
 	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
+	.string "NEMONA\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
