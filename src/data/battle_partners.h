@@ -103,3 +103,85 @@
             },
         },
     },
+#line 45
+    [DIFFICULTY_NORMAL][PARTNER_ARVEN] =
+    {
+#line 46
+        .trainerName = _("ARVEN"),
+#line 47
+        .trainerClass = TRAINER_CLASS_RIVAL,
+#line 48
+        .trainerPic = TRAINER_BACK_PIC_STEVEN,
+        .encounterMusic_gender =
+#line 50
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .partySize = 3,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 52
+            .species = SPECIES_MABOSSTIFF,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 56
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 53
+            .ability = ABILITY_INTIMIDATE,
+#line 55
+            .lvl = 36,
+#line 54
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 57
+                MOVE_CRUNCH,
+                MOVE_PSYCHIC_FANGS,
+                MOVE_FIRE_FANG,
+                MOVE_PLAY_ROUGH,
+            },
+            },
+            {
+#line 62
+            .species = SPECIES_CLOYSTER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 66
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 63
+            .ability = ABILITY_SKILL_LINK,
+#line 65
+            .lvl = 36,
+#line 64
+            .nature = NATURE_NAIVE,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 67
+                MOVE_ROCK_BLAST,
+                MOVE_ICICLE_SPEAR,
+                MOVE_LIQUIDATION,
+                MOVE_SHELL_SMASH,
+            },
+            },
+            {
+#line 72
+            .species = SPECIES_GARGANACL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 77
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 73
+            .ability = ABILITY_PURIFYING_SALT,
+#line 76
+            .lvl = 38,
+#line 74
+            .nature = NATURE_RELAXED,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 75
+            .teraType = TYPE_FAIRY,
+            .moves = {
+#line 78
+                MOVE_BODY_PRESS,
+                MOVE_IRON_DEFENSE,
+                MOVE_SALT_CURE,
+                MOVE_STONE_EDGE,
+            },
+            },
+        },
+    },

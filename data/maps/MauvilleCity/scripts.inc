@@ -167,6 +167,7 @@ MauvilleCity_EventScript_DefeatedWally::
 	setflag FLAG_DEFEATED_WALLY_MAUVILLE
 	setvar VAR_WALLY_CALL_STEP_COUNTER, 0
 	setflag FLAG_ENABLE_FIRST_WALLY_POKENAV_CALL
+	clearflag FLAG_HIDE_MAUVILLE_RIKA
 	call_if_eq VAR_FACING, DIR_NORTH, MauvilleCity_EventScript_ScottApproachPlayerNorth
 	call_if_eq VAR_FACING, DIR_EAST, MauvilleCity_EventScript_ScottApproachPlayerEast
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
@@ -468,6 +469,52 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	releaseall
 	end
 
+MauvilleCity_EventScript_Rika::
+	lock
+	faceplayer
+	goto_if_set FLAG_MAUVILLE_RIKA_MET, MauvilleCity_EventScript_RikaMet
+	goto MauvilleCity_EventScript_RikaChallenge
+	release
+	end
+
+MauvilleCity_EventScript_RikaChallenge::
+	msgbox MauvilleCity_Text_RikaHeyKid, MSGBOX_DEFAULT
+	waitmessage
+	multichoicedefault 20, 8, MULTI_YESNO, 0, FALSE
+	switch VAR_RESULT
+	case 0, MauvilleCity_EventScript_RikaBattle
+	case 1, MauvilleCity_EventScript_RikaBattleLater
+	release
+	end
+
+MauvilleCity_EventScript_RikaBattle::
+	trainerbattle_no_intro TRAINER_RIKA_1, MauvilleCity_Text_RikaDefeated
+	goto MauvilleCity_EventScript_RikaDefeated
+	end
+
+MauvilleCity_EventScript_RikaBattleLater::
+	msgbox MauvilleCity_Text_RikaBattleLater, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_EventScript_RikaDefeated::
+	msgbox MauvilleCity_Text_RikaGift, MSGBOX_DEFAULT
+	setflag FLAG_RIKA_BATTLE
+	call MauvilleCity_EventScript_RikaTeraGift
+	msgbox MauvilleCity_Text_RikaGoodLuck, MSGBOX_DEFAULT
+	setflag FLAG_MAUVILLE_RIKA_MET
+	end
+
+MauvilleCity_EventScript_RikaTeraGift::
+	giveitem ITEM_GROUND_TERA_SHARD
+	waitfanfare
+	return
+
+MauvilleCity_EventScript_RikaMet::
+	msgbox MauvilleCity_Text_RikaGoodLuck, MSGBOX_DEFAULT
+	release
+	end
+
 MauvilleCity_Text_UncleHesTooPeppy:
 	.string "UNCLE: It's because of POKéMON that\n"
 	.string "this boy's got more pep, I suppose…\l"
@@ -678,3 +725,38 @@ MauvilleCity_Text_ExplainTV:
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
+
+MauvilleCity_Text_RikaHeyKid:
+	.string "Hey kiddo! You're {PLAYER}{KUN},\n"
+	.string "right? I heard you're a big shot.\p"
+	.string "My boss has sent me here to test you\n"
+	.string "a little.\p"
+	.string "Now, I know I'm not just a pretty face\n"
+	.string "but there's no need to be intimidated.\p"
+	.string "I bet you're strong enough. Besides,\n"
+	.string "I'll make it worth your while.\p"
+	.string "Beat me, and I'll give you a GROUND\n"
+	.string "TERA SHARD. We got a deal?$"
+
+MauvilleCity_Text_RikaChallengeYes:
+	.string "Sounds good, kiddo. But I'll warn you,\n"
+	.string "I'm not going to go easy on you.$"
+
+MauvilleCity_Text_RikaChallengeNo:
+	.string "Ah, shame.\p"
+	.string "Well, I'll be here for a little while\n"
+	.string "in case you change your mind.$"
+
+MauvilleCity_Text_RikaGift:
+	.string "Wow. You're something else, kiddo.\p"
+	.string "The Chairwoman was right to have her\n"
+	.string "eye on you. She's got a good eye for\n"
+	.string "talent\p"
+	.string "Well, a deal's a deal!$"
+
+MauvilleCity_Text_RikaDefeated:
+	.string "Not bad, kiddo."
+
+MauvilleCity_Text_RikaGoodLuck:
+	.string "When you fight Wattson,\n"
+	.string "remember to stay grounded. Heh.$"

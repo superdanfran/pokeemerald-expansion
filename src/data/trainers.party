@@ -5277,6 +5277,52 @@ Timid Nature
 - Air Slash
 - Stun Spore
 
+=== TRAINER_RIKA_1 ===
+Name: RIKA
+Class: Elite Four
+Pic: Nessa
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Green
+
+Clodsire @ Life Orb
+Ability: Water Absorb
+Level: 30
+Adamant Nature
+- Stomping Tantrum
+- Poison Jab
+- Toxic Spikes
+- Heavy Slam
+
+Zygarde-10 @ Yache Berry
+Ability: Aura Break
+Level: 30
+- Dragon Breath
+- Bulldoze
+- Stomping Tantrum
+- Bite
+
+Toedscruel @ Weakness Policy
+Ability: Mycelium Might
+Level: 30
+Timid Nature
+- Earth Power
+- Giga Drain
+- Spore
+- Leech Seed
+
+Dondozo @ Luminous Moss
+Ability: Unaware
+Level: 32  
+Tera Type: Ground
+Relaxed Nature
+- Chilling Water
+- Stomping Tantrum
+- Curse
+- Body Press
+
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
 Class: Leader
@@ -12494,7 +12540,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 Mugshot: Blue
-AI: Smart Trainer
+AI: Smart Trainer / Smart Switching
 
 Palafin @ Assault Vest
 Level: 34

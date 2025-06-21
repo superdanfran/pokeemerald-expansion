@@ -289,6 +289,9 @@ const u32 gTrainerPalette_Dendra[] = INCBIN_U32("graphics/trainers/front_pics/de
 const u32 gTrainerFrontPic_Nessa[] = INCBIN_U32("graphics/trainers/front_pics/nessa.4bpp.lz");
 const u32 gTrainerPalette_Nessa[] = INCBIN_U32("graphics/trainers/front_pics/nessa.gbapal.lz");
 
+const u32 gTrainerFrontPic_Rika[] = INCBIN_U32("graphics/trainers/front_pics/rika.4bpp.lz");
+const u32 gTrainerPalette_Rika[] = INCBIN_U32("graphics/trainers/front_pics/rika.gbapal.lz");
+
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red.4bpp");
@@ -413,6 +416,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_NEMONA, gTrainerFrontPic_Nemona, gTrainerPalette_Nemona),
     TRAINER_SPRITE(TRAINER_PIC_DENDRA, gTrainerFrontPic_Dendra, gTrainerPalette_Dendra),
     TRAINER_SPRITE(TRAINER_PIC_NESSA, gTrainerFrontPic_Nessa, gTrainerPalette_Nessa),
+    TRAINER_SPRITE(TRAINER_PIC_RIKA, gTrainerFrontPic_Rika, gTrainerPalette_Rika),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =
