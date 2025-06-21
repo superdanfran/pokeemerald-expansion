@@ -2584,7 +2584,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rika = {
     .tileTag = TAG_NONE, 
-    .paletteTag = OBJ_EVENT_PAL_TAG_RIKA, 
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1, 
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, 
     .size = 256, 
     .width = 16, 

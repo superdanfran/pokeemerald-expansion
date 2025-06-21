@@ -488,12 +488,13 @@ MauvilleCity_EventScript_RikaChallenge::
 	end
 
 MauvilleCity_EventScript_RikaBattle::
+	msgbox MauvilleCity_Text_RikaChallengeYes, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_RIKA_1, MauvilleCity_Text_RikaDefeated
 	goto MauvilleCity_EventScript_RikaDefeated
 	end
 
 MauvilleCity_EventScript_RikaBattleLater::
-	msgbox MauvilleCity_Text_RikaBattleLater, MSGBOX_DEFAULT
+	msgbox MauvilleCity_Text_RikaChallengeNo, MSGBOX_DEFAULT
 	release
 	end
 

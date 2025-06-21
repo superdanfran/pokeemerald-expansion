@@ -111,7 +111,7 @@
 #line 47
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 48
-        .trainerPic = TRAINER_BACK_PIC_STEVEN,
+        .trainerPic = TRAINER_BACK_PIC_BRENDAN,
         .encounterMusic_gender =
 #line 50
             TRAINER_ENCOUNTER_MUSIC_MALE,
