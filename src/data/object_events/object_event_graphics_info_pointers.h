@@ -237,6 +237,10 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphir
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rika;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Arven;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mina;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nemona;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nessa;
 // Begin pokemon event objects
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower;
@@ -493,6 +497,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_RIKA] =                     &gObjectEventGraphicsInfo_Rika,
+    [OBJ_EVENT_GFX_ARVEN] =                    &gObjectEventGraphicsInfo_Arven,
+    [OBJ_EVENT_GFX_MINA] =                     &gObjectEventGraphicsInfo_Mina,
+    [OBJ_EVENT_GFX_NEMONA] =                   &gObjectEventGraphicsInfo_Nemona,
+    [OBJ_EVENT_GFX_NESSA] =                    &gObjectEventGraphicsInfo_Nessa,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
 };
 
