@@ -381,7 +381,12 @@
 #define OBJ_EVENT_PAL_TAG_LUGIA                   0x1121
 #define OBJ_EVENT_PAL_TAG_RS_BRENDAN              0x1122
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
-#define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1124
+#define OBJ_EVENT_PAL_TAG_RIKA                    0x1124
+#define OBJ_EVENT_PAL_TAG_NEMONA                  0x1125
+#define OBJ_EVENT_PAL_TAG_MINA                    0x1126
+#define OBJ_EVENT_PAL_TAG_NESSA                   0x1127
+#define OBJ_EVENT_PAL_TAG_ARVEN                   0x1128
+#define OBJ_EVENT_PAL_TAG_DYNAMIC                 0x1129
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

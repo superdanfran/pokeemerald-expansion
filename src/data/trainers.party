@@ -5259,6 +5259,7 @@ Impish Nature
 
 Corsola-Galar @ Eviolite
 Ability: Cursed Body
+Level: 20
 Bold Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Ancient Power
@@ -5280,7 +5281,7 @@ Timid Nature
 === TRAINER_RIKA_1 ===
 Name: RIKA
 Class: Elite Four
-Pic: Nessa
+Pic: Rika
 Gender: Female
 Music: Female
 Double Battle: No

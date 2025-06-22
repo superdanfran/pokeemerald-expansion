@@ -1,3 +1,5 @@
+.set LOCALID_ARVEN, 5
+
 FallarborTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_OnTransition
 	.byte 0
@@ -6,6 +8,76 @@ FallarborTown_OnTransition:
 	setflag FLAG_VISITED_FALLARBOR_TOWN
 	setvar VAR_CONTEST_HALL_STATE, 0
 	clearflag FLAG_CONTEST_SKETCH_CREATED
+	end
+
+FallarborTown_EventScript_ArvenScene1::
+	lockall
+	setvar VAR_0x8008, 1
+	goto FallarborTown_EventScript_ArvenScene
+
+FallarborTown_EventScript_ArvenScene2::
+	lockall
+	setvar VAR_0x8008, 2
+	goto FallarborTown_EventScript_ArvenScene
+
+FallarborTown_EventScript_ArvenScene3::
+	lockall
+	setvar VAR_0x8008, 3
+	goto FallarborTown_EventScript_ArvenScene
+
+FallarborTown_EventScript_ArvenScene4::
+	lockall
+	setvar VAR_0x8008, 4
+	goto FallarborTown_EventScript_ArvenScene
+
+FallarborTown_EventScript_ArvenScene5::
+	lockall
+	setvar VAR_0x8008, 5
+	goto FallarborTown_EventScript_ArvenScene
+
+FallarborTown_EventScript_ArvenScene::
+	addobject LOCALID_ARVEN
+	applymovement LOCALID_BIRCH, Route110_Movement_BirchEntrance
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_BIRCH, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_BIRCH, Common_Movement_Delay48
+	waitmovement 0
+	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchApproachPlayer1
+	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchApproachPlayer2
+	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchApproachPlayer3
+	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchApproachPlayer4
+	msgbox Route110_Text_ImagineSeeingYouHere, MSGBOX_DEFAULT
+	closemessage
+	delay 20
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	delay 10
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	delay 20
+	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	delay 30
+	msgbox Route110_Text_HeardYouInstallMatchCall, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox Route110_Text_RegisteredBirchInPokenav, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
+	msgbox Route110_Text_KeepAnEyeOutForRival, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchExit1
+	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchExit2
+	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchExit3
+	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchExit4
+	removeobject LOCALID_BIRCH
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	releaseall
 	end
 
 FallarborTown_EventScript_ExpertM::

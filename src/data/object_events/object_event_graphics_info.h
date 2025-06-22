@@ -2584,7 +2584,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rika = {
     .tileTag = TAG_NONE, 
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1, 
+    .paletteTag = OBJ_EVENT_PAL_TAG_RIKA, 
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, 
     .size = 256, 
     .width = 16, 
@@ -2603,7 +2603,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rika = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Arven = {
     .tileTag = TAG_NONE, 
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1, 
+    .paletteTag = OBJ_EVENT_PAL_TAG_ARVEN, 
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, 
     .size = 256, 
     .width = 16, 
@@ -2622,7 +2622,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Arven = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mina = {
     .tileTag = TAG_NONE, 
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1, 
+    .paletteTag = OBJ_EVENT_PAL_TAG_MINA,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, 
     .size = 256, 
     .width = 16, 
@@ -2641,7 +2641,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mina = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nemona = {
     .tileTag = TAG_NONE, 
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1, 
+    .paletteTag = OBJ_EVENT_PAL_TAG_NEMONA,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, 
     .size = 256, 
     .width = 16, 
@@ -2660,7 +2660,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nemona = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nessa = {
     .tileTag = TAG_NONE, 
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1, 
+    .paletteTag = OBJ_EVENT_PAL_TAG_NESSA,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, 
     .size = 256, 
     .width = 16, 

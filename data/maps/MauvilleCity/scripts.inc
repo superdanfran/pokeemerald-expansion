@@ -502,8 +502,8 @@ MauvilleCity_EventScript_RikaDefeated::
 	msgbox MauvilleCity_Text_RikaGift, MSGBOX_DEFAULT
 	setflag FLAG_RIKA_BATTLE
 	call MauvilleCity_EventScript_RikaTeraGift
-	msgbox MauvilleCity_Text_RikaGoodLuck, MSGBOX_DEFAULT
 	setflag FLAG_MAUVILLE_RIKA_MET
+	release
 	end
 
 MauvilleCity_EventScript_RikaTeraGift::
@@ -751,8 +751,8 @@ MauvilleCity_Text_RikaChallengeNo:
 MauvilleCity_Text_RikaGift:
 	.string "Wow. You're something else, kiddo.\p"
 	.string "The Chairwoman was right to have her\n"
-	.string "eye on you. She's got a good eye for\n"
-	.string "talent\p"
+	.string "eye on you. She's got a good eye for\p"
+	.string "talent.\p"
 	.string "Well, a deal's a deal!$"
 
 MauvilleCity_Text_RikaDefeated:
