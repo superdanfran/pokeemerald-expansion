@@ -152,6 +152,7 @@ DewfordTown_Gym_EventScript_NessaDefeated::
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
+	addvar VAR_ARVEN_STATE, 1
 	call Common_EventScript_SetGymTrainers
 	call DewfordTown_Gym_EventScript_GiveChillingWater
 	call DewfordTown_Gym_EventScript_GiveWaterTeraShard

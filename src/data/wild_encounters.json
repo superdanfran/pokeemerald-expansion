@@ -1974,7 +1974,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CARBINK"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 15,
@@ -2043,7 +2043,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CUFANT"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 15,
@@ -2467,17 +2467,17 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CARBINK"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CARBINK"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CARBINK"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 15,
@@ -4625,7 +4625,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_CARBINK"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 15,

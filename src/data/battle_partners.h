@@ -122,6 +122,8 @@
 #line 52
             .species = SPECIES_MABOSSTIFF,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 52
+            .heldItem = ITEM_ROCKY_HELMET,
 #line 56
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 53
@@ -143,6 +145,8 @@
 #line 62
             .species = SPECIES_CLOYSTER,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 62
+            .heldItem = ITEM_SALAC_BERRY,
 #line 66
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 63
@@ -164,6 +168,8 @@
 #line 72
             .species = SPECIES_GARGANACL,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 72
+            .heldItem = ITEM_LEFTOVERS,
 #line 77
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 73

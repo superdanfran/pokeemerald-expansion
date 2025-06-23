@@ -3828,6 +3828,7 @@ AI: Basic Trainer
 Ninetales @ Wise Glasses
 Ability: Drought
 Timid Nature
+Level: 34
 IVs: 0 Atk
 - Energy Ball
 - Will-O-Wisp
@@ -3836,6 +3837,7 @@ IVs: 0 Atk
 
 Typhlosion @ Choice Specs
 Ability: Blaze
+Level: 36
 Quiet Nature
 IVs: 0 Atk  
 - Eruption
@@ -3843,6 +3845,7 @@ IVs: 0 Atk
 Leavanny @ Muscle Band
 Ability: Chlorophyll
 Adamant Nature
+Level: 34
 - Tera Blast
 - Seed Bomb
 - Triple Axel
@@ -3850,6 +3853,7 @@ Adamant Nature
 
 Heliolisk @ Wise Glasses
 Ability: Solar Power
+Level: 36
 Tera Type: Electric
 Modest Nature
 IVs: 0 Atk
@@ -5384,6 +5388,67 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Charge Beam
 - Thunder Wave
 - Psychic
+
+=== TRAINER_ARVEN_1 ===
+Name: ARVEN
+Class: Rival
+Pic: Arven
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer / Ace Pokemon / Prediction
+Mugshot: Yellow
+
+Bombirdier @ Life Orb
+Ability: Rocky Payload
+Naughty Nature
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dual Wingbeat
+- Tailwind
+- Stealth Rock
+- Rock Slide
+
+Mabosstiff @ Rocky Helmet
+Ability: Intimidate
+Adamant Nature
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Psychic Fangs
+- Fire Fang
+- Play Rough
+
+Orthworm @ Assault Vest
+Ability: Earth Eater
+Bold Nature
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Press
+- Bulldoze
+- Iron Head
+- Heavy Slam
+
+Cloyster @ Salac Berry
+Ability: Skill Link
+Naive Nature
+Level: 36
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Blast
+- Icicle Spear
+- Liquidation
+- Shell Smash
+
+Garganacl @ Leftovers
+Ability: Purifying Salt
+Relaxed Nature
+Tera Type: Fairy
+Level: 38
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Press
+- Iron Defense
+- Salt Cure
+- Stone Edge
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -10757,7 +10822,7 @@ AI: Basic Trainer
 
 Sprigatito
 Ability: Protean
-Level: 10
+Level: 7
 Hasty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10842,7 +10907,7 @@ AI: Basic Trainer
 
 Fuecoco
 Ability: Unaware
-Level: 10
+Level: 7
 Mild Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10928,7 +10993,7 @@ AI: Basic Trainer
 
 Quaxly
 Ability: Moxie
-Level: 10
+Level: 7
 Lonely Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13020,6 +13085,9 @@ AI: Basic Trainer
 
 Hippowdon @ Leftovers
 Ability: Sand Stream
+Level: 34
+Impish Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Crunch
 - Slack Off
 - High Horsepower
@@ -13027,6 +13095,9 @@ Ability: Sand Stream
 
 Gabite @ Eviolite
 Ability: Rough Skin
+Level: 34
+Adamant Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dragon Claw
 - Rock Tomb
 - Bulldoze
@@ -13034,6 +13105,9 @@ Ability: Rough Skin
 
 Orthworm @ Chople Berry
 Ability: Earth Eater
+Level: 34
+Naughty Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Body Press
 - Coil
 - Heavy Slam
@@ -13041,7 +13115,10 @@ Ability: Earth Eater
 
 Probopass @ Air Balloon
 Ability: Sand Force
+Level: 36
 Tera Type: Rock
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Flash Cannon
 - Discharge
 - Power Gem
@@ -13057,7 +13134,10 @@ Double Battle: No
 AI: Basic Trainer
 
 Rillaboom @ Normal Gem
+Level: 36
 Ability: Overgrow
+Adamant Nature
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Grassy Glide
 - Fake Out
 - Acrobatics
@@ -13066,7 +13146,8 @@ Ability: Overgrow
 Sinistcha @ Bright Powder
 Ability: Hospitality
 Tera Type: Grass
-IVs: 0 Atk
+Level: 36
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Life Dew
 - Matcha Gotcha
 - Scald
@@ -14994,6 +15075,9 @@ AI: Basic Trainer
 
 Gogoat @ Assault Vest
 Ability: Grass Pelt
+Level: 35
+Naughty Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Horn Leech
 - Zen Headbutt
 - Bulk Up
@@ -15001,7 +15085,9 @@ Ability: Grass Pelt
 
 Ampharos @ Wise Glasses
 Ability: Mold Breaker
-IVs: 0 Atk
+Level: 36
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dragon Pulse
 - Thunderbolt
 - Dazzling Gleam
@@ -15009,6 +15095,9 @@ IVs: 0 Atk
 
 Sawsbuck @ Quick Claw
 Ability: Serene Grace
+Level: 36
+Adamant Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Tera Type: Electric
 - Horn Leech
 - Play Rough

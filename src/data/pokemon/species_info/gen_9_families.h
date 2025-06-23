@@ -2557,7 +2557,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .levelUpLearnset = sWattrelLevelUpLearnset,
         .teachableLearnset = sWattrelTeachableLearnset,
         .eggMoveLearnset = sWattrelEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_KILOWATTREL}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_KILOWATTREL}),
     },
 
     [SPECIES_KILOWATTREL] =
