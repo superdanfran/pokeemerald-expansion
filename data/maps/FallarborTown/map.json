@@ -134,8 +134,8 @@
       "x": 13,
       "y": 8,
       "elevation": 0,
-      "var": "VAR_ARVEN_STATE",
-      "var_value": "1",
+      "var": "VAR_FALLARBOR_TOWN_STATE",
+      "var_value": "0",
       "script": "FallarborTown_EventScript_ArvenScene1"
     },
     {
@@ -143,8 +143,8 @@
       "x": 13,
       "y": 9,
       "elevation": 0,
-      "var": "VAR_ARVEN_STATE",
-      "var_value": "1",
+      "var": "VAR_FALLARBOR_TOWN_STATE",
+      "var_value": "0",
       "script": "FallarborTown_EventScript_ArvenScene2"
     },
     {
@@ -152,8 +152,8 @@
       "x": 13,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_ARVEN_STATE",
-      "var_value": "1",
+      "var": "VAR_FALLARBOR_TOWN_STATE",
+      "var_value": "0",
       "script": "FallarborTown_EventScript_ArvenScene3"
     },
     {
@@ -161,8 +161,8 @@
       "x": 13,
       "y": 11,
       "elevation": 0,
-      "var": "VAR_ARVEN_STATE",
-      "var_value": "1",
+      "var": "VAR_FALLARBOR_TOWN_STATE",
+      "var_value": "0",
       "script": "FallarborTown_EventScript_ArvenScene4"
     },
     {
@@ -170,8 +170,8 @@
       "x": 13,
       "y": 12,
       "elevation": 0,
-      "var": "VAR_ARVEN_STATE",
-      "var_value": "1",
+      "var": "VAR_FALLARBOR_TOWN_STATE",
+      "var_value": "0",
       "script": "FallarborTown_EventScript_ArvenScene5"
     }
   ],

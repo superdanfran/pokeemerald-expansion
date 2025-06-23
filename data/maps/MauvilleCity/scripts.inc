@@ -750,13 +750,14 @@ MauvilleCity_Text_RikaChallengeNo:
 
 MauvilleCity_Text_RikaGift:
 	.string "Wow. You're something else, kiddo.\p"
-	.string "The Chairwoman was right to have her\n"
-	.string "eye on you. She's got a good eye for\p"
-	.string "talent.\p"
+	.string "The Chairwoman was right to have\n"
+	.string "her eye on you.\p"
+	.string "She's got a good eye for talent.\p"
 	.string "Well, a deal's a deal!$"
 
 MauvilleCity_Text_RikaDefeated:
-	.string "Not bad, kiddo."
+	.string "Not bad, kiddo.$"
+	end
 
 MauvilleCity_Text_RikaGoodLuck:
 	.string "When you fight Wattson,\n"

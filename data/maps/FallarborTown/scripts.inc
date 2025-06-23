@@ -62,7 +62,7 @@ FallarborTown_EventScript_ArvenScene::
 	call_if_eq VAR_0x8008, 5, FallarborTown_EventScript_ArvenExit5
 	setflag FLAG_HIDE_FALLARBOR_ARVEN
 	removeobject LOCALID_ARVEN
-	setvar VAR_ARVEN_STATE, 2
+	setvar VAR_FALLARBOR_TOWN_STATE, 1
 	releaseall
 	end
 
@@ -216,6 +216,7 @@ FallarborTown_Movement_ArvenExit5:
 FallarborTown_EventScript_ArvenBattle::
 	trainerbattle_no_intro TRAINER_ARVEN_1, FallarborTown_Text_ArvenDefeated
 	return
+	end
 
 FallarborTown_EventScript_ExpertM::
 	lock
@@ -304,18 +305,22 @@ FallarborTown_Text_MoveTutorSign:
 
 FallarborTown_Text_YouLookStrong:
 	.string "Hey, {PLAYER}{KUN}. Good to meet you.\p"
-	.string "NEMONA told me about you, said you're\n"
-	.string "strong.\p"
-	.string "So, uh. I need some help with something.\n"
-	.string "But I need to know you're up to the task.\p"
+	.string "NEMONA told me about you, said\n"
+	.string "you're strong.\p"
+	.string "So, uh. I need some help\n"
+	.string "with something. But I need to know\p"
+	.string "you're up to the task.\n"
 	.string "I'm gonna have to test you myself!$"
 
 FallarborTown_Text_ArvenDefeated:
-	.string "Dang… You are strong after all."
+	.string "Dang… You are strong after all.$"
+	end
 
 FallarborTown_Text_ComeToMeteorFalls:
-	.string "Will you help me then? I was looking for\n"
-	.string "something by METEOR FALLS and there were\p"
-	.string "these bad guys hanging out there. I was\n"
-	.string "outnumbered, so I couldn't take them.\p"
+	.string "Will you help me then? I was looking\n"
+	.string "for something by METEOR FALLS\p"
+	.string " and there were these bad guys\n"
+	.string "hanging out there.\p"
+	.string "I was outnumbered, so I couldn't\n"
+	.string "take them.\p"
 	.string "I'll meet you there, yeah?$"
