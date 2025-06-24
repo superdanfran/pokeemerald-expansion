@@ -5251,15 +5251,15 @@ Adamant Nature
 - Protect  
 - Jaw Lock  
 
-Veluza @ Shed Shell  
-Ability: Mold Breaker  
+Basculin-White-Striped @ Kings Rock  
+Ability: Adaptability  
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Impish Nature  
 - Aqua Jet  
-- Tackle  
-- Ice Fang  
-- Flip Turn  
+- Bite  
+- Scale Shot
+- Headbutt 
 
 Corsola-Galar @ Eviolite
 Ability: Cursed Body
@@ -6807,19 +6807,21 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Squawkabilly-White
+Squawkabilly-White @ Eject Pack
 Ability: Intimidate
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bold Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Tailwind
 - Parting Shot
 - Reversal
 - Aerial Ace
 
-Mabosstiff
+Mabosstiff @ Berserk Gene
 Ability: Intimidate
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Naughty Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Jaw Lock
 - Comeuppance
 - Play Rough
@@ -6828,7 +6830,9 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Squawkabilly-Green @ Flame Orb
 Ability: Guts
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tera Type: Normal
+Adamant Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Facade
 - Protect
 - U-turn
@@ -6843,19 +6847,31 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Orthworm
-Ability: Earth Eater
+Copperajah @ Metal Coat
+Ability: Heavy Metal
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bold Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Iron Head
-- High Horsepower
-- Body Press
+- Heavy Slam
+- Zen Headbutt
 - Rock Slide
+
+Hakamo-o @ Razor Claw
+Ability: Soundproof
+Level: 36
+Hardy Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dragon Claw
+- Brick Break
+- Scale Shot
+- Dragon Cheer
 
 Gliscor @ Toxic Orb
 Ability: Poison Heal
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Adamant Nature
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunder Fang
 - Ice Fang
 - Fire Fang
@@ -8513,18 +8529,21 @@ AI: Basic Trainer
 Weezing
 Ability: Neutralizing Gas
 Level: 34
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Explosion
 
 Weezing-Galar
 Ability: Misty Surge
 Level: 34
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Misty Explosion
 
 Exeggutor
 Ability: Chlorophyll
 Level: 34
+Naughty Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Explosion
 
@@ -8868,6 +8887,7 @@ AI: Basic Trainer / Prefer Status Moves
 Lilligant
 Ability: Own Tempo
 Level: 36
+Rash Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Petal Dance
 - Teeter Dance
@@ -8877,6 +8897,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Oricorio-Baile
 Ability: Dancer
 Level: 36
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Revelation Dance
 - Teeter Dance
@@ -8886,6 +8907,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Ribombee
 Ability: Shield Dust
 Level: 36
+Modest Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dazzling Gleam
 - Pollen Puff
@@ -8895,10 +8917,21 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Oricorio-Sensu
 Ability: Dancer
 Level: 36
+Brave Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Revelation Dance
 - Teeter Dance
 - Air Slash
+- Dual Wingbeat
+
+Scyther
+Ability: Technician
+Level: 36
+Adamant Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Tailwind
+- Pounce
 - Dual Wingbeat
 
 === TRAINER_CLARISSA ===
@@ -13033,12 +13066,14 @@ AI: Basic Trainer
 Golem @ Custap Berry
 Ability: Sturdy
 Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Naughty Nature
+IVs: 0 HP / 25 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Explosion
 
-Sawk
+Sawk @ Life Orb
 Ability: Sturdy
 Level: 34
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Retaliate
 
@@ -13053,6 +13088,7 @@ AI: Basic Trainer
 
 Minior @ Power Herb
 Level: 34
+Hardy Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Meteor Beam
 - Power Gem
@@ -13060,6 +13096,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Solrock @ Terrain Extender
 Level: 34
+Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic Terrain
 - Zen Headbutt
@@ -13068,6 +13105,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Lunatone @ Psychic Seed
 Level: 34
+Tera Type: Psychic
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Trick Room
 - Stored Power
@@ -14251,7 +14290,8 @@ AI: Basic Trainer
 Clefairy @ Eviolite
 Ability: Friend Guard
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bold Nature
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Follow Me
 - Helping Hand
 - After You
@@ -14260,7 +14300,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Maushold @ Assault Vest
 Ability: Friend Guard
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rash Nature
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Hyper Voice
 - Bullet Seed
 - Water Pulse
@@ -14269,7 +14310,9 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Vivillon @ Focus Sash
 Ability: Friend Guard
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tera Type: Bug
+Modest Nature
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Quiver Dance
 - Bug Buzz
 
@@ -14969,7 +15012,8 @@ AI: Basic Trainer / Double Battle
 Grafaiai @ Bright Powder
 Ability: Prankster
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sassy Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flatter
 - Helping Hand
 - Toxic
@@ -14978,7 +15022,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Morgrem @ Iron Ball
 Ability: Prankster
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Calm Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Trick
 - Thunder Wave
 - Light Screen
@@ -15002,9 +15047,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psyshock
 - Shadow Ball
 
-Corviknight
+Corviknight @ Rocky Helmet
 Ability: Mirror Armor
 Level: 36
+Impish Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bulk Up
 - Dual Wingbeat
@@ -15037,28 +15083,32 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Venusaur
+Venusaur @ Life Orb
 Ability: Overgrow
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Grass Pledge
+Serious Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Energy Ball
 - Sludge Bomb
 - Earth Power
 - Knock Off
 
-Dugtrio
+Dugtrio @ Assault Vest
 Ability: Arena Trap
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Naughty Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Sucker Punch
 - Earthquake
 - Night Slash
 - Rock Slide
 
-Electabuzz
+Electabuzz @ Muscle Band
 Ability: Static
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tera Type: Flying
+Adamant Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Thunder Punch
 - Fire Punch
 - Ice Punch
@@ -15627,7 +15677,8 @@ AI: Basic Trainer / Double Battle
 Torkoal @ Heat Rock
 Ability: Drought
 Level: 35
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Quiet Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
 - Rapid Spin
 - Smokescreen
 - Flamethrower
@@ -15636,6 +15687,8 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Heliolisk @ Life Orb
 Ability: Solar Power
 Level: 35
+Tera Type: Normal
+Modest Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Electroweb
 - Thunderbolt
@@ -15654,6 +15707,8 @@ AI: Basic Trainer / Double Battle
 Lilligant @ Miracle Seed
 Ability: Chlorophyll
 Level: 35
+Tera Type: Water
+Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Solar Blade
 - Victory Dance
@@ -15663,6 +15718,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Sawsbuck-Summer @ Assault Vest
 Ability: Chlorophyll
 Level: 35
+Naughty Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Horn Leech
 - Swords Dance
