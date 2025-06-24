@@ -100,6 +100,11 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	special DrawWholeMapView
 	playse SE_UNLOCK
 	call MauvilleCity_Gym_EventScript_GiveShockWave
+	call MauvilleCity_Gym_EventScript_GiveElectricTeraShard
+	giveitem ITEM_WATER_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_WATER_TERA_SHARD
+	return
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -124,6 +129,12 @@ MauvilleCity_Gym_EventScript_GiveShockWave::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
+	return
+
+DewfordTown_Gym_EventScript_GiveElectricTeraShard::
+	giveitem ITEM_ELECTRIC_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_ELECTRIC_TERA_SHARD
 	return
 
 MauvilleCity_Gym_EventScript_CompletedNewMauville::
