@@ -87,7 +87,7 @@ MauvilleCity_EventScript_UncleAskPlayerToBattleWally::
 MauvilleCity_EventScript_UncleWallyNotHere::
 	msgbox MauvilleCity_Text_UncleCanYouFindWally, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
 	end
