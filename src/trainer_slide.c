@@ -101,6 +101,13 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINERS_COUNT][TRAINER_
             [TRAINER_SLIDE_ENEMY_MON_UNAFFECTED] = COMPOUND_STRING("You look shocked! Wahahahah!{PAUSE_UNTIL_PRESS}"),
             [TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("Wahahahah!{PAUSE_UNTIL_PRESS}"),
             [TRAINER_SLIDE_PLAYER_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("You look like you have a lot of zip!{PAUSE_UNTIL_PRESS}"),
+        },
+        [TRAINER_ARVEN_1] =
+        {
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("Seriously, you're this strong?{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_ENEMY_MON_UNAFFECTED] = COMPOUND_STRING("We're tougher than you think.{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("I'm getting pumped up!{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_PLAYER_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("Woah! You don't hold back!{PAUSE_UNTIL_PRESS}"),
         }
     },
 };

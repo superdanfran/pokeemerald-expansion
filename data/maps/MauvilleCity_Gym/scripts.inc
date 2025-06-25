@@ -131,7 +131,7 @@ MauvilleCity_Gym_EventScript_GiveShockWave::
 	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
 	return
 
-DewfordTown_Gym_EventScript_GiveElectricTeraShard::
+MauvilleCity_Gym_EventScript_GiveElectricTeraShard::
 	giveitem ITEM_ELECTRIC_TERA_SHARD
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_ELECTRIC_TERA_SHARD

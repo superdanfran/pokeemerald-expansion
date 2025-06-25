@@ -1865,7 +1865,8 @@ AI: Smart Trainer / Force Setup First Turn
 Ninetales-Alola @ Icy Rock
 Ability: Snow Warning
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Bold Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
 - Freeze-Dry
 - Aurora Veil
 - Dazzling Gleam
@@ -1874,16 +1875,18 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Slowking-Galar @ Leftovers
 Ability: Curious Medicine
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sassy Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
 - Chilly Reception
 - Trick Room
 - Heal Pulse
 - Psychic Noise
 
-Arctovish
+Arctovish @ Sitrus Berry
 Ability: Ice Body
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Adamant Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
 - Fishious Rend
 - Aurora Veil
 - Protect
@@ -1892,7 +1895,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Eiscue
 Ability: Ice Face
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Quiet Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
 - Snowscape
 - Aurora Veil
 - Chilling Water
@@ -1901,7 +1905,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Froslass @ Spell Tag
 Ability: Snow Cloak
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Modest Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
 - Shadow Ball
 - Will-O-Wisp
 - Ice Beam
@@ -3829,7 +3834,7 @@ Ninetales @ Wise Glasses
 Ability: Drought
 Timid Nature
 Level: 34
-IVs: 0 Atk
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Energy Ball
 - Will-O-Wisp
 - Scorching Sands
@@ -3839,13 +3844,15 @@ Typhlosion @ Choice Specs
 Ability: Blaze
 Level: 36
 Quiet Nature
-IVs: 0 Atk  
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Eruption
 
 Leavanny @ Muscle Band
 Ability: Chlorophyll
 Adamant Nature
+Tera Type: Fire
 Level: 34
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Tera Blast
 - Seed Bomb
 - Triple Axel
@@ -3854,9 +3861,8 @@ Level: 34
 Heliolisk @ Wise Glasses
 Ability: Solar Power
 Level: 36
-Tera Type: Electric
 Modest Nature
-IVs: 0 Atk
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Grass Knot
 - Thunderbolt
 - Dragon Pulse
@@ -4030,21 +4036,52 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Rain Dance
 
 === TRAINER_SHANE ===
-Name: SHANE
+Name: HAPPY
 Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Prefer Baton Pass
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cyclizar @ Heavy-Duty Boots  
+Ability: Regenerator  
+Level: 36   
+Hasty Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Shed Tail  
+- Hyper Voice  
+- Shift Gear  
+- Breaking Swipe  
 
-Nuzleaf
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golisopod @ Rocky Helmet  
+Ability: Emergency Exit  
+Level: 34 
+Adamant Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- U-turn  
+- First Impression  
+
+Ambipom @ Kings Rock  
+Ability: Skill Link  
+Level: 34
+Tera Type: Ghost  
+Jolly Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out  
+- Nasty Plot  
+- Baton Pass  
+- Fury Swipes  
+
+Lurantis (F) @ Mental Herb  
+Ability: Contrary  
+Level: 36  
+Naive Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Leaf Storm  
+- Leaf Blade  
+- X-Scissor  
+- Substitute  
 
 === TRAINER_JUSTIN ===
 Name: JUSTIN
@@ -9613,6 +9650,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Golem-Alola @ Magnet
 Ability: Galvanize
 Tera Type: Flying
+Level: 35
 Jolly Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Explosion
@@ -13164,7 +13202,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tera Blast
 
 === TRAINER_LUCAS_1 ===
-Name: LUCAS
+Name: LENNY
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -13174,7 +13212,7 @@ AI: Basic Trainer
 
 Rillaboom @ Normal Gem
 Level: 36
-Ability: Overgrow
+Ability: Grassy Surge
 Adamant Nature
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Grassy Glide
@@ -13186,6 +13224,7 @@ Sinistcha @ Bright Powder
 Ability: Hospitality
 Tera Type: Grass
 Level: 36
+Modest Nature
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Life Dew
 - Matcha Gotcha
@@ -14345,26 +14384,48 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Name: TYRA & IVY
 Class: Sr And Jr
 Pic: Sr And Jr
-Gender: Male
+Gender: Female
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer
 
-Roselia
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growth
-- Stun Spore
-- Mega Drain
-- Leech Seed
+Serperior @ Covert Cloak  
+Ability: Overgrow 
+Level: 34
+Jolly Nature
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Glare  
+- Coil  
+- Leaf Blade  
+- Knock Off  
 
-Graveler
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Rollout
-- Mud Sport
-- Rock Throw
+Maushold-Four @ Bright Powder  
+Ability: Friend Guard 
+Jolly Nature  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Follow Me  
+- Helping Hand  
+- Thunder Wave  
+- Play Rough  
+
+Minior @ White Herb  
+Ability: Shields Down
+Level: 34
+Adamant Nature  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Acrobatics  
+- Shell Smash  
+- Rock Slide  
+- Iron Head  
+
+Klefki @ Iron Ball  
+Ability: Prankster  
+Timid Nature  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dazzling Gleam  
+- Switcheroo  
+- Calm Mind  
+- Flash Cannon  
 
 === TRAINER_MEL_AND_PAUL ===
 Name: MEL & PAUL
