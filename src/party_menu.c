@@ -1297,19 +1297,8 @@ void ItemUseCB_EndlessCandy(u8 taskId, TaskFunc task)
     u32 CandyCap = 100;
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
 
-    /*for (i = 0; i < NUM_SOFT_CAPS; i++)
-    {
-        if (!FlagGet(sLevelCapFlags[i]))
-        {
-            CandyCap = sLevelCaps[i];
-            break;
-        }
-    }*/
-
-
-
-    if (sInitialLevel != MAX_LEVEL)
-    /*if (!(B_RARE_CANDY_CAP && sInitialLevel >= GetCurrentLevelCap()))*/
+    
+    if (sInitialLevel < MAX_LEVEL)
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
         cannotUseEffect = ExecuteTableBasedItemEffect(mon, *itemPtr, gPartyMenu.slotId, 0);
@@ -1322,33 +1311,33 @@ void ItemUseCB_EndlessCandy(u8 taskId, TaskFunc task)
     PlaySE(SE_SELECT);
     if (cannotUseEffect)
     {
-        u32 targetSpecies = SPECIES_NONE;
-        bool32 canStopEvo = TRUE;
+        u16 targetSpecies = SPECIES_NONE;
 
         // Resets values to 0 so other means of teaching moves doesn't overwrite levels
         sInitialLevel = 0;
         sFinalLevel = 0;
+        bool32 canStopEvo = TRUE;
 
-        if (holdEffectParam == 0) // Rare Candy
-        {
+        if (holdEffectParam == 0)
             targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_NORMAL, ITEM_NONE, NULL, &canStopEvo, CHECK_EVO);
-        }
 
         if (targetSpecies != SPECIES_NONE)
         {
-            GetEvolutionTargetSpecies(mon, EVO_MODE_NORMAL, ITEM_NONE, NULL, &canStopEvo, DO_EVO);
-            RemoveBagItem(gSpecialVar_ItemId, 1);
+
             FreePartyPointers();
             gCB2_AfterEvolution = gPartyMenu.exitCallback;
-            BeginEvolutionScene(mon, targetSpecies, canStopEvo, gPartyMenu.slotId);
+            BeginEvolutionScene(mon, targetSpecies, TRUE, gPartyMenu.slotId);
             DestroyTask(taskId);
         }
         else
         {
-            gPartyMenuUseExitCallback = FALSE;
+            gPartyMenuUseExitCallback = TRUE;
             DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
             ScheduleBgCopyTilemapToVram(2);
-            gTasks[taskId].func = task;
+            if (gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD)
+                gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
+            else
+                gTasks[taskId].func = task;
         }
     }
     else
@@ -1356,7 +1345,7 @@ void ItemUseCB_EndlessCandy(u8 taskId, TaskFunc task)
         sFinalLevel = GetMonData(mon, MON_DATA_LEVEL, NULL);
         gPartyMenuUseExitCallback = TRUE;
         UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
-        RemoveBagItem(gSpecialVar_ItemId, 1);
+
         GetMonNickname(mon, gStringVar1);
         if (sFinalLevel > sInitialLevel)
         {
