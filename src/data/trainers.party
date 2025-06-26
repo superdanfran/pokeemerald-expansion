@@ -10480,6 +10480,84 @@ Seviper
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+=== TRAINER_GRUNT_METEOR_FALLS ===
+Name: PERCY
+Class: Team Magma
+Pic: Magma Grunt M
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: Basic Trainer
+
+Amoonguss @ Occa Berry
+Ability: Effect Spore
+Bold Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rage Powder
+- Spore
+- Giga Drain
+- Sludge Bomb
+
+Hitmontop @ Focus Sash
+Ability: Intimidate
+Jolly Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Mach Punch
+- Coaching
+- Endeavor
+
+Magmar @ Eviolite
+Ability: Flame Body
+Bold Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Follow Me
+- Will-O-Wisp
+- Helping Hand
+- Heat Wave
+
+=== TRAINER_COURTNEY_METEOR_FALLS ===
+Name: COURTNEY
+Class: Magma Admin
+Pic: Magma Grunt F
+Gender: Female
+Music: Magma
+Double Battle: No
+AI: Smart Trainer
+
+Bisharp @ Eviolite
+Ability: Defiant
+Brave Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Iron Head
+- Throat Chop
+- Aerial Ace
+- Brick Break
+
+Cinderace @ Assault Vest
+Ability: Libero
+Adamant Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Pyro Ball
+- High Jump Kick
+- U-Turn
+- Bounce
+
+Skuntank @ Choice Scarf
+Ability: Stench
+Tera Type: Normal
+Jolly Nature
+Level: 38
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fury Swipes
+- Gunk Shot
+- Crunch
+
 === TRAINER_TABITHA_MOSSDEEP ===
 Name: TABITHA
 Class: Magma Admin
@@ -14401,6 +14479,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Maushold-Four @ Bright Powder  
 Ability: Friend Guard 
+Level: 34
 Jolly Nature  
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Follow Me  
@@ -14420,6 +14499,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Klefki @ Iron Ball  
 Ability: Prankster  
+Level: 34
 Timid Nature  
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dazzling Gleam  

@@ -120,25 +120,25 @@
         {
             {
 #line 52
-            .species = SPECIES_MABOSSTIFF,
+            .species = SPECIES_BOMBIRDIER,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 52
-            .heldItem = ITEM_ROCKY_HELMET,
+            .heldItem = ITEM_LIFE_ORB,
 #line 56
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 53
-            .ability = ABILITY_INTIMIDATE,
+            .ability = ABILITY_ROCKY_PAYLOAD,
 #line 55
             .lvl = 36,
 #line 54
-            .nature = NATURE_ADAMANT,
+            .nature = NATURE_NAUGHTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 57
-                MOVE_CRUNCH,
-                MOVE_PSYCHIC_FANGS,
-                MOVE_FIRE_FANG,
-                MOVE_PLAY_ROUGH,
+                MOVE_DUAL_WINGBEAT,
+                MOVE_TAILWIND,
+                MOVE_STEALTH_ROCK,
+                MOVE_ROCK_SLIDE,
             },
             },
             {
