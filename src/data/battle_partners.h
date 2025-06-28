@@ -115,26 +115,28 @@
         .encounterMusic_gender =
 #line 50
             TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 51
+        .aiFlags = AI_FLAG_SMART_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
         {
             {
-#line 52
+#line 53
             .species = SPECIES_BOMBIRDIER,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 52
-            .heldItem = ITEM_LIFE_ORB,
-#line 56
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 53
-            .ability = ABILITY_ROCKY_PAYLOAD,
-#line 55
-            .lvl = 36,
+            .heldItem = ITEM_LIFE_ORB,
+#line 57
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 54
+            .ability = ABILITY_ROCKY_PAYLOAD,
+#line 56
+            .lvl = 36,
+#line 55
             .nature = NATURE_NAUGHTY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 57
+#line 58
                 MOVE_DUAL_WINGBEAT,
                 MOVE_TAILWIND,
                 MOVE_STEALTH_ROCK,
@@ -142,22 +144,22 @@
             },
             },
             {
-#line 62
+#line 63
             .species = SPECIES_CLOYSTER,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 62
-            .heldItem = ITEM_SALAC_BERRY,
-#line 66
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 63
-            .ability = ABILITY_SKILL_LINK,
-#line 65
-            .lvl = 36,
+            .heldItem = ITEM_SALAC_BERRY,
+#line 67
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 64
+            .ability = ABILITY_SKILL_LINK,
+#line 66
+            .lvl = 36,
+#line 65
             .nature = NATURE_NAIVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 67
+#line 68
                 MOVE_ROCK_BLAST,
                 MOVE_ICICLE_SPEAR,
                 MOVE_LIQUIDATION,
@@ -165,24 +167,24 @@
             },
             },
             {
-#line 72
+#line 73
             .species = SPECIES_GARGANACL,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 72
-            .heldItem = ITEM_LEFTOVERS,
-#line 77
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 73
-            .ability = ABILITY_PURIFYING_SALT,
-#line 76
-            .lvl = 38,
+            .heldItem = ITEM_LEFTOVERS,
+#line 78
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 74
+            .ability = ABILITY_PURIFYING_SALT,
+#line 77
+            .lvl = 38,
+#line 75
             .nature = NATURE_RELAXED,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-#line 75
+#line 76
             .teraType = TYPE_FAIRY,
             .moves = {
-#line 78
+#line 79
                 MOVE_BODY_PRESS,
                 MOVE_IRON_DEFENSE,
                 MOVE_SALT_CURE,
