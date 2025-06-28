@@ -13,6 +13,12 @@ MeteorFalls_1F_1R_EventScript_OpenStevensCave::
 	setmetatile 5, 2, METATILE_MeteorFalls_CaveEntrance_Right, TRUE
 	return
 
+MeteorFalls_1F_1R_EventScript_Arven::
+	msgbox MeteorFalls_1F_1R_Text_ArvenHi, MSGBOX_DEFAULT
+	setfollowernpc LOCALID_ARVEN_FALLS, FNPC_ALL, 0, PARTNER_ARVEN
+	release
+	end
+
 MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	lockall
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
@@ -35,6 +41,7 @@ MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	closemessage
 	applymovement LOCALID_METEOR_FALLS_MAGMA_GRUNT_1, MeteorFalls_1F_1R_Movement_MagmaGruntApproachPlayer
 	waitmovement 0
+	call MeteorFalls_1F_1R_EventScript_ChoosePartyForMultiBattle
 	msgbox MeteorFalls_1F_1R_Text_HoldItRightThereMagma, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
@@ -83,6 +90,8 @@ MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 	removeobject LOCALID_METEOR_FALLS_ARCHIE
 	removeobject LOCALID_METEOR_FALLS_AQUA_GRUNT_1
 	removeobject LOCALID_METEOR_FALLS_AQUA_GRUNT_2
+	facefollowernpc
+	destroyfollowernpc
 	setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
 	setflag FLAG_MET_ARCHIE_METEOR_FALLS
 	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
@@ -207,6 +216,21 @@ MeteorFalls_1F_1R_Movement_AquaGrunt2ApproachArchie:
 	walk_in_place_faster_up
 	step_end
 
+MeteorFalls_1F_1R_EventScript_ChoosePartyForMultiBattle::
+    special SavePlayerParty
+	fadescreen FADE_TO_BLACK
+	special ChooseHalfPartyForBattle
+	waitstate
+	goto_if_ne VAR_RESULT, 0, MeteorFalls_1F_1R_EventScript_DoArvenMultiBattle
+	special LoadPlayerParty
+	return
+	end
+
+MeteorFalls_1F_1R_EventScript_DoArvenMultiBattle::
+	multi_2_vs_2 TRAINER_COURTNEY_METEOR_FALLS, MeteorFalls_1F_1R_Text_Courtney_Lost, TRAINER_GRUNT_METEOR_FALLS, MeteorFalls_1F_1R_Text_Grunt_Lost, PARTNER_ARVEN
+	return
+	end
+
 MeteorFalls_1F_1R_Movement_PushPlayerOutOfWay:
 	walk_in_place_faster_down
 	delay_4
@@ -307,3 +331,13 @@ MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "PROF. COZMO: But that TEAM MAGMA…\p"
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"
+
+MeteorFalls_1F_1R_Text_ArvenHi:
+	.string "You're here!\n"
+	.string "Let's go, quickly.$"
+
+MeteorFalls_1F_1R_Text_Courtney_Lost:
+	.string "Ahahahaha! You're disgustingly strong!$"
+
+MeteorFalls_1F_1R_Text_Grunt_Lost:
+	.string "Ouch!$"
