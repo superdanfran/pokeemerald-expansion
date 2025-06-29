@@ -195,7 +195,7 @@ RustboroCity_PokemonSchool_EventScript_Dendra::
 	end
 
 RustboroCity_PokemonSchool_EventScript_DendraTalkToNemona::
-	msgbox RustboroCity_PokemonSchool_EventScript_DendraTalkToNemona, MSGBOX_DEFAULT
+	msgbox RustboroCity_PokemonSchool_Text_DendraTalkToNemona, MSGBOX_DEFAULT
 	release
 	end
 
@@ -524,9 +524,8 @@ RustboroCity_PokemonSchool_Text_GoodLuck:
 	.string "Don't forget to TERASTALIZE!$"
 
 RustboroCity_PokemonSchool_Text_DendraIntro:
-	.string "Osu, kid! You here to train for\n"
-	.string "the gym? I see the fighting spirit\n"
-	.string "in your eyes!\p"
+	.string "Osu, kid! You here to train for the gym?\p"
+	.string "I see the fighting spirit in your eyes!\p"
 	.string "Call me DENDRA. I'm NEMONA's\n"
 	.string "instructor at the NARANJA ACADEMY.$"
 

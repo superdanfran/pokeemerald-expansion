@@ -1286,7 +1286,7 @@ RustboroCity_Text_CuttersHouse:
 	.string "CUTTER'S HOUSE$"
 
 RustboroCity_Text_Growlithe:
-	.string "The Growlithe holds a piece of paper\n"
+	.string "The Growlithe holds a piece of paper\p"
 	.string "in its mouth advertising the\n"
 	.string "POKéMON TRAINER'S SCHOOL.$"
 
