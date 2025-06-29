@@ -1161,3 +1161,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FloweryGrove/scripts.inc"
 
 	.include "data/maps/MauvilleCity_PowerStation/scripts.inc"
+
+	.include "data/maps/DewfordHideaway/scripts.inc"

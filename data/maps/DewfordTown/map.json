@@ -22,6 +22,11 @@
       "map": "MAP_ROUTE107",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_DEWFORD_HIDEAWAY",
+      "offset": 0,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -130,9 +135,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",

@@ -8660,12 +8660,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_ALOMOMOLA"
+                "species": "SPECIES_FINNEON"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_POPPLIO"
+                "species": "SPECIES_FINNEON"
               }
             ]
           }
@@ -11957,6 +11957,75 @@
                 "min_level": 30,
                 "max_level": 30,
                 "species": "SPECIES_TEPIG"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_DEWFORD_HIDEAWAY",
+          "base_label": "gDewfordHideaway",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_COTTONEE"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_FOONGUS"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_EXEGGCUTE"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_ODDISH"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_GOSSIFLEUR"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_PETILIL"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_COTTONEE"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_FOONGUS"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_EXEGGCUTE"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_ODDISH"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_CHIKORITA"
+              },
+              {
+                "min_level": 15,
+                "max_level": 15,
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }

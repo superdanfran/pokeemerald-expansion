@@ -3,7 +3,7 @@
   "name": "FloweryGrove",
   "layout": "LAYOUT_FLOWERY_GROVE",
   "music": "MUS_VERDANTURF",
-  "region_map_section": "MAPSEC_VERDANTURF_TOWN",
+  "region_map_section": "MAPSEC_FLOWERY_GROVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
@@ -24,16 +24,8 @@
       "direction": "up"
     }
   ],
-  "object_events": [
-
-  ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
 }
