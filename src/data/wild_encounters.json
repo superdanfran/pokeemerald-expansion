@@ -154,7 +154,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_LECHONK"
+                "species": "SPECIES_SMOLIV"
               },
               {
                 "min_level": 3,
@@ -318,7 +318,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FARFETCHD_GALAR"
+                "species": "SPECIES_SMOLIV"
               },
               {
                 "min_level": 4,
