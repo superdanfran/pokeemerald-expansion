@@ -27,6 +27,7 @@ DewfordTown_PokemonCenter_1F_EventScript_AlolaGifts::
 	case 1, DewfordTown_PokemonCenter_1F_EventScript_AlolaGiftLitten
 	case 2, DewfordTown_PokemonCenter_1F_EventScript_AlolaGiftPopplio
 	case MULTI_B_PRESSED, DewfordTown_PokemonCenter_1F_Text_AlolaGiftsCancel
+	closemessage
 	release
 	end
 

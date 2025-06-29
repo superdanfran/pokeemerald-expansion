@@ -27,6 +27,7 @@ RustboroCity_PokemonCenter_1F_EventScript_KalosGifts::
 	case 1, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftFennekin
 	case 2, RustboroCity_PokemonCenter_1F_EventScript_KalosGiftFroakie
 	case MULTI_B_PRESSED, RustboroCity_PokemonCenter_1F_Text_KalosGiftsCancel
+	closemessage
 	release
 	end
 
