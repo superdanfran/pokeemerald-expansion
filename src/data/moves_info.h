@@ -4097,9 +4097,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Rakes the foe with sharp\n"
             "claws, etc., 2 to 5 times."),
         .effect = EFFECT_MULTI_HIT,
-        .power = 18,
+        .power = 25,
         .type = TYPE_NORMAL,
-        .accuracy = 80,
+        .accuracy = 95,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
