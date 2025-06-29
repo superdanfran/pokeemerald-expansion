@@ -1295,10 +1295,11 @@ void ItemUseCB_EndlessCandy(u8 taskId, TaskFunc task)
     u8 holdEffectParam = GetItemHoldEffectParam(*itemPtr);
     u32 i;
     u32 CandyCap = 100;
+    u32 levelUpThreshold = GetCurrentLevelCap();
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
 
     
-    if (sInitialLevel < MAX_LEVEL)
+    if (sInitialLevel < levelUpThreshold)
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
         cannotUseEffect = ExecuteTableBasedItemEffect(mon, *itemPtr, gPartyMenu.slotId, 0);
