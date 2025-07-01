@@ -2832,17 +2832,30 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
-Name: GRUNT
+Name: GERTRUDE
 Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Numel
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Indeedee-F @ Eject Button
+Ability: Psychic Surge
+Level: 37
+Bold Nature
+- Follow Me
+- Helping Hand
+- Expanding Force
+- Hyper Voice
+
+Ninetales
+Ability: Drought
+Level: 37
+Sassy Nature
+- Helping Hand
+- Weather Ball
+- Hypnosis
 
 === TRAINER_STEVE_2 ===
 Name: STEVE
@@ -12147,17 +12160,27 @@ Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_2 ===
-Name: GRUNT
+Name: CLIFTON
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Delphox @ Focus Sash
+Ability: Blaze
+Level: 37
+Modest Nature
+- Expanding Force
+- Heat Wave
+
+Typhlosion @ Choice Specs
+Ability: Blaze
+Level: 37
+Tera Type: Fire
+Timid Nature
+- Eruption
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -12662,21 +12685,59 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Mightyena
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Torkoal @ Eject Pack  
+Ability: Drought  
+IVs: 0 Atk  
+- Overheat  
+- Stealth Rock  
 
-Zubat
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Venusaur @ Focus Sash  
+Ability: Chlorophyll  
+Modest Nature  
+IVs: 0 Atk  
+- Sleep Powder  
+- Double Team  
+- Weather Ball  
+- Energy Ball  
 
-Camerupt
-Level: 25
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Chi-Yu @ Life Orb  
+Ability: Beads of Ruin  
+Modest Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Overheat  
+- Flamethrower  
+- Psychic  
+
+Mismagius @ Expert Belt  
+Ability: Levitate  
+Tera Type: Fairy  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Shadow Ball  
+- Psyshock  
+- Dazzling Gleam  
+
+Camerupt @ Cameruptite  
+Ability: Solid Rock  
+Modest Nature  
+IVs: 0 Atk  
+- Eruption  
+- Heat Wave  
+- Earth Power  
+- Flash Cannon  
+
+Honchkrow @ Scope Lens  
+Ability: Super Luck 
+Jolly Nature  
+- Night Slash  
+- Sucker Punch  
+- Dual Wingbeat  
+- U-turn  
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -13851,17 +13912,17 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Kirlia
-Ability: Trace
+Charcadet @ Wise Glasses
+Ability: Flame Body
 Level: 28
-Modest Nature
+Hardy Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Dazzling Gleam
-- Reflect
-- Light Screen
-- Metronome
+- Flame Charge
+- Clear Smog
+- Night Shade
+- Incinerate
 
-Dreepy
+Dreepy @ Quick Claw
 Ability: Clear Body
 Level: 28
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
