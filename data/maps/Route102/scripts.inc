@@ -18,7 +18,7 @@ Route102_EventScript_Boy::
 	end
 
 Route102_EventScript_Calvin::
-	trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_CalvinRematch
 	setvar VAR_0x8004, TRAINER_CALVIN_1
