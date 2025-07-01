@@ -3595,7 +3595,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .baseSpAttack  = 85,
         .baseSpDefense = 42,
         .types = MON_TYPES(TYPE_DARK, TYPE_FLYING),
-        .catchRate = 30,
+        .catchRate = 130,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 81 : 107,
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(50),
@@ -3604,7 +3604,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_INSOMNIA, ABILITY_SUPER_LUCK, ABILITY_PRANKSTER },
+        .abilities = { ABILITY_PRANKSTER, ABILITY_SUPER_LUCK, ABILITY_INSOMNIA },
     #else
         .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_PRANKSTER },
     #endif

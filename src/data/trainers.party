@@ -5341,6 +5341,7 @@ Adamant Nature
 Zygarde-10 @ Yache Berry
 Ability: Aura Break
 Level: 30
+Hardy Nature
 - Dragon Breath
 - Bulldoze
 - Stomping Tantrum
@@ -5433,7 +5434,7 @@ Pic: Arven
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer / Ace Pokemon / Prediction
+AI: Smart Trainer / Ace Pokemon / Prediction / Try To Faint
 Mugshot: Yellow
 
 Bombirdier @ Life Orb
@@ -14887,7 +14888,7 @@ Ability: Fluffy
 Level: 14
 Adamant Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Strength
+- Tackle
 - Brutal Swing
 - Low Sweep
 - Baby-Doll Eyes
