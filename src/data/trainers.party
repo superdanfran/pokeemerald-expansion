@@ -12573,23 +12573,54 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Numel
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Excadrill @ Air Balloon  
+Ability: Mold Breaker  
+Level: 37 
+Jolly Nature  
+- Stealth Rock  
+- Iron Head  
+- High Horsepower  
+- Hone Claws  
 
-Poochyena
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Crobat @ Focus Sash  
+Ability: Inner Focus  
+Level: 37  
+Jolly Nature  
+- U-turn  
+- Cross Poison  
+- Dual Wingbeat  
+- Roost  
 
-Numel
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Beedrill @ Beedrillite  
+Ability: Sniper
+Level: 38
+Jolly Nature  
+- Knock Off  
+- Poison Jab  
+- U-turn  
+- X-Scissor  
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Zoroark-Hisui @ Assault Vest  
+Ability: Illusion  
+Level: 38
+Tera Type: Fire
+Modest Nature  
+- Bitter Malice  
+- Hyper Voice  
+- Flamethrower  
+- U-turn  
+
+Infernape @ Life Orb  
+Ability: Blaze  
+Level: 38
+Tera Type: Fire
+Timid Nature  
+- Flamethrower  
+- U-turn  
+- Hidden Power
+- Aura Sphere  
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -12690,12 +12721,14 @@ AI: Smart Trainer
 
 Torkoal @ Eject Pack  
 Ability: Drought  
+Level: 38
 IVs: 0 Atk  
 - Overheat  
 - Stealth Rock  
 
 Venusaur @ Focus Sash  
 Ability: Chlorophyll  
+Level: 38
 Modest Nature  
 IVs: 0 Atk  
 - Sleep Powder  
@@ -12705,6 +12738,7 @@ IVs: 0 Atk
 
 Chi-Yu @ Life Orb  
 Ability: Beads of Ruin  
+Level: 38
 Modest Nature  
 IVs: 0 Atk  
 - Dark Pulse  
@@ -12714,6 +12748,7 @@ IVs: 0 Atk
 
 Mismagius @ Expert Belt  
 Ability: Levitate  
+Level: 38
 Tera Type: Fairy  
 Timid Nature  
 IVs: 0 Atk  
@@ -12724,6 +12759,7 @@ IVs: 0 Atk
 
 Camerupt @ Cameruptite  
 Ability: Solid Rock  
+Level: 38
 Modest Nature  
 IVs: 0 Atk  
 - Eruption  
@@ -12733,6 +12769,7 @@ IVs: 0 Atk
 
 Honchkrow @ Scope Lens  
 Ability: Super Luck 
+Level: 38
 Jolly Nature  
 - Night Slash  
 - Sucker Punch  
