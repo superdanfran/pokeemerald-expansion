@@ -101,10 +101,6 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	playse SE_UNLOCK
 	call MauvilleCity_Gym_EventScript_GiveShockWave
 	call MauvilleCity_Gym_EventScript_GiveElectricTeraShard
-	giveitem ITEM_WATER_TERA_SHARD
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_WATER_TERA_SHARD
-	return
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
