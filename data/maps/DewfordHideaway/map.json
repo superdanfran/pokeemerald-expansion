@@ -2,7 +2,7 @@
   "id": "MAP_DEWFORD_HIDEAWAY",
   "name": "DewfordHideaway",
   "layout": "LAYOUT_DEWFORD_HIDEAWAY",
-  "music": "MUS_DUMMY",
+  "music": "MUS_PETALBURG_WOODS",
   "region_map_section": "MAPSEC_DEWFORD_HIDEAWAY",
   "requires_flash": false,
   "weather": "WEATHER_SHADE",
