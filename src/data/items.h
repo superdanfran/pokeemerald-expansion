@@ -357,7 +357,7 @@ const struct Item gItemsInfo[] =
     [ITEM_QUICK_BALL] =
     {
         .name = _("Quick Ball"),
-        .price = 1000,
+        .price = 200,
         .description = COMPOUND_STRING(
             "Works well if\n"
             "used on the\n"
@@ -11222,9 +11222,9 @@ const struct Item gItemsInfo[] =
         .name = _("TM51"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "The user attacks with\n"
-            "freezing water, sharply\n"
-            "lowering the target's Atk."),
+            "Freezing water"
+            "attack. Lowers\n"
+            "opponent's Atk."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11237,8 +11237,9 @@ const struct Item gItemsInfo[] =
         .name = _("TM52"),
         .price = 1500,
         .description = COMPOUND_STRING(
-            "User unleashes energy\n"
-            "of its TERA TYPE."),
+            "User unleashes\n"
+            "energy of its\n"
+            "TERA TYPE."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
