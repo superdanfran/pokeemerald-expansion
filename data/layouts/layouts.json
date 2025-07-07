@@ -4435,7 +4435,7 @@
       "id": "LAYOUT_DEWFORD_HIDEAWAY",
       "name": "DewfordHideaway_Layout",
       "width": 20,
-      "height": 20,
+      "height": 12,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/DewfordHideaway/border.bin",

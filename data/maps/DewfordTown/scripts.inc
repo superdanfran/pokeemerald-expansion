@@ -72,7 +72,6 @@ DewfordTown_EventScript_HallSign::
 DewfordTown_EventScript_OldRodFisherman::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_OLD_ROD, DewfordTown_EventScript_HowsFishing
 	msgbox DewfordTown_Text_GettingItchToFish, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, DewfordTown_EventScript_GiveOldRod
 	goto_if_eq VAR_RESULT, NO, DewfordTown_EventScript_NotGettingItchToFish
@@ -80,10 +79,6 @@ DewfordTown_EventScript_OldRodFisherman::
 
 DewfordTown_EventScript_GiveOldRod::
 	msgbox DewfordTown_Text_GiveYouOneOfMyRods, MSGBOX_DEFAULT
-	giveitem ITEM_OLD_ROD
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_OLD_ROD
-	msgbox DewfordTown_Text_ThrowInFishingAdvice, MSGBOX_DEFAULT
 	release
 	end
 
@@ -696,9 +691,8 @@ DewfordTown_Text_GettingItchToFish:
 	.string "Are you getting the itch to fish?$"
 
 DewfordTown_Text_GiveYouOneOfMyRods:
-	.string "I hear you, and I like what\n"
-	.string "you're saying!\p"
-	.string "I'll give you one of my fishing RODS.$"
+	.string "That's a shame! I ain't\n"
+	.string "got a spare ROD!$"
 
 DewfordTown_Text_ThrowInFishingAdvice:
 	.string "And, as an added bonus, I'll even throw\n"

@@ -1233,9 +1233,9 @@
 #define FLAG_HIDE_FALLARBOR_ARVEN                                   0x49B // Unused Flag
 #define FLAG_RECEIVED_ELECTRIC_TERA_SHARD                           0x49C // Unused Flag
 #define FLAG_ARVEN_FALLS_FOLLOWER                                   0x49D // Unused Flag
-#define FLAG_UNUSED_0x49E                                           0x49E // Unused Flag
-#define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
+#define FLAG_ITEM_SLATEPORT_CITY_LEFTOVERS                          0x49E // Unused Flag
+#define FLAG_ITEM_VERDANTURF_SHELL_BELL                             0x49F // Unused Flag
+#define FLAG_ITEM_DEWFORD_TOWN_MUSCLE_BAND                          0x4A0 // Unused Flag
 #define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
 #define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
 #define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag

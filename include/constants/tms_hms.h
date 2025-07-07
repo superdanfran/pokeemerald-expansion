@@ -48,11 +48,12 @@
     F(REST) \
     F(ATTRACT) \
     F(THIEF) \
-    F(STEEL_WING) \
+    F(SMART_STRIKE) \
     F(SKILL_SWAP) \
     F(SNATCH) \
     F(OVERHEAT) \
-    F(CHILLING_WATER)
+    F(CHILLING_WATER) \
+    F(TERA_BLAST)
 
 #define FOREACH_HM(F) \
     F(CUT) \

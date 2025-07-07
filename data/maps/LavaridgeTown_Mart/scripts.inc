@@ -14,6 +14,9 @@ LavaridgeTown_Mart_EventScript_Clerk::
 	.align 2
 LavaridgeTown_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_QUICK_BALL
+	.2byte ITEM_TM_TERA_BLAST
+	.2byte ITEM_FOCUS_SASH
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL

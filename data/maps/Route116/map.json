@@ -125,7 +125,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_REPEL",
+      "trainer_sight_or_berry_tree_id": "ITEM_SITRUS_BERRY",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_116_REPEL"
     },
@@ -282,7 +282,7 @@
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_X_SPECIAL",
+      "trainer_sight_or_berry_tree_id": "ITEM_RARE_CANDY",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_116_X_SPECIAL"
     },

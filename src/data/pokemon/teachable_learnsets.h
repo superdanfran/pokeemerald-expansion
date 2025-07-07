@@ -32208,6 +32208,7 @@ static const u16 sApplinTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_DEFENSE_CURL,
     MOVE_ROLLOUT,
+    MOVE_BULLET_SEED
     MOVE_UNAVAILABLE,
 };
 

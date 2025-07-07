@@ -11157,19 +11157,19 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_THIEF,
     },
 
-    [ITEM_TM_STEEL_WING] =
+    [ITEM_TM_SMART_STRIKE] =
     {
         .name = _("TM47"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "Spreads hard-\n"
-            "edged wings and\n"
-            "slams into the foe."),
+            "Stabs the target.\n"
+            "This attack\n"
+            "never misses."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_STEEL_WING,
+        .secondaryId = MOVE_SMART_STRIKE,
     },
 
     [ITEM_TM_SKILL_SWAP] =
@@ -11232,16 +11232,18 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_CHILLING_WATER, // Todo
     },
 
-    [ITEM_TM52] =
+    [ITEM_TM_TERA_BLAST] =
     {
         .name = _("TM52"),
-        .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .price = 1500,
+        .description = COMPOUND_STRING(
+            "User unleashes energy\n"
+            "of its TERA TYPE."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_TERA_BLAST, // Todo
     },
 
     [ITEM_TM53] =
