@@ -912,7 +912,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_MULTI_HIT,
         .power = 15,
         .type = TYPE_NORMAL,
-        .accuracy = 85,
+        .accuracy = 95,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -19685,7 +19685,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_TERA_BLAST,
             .self = TRUE,
         }),
-        .battleAnimScript = gBattleAnimMove_TeraBlast,
+        .battleAnimScript = gBattleAnimMove_TriAttack, //gBattleAnimMove_TeraBlast,
     },
 
     [MOVE_SILK_TRAP] =
