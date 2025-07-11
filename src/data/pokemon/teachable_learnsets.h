@@ -31667,6 +31667,7 @@ static const u16 sSobbleTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
+    MOVE_BULLET_SEED,
     MOVE_UNAVAILABLE,
 };
 
@@ -31689,6 +31690,7 @@ static const u16 sDrizzileTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
+    MOVE_BULLET_SEED,
     MOVE_UNAVAILABLE,
 };
 
@@ -31720,6 +31722,7 @@ static const u16 sInteleonTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
+    MOVE_BULLET_SEED,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SOBBLE

@@ -3192,7 +3192,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sTympoleLevelUpLearnset,
         .teachableLearnset = sTympoleTeachableLearnset,
         .eggMoveLearnset = sTympoleEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_PALPITOAD}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_PALPITOAD}),
     },
 
     [SPECIES_PALPITOAD] =
@@ -8646,7 +8646,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sFrillishLevelUpLearnset,
         .teachableLearnset = sFrillishTeachableLearnset,
         .eggMoveLearnset = sFrillishEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_JELLICENT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_JELLICENT}),
     },
 
     [SPECIES_JELLICENT] =

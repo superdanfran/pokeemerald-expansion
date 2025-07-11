@@ -9906,7 +9906,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPonytaGalarTeachableLearnset,
         .eggMoveLearnset = sPonytaGalarEggMoveLearnset,
         .formSpeciesIdTable = sPonytaFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_RAPIDASH_GALAR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_RAPIDASH_GALAR}),
     },
 
     [SPECIES_RAPIDASH_GALAR] =
