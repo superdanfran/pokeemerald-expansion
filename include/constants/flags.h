@@ -360,8 +360,8 @@
 #define NUM_WONDER_CARD_FLAGS                (1 + FLAG_WONDER_CARD_UNUSED_17 - FLAG_RECEIVED_AURORA_TICKET)
 
 #define FLAG_MIRAGE_TOWER_VISIBLE            0x14E
-#define FLAG_CHOSE_ROOT_FOSSIL               0x14F
-#define FLAG_CHOSE_CLAW_FOSSIL               0x150
+#define FLAG_CHOSE_DRAKE_FOSSIL              0x14F
+#define FLAG_CHOSE_FISH_FOSSIL               0x150
 #define FLAG_RECEIVED_POWDER_JAR             0x151
 
 #define FLAG_CHOSEN_MULTI_BATTLE_NPC_PARTNER 0x152
@@ -1011,8 +1011,8 @@
 #define FLAG_HIDE_ROUTE_111_SECRET_POWER_MAN                        0x3C0
 #define FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION                       0x3C1
 #define FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN      0x3C2
-#define FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL                          0x3C3
-#define FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL                          0x3C4
+#define FLAG_HIDE_MIRAGE_TOWER_DRAKE_FOSSIL                          0x3C3
+#define FLAG_HIDE_MIRAGE_TOWER_FISH_FOSSIL                          0x3C4
 #define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT 0x3C5
 #define FLAG_HIDE_ROUTE_118_STEVEN                                  0x3C6
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0x3C7
@@ -1236,10 +1236,10 @@
 #define FLAG_ITEM_SLATEPORT_CITY_LEFTOVERS                          0x49E // Unused Flag
 #define FLAG_ITEM_VERDANTURF_SHELL_BELL                             0x49F // Unused Flag
 #define FLAG_ITEM_DEWFORD_TOWN_MUSCLE_BAND                          0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
-#define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
-#define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
+#define FLAG_HIDE_MIRAGE_TOWER_BIRD_FOSSIL                          0x4A1 // Unused Flag
+#define FLAG_HIDE_MIRAGE_TOWER_DINO_FOSSIL                          0x4A2 // Unused Flag
+#define FLAG_CHOSE_DINO_FOSSIL                                      0x4A3 // Unused Flag
+#define FLAG_CHOSE_BIRD_FOSSIL                                      0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
 #define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
 #define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
