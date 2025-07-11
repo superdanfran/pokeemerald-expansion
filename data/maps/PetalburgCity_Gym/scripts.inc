@@ -387,6 +387,7 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
+	call PetalburgCity_Gym_EventScript_GiveNormalTeraShard
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
 	closemessage
@@ -405,6 +406,12 @@ PetalburgCity_Gym_EventScript_GiveFacade::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_TM_FACADE
 	msgbox PetalburgCity_Gym_Text_ExplainFacade, MSGBOX_DEFAULT
+	return
+
+PetalburgCity_Gym_EventScript_GiveNormalTeraShard::
+	giveitem ITEM_NORMAL_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_NORMAL_TERA_SHARD
 	return
 
 PetalburgCity_Gym_EventScript_WallysDadArrivesNorth::

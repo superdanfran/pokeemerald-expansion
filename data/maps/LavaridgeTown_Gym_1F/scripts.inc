@@ -67,6 +67,7 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
 	setvar VAR_LAVARIDGE_TOWN_STATE, 1
 	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
+	call LavaridgeTown_Gym_EventScript_GiveFireTeraShard
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -91,6 +92,12 @@ LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_OVERHEAT
+	return
+
+LavaridgeTown_Gym_EventScript_GiveFireTeraShard::
+	giveitem ITEM_FIRE_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_FIRE_TERA_SHARD
 	return
 
 LavaridgeTown_Gym_1F_EventScript_FlanneryRematch::
