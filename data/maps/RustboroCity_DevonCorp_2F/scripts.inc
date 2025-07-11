@@ -80,9 +80,9 @@ RustboroCity_DevonCorp_2F_EventScript_NoticeDinoFossil::
 	applymovement LOCALID_FOSSIL_SCIENTIST, Common_Movement_Delay48
 	waitmovement 0
 	msgbox RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
+	//goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
 	checkitem ITEM_FOSSILIZED_DINO
-	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
+	//goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
 	goto RustboroCity_DevonCorp_2F_EventScript_GiveDinoFossil
 	end
 
@@ -103,9 +103,9 @@ RustboroCity_DevonCorp_2F_EventScript_NoticeDrakeFossil::
 	applymovement LOCALID_FOSSIL_SCIENTIST, Common_Movement_Delay48
 	waitmovement 0
 	msgbox RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
+	//goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
 	checkitem ITEM_FOSSILIZED_DRAKE
-	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
+	//goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
 	goto RustboroCity_DevonCorp_2F_EventScript_GiveDrakeFossil
 	end
 
@@ -127,8 +127,8 @@ RustboroCity_DevonCorp_2F_EventScript_NoticeFishFossil::
 	waitmovement 0
 	msgbox RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
-	checkitem ITEM_FOSSILIZED_FISH
-	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
+	//checkitem ITEM_FOSSILIZED_FISH
+	//goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
 	goto RustboroCity_DevonCorp_2F_EventScript_GiveFishFossil
 	end
 
@@ -150,8 +150,8 @@ RustboroCity_DevonCorp_2F_EventScript_NoticeBirdFossil::
 	waitmovement 0
 	msgbox RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
-	checkitem ITEM_FOSSILIZED_BIRD
-	goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
+	//checkitem ITEM_FOSSILIZED_BIRD
+	//goto_if_eq VAR_RESULT, TRUE, RustboroCity_DevonCorp_2F_EventScript_ChooseFossil
 	goto RustboroCity_DevonCorp_2F_EventScript_GiveBirdFossil
 	end
 
@@ -390,18 +390,18 @@ RustboroCity_DevonCorp_2F_EventScript_ChooseFossil::
 	waitmessage
 	multichoice 17, 6, MULTI_FOSSIL, FALSE
 	switch VAR_RESULT
-	case 0, RustboroCity_DevonCorp_2F_EventScript_ChooseClawFossil
-	case 1, RustboroCity_DevonCorp_2F_EventScript_ChooseRootFossil
+	case 0, RustboroCity_DevonCorp_2F_EventScript_ChooseDrakeFossil
+	case 1, RustboroCity_DevonCorp_2F_EventScript_ChooseFishFossil
 	case 2, RustboroCity_DevonCorp_2F_EventScript_CancelFossilSelect
 	case MULTI_B_PRESSED, RustboroCity_DevonCorp_2F_EventScript_CancelFossilSelect
 	end
 
-RustboroCity_DevonCorp_2F_EventScript_ChooseClawFossil::
-	goto RustboroCity_DevonCorp_2F_EventScript_GiveClawFossil
+RustboroCity_DevonCorp_2F_EventScript_ChooseFishFossil::
+	goto RustboroCity_DevonCorp_2F_EventScript_GiveFishFossil
 	end
 
-RustboroCity_DevonCorp_2F_EventScript_ChooseRootFossil::
-	goto RustboroCity_DevonCorp_2F_EventScript_GiveRootFossil
+RustboroCity_DevonCorp_2F_EventScript_ChooseDrakeFossil::
+	goto RustboroCity_DevonCorp_2F_EventScript_GiveDrakeFossil
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_CancelFossilSelect::

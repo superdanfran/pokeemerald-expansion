@@ -9,20 +9,36 @@ DesertUnderpass_OnTransition:
 DesertUnderpass_EventScript_Fossil::
 	lock
 	faceplayer
-	goto_if_set FLAG_CHOSE_ROOT_FOSSIL, DesertUnderpass_EventScript_GiveClawFossil
-	goto_if_set FLAG_CHOSE_CLAW_FOSSIL, DesertUnderpass_EventScript_GiveRootFossil
+	goto_if_set FLAG_CHOSE_DINO_FOSSIL, DesertUnderpass_EventScript_GiveDrakeFossil
+	goto_if_set FLAG_CHOSE_DRAKE_FOSSIL, DesertUnderpass_EventScript_GiveDinoFossil
+	goto_if_set FLAG_CHOSE_FISH_FOSSIL, DesertUnderpass_EventScript_GiveBirdFossil
+	goto_if_set FLAG_CHOSE_BIRD_FOSSIL, DesertUnderpass_EventScript_GiveFishFossil
 	release
 	end
 
-DesertUnderpass_EventScript_GiveClawFossil::
-	giveitem ITEM_CLAW_FOSSIL
+DesertUnderpass_EventScript_GiveDinoFossil::
+	giveitem ITEM_FOSSILIZED_DINO
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	removeobject LOCALID_UNDERPASS_FOSSIL
 	release
 	end
 
-DesertUnderpass_EventScript_GiveRootFossil::
-	giveitem ITEM_ROOT_FOSSIL
+DesertUnderpass_EventScript_GiveDrakeFossil::
+	giveitem ITEM_FOSSILIZED_DRAKE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	removeobject LOCALID_UNDERPASS_FOSSIL
+	release
+	end
+
+DesertUnderpass_EventScript_GiveFishFossil::
+	giveitem ITEM_FOSSILIZED_FISH
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	removeobject LOCALID_UNDERPASS_FOSSIL
+	release
+	end
+
+DesertUnderpass_EventScript_GiveBirdFossil::
+	giveitem ITEM_FOSSILIZED_BIRD
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	removeobject LOCALID_UNDERPASS_FOSSIL
 	release
