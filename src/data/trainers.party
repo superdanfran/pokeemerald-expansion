@@ -1366,16 +1366,45 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Swellow
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Quick Attack
-- Agility
-- Wing Attack
+Ambipom @ Loaded Dice  
+Ability: Technician  
+Level: 48
+Jolly Nature  
+- Fake Out  
+- Fury Swipes  
+- Bullet Seed  
+- Aerial Ace  
+
+Sawsbuck @ Lum Berry  
+Ability: Serene Grace  
+Level: 48
+Adamant Nature  
+- Agility  
+- Horn Leech  
+- Play Rough  
+- Body Slam  
+
+Yanmega @ Wise Glasses  
+Ability: Speed Boost  
+Level: 48
+Tera Type: Normal  
+Modest Nature  
+- Detect  
+- Bug Buzz  
+- Air Slash  
+- Tera Blast  
+
+Zangoose @ Toxic Orb  
+Ability: Toxic Boost  
+Level: 48
+Jolly Nature  
+- Agility  
+- Facade  
+- Knock Off
+- Zen Headbutt
 
 === TRAINER_PARKER ===
 Name: PARKER
@@ -1383,16 +1412,45 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Spinda
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Dizzy Punch
-- Focus Punch
+Espathra @ Colbur Berry  
+Ability: Speed Boost  
+Level: 48
+Timid Nature  
+- Protect  
+- Lumina Crash  
+- Dazzling Gleam  
+- U-turn  
+
+Decidueye @ Mental Herb  
+Ability: Overgrow  
+Tera Type: Normal  
+Level: 48
+Adamant Nature  
+- Double Team  
+- Sucker Punch  
+- Leaf Blade  
+- Shadow Claw  
+
+Staraptor @ Expert Belt  
+Ability: Intimidate  
+Level: 48
+Jolly Nature  
+- Double Team  
+- Dual Wingbeat  
+- U-turn  
+- Close Combat 
+
+Mienshao @ Bright Powder  
+Ability: Inner Focus  
+Level: 48
+Adamant Nature  
+- Brick Break  
+- Fake Out  
+- Knock Off  
+- Ice Spinner  
 
 === TRAINER_GEORGE ===
 Name: GEORGE
@@ -1400,16 +1458,46 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Slakoth @ Sitrus Berry
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Slack Off
-- Counter
-- Shadow Ball
+Greninja @ Sticky Barb  
+Ability: Protean  
+Level: 48
+Timid Nature  
+- Spikes  
+- Toxic Spikes  
+- Chilling Water  
+- Fling  
+
+Porygon2 @ Eviolite  
+Ability: Download  
+Level: 48
+Quiet Nature  
+IVs: 0 Atk  
+- Thunder Wave  
+- Tri Attack  
+- Hex  
+- Psyshock  
+
+Pyroar @ Life Orb  
+Ability: Unnerve  
+Level: 48
+Timid Nature  
+- Will-O-Wisp  
+- Flamethrower  
+- Hyper Voice  
+- Psychic Fangs  
+
+Gengar @ Chople Berry  
+Ability: Cursed Body  
+Tera Type: Normal  
+Level: 48
+Modest Nature  
+- Toxic  
+- Hex  
+- Dazzling Gleam  
+- Tera Blast  
 
 === TRAINER_BERKE ===
 Name: BERKE
@@ -1417,15 +1505,51 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Vigoroth
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
-- Slash
+Tauros (M) @ Choice Band  
+Ability: Sheer Force
+Level: 48
+Jolly Nature  
+- Double-Edge  
+- Wild Charge  
+- Close Combat  
+- Outrage  
+
+Scizor @ Custap Berry  
+Ability: Technician
+Level: 49
+Tera Type: Normal  
+Adamant Nature  
+- Swords Dance  
+- Lunge  
+- Close Combat  
+- Iron Head  
+
+Slaking @ Leftovers  
+Ability: Truant  
+Level: 48
+Lonely Nature  
+- Giga Impact  
+- Throat Chop  
+
+Lucario @ Focus Sash  
+Ability: Steadfast  
+Level: 48
+Modest Nature  
+IVs: 0 Atk  
+- Steel Beam  
+- Flash Cannon  
+- Calm Mind  
+- Vacuum Wave  
+
+Talonflame @ Life Orb  
+Ability: Gale Wings  
+Level: 48
+Brave Nature
+- Flare Blitz  
+- Brave Bird  
 
 === TRAINER_BRAXTON ===
 Name: BRAXTON
@@ -1757,15 +1881,49 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Delcatty
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
+Farigiraf @ Throat Spray  
+Ability: Armor Tail  
+Level: 48
+Sassy Nature
+IVs: 0 Atk / 0 Spd
+- Trick Room  
+- Hyper Voice  
+- Growl  
+- Psyshock  
+
+Greedent @ Aguav Berry  
+Ability: Cheek Pouch  
+Level: 48
+IVs: 0 Spd
+Brave Nature  
+- Counter  
+- Body Slam  
+- Curse  
+- Psychic Fangs  
+
+Wigglytuff @ Wise Glasses  
+Ability: Cute Charm  
+Level: 48
+Quiet Nature
+IVs: 0 Atk / 0 Spd
+- Alluring Voice  
+- Flamethrower  
+- Psyshock  
+- Thunder Wave  
+
+Reuniclus @ Leftovers  
+Ability: Magic Guard  
+Level: 48
+Modest Nature
+Tera Type: Normal  
+IVs: 0 Atk / 0 Spd
+- Trick Room  
+- Shadow Ball  
+- Tera Blast  
+- Psychic  
 
 === TRAINER_ALEXIA ===
 Name: ALEXIA
@@ -1773,16 +1931,45 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wigglytuff
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
-- Shadow Ball
+Rillaboom @ Leftovers  
+Ability: Grassy Surge 
+Level: 48
+Adamant Nature  
+- Grassy Glide  
+- Drum Beating  
+- Protect  
+- Earthquake  
+
+Gogoat @ Coba Berry  
+Ability: Grass Pelt  
+Level: 48
+Naive Nature
+- Milk Drink  
+- Horn Leech  
+- Play Rough  
+- Wild Charge  
+
+Miltank (F) @ Shell Bell 
+Ability: Scrappy  
+Level: 48
+Jolly Nature
+- Milk Drink  
+- Body Slam  
+- Drain Punch  
+- High Horsepower  
+
+Milotic @ Mental Herb  
+Ability: Cute Charm  
+Level: 48
+Tera Type: Normal  
+Modest Nature
+- Recover  
+- Aqua Ring  
+- Alluring Voice  
+- Tera Blast  
 
 === TRAINER_JODY ===
 Name: JODY
@@ -1790,15 +1977,55 @@ Class: Cooltrainer
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
-Items: Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer
 
-Zangoose
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
+Dudunsparce @ Expert Belt  
+Ability: Serene Grace 
+Level: 48
+Jolly Nature  
+- Hyper Drill 
+- Ancient Power 
+- Breaking Swipe
+- Baton Pass
+
+Mudsdale @ Assault Vest  
+Ability: Stamina  
+Level: 48
+Sassy Nature  
+- Earthquake  
+- Body Slam  
+- Low Kick  
+- Body Press  
+
+Slowbro @ Chople Berry  
+Ability: Oblivious  
+Level: 49
+Tera Type: Normal  
+Bold Nature
+IVs: 0 Atk  
+- Amnesia  
+- Slack Off  
+- Psychic  
+- Scald  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+Level: 48
+Brave Nature
+- Curse  
+- Body Slam  
+- Heavy Slam  
+- Heat Crash  
+
+Torterra @ Figy Berry
+Ability: Overgrow  
+Level: 48
+Adamant Nature
+- Iron Defense  
+- Amnesia  
+- Synthesis  
+- Seed Bomb  
 
 === TRAINER_WENDY ===
 Name: WENDY
@@ -5786,37 +6013,64 @@ Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Pink
 
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+Wyrdeer @ Assault Vest  
+Ability: Intimidate  
+Level: 50
+Timid Nature  
+IVs: 0 Atk  
+- Energy Ball  
+- Earth Power  
+- Extrasensory  
+- Thunderbolt  
 
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
+Blissey (F) @ Chople Berry  
+Ability: Natural Cure 
+Level: 50
+Bold Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Stealth Rock  
+- Soft-Boiled  
+- Thunder Wave  
 
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+Clefable @ Leftovers  
+Ability: Cute Charm  
+Level: 50
+Quiet Nature  
+IVs: 0 Atk  
+- Follow Me  
+- Moonblast  
+- Psychic  
+- Flamethrower  
 
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+Lopunny @ Lopunnite  
+Ability: Limber
+Level: 50
+Adamant Nature  
+- U-turn  
+- Sky Uppercut  
+- Ice Punch  
+- Dizzy Punch  
+
+Swellow @ Wise Glasses  
+Ability: Scrappy  
+Level: 50
+Modest Nature  
+IVs: 0 Atk  
+- Hidden Power
+- Hurricane  
+- Heat Wave  
+- Hyper Voice  
+
+Dragonite @ Expert Belt  
+Ability: Inner Focus  
+Level: 50
+Tera Type: Normal  
+Hardy Nature
+- Extreme Speed  
+- Brick Break  
+- Dual Wingbeat  
+- Fling  
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
