@@ -4838,7 +4838,7 @@ F_TRAINER_FEMALE |
 #line 2022
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 2019
-            .ability = ABILITY_OVERGROW,
+            .ability = ABILITY_SHELL_ARMOR,
 #line 2020
             .lvl = 48,
 #line 2021
@@ -10017,14 +10017,14 @@ F_TRAINER_FEMALE |
             },
             {
 #line 4088
-            .species = SPECIES_FLAREON,
+            .species = SPECIES_ARCANINE_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4088
-            .heldItem = ITEM_TOXIC_ORB,
+            .heldItem = ITEM_LIFE_ORB,
 #line 4092
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 4089
-            .ability = ABILITY_GUTS,
+            .ability = ABILITY_ROCK_HEAD,
 #line 4090
             .lvl = 42,
 #line 4091
@@ -10032,10 +10032,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4093
-                MOVE_DOUBLE_EDGE,
+                MOVE_HEAD_SMASH,
                 MOVE_FLARE_BLITZ,
                 MOVE_CLOSE_COMBAT,
-                MOVE_HEADLONG_RUSH,
+                MOVE_WILD_CHARGE,
             },
             },
             {
@@ -35581,7 +35581,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_CINDERACE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 14484
-            .heldItem = ITEM_ICE_GEM,
+            .heldItem = ITEM_PUNCHING_GLOVE,
 #line 14488
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 14485
@@ -35593,10 +35593,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 14489
-                MOVE_WEATHER_BALL,
-                MOVE_COUNTER,
-                MOVE_SHADOW_BALL,
-                MOVE_U_TURN,
+                MOVE_ICE_PUNCH,
+                MOVE_FIRE_PUNCH,
+                MOVE_MACH_PUNCH,
+                MOVE_SWORDS_DANCE,
             },
             },
             {
@@ -35620,8 +35620,8 @@ F_TRAINER_FEMALE |
 #line 14500
                 MOVE_WEATHER_BALL,
                 MOVE_AURA_SPHERE,
-                MOVE_FLAMETHROWER,
-                MOVE_ENERGY_BALL,
+                MOVE_PSYCHIC,
+                MOVE_DARK_PULSE,
             },
             },
             {

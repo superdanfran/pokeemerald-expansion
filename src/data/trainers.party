@@ -1477,14 +1477,14 @@ IVs: 0 Atk
 - Hex  
 - Psyshock  
 
-Pyroar @ Life Orb  
-Ability: Unnerve  
+Zoroark-Hisui @ Life Orb  
+Ability: Illusion  
 Level: 48
 Timid Nature  
 - Will-O-Wisp  
-- Flamethrower  
-- Hyper Voice  
-- Psychic Fangs  
+- Hex 
+- Shadow Ball
+- Hyper Voice
 
 Gengar @ Chople Berry  
 Ability: Cursed Body  
@@ -1506,7 +1506,7 @@ Double Battle: No
 AI: Smart Trainer
 
 Tauros (M) @ Choice Band  
-Ability: Sheer Force
+Ability: Intimidate
 Level: 48
 Jolly Nature  
 - Double-Edge  
@@ -1946,7 +1946,7 @@ Level: 48
 Naive Nature
 - Milk Drink  
 - Horn Leech  
-- Play Rough  
+- Leech Seed 
 - Wild Charge  
 
 Miltank (F) @ Shell Bell 
@@ -2012,13 +2012,13 @@ Level: 48
 Brave Nature
 - Curse  
 - Body Slam  
-- Heavy Slam  
-- Heat Crash  
+- Body Press 
+- Crunch
 
 Torterra @ Figy Berry
 Ability: Shell Armor
 Level: 48
-Adamant Nature
+Sassy Nature
 - Iron Defense  
 - Amnesia  
 - Synthesis  
@@ -6067,7 +6067,7 @@ Hardy Nature
 - Extreme Speed  
 - Brick Break  
 - Dual Wingbeat  
-- Fling  
+- Dragon Claw
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
