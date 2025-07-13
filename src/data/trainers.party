@@ -2016,7 +2016,7 @@ Brave Nature
 - Heat Crash  
 
 Torterra @ Figy Berry
-Ability: Overgrow  
+Ability: Shell Armor
 Level: 48
 Adamant Nature
 - Iron Defense  
@@ -4085,17 +4085,16 @@ IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Bug Buzz  
 - Giga Drain  
 
-Flareon @ Toxic Orb  
-Ability: Guts  
+Arcanine-Hisui @ Life Orb  
+Ability: Rock Head  
 Level: 42
 Jolly Nature  
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Double-Edge  
+- Head Smash  
 - Flare Blitz  
-- Close Combat  
-- Headlong Rush  
+- Wild Charge
 
-Heracross @ Flame Orb  
+Heracross @ Toxic Orb  
 Ability: Guts  
 Level: 42
 Tera Type: Fire  
@@ -4144,7 +4143,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Overheat  
 
 Samurott-Hisui @ Dark Gem  
-Ability: Torrent  
+Ability: Sharpness  
 Level: 42
 Tera Type: Fire  
 Adamant Nature
@@ -4200,7 +4199,7 @@ Modest Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Incinerate  
 - Belch  
-- Dragon Dance  
+- Agility
 - Gunk Shot  
 
 Forretress @ Air Balloon  
@@ -5942,16 +5941,6 @@ Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Purple
 
-Jumpluff @ Focus Sash  
-Ability: Chlorophyll 
-Level: 45
-Modest Nature  
-IVs: 0 Atk  
-- Sleep Powder  
-- Solar Beam
-- Tailwind  
-- Substitute  
-
 Cyclizar @ Eject Pack  
 Ability: Regenerator  
 Level: 45
@@ -5962,15 +5951,6 @@ IVs: 0 Atk
 - Draco Meteor  
 - Hyper Voice  
 
-Charizard @ Charizardite X  
-Ability: Tough Claws  
-Level: 45
-Jolly Nature  
-- Dragon Claw  
-- Dragon Dance  
-- Iron Tail  
-- Fire Punch  
-
 Delphox @ Wise Glasses  
 Ability: Blaze  
 Level: 45
@@ -5980,6 +5960,25 @@ IVs: 0 Atk
 - Heat Wave  
 - Expanding Force  
 - Dazzling Gleam  
+
+Jumpluff @ Focus Sash  
+Ability: Chlorophyll 
+Level: 45
+Modest Nature  
+IVs: 0 Atk  
+- Sleep Powder  
+- Solar Beam
+- Tailwind  
+- Substitute  
+
+Charizard @ Charizardite X  
+Ability: Tough Claws  
+Level: 45
+Jolly Nature  
+- Dragon Claw  
+- Dragon Dance  
+- Iron Tail  
+- Fire Punch  
 
 Talonflame @ Flying Gem  
 Ability: Flame Body  
@@ -14481,15 +14480,15 @@ IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunder Wave  
 - Hex  
 
-Cinderace @ Ice Gem  
+Cinderace @ Punching Glove 
 Ability: Libero  
 Level: 42
 Adamant Nature  
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Weather Ball  
-- Counter  
-- Shadow Ball  
-- U-turn  
+- Ice Punch
+- Fire Punch
+- Mach Punch 
+- Swords Dance
 
 Armarouge @ Chople Berry  
 Ability: Flash Fire
@@ -14499,8 +14498,8 @@ Modest Nature
 IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Weather Ball  
 - Aura Sphere  
-- Flamethrower  
-- Energy Ball  
+- Psychic 
+- Dark Pulse 
 
 Glaceon @ Leftovers  
 Ability: Ice Body  
