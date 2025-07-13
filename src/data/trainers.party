@@ -4001,15 +4001,15 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Ninetales @ Ghost Gem  
-Ability: Drought  
+Tangrowth @ Assault Vest  
+Ability: Chlorophyll 
 Level: 42
-Timid Nature  
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hypnosis  
-- Weather Ball  
-- Solar Beam  
-- Hex  
+Jolly Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Power Whip  
+- Rock Slide 
+- Brick Break 
+- Knock Off
 
 Leafeon @ Ability Shield  
 Ability: Chlorophyll  
@@ -4153,9 +4153,9 @@ Tera Type: Fire
 Adamant Nature
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Ceaseless Edge  
-- Aqua Jet  
+- Aerial Ace 
 - Tera Blast  
-- Megahorn  
+- X-Scissor
 
 Chandelure @ Wise Glasses  
 Ability: Flash Fire  
@@ -5945,15 +5945,15 @@ Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Purple
 
-Heliolisk @ Life Orb  
-Ability: Solar Power  
+Jumpluff @ Focus Sash  
+Ability: Chlorophyll 
 Level: 45
-Timid Nature  
+Modest Nature  
 IVs: 0 Atk  
-- Hyper Voice  
-- Thunder  
-- Grass Knot  
-- Flamethrower  
+- Sleep Powder  
+- Solar Beam
+- Tailwind  
+- Substitute  
 
 Cyclizar @ Eject Pack  
 Ability: Regenerator  
@@ -10785,10 +10785,10 @@ Ability: Shed Skin
 Level: 42
 Adamant Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aqua Tail  
+- Breaking Swipe 
 - Extreme Speed  
 - Dragon Dance  
-- Dragon Tail  
+- Iron Head 
 
 Flygon @ White Herb  
 Ability: Levitate  
