@@ -1367,25 +1367,16 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Smart Trainer
+AI: Smart Trainer / Smart Mon Choices
 
-Ambipom @ Loaded Dice  
-Ability: Technician  
-Level: 48
-Jolly Nature  
-- Fake Out  
-- Fury Swipes  
-- Bullet Seed  
-- Aerial Ace  
-
-Sawsbuck @ Lum Berry  
-Ability: Serene Grace  
+Grafaiai @ Normal Gem 
+Ability: Unburden
 Level: 48
 Adamant Nature  
-- Agility  
-- Horn Leech  
-- Play Rough  
-- Body Slam  
+- Fake Out  
+- U-turn
+- Super Fang 
+- Gunk Shot
 
 Yanmega @ Wise Glasses  
 Ability: Speed Boost  
@@ -1397,14 +1388,20 @@ Modest Nature
 - Air Slash  
 - Tera Blast  
 
-Zangoose @ Toxic Orb  
-Ability: Toxic Boost  
+Ursaring @ Toxic Orb  
+Ability: Quick Feet 
 Level: 48
-Jolly Nature  
-- Agility  
-- Facade  
-- Knock Off
-- Zen Headbutt
+Adamant Nature  
+- Facade
+- Brick Break  
+- Crunch
+- Play Rough
+
+Exploud @ Choice Scarf
+Ability: Scrappy 
+Level: 48
+Timid Nature  
+- Hyper Voice
 
 === TRAINER_PARKER ===
 Name: PARKER
@@ -1415,14 +1412,14 @@ Music: Cool
 Double Battle: No
 AI: Smart Trainer
 
-Espathra @ Colbur Berry  
-Ability: Speed Boost  
+Flamigo @ Berserk Gene
+Ability: Tangled Feet
 Level: 48
-Timid Nature  
-- Protect  
-- Lumina Crash  
-- Dazzling Gleam  
-- U-turn  
+Jolly Nature  
+- Dual Wingbeat
+- Low Sweep 
+- Lunge
+- Baton Pass
 
 Decidueye @ Mental Herb  
 Ability: Overgrow  
