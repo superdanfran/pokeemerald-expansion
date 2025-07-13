@@ -47,3 +47,5 @@ tools/trainerproc/trainerproc
 *.smolTM
 /.vs
 __pycache__
+/morphing.lua
+/Morphing Emerald v0-4-2.toml
