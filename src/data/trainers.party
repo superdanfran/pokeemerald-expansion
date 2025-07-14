@@ -11264,7 +11264,6 @@ Sprigatito
 Ability: Protean
 Level: 7
 Hasty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Tail Whip
 
@@ -11351,7 +11350,6 @@ Fuecoco
 Ability: Unaware
 Level: 7
 Mild Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Leer
 
@@ -11439,7 +11437,6 @@ Quaxly
 Ability: Moxie
 Level: 7
 Lonely Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pound
 - Growl
 
@@ -11527,7 +11524,8 @@ Sprigatito
 Ability: Protean
 Level: 7
 Hasty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Tail Whip
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: MAY
@@ -11612,7 +11610,8 @@ Fuecoco
 Ability: Unaware
 Level: 7
 Mild Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
@@ -11698,7 +11697,8 @@ Quaxly
 Ability: Moxie
 Level: 7
 Lonely Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pound
+- Growl
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY
