@@ -153,3 +153,13 @@ TEST("Every species has a description")
 
     EXPECT_NE(StringCompare(GetSpeciesPokedexDescription(species), gFallbackPokedexText), 0);
 }
+
+TEST("SpeciesInfo size")
+{
+    Test_MgbaPrintf("SpeciesInfo size: %d", sizeof(struct SpeciesInfo));
+}
+
+TEST("BoxPokemon size")
+{
+    Test_MgbaPrintf("BoxPokemon size: %d", sizeof(struct BoxPokemon));
+}
