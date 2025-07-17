@@ -39063,8 +39063,10 @@ F_TRAINER_FEMALE |
 #line 15909
             .species = SPECIES_TSAREENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 15909
+            .heldItem = ITEM_ADRENALINE_ORB,
 #line 15913
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
 #line 15910
             .ability = ABILITY_QUEENLY_MAJESTY,
 #line 15911
@@ -39087,7 +39089,7 @@ F_TRAINER_FEMALE |
 #line 15919
             .heldItem = ITEM_IAPAPA_BERRY,
 #line 15923
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
 #line 15920
             .ability = ABILITY_GLUTTONY,
 #line 15921
@@ -39133,7 +39135,7 @@ F_TRAINER_FEMALE |
 #line 15938
             .heldItem = ITEM_GRASSY_SEED,
 #line 15942
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
 #line 15939
             .ability = ABILITY_FLOWER_VEIL,
 #line 15940
@@ -39156,7 +39158,7 @@ F_TRAINER_FEMALE |
 #line 15948
             .heldItem = ITEM_SITRUS_BERRY,
 #line 15952
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
 #line 15949
             .ability = ABILITY_COTTON_DOWN,
 #line 15950

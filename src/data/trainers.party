@@ -11375,7 +11375,7 @@ AI: Smart Trainer
 Mugshot: Blue
 
 Fletchinder @ Rocky Helmet  
-Ability: Gale Wings  
+Ability: Flame Body
 Level: 27  
 Jolly Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
@@ -11390,9 +11390,9 @@ Level: 27
 Bold Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Sticky Web  
+- Bug Bite  
 - Thunder Wave  
-- Lunge  
-- Volt Switch  
+- Spark  
 
 Azumarill @ Sitrus Berry  
 Ability: Huge Power  
@@ -11400,9 +11400,9 @@ Level: 27
 Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Aqua Jet  
-- Aqua Tail  
-- Body Slam  
-- Brick Break  
+- Bubble Beam  
+- Ice Punch  
+- Disarming Voice  
 
 Crocalor @ Leftovers
 Ability: Blaze
@@ -11410,20 +11410,20 @@ Level: 28
 Tera Type: Fire
 Ball: Cherish Ball
 Mild Nature
-- Flamethrower
-- Seed Bomb
-- Will-O-Wisp
-- Crunch
+- Incinerate  
+- Will-O-Wisp  
+- Snarl  
+- Fire Spin  
 
 Swadloon @ Coba Berry  
 Ability: Chlorophyll  
 Level: 27 
 Hasty Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Magical Leaf  
-- Bug Bite  
+- Razor Leaf  
+- Pounce  
 - Electroweb  
-- Sunny Day  
+- Magical Leaf  
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -15906,11 +15906,11 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer / Double Battle
 
-Tsareena
+Tsareena @ Adrenaline Orb
 Ability: Queenly Majesty
 Level: 34
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Triple Axel
 - Grassy Glide
 - Play Rough
@@ -15920,7 +15920,7 @@ Flapple @ Iapapa Berry
 Ability: Gluttony
 Level: 34
 Hasty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grav Apple
 - Dragon Rush
 - Air Slash
@@ -15939,7 +15939,7 @@ Comfey @ Grassy Seed
 Ability: Flower Veil
 Level: 34
 Timid Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grassy Terrain
 - Grass Knot
 - Draining Kiss
@@ -15949,7 +15949,7 @@ Eldegoss @ Sitrus Berry
 Ability: Cotton Down
 Level: 34
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grassy Terrain
 - Giga Drain
 - Hyper Voice
