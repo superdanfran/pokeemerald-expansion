@@ -1644,21 +1644,48 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Items: Super Potion
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer / Prefer Status Moves
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Gengar @ Air Balloon  
+Ability: Cursed Body  
+Level: 36  
+Timid Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mean Look  
+- Spite  
+- Disable  
+- Destiny Bond  
 
-Wailmer
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Gourgeist-Super @ Ring Target  
+Ability: Pickup  
+Level: 36  
+Impish Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Trick-or-Treat  
+- Foul Play  
+- Shadow Sneak  
+- Trick  
 
-Makuhita
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Thievul @ Ghost Gem 
+Ability: Unburden  
+Level: 36  
+Mild Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Sucker Punch  
+- Parting Shot  
+- Snarl  
+- Shadow Ball  
+
+Runerigus @ Expert Belt  
+Ability: Wandering Spirit  
+Level: 36  
+Adamant Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Shadow Claw  
+- Brutal Swing  
+- Ally Switch  
+- Body Press  
 
 === TRAINER_EDGAR ===
 Name: EDGAR
@@ -2084,13 +2111,13 @@ Gender: Female
 Music: Cool
 Items: None
 Double Battle: Yes
-AI: Smart Trainer / Force Setup First Turn
+AI: Smart Trainer / Force Setup First Turn / HP Aware
 
 Ninetales-Alola @ Icy Rock
 Ability: Snow Warning
 Level: 36
 Bold Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
 - Freeze-Dry
 - Aurora Veil
 - Dazzling Gleam
@@ -2100,7 +2127,7 @@ Slowking-Galar @ Leftovers
 Ability: Curious Medicine
 Level: 36
 Sassy Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
 - Chilly Reception
 - Trick Room
 - Heal Pulse
@@ -2110,7 +2137,7 @@ Arctovish @ Sitrus Berry
 Ability: Ice Body
 Level: 36
 Adamant Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
 - Fishious Rend
 - Aurora Veil
 - Protect
@@ -2120,7 +2147,7 @@ Eiscue
 Ability: Ice Face
 Level: 36
 Quiet Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
 - Snowscape
 - Aurora Veil
 - Chilling Water
@@ -2130,7 +2157,7 @@ Froslass @ Spell Tag
 Ability: Snow Cloak
 Level: 36
 Modest Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
 - Shadow Ball
 - Will-O-Wisp
 - Ice Beam
@@ -4393,7 +4420,7 @@ Gogoat @ Grassy Seed
 Ability: Grass Pelt
 Level: 34
 Adamant Nature
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grassy Glide
 - Horn Leech
 - Wild Charge
@@ -4403,7 +4430,7 @@ Comfey @ Terrain Extender
 Ability: Flower Veil
 Level: 34
 Timid Nature
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Floral Healing
 - Leech Seed
 - Helping Hand
@@ -4415,7 +4442,7 @@ Level: 35
 Brave Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grassy Glide
-- Drum Beating
+- Grass Pledge
 - High Horsepower
 - Drain Punch
 
@@ -4423,7 +4450,7 @@ Simipour @ Petaya Berry
 Ability: Gluttony
 Level: 34
 Timid Nature
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Water Pledge
 - Scald
 - Grass Knot
@@ -4573,44 +4600,44 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Basic Trainer / Try To Faint
 
-Erebus (Eevee-Starter) (M) @ Eviolite
+Erebus (Eevee-Starter) (M) @ Silk Scarf
 Ability: Adaptability
 Level: 36
 Shiny: Yes
 Hardy Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Hyper Voice
 - Body Slam
 - Shadow Ball
 - Alluring Voice
 
-Hemera (Espeon) (F)
+Hemera (Espeon) (F) @ Wise Glasses
 Ability: Magic Bounce
 Level: 36
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Hyper Voice
 - Psychic Noise
 - Shadow Ball
 - Draining Kiss
 
-Hermes (Jolteon) (M) @ Flame Orb
+Hermes (Jolteon) (M) @ Toxic Orb
 Ability: Quick Feet
 Level: 36
 Hasty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Hyper Voice
 - Electro Ball
-- Dig
+- Volt Switch
 - Trailblaze
 
-Aurora (Sylveon) (F)
+Aurora (Sylveon) (F) @ Bright Powder
 Ability: Pixilate
 Level: 36
 Rash Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Hyper Voice
 - Magical Leaf
 - Mystical Fire
@@ -6614,7 +6641,7 @@ Mugshot: Pink
 
 Staraptor @ Assault Vest
 Ability: Reckless
-Level: 34
+Level: 42
 Tera Type: Fighting
 Adamant Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6625,7 +6652,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ursaluna @ Sitrus Berry
 Ability: Unnerve
-Level: 34
+Level: 42
 Jolly Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Horsepower
@@ -6767,7 +6794,7 @@ AI: Smart Trainer
 
 Trevenant @ Liechi Berry
 Ability: Harvest
-Level: 34
+Level: 42
 Brave Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wood Hammer
@@ -6777,7 +6804,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Scolipede @ Assault Vest
 Ability: Speed Boost
-Level: 34
+Level: 42
 Tera Type: Rock
 Jolly Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -7009,7 +7036,7 @@ AI: Smart Trainer
 
 Lucario @ Lucarionite
 Ability: Steadfast
-Level: 34
+Level: 42
 Hardy Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aura Sphere
@@ -7400,7 +7427,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dragon Claw
 - Brick Break
 - Scale Shot
-- Dragon Cheer
+- Dragon Dance
 
 Gliscor @ Toxic Orb
 Ability: Poison Heal
@@ -9419,51 +9446,51 @@ Music: Female
 Double Battle: Yes
 AI: Basic Trainer / Prefer Status Moves
 
-Lilligant
+Lilligant @ Mental Herb
 Ability: Own Tempo
 Level: 36
 Rash Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Petal Dance
 - Teeter Dance
 - Quiver Dance
 - Magical Leaf
 
-Oricorio-Baile
+Oricorio-Baile @ Focus Sash
 Ability: Dancer
 Level: 36
 Quiet Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Revelation Dance
 - Teeter Dance
 - Air Slash
 - Dual Wingbeat
 
-Ribombee
+Ribombee @ Occa Berry
 Ability: Shield Dust
 Level: 36
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Dazzling Gleam
 - Pollen Puff
 - Quiver Dance
 - Psychic
 
-Oricorio-Sensu
+Oricorio-Sensu @ Colbur Berry
 Ability: Dancer
 Level: 36
 Brave Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Revelation Dance
 - Teeter Dance
 - Air Slash
 - Dual Wingbeat
 
-Scyther
+Scyther @ Persim Berry
 Ability: Technician
 Level: 36
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Swords Dance
 - Tailwind
 - Pounce
@@ -10070,7 +10097,7 @@ Murkrow @ Eviolite
 Ability: Prankster
 Level: 35
 Bold Nature
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Tailwind
 - Quash
 - Air Cutter
@@ -10091,7 +10118,7 @@ Pidgeot @ Flying Gem
 Ability: Keen Eye
 Level: 35
 Naive Nature
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Tailwind
 - Hurricane
 - Rain Dance
@@ -10237,33 +10264,33 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Basic Trainer
+AI: Basic Trainer / Prefer Status Moves
 
-Grafaiai
+Grafaiai @ Focus Band
 Ability: Prankster
 Level: 34
 Calm Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Toxic
 - Metronome
 - Protect
 
-Azumarill
+Azumarill @ Sitrus Berry
 Ability: Huge Power
 Level: 34
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Play Rough
 - Liquidation
 - Body Slam
-- Trailblaze
+- Belly Drum
 
-Squawkabilly-Yellow
+Squawkabilly-Yellow @ Charcoal
 Ability: Sheer Force
 Level: 34
 Rash Nature
 Tera Type: Fire
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Air Slash
 - Sunny Day
 - Heat Wave
@@ -13501,7 +13528,7 @@ Mugshot: Blue
 AI: Smart Trainer / Smart Switching
 
 Palafin @ Assault Vest
-Level: 34
+Level: 42
 Adamant Nature
 Tera Type: Water
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -13510,7 +13537,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Whimsicott @ Misty Seed
 Ability: Prankster
-Level: 34
+Level: 42
 Quirky Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
@@ -13521,7 +13548,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Armarouge @ Sitrus Berry
 Ability: Weak Armor
 Modest Nature
-Level: 34
+Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flash Cannon
 - Flamethrower
@@ -13926,14 +13953,14 @@ Golem @ Custap Berry
 Ability: Sturdy
 Level: 34
 Naughty Nature
-IVs: 0 HP / 25 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Explosion
 
 Sawk @ Life Orb
 Ability: Sturdy
 Level: 34
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Retaliate
 
 === TRAINER_TRENT_1 ===
@@ -13948,15 +13975,16 @@ AI: Basic Trainer
 Minior @ Power Herb
 Level: 34
 Hardy Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Meteor Beam
 - Power Gem
 - Acrobatics
+- Protect
 
 Solrock @ Terrain Extender
 Level: 34
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Psychic Terrain
 - Zen Headbutt
 - Iron Defense
@@ -13966,7 +13994,7 @@ Lunatone @ Psychic Seed
 Level: 34
 Tera Type: Psychic
 Quiet Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Trick Room
 - Stored Power
 - Nasty Plot
@@ -15964,14 +15992,25 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer / Double Battle
 
-Toedscruel
-Level: 34
-Quiet Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spore
-- Magical Leaf
-- Confuse Ray
-- Earth Power
+Toedscruel @ Mental Herb  
+Ability: Mycelium Might  
+Level: 34  
+Quiet Nature  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Giga Drain  
+- Spore  
+- Earth Power  
+- Screech  
+
+Whimsicott @ Ability Shield  
+Ability: Prankster  
+Level: 34  
+Modest Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tickle  
+- Helping Hand  
+- Cotton Spore  
+- Dazzling Gleam  
 
 === TRAINER_HAYDEN ===
 Name: HAYDEN
@@ -15982,15 +16021,25 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer / Double Battle
 
-Marowak-Alola @ Iron Ball
-Ability: Cursed Body
-Level: 34
-Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Shadow Bone
-- Bone Rush
-- Bonemerang
-- Fling
+Marowak-Alola @ Thick Club  
+Ability: Cursed Body  
+Level: 34  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Adamant Nature  
+- Shadow Bone  
+- Bone Rush  
+- Bonemerang  
+- Fling  
+
+Tauros-Paldea-Blaze @ Sitrus Berry  
+Ability: Cud Chew  
+Level: 34  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Lonely Nature  
+- Raging Bull  
+- Trailblaze  
+- Double Kick  
+- Bulk Up  
 
 === TRAINER_SOPHIE ===
 Name: SOPHIE
@@ -16005,7 +16054,7 @@ Grafaiai @ Bright Powder
 Ability: Prankster
 Level: 36
 Sassy Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Flatter
 - Helping Hand
 - Toxic
@@ -16015,7 +16064,7 @@ Morgrem @ Iron Ball
 Ability: Prankster
 Level: 36
 Calm Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Trick
 - Thunder Wave
 - Light Screen
@@ -16033,7 +16082,8 @@ AI: Basic Trainer / Double Battle
 Espathra @ Weakness Policy
 Ability: Opportunist
 Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Modest Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Lumina Crash
 - Stored Power
 - Psyshock
@@ -16043,7 +16093,7 @@ Corviknight @ Rocky Helmet
 Ability: Mirror Armor
 Level: 36
 Impish Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Bulk Up
 - Dual Wingbeat
 - Tailwind
