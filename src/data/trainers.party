@@ -711,15 +711,48 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Serperior @ Occa Berry  
+Ability: Contrary  
+Level: 48  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Hasty Nature  
+- Petal Blizzard  
+- Coil  
+- Knock Off  
+- Protect  
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rotom-Mow @ Clear Amulet  
+Ability: Levitate  
+Level: 48  
+Timid Nature  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge  
+- Volt Switch  
+- Rain Dance  
+- Nasty Plot  
+
+Araquanid @ Mystic Water  
+Ability: Water Bubble  
+Level: 48  
+Adamant Nature  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Liquidation  
+- Leech Life  
+- Poison Jab  
+- Rain Dance  
+
+Breloom @ Rocky Helmet  
+Ability: Effect Spore  
+Level: 48  
+Tera Type: Fighting  
+Adamant Nature  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat  
+- Spore  
+- Bulk Up  
+- Mach Punch  
 
 === TRAINER_ROSE_1 ===
 Name: ROSE
@@ -6667,11 +6700,38 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Skitty @ Oran Berry
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mimikyu @ Assault Vest  
+Ability: Disguise  
+Level: 48  
+Jolly Nature  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Play Rough  
+- Drain Punch  
+- Shadow Claw  
+- X-Scissor  
+
+Pikachu-Libre @ Light Ball  
+Ability: Lightning Rod  
+Level: 48  
+Tera Type: Fighting  
+Hasty Nature  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flying Press  
+- Fake Out  
+- Volt Tackle  
+- Surf  
+
+Furfrou-Star @ Mental Herb  
+Ability: Fur Coat  
+Level: 48  
+Timid Nature  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Substitute  
+- Double Team  
+- Attract  
+- Echoed Voice  
 
 === TRAINER_COLTON ===
 Name: COLTON
@@ -7649,19 +7709,48 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Smart Switching
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacruel @ Heavy-Duty Boots  
+Ability: Clear Body  
+Level: 48  
+Jolly Nature  
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+- Toxic Spikes  
+- Venoshock  
+- Flip Turn  
+- Surf  
 
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gyarados @ Choice Band  
+Ability: Intimidate  
+Level: 48  
+Jolly Nature  
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+- Waterfall  
+- Earthquake  
+- Crunch  
+- Dragon Tail  
 
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golduck @ Life Orb  
+Ability: Cloud Nine  
+Level: 48  
+Tera Type: Psychic
+Timid Nature  
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+- Flip Turn  
+- Surf  
+- Psychic  
+- Calm Mind  
+
+Lanturn @ Air Balloon  
+Ability: Volt Absorb  
+Level: 48  
+Modest Nature  
+IVs: 21 HP / 0 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+- Surf  
+- Thunderbolt  
+- Icy Wind  
+- Volt Switch  
 
 === TRAINER_IVAN ===
 Name: IVAN
@@ -10386,15 +10475,48 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer / Try To Faint
 
-Plusle
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dedenne @ Leftovers  
+Ability: Plus  
+Level: 48  
+Tera Type: Flying  
+Timid Nature  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Dazzling Gleam  
+- Parabolic Charge  
+- Draining Kiss  
+- Grass Knot  
 
-Minun
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toxtricity-Low-Key @ Air Balloon  
+Ability: Minus  
+Level: 48  
+Modest Nature  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hyper Voice  
+- Overdrive  
+- Magnetic Flux  
+- Sludge Bomb  
+
+Ampharos @ Wise Glasses  
+Ability: Plus  
+Level: 48  
+Modest Nature  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Power Gem  
+- Magnetic Flux  
+- Thunderbolt  
+- Thunder Wave  
+
+Klinklang @ Clear Amulet  
+Ability: Plus  
+Level: 48  
+Naive Nature  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Magnetic Flux  
+- Gear Grind  
+- Shift Gear  
+- Flash Cannon  
 
 === TRAINER_AMY_AND_LIV_2 ===
 Name: AMY & LIV
