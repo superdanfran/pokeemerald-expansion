@@ -7789,19 +7789,30 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Magikarp
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magikarp @ Eviolite  
+Ability: Swift Swim  
+Level: 69 
+Adamant Nature
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+- Rain Dance  
+- Flail  
 
-Goldeen
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wugtrio @ Choice Band  
+Ability: Gooey  
+Level: 34
+Jolly Nature
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Triple Dive  
 
-Barboach
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Seadra @ Choice Specs  
+Ability: Swift Swim  
+Level: 36
+Tera Type: Flying
+Modest Nature
+IVs: 10 HP / 0 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hurricane  
 
 === TRAINER_ELLIOT_1 ===
 Name: ELLIOT
@@ -16326,11 +16337,37 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Politoed @ Bright Powder  
+Ability: Drizzle  
+Level: 38
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Icy Wind  
+- Mud Shot  
+- Helping Hand  
+
+Slowking @ Leftovers  
+Ability: Oblivious  
+Level: 38
+Quiet Nature  
+IVs: 0 Atk  
+- Surf  
+- Slack Off  
+- Thunder Wave  
+- Icy Wind  
+
+Toxapex @ Black Sludge  
+Ability: Merciless  
+Level: 38
+Quiet Nature  
+IVs: 0 Atk  
+- Surf  
+- Infestation  
+- Toxic  
+- Recover  
 
 === TRAINER_CHARLOTTE ===
 Name: CHARLOTTE
@@ -16339,11 +16376,35 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Nuzleaf
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cacturne @ Focus Band
+Ability: Water Absorb  
+Level: 38
+Modest Nature  
+IVs: 0 Atk  
+- Focus Blast  
+- Giga Drain  
+- Shadow Ball  
+- Dark Pulse  
+
+Parasect @ Focus Sash  
+Ability: Dry Skin  
+Level: 38
+Adamant Nature  
+- X-Scissor  
+- Seed Bomb  
+- Spore  
+- Rock Slide  
+
+Toxicroak @ Salac Berry  
+Ability: Dry Skin  
+Level: 38
+Jolly Nature  
+- Fake Out  
+- Close Combat  
+- Belch  
+- Ice Punch  
 
 === TRAINER_DEANDRE ===
 Name: DEANDRE
