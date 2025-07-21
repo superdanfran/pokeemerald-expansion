@@ -3130,16 +3130,17 @@ Level: 37
 Bold Nature
 - Follow Me
 - Helping Hand
-- Expanding Force
+- Shadow Ball
 - Hyper Voice
 
-Ninetales
-Ability: Drought
+Whimsicott @ Heat Rock
+Ability: Prankster
 Level: 37
 Sassy Nature
-- Helping Hand
+- Sunny Day
+- Tailwind
 - Weather Ball
-- Hypnosis
+- Helping Hand
 
 === TRAINER_STEVE_2 ===
 Name: STEVE
@@ -13518,8 +13519,8 @@ IVs: 0 Atk
 - Overheat  
 - Stealth Rock  
 
-Venusaur @ Focus Sash  
-Ability: Chlorophyll  
+Venusaur @ Black Sludge  
+Ability: Overgrow
 Level: 38
 Modest Nature  
 IVs: 0 Atk  
@@ -13528,15 +13529,15 @@ IVs: 0 Atk
 - Weather Ball  
 - Energy Ball  
 
-Chi-Yu @ Life Orb  
+Chi-Yu @ Absorb Bulb
 Ability: Beads of Ruin  
 Level: 38
 Modest Nature  
 Ball: Master Ball
 IVs: 0 Atk  
 - Dark Pulse  
-- Overheat  
-- Flamethrower  
+- Burning Jealousy
+- Hex
 - Psychic  
 
 Mismagius @ Expert Belt  
