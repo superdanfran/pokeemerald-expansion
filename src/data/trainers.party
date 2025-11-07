@@ -369,41 +369,92 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Bite
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
-Name: GRUNT
+Name: GRUNT ETIENNE
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gliscor @ Quick Claw  
+Ability: Hyper Cutter  
+Level: 56
+Jolly Nature  
+- Stealth Rock  
+- Toxic Spikes  
+- Earthquake  
+- Dual Wingbeat  
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Samurott-Hisui @ Bright Powder  
+Ability: Sharpness  
+Level: 56
+Adamant Nature  
+- Ceaseless Edge  
+- Razor Shell  
+- Sacred Sword  
+- Megahorn  
+
+Zoroark @ Focus Sash  
+Ability: Illusion  
+Level: 56
+Timid Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Flamethrower  
+- Grass Knot  
+- Shadow Ball  
+
+Veluza @ Focus Band  
+Ability: Sharpness  
+Level: 56
+Tera Type: Water  
+Jolly Nature  
+- Fillet Away  
+- Aqua Jet  
+- Aqua Cutter  
+- Psycho Cut  
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
-Name: GRUNT
+Name: GRUNT STEDE
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Muk-Alola @ Assault Vest  
+Ability: Poison Touch  
+Level: 56
+Brave Nature  
+- Gunk Shot  
+- Knock Off  
+- Ice Punch  
+- Rock Slide  
 
-Carvanha
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Umbreon @ Bright Powder  
+Ability: Synchronize  
+Level: 56
+Tera Type: Steel  
+Bold Nature  
+IVs: 0 Atk  
+- Moonlight  
+- Toxic  
+- Confuse Ray  
+- Foul Play  
+
+Banette @ Banettite  
+Ability: Frisk  
+Level: 56
+Brave Nature  
+- Thunder Wave  
+- Will-O-Wisp  
+- Shadow Claw  
+- Knock Off  
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
-Name: GRUNT
+Name: GRUNT DIRK
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -436,7 +487,7 @@ Quiet Nature
 - Volt Switch  
 - Flash Cannon  
 - Explosion  
-- Hidden Power [Ice]  
+- Hidden Power
 
 Sharpedo @ Covert Cloak  
 Ability: Speed Boost  
@@ -583,17 +634,50 @@ Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
-Name: GRUNT
+Name: GRUNT JOSSABEE
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Carvanha
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crawdaunt @ Focus Band  
+Level: 56 
+Brave Nature  
+- Crabhammer  
+- Aqua Jet  
+- Close Combat  
+- Knock Off  
+
+Crobat @ Focus Sash  
+Ability: Inner Focus  
+Level: 56
+Timid Nature  
+IVs: 0 Atk  
+- Hypnosis  
+- Sludge Bomb  
+- Air Slash  
+- Nasty Plot  
+
+Mightyena @ Berserk Gene  
+Ability: Intimidate  
+Level: 56
+Jolly Nature  
+- Crunch  
+- Play Rough  
+- Ice Fang  
+- Sucker Punch  
+
+Weavile @ Bright Powder  
+Ability: Pressure  
+Level: 56
+Tera Type: Ghost  
+Adamant Nature  
+- Icicle Crash  
+- Brick Break  
+- Night Slash  
+- Aerial Ace  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
 Name: GRUNT
@@ -4040,15 +4124,46 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Magnemite
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magnezone @ Bright Powder  
+Ability: Sturdy  
+Level: 54
+Modest Nature  
+IVs: 0 Atk  
+- Electroweb  
+- Discharge  
+- Flash Cannon  
+- Mirror Coat  
 
-Whismur
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Exploud @ Chople Berry  
+Ability: Scrappy  
+Level: 54 
+Timid Nature  
+IVs: 0 Atk  
+- Boomburst  
+- Extrasensory  
+- Shadow Ball  
+- Flamethrower  
+
+Luxray @ Flame Orb  
+Ability: Guts  
+Level: 54
+Tera Type: Electric
+Adamant Nature  
+- Crunch  
+- Facade  
+- Ice Fang  
+- Supercell Slam  
+
+Klefki @ Assault Vest  
+Ability: Prankster  
+Level: 54
+Quiet Nature  
+- Dazzling Gleam  
+- Psychic  
+- Tera Blast  
+- Flash Cannon  
 
 === TRAINER_DALTON_2 ===
 Name: DALTON
@@ -4843,11 +4958,37 @@ Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Surskit
-Level: 26
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Overqwil @ Black Sludge  
+Ability: Swift Swim  
+Level: 54
+Tera Type: Bug
+Adamant Nature  
+- Toxic Spikes  
+- Waterfall  
+- Throat Chop  
+- Poison Jab  
+
+Volbeat (M) @ Focus Sash  
+Ability: Prankster  
+Level: 54
+Timid Nature  
+IVs: 0 Atk  
+- Confuse Ray  
+- Thunder Wave  
+- Bug Buzz  
+- Chilling Water  
+
+Vivillon @ Focus Band  
+Ability: Shield Dust  
+Level: 54
+Modest Nature  
+IVs: 0 Atk  
+- Quiver Dance  
+- Bug Buzz  
+- Draining Kiss  
+- Energy Ball  
 
 === TRAINER_DONALD ===
 Name: DONALD
@@ -8893,11 +9034,41 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pelipper @ Wacan Berry  
+Ability: Drizzle  
+Level: 54
+IVs: 0 Atk  
+- Hurricane  
+- Thunder  
+- Weather Ball  
+- Ice Beam  
+
+Braviary-Hisui (M) @ Wise Glasses  
+Ability: Tinted Lens  
+Level: 54
+IVs: 0 Atk  
+- Hurricane  
+- Esper Wing  
+- Dazzling Gleam  
+- Vacuum Wave  
+
+Kilowattrel @ Life Orb  
+Ability: Volt Absorb  
+Level: 54
+IVs: 0 Atk  
+- Thunder  
+- Hurricane  
+
+Cramorant @ Focus Sash  
+Ability: Gulp Missile  
+Level: 54
+IVs: 0 Atk  
+- Surf  
+- Air Slash  
+- Ice Beam  
+- Tailwind  
 
 === TRAINER_HUGH ===
 Name: HUGH
@@ -8905,16 +9076,45 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: No
-AI: Check Bad Move
+Double Battle: Yes
+AI: Basic Trainer
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Masquerain @ Focus Sash  
+Ability: Intimidate  
+Level: 54 
+Timid Nature  
+IVs: 0 Atk  
+- Tailwind  
+- Bug Buzz  
+- Hurricane  
+- Hydro Pump  
 
-Tropius
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Honchkrow @ Covert Cloak  
+Ability: Prankster  
+Level: 54 
+Quirky Nature  
+IVs: 0 Atk  
+- Tailwind  
+- Thunder Wave  
+- Swagger  
+- Memento  
+
+Pidgeot @ Pidgeotite  
+Ability: Keen Eye  
+Level: 54 
+Modest Nature  
+IVs: 0 Atk  
+- Hurricane  
+- Hyper Voice  
+- Hidden Power 
+- Heat Wave  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+Level: 54 
+Adamant Nature  
+- Head Smash  
+- Double-Edge  
 
 === TRAINER_PHIL ===
 Name: PHIL
@@ -8923,11 +9123,42 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory @ Red Card  
+Ability: Sturdy  
+Level: 54 
+Sassy Nature  
+- Drill Peck  
+- Drill Run  
+- Tailwind  
+- Body Press  
+
+Blaziken @ Choice Band  
+Ability: Speed Boost  
+Level: 54 
+Tera Type: Flying  
+Timid Nature  
+- Rock Slide  
+- Tera Blast  
+
+Altaria @ Yache Berry  
+Ability: Natural Cure  
+Level: 54 
+Jolly Nature  
+- Dragon Dance  
+- Earthquake  
+- Draco Meteor  
+- Dual Wingbeat  
+
+Dodrio @ Berserk Gene  
+Ability: Tangled Feet  
+Level: 54 
+Jolly Nature  
+- Acrobatics  
+- Double-Edge  
+- Drill Run  
+- Lunge  
 
 === TRAINER_JARED ===
 Name: JARED
@@ -9055,15 +9286,41 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fearow @ Scope Lens  
+Ability: Sniper  
+Level: 54
+Adamant Nature  
+- Focus Energy  
+- Drill Run  
+- Drill Peck  
+- U-turn  
 
-Swellow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swellow @ Flame Orb  
+Ability: Guts  
+Tera Type: Normal  
+Level: 54
+Adamant Nature  
+- Facade  
+- Dual Wingbeat  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Level: 54
+Jolly Nature  
+- Crabhammer  
+- Dual Wingbeat  
+- Earthquake  
+
+Corviknight @ Metal Coat  
+Ability: Mirror Armor  
+Level: 54
+Brave Nature  
+- Iron Head  
+- Drill Peck  
+- Body Press  
+- Body Slam  
 
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
@@ -9170,11 +9427,46 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: Basic Trainer
 
-Ninjask
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragalge @ Focus Band  
+Ability: Poison Point  
+Level: 56
+Quiet Nature  
+IVs: 0 Atk  
+- Scald  
+- Dragon Pulse  
+- Sludge Bomb  
+- Toxic Spikes  
+
+Ferrothorn @ Quick Claw  
+Ability: Iron Barbs
+Level: 56
+Tera Type: Steel
+Sassy Nature  
+IVs: 0 Spe  
+- Stealth Rock  
+- Curse  
+- Power Whip  
+- Gyro Ball  
+
+Malamar @ Assault Vest  
+Ability: Contrary  
+Level: 56
+Sassy Nature  
+- Superpower  
+- Psycho Boost  
+- Dark Pulse  
+- Trick Room  
+
+Lurantis @ Expert Belt  
+Ability: Contrary  
+Level: 56
+Sassy Nature  
+- Leaf Storm  
+- Superpower  
+- Weather Ball  
+- Tera Blast  
 
 === TRAINER_TAKASHI ===
 Name: TAKASHI
@@ -9183,15 +9475,53 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: Basic Trainer
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor @ Grassy Seed  
+Ability: Unburden  
+Level: 54 
+IVs: 0 Atk  
+- Bug Buzz  
+- Baton Pass  
+- Final Gambit  
+- Sticky Web  
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hitmonlee (M) @ Normal Gem  
+Ability: Unburden  
+Level: 54 
+Tera Type: Water  
+Adamant Nature  
+- Fake Out  
+- Stone Edge  
+- Tera Blast 
+- Poison Jab  
+
+Drifblim @ Flying Gem  
+Ability: Unburden  
+Level: 54  
+Modest Nature  
+- Acrobatics  
+- Shadow Ball  
+- Explosion  
+- Thunder  
+
+Sneasler @ White Herb  
+Ability: Unburden  
+Level: 54  
+Adamant Nature  
+- Close Combat  
+- Dire Claw  
+- Night Slash  
+- Rock Slide  
+
+Greninja @ King's Rock  
+Ability: Protean  
+Level: 54  
+Hardy Nature  
+- Aura Sphere  
+- Water Shuriken  
+- Bullet Seed  
+- Fling  
 
 === TRAINER_DIANNE ===
 Name: DIANNE
@@ -11578,19 +11908,65 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Yellow
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Cyclizar @ Eject Pack  
+Ability: Regenerator  
+Level: 58
+Timid Nature  
+- Draco Meteor  
+- U-turn  
+- Shed Tail  
+- Power Whip  
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Kilowattrel @ Wise Glasses  
+Ability: Wind Power  
+Level: 58
+Timid Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunderbolt  
+- Air Slash  
+- Hurricane  
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Meowscarada @ Expert Belt  
+Ability: Overgrow  
+Level: 58 
+Tera Type: Grass
+Jolly Nature  
+- Flower Trick  
+- U-turn  
+- Throat Chop  
+- Play Rough  
+
+Manectric @ Manectite  
+Ability: Intimidate  
+Level: 58 
+Modest Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunder  
+- Hidden Power
+- Snarl  
+
+Kingdra @ Life Orb  
+Ability: Swift Swim  
+Level: 58
+Adamant Nature  
+- Dragon Dance  
+- Breaking Swipe  
+- Body Slam  
+- Waterfall  
+
+Lokix @ Eject Button  
+Ability: Tinted Lens  
+Level: 58
+Jolly Nature  
+- First Impression  
+- U-turn  
+- Sucker Punch  
+- Throat Chop  
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: BRENDAN
@@ -11677,19 +12053,66 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
-Mugshot: Blue
+Mugshot: Yellow
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Araquanid @ Leftovers  
+Ability: Water Bubble  
+Level: 58
+Brave Nature  
+- Sticky Web  
+- Lunge  
+- Liquidation  
+- Poison Jab  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tentacruel @ Black Sludge  
+Ability: Rain Dish  
+Level: 58 
+Modest Nature  
+IVs: 0 Atk  
+- Acid Armor  
+- Mirror Coat  
+- Toxic  
+- Chilling Water  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Lapras @ Cell Battery  
+Ability: Hydration  
+Level: 58
+Quiet Nature  
+- Thunder  
+- Waterfall  
+- Icicle Spear  
+- Dragon Dance  
+
+Empoleon @ Leftovers  
+Ability: Competitive  
+Level: 58 
+Relaxed Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Flash Cannon  
+- Air Slash  
+
+Ampharos @ Ampharosite  
+Ability: Static
+Level: 58
+Quiet Nature  
+IVs: 0 Atk  
+- Thunder  
+- Dragon Pulse  
+- Power Gem  
+- Cotton Guard  
+
+Skeledirge @ Utility Umbrella  
+Ability: Blaze  
+Level: 58
+Tera Type: Fire  
+Relaxed Nature  
+IVs: 0 Atk  
+- Alluring Voice  
+- Torch Song  
+- Shadow Ball  
+- Slack Off  
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
 Name: BRENDAN
@@ -11775,19 +12198,59 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Yellow
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Palafin @ Choice Scarf  
+Ability: Zero to Hero  
+Level: 58
+Jolly Nature  
+- Flip Turn  
+- Waterfall  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ludicolo @ Life Orb  
+Ability: Swift Swim  
+Level: 58 
+Modest Nature  
+- Giga Drain  
+- Ice Beam  
+- Muddy Water  
+- Fake Out  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Quaquaval @ Expert Belt  
+Ability: Torrent  
+Level: 58
+Tera Type: Water  
+Adamant Nature  
+- Aqua Step  
+- Close Combat  
+- Triple Axel  
+- Brave Bird  
+
+Electrode-Hisui @ Black Sludge  
+Ability: Aftermath  
+Level: 58
+Modest Nature  
+- Thunder  
+- Chloroblast  
+- Volt Switch  
+- Explosion  
+
+Basculegion (M) @ Shell Bell  
+Ability: Swift Swim  
+Level: 58  
+- Wave Crash  
+- Phantom Force  
+- Head Smash  
+- Double-Edge  
+
+Scizor @ Scizorite  
+Ability: Technician  
+Level: 58
+- Dual Wingbeat  
+- Bug Bite  
+- Bullet Punch  
+- Trailblaze  
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
 Name: MAY
@@ -11872,19 +12335,65 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Yellow
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Cyclizar @ Eject Pack  
+Ability: Regenerator  
+Level: 58
+Timid Nature  
+- Draco Meteor  
+- U-turn  
+- Shed Tail  
+- Power Whip  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Kilowattrel @ Wise Glasses  
+Ability: Wind Power  
+Level: 58
+Timid Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunderbolt  
+- Air Slash  
+- Hurricane  
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Meowscarada @ Expert Belt  
+Ability: Overgrow  
+Level: 58 
+Tera Type: Grass
+Jolly Nature  
+- Flower Trick  
+- U-turn  
+- Throat Chop  
+- Play Rough  
+
+Manectric @ Manectite  
+Ability: Intimidate  
+Level: 58 
+Modest Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Thunder  
+- Hidden Power
+- Snarl  
+
+Kingdra @ Life Orb  
+Ability: Swift Swim  
+Level: 58
+Adamant Nature  
+- Dragon Dance  
+- Breaking Swipe  
+- Body Slam  
+- Waterfall  
+
+Lokix @ Eject Button  
+Ability: Tinted Lens  
+Level: 58
+Jolly Nature  
+- First Impression  
+- U-turn  
+- Sucker Punch  
+- Throat Chop  
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
 Name: MAY
@@ -11970,19 +12479,67 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Yellow
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Araquanid @ Leftovers  
+Ability: Water Bubble  
+Level: 58
+Brave Nature  
+- Sticky Web  
+- Lunge  
+- Liquidation  
+- Poison Jab  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tentacruel @ Black Sludge  
+Ability: Rain Dish  
+Level: 58 
+Modest Nature  
+IVs: 0 Atk  
+- Acid Armor  
+- Mirror Coat  
+- Toxic  
+- Chilling Water  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Lapras @ Cell Battery  
+Ability: Hydration  
+Level: 58
+Quiet Nature  
+- Thunder  
+- Waterfall  
+- Icicle Spear  
+- Dragon Dance  
+
+Empoleon @ Leftovers  
+Ability: Competitive  
+Level: 58 
+Relaxed Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Flash Cannon  
+- Air Slash  
+
+Ampharos @ Ampharosite  
+Ability: Static
+Level: 58
+Quiet Nature  
+IVs: 0 Atk  
+- Thunder  
+- Dragon Pulse  
+- Power Gem  
+- Cotton Guard  
+
+Skeledirge @ Utility Umbrella  
+Ability: Blaze  
+Level: 58
+Tera Type: Fire  
+Relaxed Nature  
+IVs: 0 Atk  
+- Alluring Voice  
+- Torch Song  
+- Shadow Ball  
+- Slack Off  
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
 Name: MAY
@@ -12548,14 +13105,41 @@ Name: JACKSON
 Class: Pkmn Ranger
 Pic: Pokemon Ranger M
 Gender: Male
-Music: Cool
-Items: Full Restore
+Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Breloom
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Poliwag @ Assault Vest  
+Ability: Swift Swim  
+Level: 66  
+- Earth Power  
+- Weather Ball  
+- Liquidation  
+- Ice Beam  
+
+Poliwag @ Assault Vest  
+Ability: Swift Swim  
+Level: 76  
+- Earth Power  
+- Weather Ball  
+- Liquidation  
+- Ice Beam  
+
+Poliwag @ Assault Vest  
+Ability: Swift Swim  
+Level: 86  
+- Earth Power  
+- Weather Ball  
+- Liquidation  
+- Ice Beam  
+
+Poliwag @ Assault Vest  
+Ability: Swift Swim  
+Level: 96  
+- Earth Power  
+- Weather Ball  
+- Liquidation  
+- Ice Beam  
 
 === TRAINER_LORENZO ===
 Name: LORENZO
@@ -12659,17 +13243,48 @@ Class: Pkmn Ranger
 Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Basic Trainer
 
-Gloom
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tentacruel @ Black Sludge  
+Ability: Rain Dish  
+Level: 54
+Bold Nature  
+IVs: 0 Atk  
+- Aqua Ring  
+- Acid Armor  
+- Giga Drain  
+- Chilling Water  
 
-Roselia
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Goodra @ Bright Powder  
+Ability: Hydration  
+Level: 54
+Relaxed Nature  
+IVs: 0 Atk  
+- Rest  
+- Surf  
+- Dragon Pulse  
+- Acid Armor  
+
+Lapras @ Magnet  
+Ability: Hydration  
+Level: 54
+Bold Nature  
+IVs: 0 Atk  
+- Rest  
+- Freeze-Dry  
+- Sparkling Aria  
+- Thunder  
+
+Ludicolo @ Leftovers  
+Ability: Rain Dish  
+Level: 54
+Timid Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Giga Drain  
+- Chilling Water  
+- Protect  
 
 === TRAINER_JENNA ===
 Name: JENNA
@@ -13437,21 +14052,41 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_5 ===
-Name: GRUNT
+Name: GRUNT BONNY
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Overqwil @ Quick Claw  
+Ability: Intimidate  
+Level: 56
+Adamant Nature  
+- Fell Stinger  
+- Gunk Shot  
+- Waterfall  
+- Crunch  
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro-Galar @ Sitrus Berry  
+Ability: Quick Draw  
+Level: 56
+Tera Type: Fairy  
+Brave Nature  
+- Gunk Shot  
+- Belly Drum  
+- Zen Headbutt  
+- Drain Punch  
+
+Gyarados @ Gyaradosite  
+Ability: Intimidate 
+Level: 56
+Jolly Nature  
+- Crunch  
+- Waterfall  
+- Earthquake  
+- Stone Edge  
 
 === TRAINER_TABITHA_MT_CHIMNEY ===
 Name: TABITHA
@@ -14017,15 +14652,37 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Nincada
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Snom @ Eviolite  
+Ability: Ice Scales  
+Level: 85  
+Tera Type: Bug
+- Bug Buzz  
+- Icicle Spear  
+- Substitute  
+- Protect  
 
-Ninjask
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sewaddle @ Eviolite  
+Ability: Swarm  
+Level: 85  
+- Lunge  
+- Seed Bomb  
+
+Spewpa @ Eviolite  
+Ability: Shed Skin  
+Level: 85  
+- Tera Blast  
+- Stun Spore  
+- Iron Defense  
+- Protect  
+
+Cutiefly @ Eviolite  
+Ability: Shield Dust  
+Level: 85  
+IVs: 0 Atk  
+- Bug Buzz  
+- Dazzling Gleam  
 
 === TRAINER_GREG ===
 Name: GREG
@@ -14833,23 +15490,45 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: Check Bad Move / Try To Faint
+AI: Basic Trainer
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
+Greninja @ Covert Cloak  
+Ability: Protean  
+Level: 56 
+Naive Nature  
+- Extrasensory  
+- Dark Pulse  
+- U-turn  
+- Weather Ball  
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Poison Gas
-- Sludge
-- Smokescreen
+Mimikyu @ Leftovers  
+Ability: Disguise  
+Level: 56
+Jolly Nature  
+- Shadow Claw  
+- Play Rough  
+- Bulk Up  
+- X-Scissor  
+
+Crobat @ Black Sludge  
+Ability: Inner Focus  
+Level: 56
+Tera Type: Water  
+Timid Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Tera Blast
+- Air Cutter  
+- Sludge Bomb  
+
+Sirfetch’d @ Black Belt  
+Ability: Scrappy  
+Level: 56
+Adamant Nature  
+- First Impression  
+- Meteor Assault  
+- Mach Punch  
+- Rock Slide  
 
 === TRAINER_KEIGO ===
 Name: KEIGO
@@ -17295,15 +17974,52 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Slugma
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Torkoal @ Assault Vest  
+Ability: Drought  
+Level: 54 
+IVs: 0 Atk  
+- Ancient Power  
+- Flamethrower  
+- Solar Beam  
 
-Numel
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magcargo @ Leftovers  
+Ability: Magma Armor  
+Level: 54 
+Tera Type: Flying  
+Quiet Nature  
+- Tera Blast  
+- Ancient Power  
+- Earth Power  
+- Will-O-Wisp  
+
+Ceruledge @ Shell Bell  
+Ability: Sharpness  
+Level: 54 
+Jolly Nature  
+- Shadow Claw  
+- Bitter Blade  
+- Solar Blade  
+- Psycho Cut  
+
+Chandelure @ Air Balloon  
+Ability: Flash Fire  
+Level: 54  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Shadow Ball  
+- Flamethrower  
+- Will-O-Wisp  
+
+Whimsicott @ Focus Sash  
+Ability: Chlorophyll  
+Level: 54 
+IVs: 0 Atk  
+- Solar Beam  
+- Moonblast  
+- Stun Spore  
 
 === TRAINER_RACHEL ===
 Name: RACHEL
@@ -17312,11 +18028,56 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Roserade @ Black Sludge  
+Ability: Natural Cure  
+Level: 54 
+Timid Nature  
+IVs: 0 Atk  
+- Sludge Bomb  
+- Energy Ball  
+- Dazzling Gleam  
+- Shadow Ball  
+
+Lilligant (F) @ White Herb  
+Ability: Chlorophyll  
+Level: 54 
+Modest Nature  
+IVs: 0 Atk  
+- Alluring Voice  
+- Leaf Storm  
+- Quiver Dance  
+- Weather Ball  
+
+Serperior @ Mental Herb  
+Ability: Overgrow  
+Level: 54
+Jolly Nature  
+- Glare  
+- Coil  
+- Knock Off  
+- Petal Blizzard  
+
+Ampharos @ Power Herb  
+Ability: Static 
+Level: 54
+Tera Type: Grass  
+Quiet Nature  
+IVs: 0 Atk  
+- Meteor Beam  
+- Dragon Pulse  
+- Discharge  
+- Focus Blast  
+
+Volbeat (M) @ Mirror Herb  
+Ability: Prankster  
+Level: 54 
+Jolly Nature  
+- Swagger  
+- Acrobatics  
+- Lunge  
+- Thunder Punch  
 
 === TRAINER_LEONEL ===
 Name: LEONEL

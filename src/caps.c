@@ -20,7 +20,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE04_GET, 45},
         {FLAG_BADGE05_GET, 50},
         {FLAG_HIDE_ROUTE_119_TEAM_AQUA, 58},
-        {FLAG_BADGE06_GET, 66},
+        {FLAG_BADGE06_GET, 60},
         {FLAG_BADGE07_GET, 77},
         {FLAG_BADGE08_GET, 88},
         {FLAG_IS_CHAMPION, 99},
