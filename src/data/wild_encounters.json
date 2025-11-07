@@ -1706,8 +1706,8 @@
                 "species": "SPECIES_CARVANHA"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 18,
+                "max_level": 18,
                 "species": "SPECIES_BASCULIN_WHITE_STRIPED"
               },
               {

@@ -132,6 +132,16 @@ static const u16 sRaichuFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_PIKACHU
 
+#if P_FAMILY_CLEFAIRY
+static const u16 sClefableFormSpeciesIdTable[] = {
+    SPECIES_CLEFABLE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_CLEFABLE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_CLEFAIRY
+
 #if P_FAMILY_SANDSHREW
 static const u16 sSandshrewFormSpeciesIdTable[] = {
     SPECIES_SANDSHREW,
@@ -237,6 +247,16 @@ static const u16 sAlakazamFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_ABRA
+
+#if P_FAMILY_BELLSPROUT
+static const u16 sVictreebelFormSpeciesIdTable[] = {
+    SPECIES_VICTREEBEL,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_VICTREEBEL_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_BELLSPROUT
 
 #if P_FAMILY_MACHOP
 static const u16 sMachampFormSpeciesIdTable[] = {
@@ -414,6 +434,16 @@ static const u16 sExeggutorFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_EXEGGCUTE
 
+#if P_FAMILY_STARYU
+static const u16 sStarmieFormSpeciesIdTable[] = {
+    SPECIES_STARMIE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_STARMIE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_STARYU
+
 #if P_FAMILY_CUBONE
 static const u16 sMarowakFormSpeciesIdTable[] = {
     SPECIES_MAROWAK,
@@ -570,6 +600,16 @@ static const u16 sMoltresFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_MOLTRES
 
+#if P_FAMILY_DRATINI
+static const u16 sDragoniteFormSpeciesIdTable[] = {
+    SPECIES_DRAGONITE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_DRAGONITE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_DRATINI
+
 #if P_FAMILY_MEWTWO
 static const u16 sMewtwoFormSpeciesIdTable[] = {
     SPECIES_MEWTWO,
@@ -581,6 +621,16 @@ static const u16 sMewtwoFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_MEWTWO
 
+#if P_FAMILY_CHIKORITA
+static const u16 sMeganiumFormSpeciesIdTable[] = {
+    SPECIES_MEGANIUM,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_MEGANIUM_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_CHIKORITA
+
 #if P_FAMILY_CYNDAQUIL
 static const u16 sTyphlosionFormSpeciesIdTable[] = {
     SPECIES_TYPHLOSION,
@@ -590,6 +640,16 @@ static const u16 sTyphlosionFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_CYNDAQUIL
+
+#if P_FAMILY_TOTODILE
+static const u16 sFeraligatrFormSpeciesIdTable[] = {
+    SPECIES_FERALIGATR,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_FERALIGATR_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_TOTODILE
 
 #if P_FAMILY_MAREEP
 static const u16 sAmpharosFormSpeciesIdTable[] = {
@@ -710,6 +770,16 @@ static const u16 sHoundoomFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_HOUNDOUR
+
+#if P_FAMILY_SKARMORY
+static const u16 sSkarmoryFormSpeciesIdTable[] = {
+    SPECIES_SKARMORY,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_SKARMORY_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_SKARMORY
 
 #if P_FAMILY_LARVITAR
 static const u16 sTyranitarFormSpeciesIdTable[] = {

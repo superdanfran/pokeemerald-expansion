@@ -997,10 +997,18 @@
 #define ITEM_INFINITE_REPEL 830
 #define ITEM_HYPER_CANDY 831
 
+#define ITEM_CLEFABLITE 832
+#define ITEM_STARMINITE 833
+#define ITEM_VICTREEBELITE 834
+#define ITEM_DRAGONINITE 835
+#define ITEM_FERALIGITE 836
+#define ITEM_MEGANIUMITE 837
+#define ITEM_SKARMORITE 839
+
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 832
+#define ITEMS_COUNT 840
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

@@ -19,6 +19,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, 38},
         {FLAG_BADGE04_GET, 45},
         {FLAG_BADGE05_GET, 50},
+        {FLAG_HIDE_ROUTE_119_TEAM_AQUA, 58},
         {FLAG_BADGE06_GET, 66},
         {FLAG_BADGE07_GET, 77},
         {FLAG_BADGE08_GET, 88},

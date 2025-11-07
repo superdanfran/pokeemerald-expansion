@@ -409,19 +409,53 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Poochyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Grimmsnarl (M) @ Light Clay  
+Ability: Prankster  
+Level: 56
+Impish Nature  
+- Light Screen  
+- Reflect  
+- Parting Shot  
+- Spirit Break  
 
-Zubat
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hawlucha @ Power Herb  
+Ability: Limber  
+Level: 56
+Adamant Nature  
+- Sky Attack  
+- Acrobatics  
+- Close Combat  
+- Poison Jab  
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magnezone @ Custap Berry  
+Ability: Sturdy  
+Level: 56
+Quiet Nature  
+- Volt Switch  
+- Flash Cannon  
+- Explosion  
+- Hidden Power [Ice]  
+
+Sharpedo @ Covert Cloak  
+Ability: Speed Boost  
+Level: 56
+Adamant Nature  
+- Destiny Bond  
+- Waterfall  
+- Crunch  
+- Psychic Fangs  
+
+Kartana @ Focus Sash  
+Ability: Beast Boost  
+Level: 56
+Tera Type: Rock  
+Jolly Nature  
+- Tera Blast  
+- Sacred Sword  
+- Smart Strike  
+- Leaf Blade
 
 === TRAINER_GRUNT_MUSEUM_1 ===
 Name: JACK
@@ -642,15 +676,64 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Blue
 
-Carvanha
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pelipper @ Focus Sash  
+Ability: Drizzle  
+Level: 58  
+Modest Nature  
+- Hurricane  
+- Tailwind  
+- Hydro Pump  
+- U-turn  
 
-Mightyena
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Overqwil @ Assault Vest  
+Ability: Swift Swim  
+Level: 58  
+Jolly Nature  
+- Waterfall  
+- Self-Destruct  
+- Barb Barrage  
+- Crunch  
+
+Starmie @ Starminite  
+Ability: Natural Cure  
+Level: 58  
+Jolly Nature  
+- Liquidation  
+- Flip Turn  
+- Zen Headbutt  
+- Bulk Up  
+
+Thundurus @ Expert Belt  
+Ability: Prankster  
+Level: 58  
+Timid Nature  
+IVs: 0 Atk  
+- Rain Dance  
+- Wildbolt Storm  
+- Weather Ball  
+- Volt Switch  
+
+Blastoise @ Life Orb  
+Ability: Rain Dish  
+Level: 58  
+Tera Type: Grass  
+Mild Nature  
+- Fake Out  
+- Tera Blast  
+- Weather Ball  
+- Rock Slide  
+
+Sneasler @ Payapa Berry  
+Ability: Poison Touch  
+Level: 58  
+Jolly Nature  
+- Dire Claw  
+- Fake Out  
+- Night Slash  
+- Close Combat  
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -719,7 +802,7 @@ Level: 48
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Hasty Nature  
 - Petal Blizzard  
-- Coil  
+- Substitute  
 - Knock Off  
 - Protect  
 
@@ -4058,13 +4141,13 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Tangrowth @ Assault Vest  
 Ability: Chlorophyll 
 Level: 42
 Jolly Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Power Whip  
 - Rock Slide 
 - Brick Break 
@@ -4075,7 +4158,7 @@ Ability: Chlorophyll
 Tera Type: Fire  
 Level: 42
 Adamant Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Blade  
 - X-Scissor  
 - Swords Dance  
@@ -4085,7 +4168,7 @@ Scovillain @ Eject Pack
 Ability: Chlorophyll  
 Level: 42
 Quiet Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat  
 - Energy Ball  
 - Stomping Tantrum  
@@ -4095,7 +4178,7 @@ Shiftry @ Focus Sash
 Ability: Chlorophyll  
 Level: 42
 Mild Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Blade  
 - Focus Blast  
 - Dark Pulse  
@@ -4105,7 +4188,7 @@ Sunflora @ Occa Berry
 Ability: Solar Power  
 Level: 42
 Modest Nature
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe 
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growth  
 - Solar Beam  
 - Earth Power  
@@ -4135,13 +4218,13 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Galvantula @ Occa Berry  
 Ability: Compound Eyes  
 Level: 42
 Timid Nature  
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sticky Web  
 - Discharge  
 - Bug Buzz  
@@ -4151,7 +4234,7 @@ Arcanine-Hisui @ Life Orb
 Ability: Rock Head  
 Level: 42
 Jolly Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Head Smash  
 - Flare Blitz
 - Close Combat
@@ -4162,7 +4245,7 @@ Ability: Guts
 Level: 42
 Tera Type: Fire  
 Jolly Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat  
 - Earthquake  
 - Megahorn  
@@ -4172,7 +4255,7 @@ Venusaur @ Black Sludge
 Ability: Chlorophyll  
 Level: 42
 Adamant Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder  
 - Petal Blizzard  
 - Poison Jab  
@@ -4185,13 +4268,13 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Corviknight @ Leftovers  
 Ability: Pressure  
 Level: 42
 Impish Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind  
 - Drill Peck  
 - Body Press  
@@ -4201,7 +4284,7 @@ Blaziken @ Life Orb
 Ability: Speed Boost 
 Level: 42
 Brave Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat  
 - Overheat  
 
@@ -4210,7 +4293,7 @@ Ability: Sharpness
 Level: 42
 Tera Type: Fire  
 Adamant Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ceaseless Edge  
 - Aerial Ace 
 - Tera Blast  
@@ -4220,7 +4303,7 @@ Chandelure @ Wise Glasses
 Ability: Flash Fire  
 Level: 42
 Modest Nature
-IVs: 14 HP / 0 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dark Pulse  
 - Energy Ball  
 - Flamethrower  
@@ -4233,13 +4316,13 @@ Pic: Kindler
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Pyroar (M) @ King's Rock  
 Ability: Rivalry  
 Level: 42  
 Modest Nature  
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe 
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hyper Voice  
 - Heat Wave  
 - Burning Jealousy  
@@ -4249,7 +4332,7 @@ Pyroar (F) @ Life Orb
 Ability: Rivalry  
 Level: 42  
 Timid Nature  
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Burning Jealousy  
 - Noble Roar  
 - Solar Beam  
@@ -4259,7 +4342,7 @@ Salazzle @ Wiki Berry
 Ability: Corrosion  
 Level: 42  
 Modest Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Incinerate  
 - Belch  
 - Agility
@@ -4270,14 +4353,14 @@ Ability: Sturdy
 Level: 42  
 Tera Type: Fire  
 Relaxed Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Press  
 - Pain Split  
 - Thunder Wave  
 - Hard Press  
 
 === TRAINER_BERNIE_1 ===
-Name: BRYANT
+Name: BERNIE
 Class: Kindler
 Pic: Kindler
 Gender: Male
@@ -4289,7 +4372,7 @@ Ninetales @ Wise Glasses
 Ability: Drought
 Timid Nature
 Level: 34
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Energy Ball
 - Will-O-Wisp
 - Scorching Sands
@@ -4299,7 +4382,7 @@ Rotom-Heat @ Choice Specs
 Ability: Levitate
 Level: 36
 Sassy Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Eruption
 
 Leavanny @ Muscle Band
@@ -4307,7 +4390,7 @@ Ability: Chlorophyll
 Adamant Nature
 Tera Type: Fire
 Level: 34
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Tera Blast
 - Seed Bomb
 - Triple Axel
@@ -4317,7 +4400,7 @@ Heliolisk @ Wise Glasses
 Ability: Solar Power
 Level: 36
 Modest Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grass Knot
 - Thunderbolt
 - Dragon Pulse
@@ -4564,7 +4647,7 @@ Grafaiai @ Ability Shield
 Ability: Prankster  
 Level: 40  
 Quiet Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Metronome  
 - Swagger  
 - Copycat  
@@ -4574,7 +4657,7 @@ Wigglytuff (M) @ Leftovers
 Ability: Competitive  
 Level: 40  
 Modest Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Metronome  
 - Misty Terrain  
 - Misty Explosion  
@@ -4585,7 +4668,7 @@ Ability: Imposter
 Level: 40  
 Tera Type: Steel  
 Hardy Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_AUTUMN ===
 Name: AUTUMN
@@ -4600,7 +4683,7 @@ Dipplin @ Dragon Fang
 Ability: Supersweet Syrup  
 Level: 40  
 Modest Nature  
-IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse  
 - Recover  
 - Pollen Puff  
@@ -4611,7 +4694,7 @@ Ability: Thick Fat
 Level: 40  
 Tera Type: Steel  
 Quiet Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse  
 - Tera Blast  
 - Body Press  
@@ -4621,7 +4704,7 @@ Flapple @ Salac Berry
 Ability: Gluttony  
 Level: 40  
 Hasty Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain  
 - Trailblaze  
 - Dragon Rush  
@@ -6091,24 +6174,24 @@ IVs: 0 Atk
 - Soft-Boiled  
 - Thunder Wave  
 
-Clefable @ Leftovers  
+Clefable @ Clefablite 
 Ability: Cute Charm  
 Level: 50
 Quiet Nature  
 IVs: 0 Atk  
-- Follow Me  
+- Air Slash  
 - Moonblast  
 - Psychic  
 - Flamethrower  
 
-Lopunny @ Lopunnite  
-Ability: Limber
+Bewear @ Assault Vest
+Ability: Fluffy
 Level: 50
 Adamant Nature  
-- U-turn  
-- Sky Uppercut  
+- Drain Punch
+- Body Slam
 - Ice Punch  
-- Dizzy Punch  
+- Thunder Punch
 
 Swellow @ Wise Glasses  
 Ability: Scrappy  
@@ -10314,7 +10397,7 @@ Delibird @ Life Orb
 Ability: Hustle  
 Level: 40  
 Brave Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Brave Bird  
 - Fake Out  
 - Aerial Ace  
@@ -10324,7 +10407,7 @@ Decidueye @ Muscle Band
 Ability: Long Reach  
 Level: 40  
 Adamant Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dual Wingbeat  
 - Shadow Claw  
 - Leaf Blade  
@@ -10335,8 +10418,8 @@ Ability: Technician
 Level: 40  
 Tera Type: Poison  
 Adamant Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Aerial Ace  
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Trailblaze  
 - Dual Wingbeat  
 - Swords Dance  
 - Pounce  
@@ -10494,7 +10577,7 @@ Ability: Plus
 Level: 48  
 Tera Type: Flying  
 Timid Nature  
-IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Dazzling Gleam  
 - Parabolic Charge  
 - Draining Kiss  
@@ -10504,7 +10587,7 @@ Toxtricity-Low-Key @ Air Balloon
 Ability: Minus  
 Level: 48  
 Modest Nature  
-IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Hyper Voice  
 - Overdrive  
 - Magnetic Flux  
@@ -10514,7 +10597,7 @@ Ampharos @ Wise Glasses
 Ability: Plus  
 Level: 48  
 Modest Nature  
-IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Power Gem  
 - Magnetic Flux  
 - Thunderbolt  
@@ -10524,7 +10607,7 @@ Klinklang @ Clear Amulet
 Ability: Plus  
 Level: 48  
 Naive Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Magnetic Flux  
 - Gear Grind  
 - Shift Gear  
@@ -10936,13 +11019,13 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Dragonair @ Eviolite  
 Ability: Shed Skin  
 Level: 42
 Adamant Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Breaking Swipe 
 - Extreme Speed  
 - Dragon Dance  
@@ -10952,7 +11035,7 @@ Flygon @ White Herb
 Ability: Levitate  
 Level: 42
 Rash Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower  
 - Earth Power  
 - First Impression  
@@ -10962,7 +11045,7 @@ Drampa @ Chople Berry
 Ability: Cloud Nine  
 Level: 42
 Quiet Nature
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hurricane  
 - Hydro Pump  
 - Hyper Voice  
@@ -10973,7 +11056,7 @@ Ability: Sniper
 Level: 42
 Tera Type: Fire  
 Modest Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tera Blast
 - Dragon Pulse
 - Solar Beam
@@ -11208,7 +11291,7 @@ Amoonguss @ Occa Berry
 Ability: Effect Spore
 Bold Nature
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Rage Powder
 - Spore
 - Giga Drain
@@ -11218,7 +11301,7 @@ Hitmontop @ Focus Sash
 Ability: Intimidate
 Jolly Nature
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fake Out
 - Mach Punch
 - Coaching
@@ -11228,7 +11311,7 @@ Magmar @ Eviolite
 Ability: Flame Body
 Bold Nature
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Follow Me
 - Will-O-Wisp
 - Helping Hand
@@ -11247,7 +11330,7 @@ Bisharp @ Eviolite
 Ability: Defiant
 Brave Nature
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Iron Head
 - Throat Chop
 - Aerial Ace
@@ -11257,7 +11340,7 @@ Cinderace @ Assault Vest
 Ability: Libero
 Adamant Nature
 Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Pyro Ball
 - High Jump Kick
 - U-Turn
@@ -11268,7 +11351,7 @@ Ability: Stench
 Tera Type: Normal
 Jolly Nature
 Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fury Swipes
 - Gunk Shot
 - Crunch
@@ -12713,7 +12796,7 @@ Noivern @ Adrenaline Orb
 Ability: Infiltrator  
 Level: 40  
 Timid Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse  
 - Hyper Voice  
 - Psychic Noise  
@@ -12722,17 +12805,17 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tauros @ Assault Vest  
 Ability: Sheer Force  
 Level: 40  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Jolly Nature  
 - Raging Bull  
 - Close Combat  
 - Stomping Tantrum  
-- Assurance  
+- Zen Headbutt  
 
 Whimsicott @ Clear Amulet  
 Ability: Prankster  
 Level: 40  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Hasty Nature  
 - Cotton Guard  
 - Tailwind  
@@ -12742,7 +12825,7 @@ Hasty Nature
 Dodrio @ Berserk Gene  
 Ability: Tangled Feet  
 Level: 40  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Jolly Nature  
 - Drill Peck  
 - Brave Bird  
@@ -13526,6 +13609,7 @@ AI: Smart Trainer
 Torkoal @ Eject Pack  
 Ability: Drought  
 Level: 38
+Quiet Nature
 IVs: 0 Atk  
 - Overheat  
 - Stealth Rock  
@@ -14147,7 +14231,7 @@ Hippowdon @ Leftovers
 Ability: Sand Stream
 Level: 34
 Impish Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Crunch
 - Slack Off
 - High Horsepower
@@ -14157,7 +14241,7 @@ Gabite @ Eviolite
 Ability: Rough Skin
 Level: 34
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Dragon Claw
 - Rock Tomb
 - Bulldoze
@@ -14167,7 +14251,7 @@ Orthworm @ Chople Berry
 Ability: Earth Eater
 Level: 34
 Naughty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Body Press
 - Coil
 - Heavy Slam
@@ -14178,7 +14262,7 @@ Ability: Sand Force
 Level: 36
 Tera Type: Rock
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Flash Cannon
 - Discharge
 - Power Gem
@@ -14197,7 +14281,7 @@ Rillaboom @ Normal Gem
 Level: 36
 Ability: Grassy Surge
 Adamant Nature
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Grassy Glide
 - Fake Out
 - Acrobatics
@@ -14208,7 +14292,7 @@ Ability: Hospitality
 Tera Type: Grass
 Level: 36
 Modest Nature
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Life Dew
 - Matcha Gotcha
 - Scald
@@ -14278,17 +14362,17 @@ Ability: No Guard
 Level: 40  
 Tera Type: Fighting
 Brave Nature  
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dynamic Punch  
 - Stone Edge  
 - Take Down  
-- Shadow Punch  
+- Poltergeist 
 
 Mienshao @ Blunder Policy  
 Ability: Reckless  
 Level: 40  
 Adamant Nature  
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out  
 - High Jump Kick  
 - Drain Punch  
@@ -14297,8 +14381,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Minior-Blue @ Power Herb  
 Ability: Shields Down  
 Level: 40  
-Naive Nature  
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Naive Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dazzling Gleam  
 - Acrobatics  
 - Meteor Beam  
@@ -14600,13 +14684,13 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Kleavor @ Rocky Helmet  
 Ability: Swarm  
 Level: 42
 Brave Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind  
 - Stone Axe  
 - Lunge  
@@ -14617,7 +14701,7 @@ Ability: Limber
 Level: 42
 Tera Type: Fire  
 Adamant Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tera Blast  
 - Flying Press  
 - Acrobatics  
@@ -14627,7 +14711,7 @@ Talonflame @ Eject Pack
 Ability: Gale Wings  
 Level: 42
 Naive Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Acrobatics  
 - Overheat  
 - U-turn  
@@ -14637,7 +14721,7 @@ Incineroar @ Assault Vest
 Ability: Intimidate  
 Level: 42
 Naughty Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fire Spin  
 - Drain Punch  
 - Knock Off  
@@ -14647,7 +14731,7 @@ Kommo-o @ Roseli Berry
 Ability: Bulletproof  
 Level: 42
 Hardy Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Tail  
 - Drain Punch  
 - Shadow Claw  
@@ -14695,7 +14779,7 @@ Ninetales-Alola @ Focus Band
 Ability: Snow Warning  
 Level: 42
 Timid Nature  
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam  
 - Moonblast  
 - Aurora Veil  
@@ -14705,7 +14789,7 @@ Froslass (F) @ Bright Powder
 Ability: Snow Cloak  
 Level: 42
 Timid Nature  
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team  
 - Blizzard  
 - Thunder Wave  
@@ -14715,7 +14799,7 @@ Cinderace @ Punching Glove
 Ability: Libero  
 Level: 42
 Adamant Nature  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Punch
 - Fire Punch
 - Mach Punch 
@@ -14726,7 +14810,7 @@ Ability: Flash Fire
 Level: 42
 Tera Type: Ice  
 Modest Nature
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Weather Ball  
 - Aura Sphere  
 - Psychic 
@@ -14736,7 +14820,7 @@ Glaceon @ Leftovers
 Ability: Ice Body  
 Level: 42
 Hasty Nature
-IVs: 18 HP / 0 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Weather Ball  
 - Mirror Coat  
 - Shadow Ball  
@@ -16303,17 +16387,17 @@ Gogoat @ Assault Vest
 Ability: Grass Pelt
 Level: 35
 Naughty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Horn Leech
 - Zen Headbutt
-- Bulk Up
+- Body Slam
 - Rock Slide
 
 Ampharos @ Wise Glasses
 Ability: Mold Breaker
 Level: 36
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Dragon Pulse
 - Thunderbolt
 - Dazzling Gleam
@@ -16323,7 +16407,7 @@ Sawsbuck @ Quick Claw
 Ability: Serene Grace
 Level: 36
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tera Type: Electric
 - Horn Leech
 - Play Rough

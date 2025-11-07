@@ -229,7 +229,7 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "so think before you use it.$"
 
 RustboroCity_Gym_Text_ExplainRockTeraShard:
-	.string "That is a ROCK TERA SHARD,\n"
+	.string "That is a ROCK TERA SHARD,\p"
 	.string "it will change the TERA TYPE of your\n"
 	.string "POKéMON to ROCK TYPE. But only once.$"
 
