@@ -8136,6 +8136,67 @@ void MoveDeleterForgetMove(void)
         ShiftMoveSlot(&gPlayerParty[gSpecialVar_0x8004], i, i + 1);
 }
 
+void MaximizeHPIV(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HP_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void MaximizeAttackIV(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_ATK_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void MaximizeDefenseIV(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_DEF_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void MaximizeSpecialAttackIV(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPATK_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void MaximizeSpecialDefenseIV(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPDEF_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void MaximizeSpeedIV(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPEED_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
+void MaximizeAllIVs(void) {
+
+    u32 max = 31;
+
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HP_IV, &max);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_ATK_IV, &max);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_DEF_IV, &max);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPATK_IV, &max);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPDEF_IV, &max);
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPEED_IV, &max);
+    CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
 static void ShiftMoveSlot(struct Pokemon *mon, u8 slotTo, u8 slotFrom)
 {
     u16 move1 = GetMonData(mon, MON_DATA_MOVE1 + slotTo);

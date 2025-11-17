@@ -126,6 +126,7 @@
 #define MULTI_KALOS_STARTER                115
 #define MULTI_ALOLA_STARTER                116
 #define MULTI_GALAR_STARTER                117
+#define MULTI_STAT_TO_MAX                  118
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

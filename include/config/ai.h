@@ -26,7 +26,7 @@
 
 // AI smart switching chances for bad statuses
 #define SHOULD_SWITCH_PERISH_SONG_PERCENTAGE                    100
-#define SHOULD_SWITCH_YAWN_PERCENTAGE                           100
+#define SHOULD_SWITCH_YAWN_PERCENTAGE                           50
 #define SHOULD_SWITCH_BADLY_POISONED_PERCENTAGE                 50
 #define SHOULD_SWITCH_BADLY_POISONED_STATS_RAISED_PERCENTAGE    20
 #define SHOULD_SWITCH_CURSED_PERCENTAGE                         50
@@ -35,7 +35,7 @@
 #define SHOULD_SWITCH_NIGHTMARE_STATS_RAISED_PERCENTAGE         15
 #define SHOULD_SWITCH_SEEDED_PERCENTAGE                         25
 #define SHOULD_SWITCH_SEEDED_STATS_RAISED_PERCENTAGE            10
-#define SHOULD_SWITCH_INFATUATION_PERCENTAGE                    100
+#define SHOULD_SWITCH_INFATUATION_PERCENTAGE                    20
 
 // AI smart switching chances for beneficial abilities
 #define SHOULD_SWITCH_NATURAL_CURE_STRONG_PERCENTAGE                66

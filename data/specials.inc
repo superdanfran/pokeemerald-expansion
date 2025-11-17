@@ -563,3 +563,10 @@ gSpecials::
 	def_special UseBlankMessageToCancelPokemonPic
 	def_special EnterCode
 	def_special GetCodeFeedback
+	def_special MaximizeHPIV
+	def_special MaximizeAttackIV
+	def_special MaximizeDefenseIV
+	def_special MaximizeSpecialAttackIV
+	def_special MaximizeSpecialDefenseIV
+	def_special MaximizeSpeedIV
+	def_special MaximizeAllIVs

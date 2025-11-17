@@ -387,6 +387,9 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
+	giveitem ITEM_LONELY_MINT
+	giveitem ITEM_NAIVE_MINT
+	giveitem ITEM_CAREFUL_MINT
 	call PetalburgCity_Gym_EventScript_GiveNormalTeraShard
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT

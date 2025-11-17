@@ -100,6 +100,9 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	special DrawWholeMapView
 	playse SE_UNLOCK
 	call MauvilleCity_Gym_EventScript_GiveShockWave
+	giveitem ITEM_HASTY_MINT
+	giveitem ITEM_SERIOUS_MINT
+	giveitem ITEM_SASSY_MINT
 	call MauvilleCity_Gym_EventScript_GiveElectricTeraShard
 	closemessage
 	delay 30

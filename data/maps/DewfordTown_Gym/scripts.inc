@@ -154,6 +154,9 @@ DewfordTown_Gym_EventScript_NessaDefeated::
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
 	call DewfordTown_Gym_EventScript_GiveChillingWater
+	giveitem ITEM_RELAXED_MINT
+	giveitem ITEM_IMPISH_MINT
+	giveitem ITEM_HARDY_MINT
 	call DewfordTown_Gym_EventScript_GiveWaterTeraShard
 	closemessage
 	release

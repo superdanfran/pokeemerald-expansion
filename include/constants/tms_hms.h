@@ -53,7 +53,8 @@
     F(SNATCH) \
     F(OVERHEAT) \
     F(CHILLING_WATER) \
-    F(TERA_BLAST)
+    F(TERA_BLAST) \
+    F(SUPERPOWER)
 
 #define FOREACH_HM(F) \
     F(CUT) \

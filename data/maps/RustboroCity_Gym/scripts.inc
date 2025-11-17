@@ -26,6 +26,9 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	call RustboroCity_Gym_EventScript_GiveRockTomb
+	giveitem ITEM_BOLD_MINT
+	giveitem ITEM_CALM_MINT
+	giveitem ITEM_QUIRKY_MINT
 	call RustboroCity_Gym_EventScript_GiveRockTeraShard
 	end
 

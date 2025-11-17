@@ -58,6 +58,9 @@ $(OBJEVENTGFXDIR)/people/nemona.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/arven.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/brassius.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/frontier_brains/anabel.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 

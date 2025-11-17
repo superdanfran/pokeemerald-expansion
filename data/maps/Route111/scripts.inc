@@ -559,6 +559,79 @@ Route111_EventScript_TrainerHillSign::
 	msgbox Route111_Text_TrainerHillSign, MSGBOX_SIGN
 	end
 
+Route111_EventScript_Sidney::
+	lock
+	faceplayer
+	goto Route111_EventScript_SidneyChallenge
+	release
+	end
+
+Route111_EventScript_SidneyChallenge::
+	msgbox Route111_Text_SidneyYo, MSGBOX_DEFAULT
+	goto Route111_EventScript_SidneyBattle
+	release
+	end
+
+Route111_EventScript_SidneyBattle::
+	trainerbattle_no_intro TRAINER_SIDNEY, Route111_Text_SidneyDefeated
+	goto Route111_EventScript_SidneyDefeated
+	end
+
+Route111_EventScript_SidneyDefeated::
+	msgbox Route111_Text_SidneyGift, MSGBOX_DEFAULT
+	call Route111_EventScript_SidneyTeraGift
+	delay 30
+	msgbox Route111_Text_SidneyGoodLuck, MSGBOX_DEFAULT
+	delay 30
+	fadescreenswapbuffers FADE_TO_BLACK
+	removeobject LOCALID_ROUTE111_SIDNEY
+	removeobject LOCALID_ROUTE111_HOUNDOOM
+	setflag FLAG_ROUTE_111_SIDNEY_MET
+	fadescreenswapbuffers FADE_FROM_BLACK
+	release
+	end
+
+Route111_EventScript_SidneyTeraGift::
+	giveitem ITEM_DARK_TERA_SHARD
+	waitfanfare
+	return
+	end
+
+Route111_EventScript_Houndoom::
+	msgbox Route111_Text_Boof, MSGBOX_SIGN
+	end
+
+Route111_Text_SidneyYo:
+	.string "Yo. Let me guess, you're a hot shot.\p"
+	.string "Yeah, well. I used to eat hot shots\n"
+	.string "for breakfast in the Elite Four.\p"
+	.string "Yeah, I know. I ain't there anymore,\n"
+	.string "I got crushed defending my spot from\p"
+	.string "another hot shot. You'll meet them,\n"
+	.string "I'm sure.\p"
+	.string "What am I doing here? Eh, well I gotta\n"
+	.string "get my spot back! I'm trainin'!\p"
+	.string "Anyways, I got here and I found a real\n"
+	.string "weird Pokémon hangin' out. Wanna see?$"
+
+Route111_Text_SidneyGift:
+	.string "Well, I'm a loser again.\n"
+	.string "Anyways, the new Chairwoman gave\p"
+	.string "me these to hand out. Use this\n"
+	.string "well, yeah?.$"
+
+Route111_Text_SidneyGoodLuck:
+	.string "And hey, good luck when you get to\n"
+	.string "the all new Elite Four. There's been/p"
+	.string "some BIG changes.$"
+
+Route111_Text_SidneyDefeated:
+	.string "Ah heck. Another loss. Hah!$"
+	end
+
+Route111_Text_Boof:
+	.string "BOOF!$"
+
 Route111_Text_BattleOurFamily:
 	.string "Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"

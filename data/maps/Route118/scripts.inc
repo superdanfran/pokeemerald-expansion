@@ -94,6 +94,8 @@ Route118_EventScript_StevenTrigger::
 	waitmovement 0
 	delay 30
 	msgbox Route118_Text_StevenQuestions, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	waitfanfare
 	closemessage
 	call_if_eq VAR_0x8008, 0, Route118_EventScript_StevenExit0
 	call_if_eq VAR_0x8008, 1, Route118_EventScript_StevenExit1
@@ -259,7 +261,9 @@ Route118_Text_StevenQuestions:
 	.string "what do you think?\p"
 	.string "Of course, it's not any of my business.\p"
 	.string "It would be nice if we were to meet\n"
-	.string "again somewhere.$"
+	.string "again somewhere.\n"
+	.string "But before I go, I want you to have\n"
+	.string "this. I'm sure we'll meet again!$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
 	.string "Hmm!\n"

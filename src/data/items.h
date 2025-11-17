@@ -11366,16 +11366,19 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_TERA_BLAST, // Todo
     },
 
-    [ITEM_TM53] =
+    [ITEM_TM_SUPERPOWER] =
     {
         .name = _("TM53"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "A powerful attack,\n"
+            "but lowers user's\n"
+            "ATTACK and DEFENSE."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_SUPERPOWER, // Todo
     },
 
     [ITEM_TM54] =

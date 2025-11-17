@@ -802,6 +802,17 @@ static const struct MenuAction MultichoiceList_GalarStarter[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultiChoiceList_StatToMaxmize[] = {
+
+    { gText_MaxHP },
+    { gText_Attack },
+    { gText_Defense },
+    { gText_SpAtk },
+    { gText_SpDef },
+    { gText_Speed },
+
+};
+
 static const struct MenuAction MultichoiceList_Exit[] =
 {
     {gText_Exit},
@@ -933,6 +944,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_KALOS_STARTER]              = MULTICHOICE(MultichoiceList_KalosStarter),
     [MULTI_ALOLA_STARTER]              = MULTICHOICE(MultichoiceList_AlolaStarter),
     [MULTI_GALAR_STARTER]              = MULTICHOICE(MultichoiceList_GalarStarter),
+    [MULTI_STAT_TO_MAX]                = MULTICHOICE(MultiChoiceList_StatToMaxmize),
 };
 
 const u8 *const gStdStrings[] =
