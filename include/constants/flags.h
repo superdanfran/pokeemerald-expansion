@@ -2,7 +2,6 @@
 #define GUARD_CONSTANTS_FLAGS_H
 
 #include "constants/opponents.h"
-#include "constants/rematches.h"
 
 // Temporary Flags
 // These temporary flags are are cleared every time a map is loaded. They are used
@@ -392,7 +391,7 @@
 #define FLAG_REGISTERED_WILTON               (TRAINER_REGISTERED_FLAGS_START + REMATCH_WILTON)
 #define FLAG_REGISTERED_VALERIE              (TRAINER_REGISTERED_FLAGS_START + REMATCH_VALERIE)
 #define FLAG_REGISTERED_CINDY                (TRAINER_REGISTERED_FLAGS_START + REMATCH_CINDY)
-#define FLAG_REGISTERED_THALIA               (TRAINER_REGISTERED_FLAGS_START + REMATCH_THALIA)
+//#define FLAG_REGISTERED_THALIA               (TRAINER_REGISTERED_FLAGS_START + REMATCH_THALIA)
 #define FLAG_REGISTERED_JESSICA              (TRAINER_REGISTERED_FLAGS_START + REMATCH_JESSICA)
 #define FLAG_REGISTERED_WINSTON              (TRAINER_REGISTERED_FLAGS_START + REMATCH_WINSTON)
 #define FLAG_REGISTERED_STEVE                (TRAINER_REGISTERED_FLAGS_START + REMATCH_STEVE)
@@ -1246,8 +1245,8 @@
 #define FLAG_ITEM_ROUTE_119_BEEDRILLITE                             0x4A8 // Unused Flag
 #define FLAG_ITEM_ROUTE_119_HERACRONITE                             0x4A9 // Unused Flag
 #define FLAG_ITEM_ROUTE_119_SCIZORITE                               0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
-#define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
+#define FLAG_RECEIVED_FLYING_TERA_SHARD                             0x4AB // Unused Flag
+#define FLAG_HIDE_FORTREE_OGERPON                                   0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
 #define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
 #define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag

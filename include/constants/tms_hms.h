@@ -54,7 +54,8 @@
     F(OVERHEAT) \
     F(CHILLING_WATER) \
     F(TERA_BLAST) \
-    F(SUPERPOWER)
+    F(SUPERPOWER) \
+    F(TRAILBLAZE)
 
 #define FOREACH_HM(F) \
     F(CUT) \

@@ -1149,23 +1149,36 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Sandshrew
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Copperajah @ Life Orb  
+Ability: Sheer Force  
+Level: 52  
+Adamant Nature  
+- Bulldoze  
+- Iron Head  
+- Rock Slide  
+- Stomp  
 
-Sandslash
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Bronzong @ Assault Vest  
+Ability: Heatproof  
+Level: 52  
+Modest Nature  
+IVs: 0 Atk  
+- Future Sight  
+- Flash Cannon  
+- Shadow Ball  
+- Power Gem  
+
+Barbaracle @ Rocky Helmet  
+Ability: Tough Claws  
+Level: 52  
+Tera Type: Fighting
+Adamant Nature  
+- Liquidation  
+- Night Slash  
+- Power-Up Punch  
+- Shadow Claw  
 
 === TRAINER_DUSTY_2 ===
 Name: DUSTY
@@ -2071,28 +2084,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Wailord
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_WILTON_2 ===
-Name: WILTON
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Basic Trainer
-
-Electrike
-Level: 26
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Wailmer
-Level: 26
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Makuhita
-Level: 26
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 === TRAINER_WILTON_3 ===
 Name: WILTON
@@ -3459,11 +3450,25 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Carracosta @ Rindo Berry  
+Ability: Solid Rock  
+Level: 50  
+Adamant Nature  
+- Shell Smash  
+- Rock Slide  
+- Aqua Tail  
+- Razor Shell  
+
+Drednaw @ Focus Sash  
+Ability: Shell Armor  
+Level: 50  
+Adamant Nature  
+- Head Smash  
+- Liquidation  
+- Shell Smash  
+- Protect  
 
 === TRAINER_DOMINIK ===
 Name: DOMINIK
@@ -3472,11 +3477,44 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Tentacool
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lickitung @ Leftovers  
+Ability: Own Tempo  
+Level: 52 
+Naughty Nature
+- Lick  
+- Body Slam  
+- Explosion  
+- Charm  
+
+Seel @ Eviolite  
+Ability: Thick Fat  
+Level: 52 
+Naughty Nature
+- Lick  
+- Swallow  
+- Stockpile  
+- Spit Up  
+
+Shellder @ White Herb  
+Ability: Skill Link  
+Level: 52 
+Gentle Nature
+- Lick  
+- Shell Smash  
+- Aqua Ring  
+- Water Gun  
+
+Greninja @ Ghost Gem  
+Ability: Torrent
+Level: 52 
+Tera Type: Ghost  
+Naughty Nature
+- Lick  
+- Role Play  
+- Soak  
+- Pound  
 
 === TRAINER_DOUGLAS ===
 Name: DOUGLAS
@@ -3485,15 +3523,36 @@ Pic: Swimmer M
 Gender: Male
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Golduck @ White Herb  
+Ability: Cloud Nine  
+Level: 52  
+Timid Nature  
+IVs: 0 Atk  
+- Future Sight  
+- Surf  
+- Calm Mind  
+- Encore  
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Starmie @ Wise Glasses  
+Ability: Natural Cure  
+Level: 52  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Surf  
+- Ice Beam  
+- Thunderbolt  
+
+Seismitoad @ Sitrus Berry  
+Ability: Poison Touch  
+Level: 52  
+Hasty Nature  
+- Drain Punch  
+- Stomping Tantrum  
+- Sludge Bomb  
+- Scald  
 
 === TRAINER_DARRIN ===
 Name: DARRIN
@@ -9721,16 +9780,6 @@ Music: Cool
 Double Battle: No
 AI: Smart Trainer
 
-Kilowattrel @ Choice Scarf  
-Ability: Competitive  
-Level: 58  
-Timid Nature  
-IVs: 0 Atk  
-- Volt Switch  
-- Hurricane  
-- Weather Ball  
-- Charge Beam  
-
 Pelipper @ Focus Sash  
 Ability: Drizzle  
 Level: 58  
@@ -9741,11 +9790,21 @@ IVs: 0 Atk
 - Tailwind  
 - Hydro Pump  
 
+Kilowattrel @ Choice Scarf  
+Ability: Competitive  
+Level: 58  
+Timid Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Hurricane  
+- Weather Ball  
+- Charge Beam  
+
 Cramorant @ Life Orb  
 Ability: Gulp Missile  
 Level: 58  
 Jolly Nature  
-- Aqua Cutter  
+- Dive 
 - Brave Bird  
 - Tailwind  
 - Pounce  
@@ -10658,15 +10717,35 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kingler @ Expert Belt  
+Ability: Shell Armor  
+Level: 52  
+Jolly Nature  
+- Crabhammer  
+- Swords Dance  
+- High Horsepower  
+- Brutal Swing  
 
-Wailmer
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swanna @ Mystic Water  
+Ability: Keen Eye  
+Level: 52  
+Hasty Nature  
+- Roost  
+- Aqua Jet  
+- Surf  
+- Fly  
+
+Bibarel @ Quick Claw  
+Ability: Simple  
+Level: 52  
+Tera Type: Ghost  
+Jolly Nature  
+- Swords Dance  
+- Crunch  
+- Rollout  
+- Headbutt  
 
 === TRAINER_IMANI ===
 Name: IMANI
@@ -10675,11 +10754,27 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc @ Sitrus Berry  
+Ability: Swift Swim  
+Level: 50  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Protect  
+- Draining Kiss  
+- Wish  
+
+Clawitzer @ Life Orb  
+Ability: Mega Launcher  
+Level: 50  
+Modest Nature  
+IVs: 0 Atk  
+- Aura Sphere  
+- Dark Pulse  
+- Dragon Pulse  
+- Flash Cannon  
 
 === TRAINER_KYLA ===
 Name: KYLA
@@ -10688,11 +10783,14 @@ Pic: Swimmer F
 Gender: Female
 Music: Swimmer
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wailmer
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailord @ Assault Vest  
+Ability: Pressure  
+Level: 52  
+Brave Nature  
+- Hard Press  
+- Water Spout  
 
 === TRAINER_DENISE ===
 Name: DENISE
@@ -18362,15 +18460,34 @@ Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Sandshrew
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Kabutops @ Rocky Helmet  
+Ability: Battle Armor  
+Level: 56  
+Naive Nature  
+- Ancient Power  
+- Liquidation  
+- Stone Edge  
+- Protect  
 
-Sandshrew
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Cradily @ Leftovers  
+Ability: Storm Drain  
+Level: 56  
+Quiet Nature  
+- Giga Drain  
+- Ingrain  
+- Brine  
+- Rock Tomb  
+
+Arctozolt @ Quick Claw  
+Ability: Static  
+Level: 56  
+Brave Nature  
+- Bolt Beak  
+- Freeze-Dry  
+- Pluck  
+- Rock Slide  
 
 === TRAINER_JOSUE ===
 Name: JOSUE
@@ -18379,15 +18496,34 @@ Pic: Bird Keeper
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Taillow
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Noctowl @ Focus Sash  
+Ability: Tinted Lens  
+Level: 56  
+Calm Nature  
+IVs: 0 Atk  
+- Tailwind  
+- Confuse Ray  
+- Hypnosis  
+- Air Slash  
 
-Wingull
-Level: 25
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Chatot @ Metronome  
+Ability: Keen Eye  
+Level: 56  
+IVs: 0 Atk  
+Modest Nature
+- Echoed Voice  
+
+Sigilyph @ Toxic Orb  
+Ability: Magic Guard  
+Level: 56  
+Timid Nature  
+IVs: 0 Atk  
+- Trick  
+- Calm Mind  
+- Stored Power  
+- Energy Ball  
 
 === TRAINER_CAMRON ===
 Name: CAMRON
@@ -21019,7 +21155,7 @@ Adamant Nature
 - Rock Slide  
 - Spiky Shield  
 
-Scovillain  
+Scovillain @ Life Orb
 Ability: Chlorophyll  
 Level: 58  
 Mild Nature  

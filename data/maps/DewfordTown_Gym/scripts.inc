@@ -156,7 +156,6 @@ DewfordTown_Gym_EventScript_NessaDefeated::
 	call DewfordTown_Gym_EventScript_GiveChillingWater
 	giveitem ITEM_RELAXED_MINT
 	giveitem ITEM_IMPISH_MINT
-	giveitem ITEM_HARDY_MINT
 	call DewfordTown_Gym_EventScript_GiveWaterTeraShard
 	closemessage
 	release

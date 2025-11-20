@@ -11,6 +11,32 @@ FortreeCity_OnResume:
 	setstepcallback STEP_CB_FORTREE_BRIDGE
 	end
 
+FortreeCity_EventScript_OgerponScene::
+	lockall
+	addobject LOCALID_OGERPON
+	playse SE_PIN
+	applymovement LOCALID_OGERPON, Common_Movement_FacePlayer
+	waitmovement 0
+	applymovement LOCALID_OGERPON, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_OGERPON, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_OGERPON, ForetreeCity_Movement_OgerponExit
+	waitmovement 0
+	setflag FLAG_HIDE_FORTREE_OGERPON
+	removeobject LOCALID_OGERPON
+	setvar VAR_FORTREE_CITY_STATE, 1
+	releaseall
+	end
+
+ForetreeCity_Movement_OgerponExit::
+	walk_right
+	walk_right
+	walk_up
+	walk_right
+	walk_right
+	step_end
+
 FortreeCity_EventScript_Man::
 	msgbox FortreeCity_Text_SawGiganticPokemonInSky, MSGBOX_NPC
 	end

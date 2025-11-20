@@ -68,7 +68,7 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 
 RustboroCityPokemonCenter_1F_EventScript_StatMaxer::
 	lockall
-	applymovement LOCALID_STAT_MAXER, Common_Movement_FacePlayer
+	applymovement LOCALID_RUSTBORO_STAT_MAXER, Common_Movement_FacePlayer
 	waitmovement 0
 	goto_if_set FLAG_TEMP_1, RustboroCity_PokemonCenter_1F_EventScript_AskStatMax
 	msgbox RustboroCity_PokemonCenter_1F_Text_ImTheStatMaxer, MSGBOX_DEFAULT

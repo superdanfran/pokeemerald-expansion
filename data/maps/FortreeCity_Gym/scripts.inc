@@ -17,11 +17,20 @@ FortreeCity_Gym_EventScript_InitRotatingGates::
 	special RotatingGate_InitPuzzleAndGraphics
 	end
 
+FortreeCity_Gym_EventScript_Brassius::
+	trainerbattle_single TRAINER_BRASSIUS_1, FortreeCity_Gym_Text_BrassiusIntro, FortreeCity_Gym_Text_BrassiusDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	goto_if_unset FLAG_RECEIVED_TM_AERIAL_ACE, FortreeCity_Gym_EventScript_GiveAerialAce2
+	goto_if_unset FLAG_RECEIVED_FLYING_TERA_SHARD, FortreeCity_Gym_EventScript_GiveFlyingTeraShard
+	msgbox FortreeCity_Gym_Text_BrassiusPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
 FortreeCity_Gym_EventScript_Winona::
 	trainerbattle_single TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, FortreeCity_Gym_EventScript_WinonaRematch
 	goto_if_unset FLAG_RECEIVED_TM_AERIAL_ACE, FortreeCity_Gym_EventScript_GiveAerialAce2
+	goto_if_unset FLAG_RECEIVED_FLYING_TERA_SHARD, FortreeCity_Gym_EventScript_GiveFlyingTeraShard
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -36,11 +45,10 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	setvar VAR_0x8008, 6
 	call Common_EventScript_SetGymTrainers
 	call FortreeCity_Gym_EventScript_GiveAerialAce
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox FortreeCity_Gym_Text_RegisteredWinona, MSGBOX_DEFAULT
-	waitfanfare
+	giveitem ITEM_JOLLY_MINT
+	giveitem ITEM_TIMID_MINT
+	giveitem ITEM_NAUGHTY_MINT
+	call FortreeCity_Gym_EventScript_GiveFlyingTeraShard
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_WINONA_MATCH_CALL
@@ -50,7 +58,7 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	end
 
 FortreeCity_Gym_EventScript_GiveAerialAce2::
-	giveitem ITEM_TM_AERIAL_ACE
+	giveitem ITEM_TM_TRAILBLAZE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox FortreeCity_Gym_Text_ExplainAerialAce, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_AERIAL_ACE
@@ -58,10 +66,16 @@ FortreeCity_Gym_EventScript_GiveAerialAce2::
 	end
 
 FortreeCity_Gym_EventScript_GiveAerialAce::
-	giveitem ITEM_TM_AERIAL_ACE
+	giveitem ITEM_TM_TRAILBLAZE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox FortreeCity_Gym_Text_ExplainAerialAce, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_AERIAL_ACE
+	return
+
+FortreeCity_Gym_EventScript_GiveFlyingTeraShard::
+	giveitem ITEM_FLYING_TERA_SHARD
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_FLYING_TERA_SHARD
 	return
 
 FortreeCity_Gym_EventScript_WinonaRematch::
@@ -242,6 +256,18 @@ FortreeCity_Gym_Text_WinonaIntro:
 	.string "Witness the elegant choreography\n"
 	.string "of BIRD POKéMON and I!$"
 
+FortreeCity_Gym_Text_BrassiusIntro:
+	.string "Greetings, challenger! Welcome to\n"
+	.string "the FORTREE POKéMON GYM.\p"
+	.string "I am Brassius,\n"
+	.string "and I am not the gym leader.\p"
+	.string "The actual leader, WINONA, is\n"
+	.string "away for now…\p"
+	.string "Alas, I am here to assess your\n"
+	.string "strength!\p"
+	.string "Behold! The artistry of\n"
+	.string "GRASS-type POKéMON!$"
+
 FortreeCity_Gym_Text_WinonaDefeat:
 	.string "Never before have I seen a TRAINER\n"
 	.string "command POKéMON with more grace\l"
@@ -249,9 +275,16 @@ FortreeCity_Gym_Text_WinonaDefeat:
 	.string "In recognition of your prowess,\n"
 	.string "I present to you this GYM BADGE.$"
 
+FortreeCity_Gym_Text_BrassiusDefeat:
+	.string "Truly avant-garde!\n"
+	.string "Your POKéMON battle with such\l"
+	.string "grace!\p"
+	.string "In the stead of WINONA,\n"
+	.string "I present to you this GYM BADGE.$"
+
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+	.string "from BRASSIUS.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 	.string "With the FEATHER BADGE, all POKéMON up\n"
@@ -263,10 +296,10 @@ FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 	.string "This is a gift from me.$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
-	.string "TM40 contains AERIAL ACE.\p"
-	.string "Its speed…\n"
-	.string "No POKéMON should be able to avoid it.\p"
-	.string "… … … … … …$"
+	.string "TM54 contains TRAILBLAZE.\p"
+	.string "At times, art becomes a race against\n"
+	.string "The clock! This will help to increase\p"
+	.string "the pace.$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
 	.string "Registered GYM LEADER WINONA\n"
@@ -275,6 +308,9 @@ FortreeCity_Gym_Text_RegisteredWinona:
 FortreeCity_Gym_Text_WinonaPostBattle:
 	.string "Though I fell to you, I will remain\n"
 	.string "devoted to BIRD POKéMON.$"
+
+FortreeCity_Gym_Text_BrassiusPostBattle:
+	.string "Truly avant-garde!$"
 
 FortreeCity_Gym_Text_GymStatue:
 	.string "FORTREE CITY POKéMON GYM$"

@@ -28,7 +28,6 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call RustboroCity_Gym_EventScript_GiveRockTomb
 	giveitem ITEM_BOLD_MINT
 	giveitem ITEM_CALM_MINT
-	giveitem ITEM_QUIRKY_MINT
 	call RustboroCity_Gym_EventScript_GiveRockTeraShard
 	end
 

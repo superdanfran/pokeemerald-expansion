@@ -428,6 +428,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_RIKA, gTrainerFrontPic_Rika, gTrainerPalette_Rika),
     TRAINER_SPRITE(TRAINER_PIC_ARVEN, gTrainerFrontPic_Arven, gTrainerPalette_Arven),
     TRAINER_SPRITE(TRAINER_PIC_MINA, gTrainerFrontPic_Mina, gTrainerPalette_Mina),
+    TRAINER_SPRITE(TRAINER_PIC_BRASSIUS, gTrainerFrontPic_Brassius, gTrainerPalette_Brassius),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

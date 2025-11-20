@@ -11381,16 +11381,19 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_SUPERPOWER, // Todo
     },
 
-    [ITEM_TM54] =
+    [ITEM_TM_TRAILBLAZE] =
     {
         .name = _("TM54"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "The user attacks,\n"
+            "suddenly as if from\n"
+            "grass. Boosts SPEED"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_TRAILBLAZE, // Todo
     },
 
     [ITEM_TM55] =

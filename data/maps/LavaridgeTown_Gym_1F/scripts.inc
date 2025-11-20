@@ -69,7 +69,6 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
 	giveitem ITEM_MILD_MINT
 	giveitem ITEM_RASH_MINT
-	giveitem ITEM_BASHFUL_MINT
 	call LavaridgeTown_Gym_EventScript_GiveFireTeraShard
 	closemessage
 	delay 30
