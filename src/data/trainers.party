@@ -9686,10 +9686,10 @@ Adamant Nature
 - Acrobatics  
 - Close Combat  
 - Poison Jab  
-- U-turn  
+- X-Scissor
 
 Chandelure @ Wide Lens  
-Ability: Flame Body  
+Ability: Flash Fire
 Level: 58  
 Tera Type: Flying  
 Timid Nature  
@@ -9706,7 +9706,7 @@ Adamant Nature
 - Bullet Punch  
 - Dual Wingbeat  
 - Trailblaze  
-- U-turn  
+- Close Combat 
 
 === TRAINER_HUMBERTO ===
 Name: HUMBERTO
@@ -9721,18 +9721,19 @@ Talonflame @ Focus Sash
 Ability: Gale Wings  
 Level: 58  
 Jolly Nature  
-- Tailwind  
+- Overheat  
 - Acrobatics  
-- Flame Charge  
+- Tailwind  
 - Swords Dance  
 
-Flamigo @ Heavy-Duty Boots  
+Flamigo @ Muscle Band 
 Ability: Scrappy  
 Level: 58  
 Adamant Nature  
-- Brave Bird  
 - Close Combat  
-- U-turn  
+- Brave Bird  
+- Liquidation  
+- Throat Chop  
 
 Vikavolt @ Quick Claw  
 Ability: Levitate  
@@ -9753,6 +9754,16 @@ Adamant Nature
 - Wood Hammer  
 - Iron Head  
 - Tera Blast
+
+Rotom-Mow @ White Herb  
+Ability: Levitate  
+Level: 58 
+Modest Nature  
+IVs: 0 Atk  
+- Leaf Storm  
+- Thunderbolt  
+- Will-O-Wisp  
+- Thunder Wave  
 
 === TRAINER_PRESLEY ===
 Name: PRESLEY
@@ -9780,7 +9791,7 @@ Music: Cool
 Double Battle: No
 AI: Smart Trainer
 
-Pelipper @ Focus Sash  
+Pelipper @ Damp Rock
 Ability: Drizzle  
 Level: 58  
 Bold Nature  
@@ -9788,17 +9799,17 @@ IVs: 0 Atk
 - Hurricane  
 - Protect  
 - Tailwind  
-- Hydro Pump  
+- Weather Ball
 
-Kilowattrel @ Choice Scarf  
+Kilowattrel @ Focus Sash
 Ability: Competitive  
 Level: 58  
 Timid Nature  
 IVs: 0 Atk  
-- Volt Switch  
+- Thunder
 - Hurricane  
 - Weather Ball  
-- Charge Beam  
+- Substitute
 
 Cramorant @ Life Orb  
 Ability: Gulp Missile  
@@ -16457,7 +16468,7 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Rhyperior @ Assault Vest  
+Rhyperior @ Leftovers
 Ability: Lightning Rod  
 Level: 58  
 Tera Type: Flying  
@@ -16470,10 +16481,10 @@ Adamant Nature
 Zebstrika @ Expert Belt  
 Ability: Lightning Rod  
 Level: 58  
-Jolly Nature  
-- Supercell Slam  
+Naughty Nature  
+- Thunder
 - Trailblaze  
-- Flame Charge  
+- Overheat  
 - High Horsepower  
 
 Raichu @ Ability Shield  
@@ -16482,8 +16493,8 @@ Level: 58
 Hasty Nature  
 - Fake Out  
 - Grass Knot  
-- Surf  
-- Volt Tackle  
+- Thunder 
+- Focus Blast 
 
 === TRAINER_ASHLEY ===
 Name: ASHLEY
@@ -16494,34 +16505,34 @@ Music: Girl
 Double Battle: No
 AI: Smart Trainer
 
-Altaria @ Fairy Feather  
+Mandibuzz @ Leftovers  
+Ability: Big Pecks 
+Level: 58  
+Careful Nature  
+- Knock Off
+- Tailwind  
+- Brave Bird  
+- Foul Play 
+
+Altaria @ Yache Berry
 Ability: Natural Cure  
 Level: 58  
 Calm Nature  
 IVs: 0 Atk  
-- Cotton Guard  
-- Moonblast  
+- Dual Wingbeat 
+- Play Rough
 - Tailwind  
-- Perish Song  
-
-Mandibuzz @ Leftovers  
-Ability: Weak Armor  
-Level: 58  
-Impish Nature  
-- Foul Play  
-- Tailwind  
-- Brave Bird  
-- Defog  
+- Dragon Dance 
 
 Yanmega @ Focus Sash  
-Ability: Tinted Lens  
+Ability: Speed Boost 
 Level: 58  
 Timid Nature  
 IVs: 0 Atk  
 - Ancient Power  
 - Detect  
 - Bug Buzz  
-- Giga Drain  
+- Air Slash 
 
 === TRAINER_WALLY_MAUVILLE ===
 Name: WALLY
@@ -21117,52 +21128,53 @@ Music: Cool
 Double Battle: No
 AI: Smart Trainer
 
-Whimsicott @ Focus Sash  
-Ability: Prankster  
+Swellow @ Flame Orb  
+Ability: Guts  
 Level: 58  
-Impish Nature  
-- Sunny Day  
+Jolly Nature  
+- Facade  
+- Thief  
+- Brave Bird  
 - Protect  
-- U-turn  
-- Tailwind  
 
-Tropius @ Power Herb  
+Exeggutor-Alola @ Heat Rock  
 Ability: Chlorophyll  
 Level: 58  
-Tera Type: Grass  
-Adamant Nature  
-- Dragon Dance  
-- Leaf Blade  
-- Solar Blade  
-- Fly  
+Quiet Nature  
+- Dragon Hammer  
+- Leaf Storm  
+- Sunny Day  
+- Earthquake  
 
-Exeggutor @ Assault Vest  
+Decidueye-Hisui @ Focus Sash  
+Ability: Scrappy  
+Level: 58  
+Tera Type: Flying  
+Adamant Nature  
+- Triple Arrows  
+- Dual Wingbeat  
+- Sucker Punch  
+- Swords Dance  
+
+Scovillain @ Eject Pack  
 Ability: Chlorophyll  
 Level: 58  
 Modest Nature  
 IVs: 0 Atk  
-- Psychic  
+- Leaf Storm  
+- Overheat  
 - Solar Beam  
-- Sludge Bomb  
-- Ancient Power  
-
-Chesnaught @ Rocky Helmet  
-Ability: Bulletproof  
-Level: 58  
-Adamant Nature
-- Close Combat  
-- High Horsepower  
-- Rock Slide  
-- Spiky Shield  
-
-Scovillain @ Life Orb
-Ability: Chlorophyll  
-Level: 58  
-Mild Nature  
 - Flamethrower  
-- Zen Headbutt  
-- Energy Ball  
-- Solar Beam  
+
+Togekiss @ Life Orb  
+Ability: Serene Grace  
+Level: 58  
+Timid Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Psychic  
+- Flamethrower  
+- Air Slash  
 
 === TRAINER_STEVEN ===
 Name: STEVEN
