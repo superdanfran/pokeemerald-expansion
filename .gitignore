@@ -57,3 +57,8 @@ tools/compresSmol/compresSmolTilemap
 *.fastSmol
 *.smolTM
 __pycache__
+/.vs/pokeemerald-expansion/FileContentIndex
+/.vs/pokeemerald-expansion/v17
+/.vs
+*.toml
+*.lua
