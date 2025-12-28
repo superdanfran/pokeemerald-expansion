@@ -62,3 +62,4 @@ __pycache__
 /.vs
 *.toml
 *.lua
+/tools/aif2pcm/aif2pcm
