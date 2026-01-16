@@ -232,23 +232,32 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Nickit
-Ability: Stakeout
-Level: 12
-Naughty Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Sucker Punch
-- Snarl
-- Quick Attack
+Impidimp @ Eject Button  
+Ability: Prankster  
+Level: 12  
+Gentle Nature  
+- Fake Out  
+- Thunder Wave  
+- Fake Tears  
+- Draining Kiss  
 
-Greavard
-Ability: Fluffy
-Level: 12
-Relaxed Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Headbutt
-- Lick
-- Snarl
+Nickit @ Sitrus Berry  
+Ability: Unburden  
+Level: 12  
+Rash Nature  
+- Sucker Punch  
+- Snarl  
+- Parting Shot  
+- Fake Tears  
+
+Greavard @ Leftovers  
+Ability: Fluffy  
+Level: 12  
+Relaxed Nature  
+- Headbutt  
+- Lick  
+- Bite  
+- Charm  
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -337,36 +346,51 @@ Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
-Impidimp @ Safety Goggles
-Ability: Prankster
-Level: 18
-Impish Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Metronome
-- Fake Out
-- Sucker Punch
-- Scary Face
+Impidimp @ Safety Goggles  
+Ability: Prankster  
+Level: 18  
+Modest Nature  
+- Metronome  
+- Fake Out  
+- Draining Kiss  
+- Scary Face  
 
-Nickit @ Quick Claw
-Ability: Stakeout
-Level: 18
-Naughty Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Sucker Punch
-- Beat Up
-- Night Slash
-- Play Rough
+Nickit @ Quick Claw  
+Ability: Stakeout  
+Level: 18  
+Naughty Nature  
+- Sucker Punch  
+- First Impression  
+- Knock Off  
+- Play Rough  
 
-Greavard @ Black Glasses
-Ability: Fluffy
-Level: 18
-Tera Type: Dark
-Relaxed Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Ice Fang
-- Thief
-- Shadow Ball
-- Bite
+Sneasel @ Focus Sash  
+Ability: Pickpocket  
+Level: 18  
+Jolly Nature  
+- Fake Out  
+- Swords Dance  
+- Triple Axel  
+- Ice Shard  
+
+Scraggy @ Rocky Helmet  
+Ability: Intimidate  
+Level: 18  
+Adamant Nature  
+- Dragon Dance  
+- Fake Out  
+- Lash Out  
+- Drain Punch  
+
+Greavard @ Black Glasses  
+Ability: Fluffy  
+Level: 18  
+Tera Type: Dark  
+Relaxed Nature  
+- Ice Fang  
+- Play Rough  
+- Shadow Ball  
+- Bite  
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: ETIENNE 
@@ -515,38 +539,35 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Varoom @ Air Balloon
-Ability: Overcoat
-Level: 18
-Naughty Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Poison Gas
-- Headbutt
-- Gyro Ball
-- Sludge
+Varoom @ Air Balloon  
+Ability: Overcoat  
+Level: 18  
+Naughty Nature  
+- Poison Gas  
+- Headbutt  
+- Iron Head  
+- Poison Jab  
 
-Murkrow @ Eviolite
-Ability: Prankster
-Level: 18
-Hasty Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Confuse Ray
-- Thunder Wave
-- Mean Look
-- U-turn
+Murkrow @ Eviolite  
+Ability: Prankster  
+Level: 18  
+Hasty Nature  
+- Confuse Ray  
+- Thunder Wave  
+- Mud-Slap  
+- U-turn  
 
-Salandit @ Rindo Berry
-Ability: Oblivious
-Level: 18
-Tera Type: Water
-Adamant Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Trailblaze
-- Poison Tail
-- Leech Life
-- Will-O-Wisp
+Salandit @ Wacan Berry  
+Ability: Corrosion  
+Level: 18  
+Tera Type: Water  
+Modest Nature  
+- Belch  
+- Incinerate  
+- Venoshock  
+- Toxic  
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: MORGAN
@@ -555,27 +576,36 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Zorua @ Eject Pack
-Ability: Illusion
-Level: 18
-Lax Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Knock Off
-- Snarl
-- Night Shade
-- Swift
+Grimer-Alola @ Eviolite  
+Ability: Poison Touch  
+Level: 18  
+Rash Nature  
+- Acid Armor  
+- Knock Off  
+- Shadow Sneak  
+- Toxic  
 
-Woobat @ Sitrus Berry
-Ability: Unaware
-Level: 18
-Tera Type: Dark
-Modest Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Confusion
-- Attract
-- Assurance
+Zorua-Hisui @ Bright Powder  
+Ability: Illusion  
+Level: 18  
+Tera Type: Dark  
+Hasty Nature  
+- Knock Off  
+- Bitter Malice  
+- Hex  
+- Will-O-Wisp  
+
+Beedrill @ Chople Berry  
+Ability: Merciless 
+Level: 18  
+Tera Type: Dark  
+Jolly Nature  
+- Knock Off  
+- Rock Smash  
+- U-turn  
+- Toxic  
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -6261,7 +6291,6 @@ Glimmet (F) @ Absorb Bulb
 Ability: Toxic Debris
 Level: 14
 Bold Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Mud Shot
 - Venoshock
 - Ancient Power
@@ -6271,7 +6300,6 @@ Lileep (F) @ Big Root
 Ability: Storm Drain
 Level: 14
 Calm Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ingrain  
 - Confuse Ray  
 - Rock Tomb  
@@ -6281,18 +6309,35 @@ Growlithe-Hisui (F) @ Passho Berry
 Ability: Intimidate
 Level: 15
 Jolly Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Fang
 - Fire Fang
 - Bite
 - Smack Down
+
+Tyrunt (F) @ Assault Vest  
+Ability: Strong Jaw  
+Level: 15  
+Adamant Nature  
+- Bite  
+- Charm  
+- Rock Tomb  
+- Roar  
+
+Amaura (F) @ Focus Sash  
+Ability: Refrigerate  
+Level: 15  
+Quiet Nature  
+IVs: 0 Atk  
+- Icy Wind  
+- Stealth Rock  
+- Round  
+- Growl  
 
 Trumbeak (F) @ Salac Berry
 Ability: Skill Link
 Level: 16
 Tera Type: Rock
 Brave Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Pluck
 - Rock Smash
 - Bullet Seed
@@ -6369,61 +6414,60 @@ Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Blue
 
-Mareanie @ Black Sludge
-Ability: Merciless
-Level: 19
-Ball: Dive Ball
-Relaxed Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Wide Guard
-- Pin Missile
-- Poison Jab
-- Venoshock
+Mareanie @ Black Sludge  
+Ability: Merciless  
+Level: 20  
+Relaxed Nature  
+- Wide Guard  
+- Pin Missile  
+- Poison Jab  
+- Venoshock  
 
 Drednaw @ Rindo Berry  
 Ability: Shell Armor  
-Level: 20
-Ball: Dive Ball
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 20  
 Adamant Nature  
 - Razor Shell  
 - Ice Fang  
 - Protect  
 - Jaw Lock  
 
-Basculin-White-Striped @ Kings Rock  
+Basculin-White-Striped @ King's Rock  
 Ability: Adaptability  
-Level: 20
-Ball: Dive Ball
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 20  
 Impish Nature  
 - Aqua Jet  
 - Bite  
-- Scale Shot
-- Headbutt 
+- Scale Shot  
+- Headbutt  
 
-Sandygast @ Eviolite
-Ability: Water Compaction
-Level: 20
-Relaxed Nature
-Ball: Dive Ball
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Mega Drain
-- Shore Up
-- Chilling Water
-- Mud Shot
+Buizel @ Rocky Helmet  
+Ability: Water Veil  
+Level: 20  
+Sassy Nature  
+- Flip Turn  
+- Icy Wind  
+- Protect  
+- Fake Out  
 
-Masquerain @ Life Orb
-Ability: Intimidate
-Level: 21
-Ball: Dive Ball
-Tera Type: Water
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-Timid Nature
-- Chilling Water
-- Bug Buzz
-- Air Slash
-- Stun Spore
+Sandygast @ Eviolite  
+Ability: Water Compaction  
+Level: 20  
+Relaxed Nature  
+- Mega Drain  
+- Shore Up  
+- Chilling Water  
+- Mud Shot  
+
+Masquerain @ Life Orb  
+Ability: Intimidate  
+Level: 21  
+Tera Type: Water  
+Timid Nature  
+- Chilling Water  
+- Bug Buzz  
+- Air Slash  
+- Stun Spore  
 
 === TRAINER_RIKA_1 ===
 Name: RIKA
@@ -6435,42 +6479,60 @@ Double Battle: No
 AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Green
 
-Clodsire @ Life Orb
-Ability: Water Absorb
-Level: 30
-Adamant Nature
-- Stomping Tantrum
-- Poison Jab
-- Toxic Spikes
-- Heavy Slam
+Clodsire @ Life Orb  
+Ability: Water Absorb  
+Level: 31  
+Adamant Nature  
+- Stomping Tantrum  
+- Poison Jab  
+- Toxic Spikes  
+- Heavy Slam  
 
-Zygarde-10 @ Yache Berry
-Ability: Aura Break
-Level: 30
-Hardy Nature
-- Dragon Breath
-- Bulldoze
-- Stomping Tantrum
-- Thousand Arrows
+Zygarde-10 @ Yache Berry  
+Ability: Aura Break  
+Level: 31  
+Hardy Nature  
+- Dragon Breath  
+- Bulldoze  
+- Stomping Tantrum  
+- Thousand Arrows  
 
-Toedscruel @ Weakness Policy
-Ability: Mycelium Might
-Level: 30
-Timid Nature
-- Earth Power
-- Giga Drain
-- Spore
-- Leech Seed
+Toedscruel @ Weakness Policy  
+Ability: Mycelium Might  
+Level: 31  
+Timid Nature  
+- Earth Power  
+- Giga Drain  
+- Spore  
+- Leech Seed  
 
-Dondozo @ Luminous Moss
-Ability: Unaware
+Dugtrio @ Focus Sash  
+Ability: Arena Trap  
+Level: 31  
+Jolly Nature  
+- Earthquake  
+- Shadow Claw  
+- Sucker Punch  
+- Swords Dance  
+
+Gliscor @ Toxic Orb  
+Ability: Poison Heal  
+Level: 31  
+Jolly Nature  
+- Crabhammer  
+- Knock Off  
+- Toxic Spikes  
+- Dual Wingbeat  
+
+Dondozo @ Luminous Moss  
+Ability: Unaware  
 Level: 32  
-Tera Type: Ground
-Relaxed Nature
-- Chilling Water
-- Stomping Tantrum
-- Noble Roar
-- Body Press
+Tera Type: Ground  
+Relaxed Nature  
+- Chilling Water  
+- Stomping Tantrum  
+- Noble Roar  
+- Body Press  
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -6480,57 +6542,63 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer / Ace Pokemon / Prediction
+Starting Status: Electric Terrain
 Mugshot: Yellow
 
-Electrode-Hisui @ Normal Gem
-Ability: Soundproof
-Level: 31
-Hasty Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Energy Ball
-- Supercell Slam
-- Volt Switch
-- Explosion
+Electrode-Hisui @ Normal Gem  
+Ability: Soundproof  
+Level: 31  
+Hasty Nature  
+- Energy Ball  
+- Supercell Slam  
+- Volt Switch  
+- Explosion  
 
-Stunfisk @ Rocky Helmet
-Ability: Static
-Level: 31
-Serious Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Electric Terrain
-- Sucker Punch
-- Pounce
-- Thunderbolt
+Charjabug @ Eviolite  
+Ability: Battery  
+Level: 31  
+Bold Nature  
+- Sticky Web  
+- Protect  
+- Struggle Bug  
+- Electroweb  
 
-Golem-Alola @ Quick Claw
-Ability: Galvanize
-Level: 31
-Sassy Nature
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Hyper Beam
-- Thunder Punch
-- Body Slam
-- Body Press
+Pawmot @ Punching Glove  
+Ability: Iron Fist  
+Level: 31  
+Jolly Nature  
+- Mach Punch  
+- Fake Out  
+- Thunder Punch  
+- Bulk Up  
 
-Kilowattrel @ Magnet
-Ability: Competitive
-Level: 31
-Jolly Nature
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Dual Wingbeat
-- Volt Switch
-- Tailwind
-- Electric Terrain
+Golem-Alola @ Quick Claw  
+Ability: Galvanize  
+Level: 31  
+Sassy Nature  
+- Hyper Beam  
+- Thunder Punch  
+- Body Slam  
+- Body Press  
 
-Porygon-Z @ Electric Seed
-Ability: Analytic
-Level: 32
-Tera Type: Electric
-Modest Nature
-- Magnet Rise
-- Charge Beam
-- Thunder Wave
-- Tri Attack
+Kilowattrel @ Magnet  
+Ability: Competitive  
+Level: 31  
+Jolly Nature  
+- Protect  
+- Volt Switch  
+- Tailwind  
+- Air Slash
+
+Porygon-Z @ Electric Seed  
+Ability: Analytic  
+Level: 32  
+Tera Type: Electric  
+Modest Nature  
+- Magnet Rise  
+- Charge Beam  
+- Thunder Wave  
+- Tri Attack  
 
 === TRAINER_ARVEN_1 ===
 Name: ARVEN
@@ -14684,24 +14752,31 @@ Pic: Nemona
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 
-Pawmi
+Pawmi @ Lum Berry
 Ability: Static
 Level: 15
 Brave Nature
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Nuzzle
 - Spark
 - Bite
 - Dig
 
-Quaxly
+Goomy @ Berry Juice
+Ability: Gooey
+Level: 15
+Hardy Nature
+- Absorb
+- Water Gun
+- Charm
+- Dragon Breath
+
+Quaxly @ Lum Berry
 Ability: Torrent
 Level: 15
 Tera Type: Water
 Hardy Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Aqua Cutter
 - Wing Attack
 - Disarming Voice
@@ -14714,24 +14789,31 @@ Pic: Nemona
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 
-Pawmi
+Pawmi @ Lum Berry
 Ability: Static
 Level: 15
 Brave Nature
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Nuzzle
 - Spark
 - Bite
 - Dig
 
-Fuecoco
+Goomy @ Berry Juice
+Ability: Gooey
+Level: 15
+Hardy Nature
+- Absorb
+- Water Gun
+- Charm
+- Dragon Breath
+
+Fuecoco @ Lum Berry
 Ability: Blaze
 Level: 15
 Tera Type: Fire
 Modest Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Incinerate
 - Snarl
 - Disarming Voice
@@ -14744,24 +14826,31 @@ Pic: Nemona
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 
-Pawmi
+Pawmi @ Lum Berry
 Ability: Static
 Level: 15
 Brave Nature
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Nuzzle
 - Spark
 - Bite
 - Dig
 
-Sprigatito
+Goomy @ Berry Juice
+Ability: Gooey
+Level: 15
+Hardy Nature
+- Absorb
+- Water Gun
+- Charm
+- Dragon Breath
+
+Sprigatito @ Lum Berry
 Ability: Overgrow
 Level: 15
 Tera Type: Grass
 Adamant Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seed Bomb
 - Hone Claws
 - Slash
@@ -14776,22 +14865,38 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Tyrogue  
+Tyrogue @ Eviolite  
 Ability: Guts  
-Level: 14
+Level: 16  
 Adamant Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fake Out  
-- Tackle  
+- Mach Punch  
 - Focus Energy  
 - Counter  
 
-Makuhita @ Oran Berry  
-Ability: Thick Fat  
-Level: 15  
+Meditite @ Expert Belt  
+Ability: Pure Power  
+Level: 16  
+Serious Nature  
+- Thunder Punch  
+- Fire Punch  
+- Ice Punch  
+- Bullet Punch  
+
+Riolu @ Muscle Band  
+Ability: Inner Focus  
+Level: 16  
+Gentle Nature  
+- Detect  
+- Vacuum Wave  
+- Bullet Punch  
+- Rock Smash  
+
+Makuhita @ Flame Orb  
+Ability: Guts  
+Level: 16  
 Tera Type: Fighting  
 Lonely Nature  
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Bulk Up  
 - Detect  
 - Arm Thrust  
@@ -17604,37 +17709,44 @@ Pic: Lass
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 Mugshot: Pink
 
-Cupcake (Wooloo)
-Ability: Fluffy
-Level: 13
-Relaxed Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Headbutt
-- Double Kick
-- Cotton Guard
+Cupcake (Wooloo) @ Eviolite  
+Ability: Fluffy  
+Level: 14  
+Relaxed Nature  
+- Headbutt  
+- Double Kick  
+- Cotton Guard  
+- Counter  
 
-Crumpet (Flaaffy)
-Ability: Static
-Level: 13
-Rash Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thundershock
-- Confuse Ray
-- Trailblaze
-- Thunder Wave
+Crumpet (Flaaffy) @ Shuca Berry  
+Ability: Static  
+Level: 14  
+Rash Nature  
+- Electroweb  
+- Confuse Ray  
+- Trailblaze  
+- Thunder Wave  
 
-Biscuit (Stufful)
-Ability: Fluffy
-Level: 14
-Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Brutal Swing
-- Low Sweep
-- Baby-Doll Eyes
+Muffin (Deerling) @ Chople Berry  
+Ability: Serene Grace  
+Level: 14  
+Jolly Nature  
+- Headbutt  
+- Energy Ball  
+- Play Rough  
+- Leech Seed  
+
+Biscuit (Stufful) @ Rocky Helmet  
+Ability: Fluffy  
+Level: 15  
+Adamant Nature  
+- Stomp  
+- Brutal Swing  
+- Low Sweep  
+- Baby-Doll Eyes  
 
 === TRAINER_HAILEY ===
 Name: HAILEY
