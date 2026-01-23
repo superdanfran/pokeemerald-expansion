@@ -234,7 +234,8 @@ Mugshot: Blue
 
 Impidimp @ Eject Button  
 Ability: Prankster  
-Level: 12  
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Gentle Nature  
 - Fake Out  
 - Thunder Wave  
@@ -243,7 +244,8 @@ Gentle Nature
 
 Nickit @ Sitrus Berry  
 Ability: Unburden  
-Level: 12  
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Rash Nature  
 - Sucker Punch  
 - Snarl  
@@ -251,8 +253,9 @@ Rash Nature
 - Fake Tears  
 
 Greavard @ Leftovers  
-Ability: Fluffy  
+Ability: Pickup 
 Level: 12  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Relaxed Nature  
 - Headbutt  
 - Lick  
@@ -346,51 +349,50 @@ Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
-Impidimp @ Safety Goggles  
+Impidimp @ Focus Sash  
 Ability: Prankster  
 Level: 18  
 Modest Nature  
-- Metronome  
-- Fake Out  
 - Draining Kiss  
+- Fake Out  
 - Scary Face  
 
-Nickit @ Quick Claw  
-Ability: Stakeout  
+Nickit @ Misty Seed
+Ability: Unburden  
 Level: 18  
 Naughty Nature  
 - Sucker Punch  
-- First Impression  
-- Knock Off  
-- Play Rough  
+- Snarl  
+- Parting Shot  
+- Fake Tears  
 
 Sneasel @ Focus Sash  
-Ability: Pickpocket  
+Ability: Keen Eye  
 Level: 18  
 Jolly Nature  
 - Fake Out  
-- Swords Dance  
-- Triple Axel  
+- Ice Punch  
 - Ice Shard  
+- Knock Off  
 
 Scraggy @ Rocky Helmet  
 Ability: Intimidate  
 Level: 18  
 Adamant Nature  
-- Dragon Dance  
-- Fake Out  
-- Lash Out  
 - Drain Punch  
+- Rock Tomb  
+- Lash Out  
+- Fake Out  
 
 Greavard @ Black Glasses  
-Ability: Fluffy  
+Ability: Pickup 
 Level: 18  
 Tera Type: Dark  
 Relaxed Nature  
 - Ice Fang  
-- Play Rough  
-- Shadow Ball  
 - Bite  
+- Stomping Tantrum  
+- Body Slam  
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: ETIENNE 
@@ -6288,49 +6290,52 @@ AI: Smart Trainer / Ace Pokemon / Prediction
 Mugshot: Pink
 
 Glimmet (F) @ Absorb Bulb
-Ability: Toxic Debris
+Ability: Corrosion
 Level: 14
 Bold Nature
-- Mud Shot
-- Venoshock
-- Ancient Power
-- Spikes
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Toxic Spikes  
+- Mud Shot  
+- Smack Down  
+- Venoshock  
 
 Lileep (F) @ Big Root
 Ability: Storm Drain
-Level: 14
+Level: 13
 Calm Nature
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ingrain  
 - Confuse Ray  
 - Rock Tomb  
-- Mega Drain
+- Mega Drain  
 
 Growlithe-Hisui (F) @ Passho Berry
 Ability: Intimidate
 Level: 15
 Jolly Nature
-- Thunder Fang
-- Fire Fang
-- Bite
-- Smack Down
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Fang  
+- Bite  
+- Smack Down  
 
-Tyrunt (F) @ Assault Vest  
-Ability: Strong Jaw  
+Tyrunt (F) @ Leftovers
+Ability: Sturdy 
 Level: 15  
 Adamant Nature  
-- Bite  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Roar  
 - Charm  
 - Rock Tomb  
-- Roar  
+- Bite   
 
 Amaura (F) @ Focus Sash  
 Ability: Refrigerate  
-Level: 15  
+Level: 14
 Quiet Nature  
-IVs: 0 Atk  
-- Icy Wind  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tackle  
 - Stealth Rock  
-- Round  
+- Roar  
 - Growl  
 
 Trumbeak (F) @ Salac Berry
@@ -6338,10 +6343,11 @@ Ability: Skill Link
 Level: 16
 Tera Type: Rock
 Brave Nature
-- Pluck
-- Rock Smash
-- Bullet Seed
-- Rock Blast
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Pluck  
+- Rock Smash  
+- Fury Attack  
+- Rock Blast  
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -14874,15 +14880,6 @@ Adamant Nature
 - Focus Energy  
 - Counter  
 
-Meditite @ Expert Belt  
-Ability: Pure Power  
-Level: 16  
-Serious Nature  
-- Thunder Punch  
-- Fire Punch  
-- Ice Punch  
-- Bullet Punch  
-
 Riolu @ Muscle Band  
 Ability: Inner Focus  
 Level: 16  
@@ -17714,7 +17711,8 @@ Mugshot: Pink
 
 Cupcake (Wooloo) @ Eviolite  
 Ability: Fluffy  
-Level: 14  
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Relaxed Nature  
 - Headbutt  
 - Double Kick  
@@ -17723,7 +17721,8 @@ Relaxed Nature
 
 Crumpet (Flaaffy) @ Shuca Berry  
 Ability: Static  
-Level: 14  
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Rash Nature  
 - Electroweb  
 - Confuse Ray  
@@ -17732,7 +17731,8 @@ Rash Nature
 
 Muffin (Deerling) @ Chople Berry  
 Ability: Serene Grace  
-Level: 14  
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Jolly Nature  
 - Headbutt  
 - Energy Ball  
@@ -17741,7 +17741,8 @@ Jolly Nature
 
 Biscuit (Stufful) @ Rocky Helmet  
 Ability: Fluffy  
-Level: 15  
+Level: 14
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Adamant Nature  
 - Stomp  
 - Brutal Swing  
