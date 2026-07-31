@@ -849,6 +849,8 @@ static const struct MenuAction MultiChoiceList_StatToMaxmize[] = {
     { gText_SpDef },
     { gText_Speed },
 
+};
+
 static const struct MenuAction sMultichoiceList_BikeShop[] = {
     {COMPOUND_STRING("BICYCLE{CLEAR_TO 73}{FONT_SMALL}¥1,000,000")},
     {COMPOUND_STRING("NO THANKS")}

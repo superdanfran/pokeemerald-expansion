@@ -12721,7 +12721,7 @@ Floragato @ Expert Belt
 Ability: Overgrow 
 Level: 28  
 Hasty Nature
-Ball: Cherish Ball
+Ball: Cherish
 Tera Type: Grass  
 - Seed Bomb  
 - Hone Claws  
@@ -12875,7 +12875,7 @@ Crocalor @ Leftovers
 Ability: Blaze
 Level: 28
 Tera Type: Fire
-Ball: Cherish Ball
+Ball: Cherish
 Mild Nature
 - Incinerate  
 - Will-O-Wisp  
@@ -13021,7 +13021,7 @@ Quaxwell @ Mystic Water
 Ability: Torrent
 Level: 28
 Tera Type: Water
-Ball: Cherish Ball
+Ball: Cherish
 Lonely Nature
 - Aqua Jet
 - Low Kick
@@ -13150,7 +13150,7 @@ Floragato @ Expert Belt
 Ability: Overgrow  
 Level: 28  
 Hasty Nature
-Ball: Cherish Ball
+Ball: Cherish
 Tera Type: Grass  
 - Seed Bomb  
 - Hone Claws  
@@ -13304,7 +13304,7 @@ Crocalor @ Leftovers
 Ability: Blaze
 Level: 28
 Tera Type: Fire
-Ball: Cherish Ball
+Ball: Cherish
 Mild Nature
 - Flamethrower
 - Seed Bomb
@@ -13450,7 +13450,7 @@ Quaxwell @ Mystic Water
 Ability: Torrent
 Level: 28
 Tera Type: Water
-Ball: Cherish Ball
+Ball: Cherish
 Lonely Nature
 - Aqua Jet
 - Low Kick
@@ -15144,7 +15144,7 @@ Chi-Yu @ Absorb Bulb
 Ability: Beads of Ruin  
 Level: 38
 Modest Nature  
-Ball: Master Ball
+Ball: Master
 IVs: 0 Atk  
 - Dark Pulse  
 - Burning Jealousy
@@ -15707,21 +15707,30 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Tarountula
+Tarountula @ Oran Berry
 Ability: Stakeout
 Level: 12
 Lonely Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pounce
 - Sticky Web
 - Gastro Acid
 
-Nymble
+Venonat @ Wide Lens
 Ability: Tinted Lens
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Calm Nature
+- Sleep Powder
+- Night Shade
+- Confuse Ray
+- Acid Spray
+
+Nymble @ Muscle Band
+Ability: Tinted Lens
+Level: 12
+Adamant Nature
 - Pounce
 - Trailblaze
+- Double Kick
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
@@ -17694,10 +17703,17 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Wishiwashi
-Level: 12
+Mareanie @ Oran Berry
+Ability: Limber
+Level: 10
+Bold Nature
+- Peck
+- Bite
+- Infestation
+
+Wishiwashi @ Mystic Water
+Level: 18
 Naive Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tearful Look
 - Dive
 - Water Gun

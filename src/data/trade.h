@@ -1053,6 +1053,7 @@ static const struct InGameTrade sIngameTrades[] =
         .move2 = MOVE_FIRE_PUNCH,
         .move3 = MOVE_ICE_PUNCH,
         .move4 = MOVE_BULLET_PUNCH
+    },
     [INGAME_TRADE_MR_MIME] = 
     {
         .nickname = _("MIMIEN"),

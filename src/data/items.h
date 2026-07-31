@@ -167,7 +167,7 @@ static const u8 sInfiniteRepelDesc[] = _("Repels all wild\n"
                                           "Pokemon for any\n"
                                           "number of steps");
 
-const struct Item gItemsInfo[] =
+const struct ItemInfo gItemsInfo[] =
 {
     [ITEM_NONE] =
     {
@@ -378,7 +378,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_QUICK_BALL] =
     {
-        .name = _("Quick Ball"),
+        .name = ITEM_NAME("Quick Ball"),
         .price = 200,
         .description = COMPOUND_STRING(
             "Works well if\n"
@@ -12910,7 +12910,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_TM_TERA_BLAST] =
     {
-        .name = _("TM52"),
+        .name = ITEM_NAME("TM52"),
         .price = 1500,
         .description = COMPOUND_STRING(
             "User unleashes\n"
@@ -15122,6 +15122,12 @@ const struct Item gItemsInfo[] =
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TeraShard,
         .secondaryId = TYPE_ICE,
+        .iconPic = gItemIcon_TeraShard,
+        .iconPalette = gItemIconPalette_IceTeraShard,
+    },
+
+    [ITEM_NORMAL_TERA_SHARD] =
+    {
         .name = ITEM_NAME("Normal Tera Shard"),
         .price = 0,
         .description = sTeraShardDesc,
@@ -15854,7 +15860,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_ENDLESS_CANDY] =
     {
-        .name = _("Endless Candy"),
+        .name = ITEM_NAME("Endless Candy"),
         .price = 0,
         .importance = 1,
         .description = sEndlessCandyDesc,
@@ -15868,7 +15874,7 @@ const struct Item gItemsInfo[] =
     
     [ITEM_INFINITE_REPEL] =
    {
-       .name = _("Infinite Repel"),
+       .name = ITEM_NAME("Infinite Repel"),
        .price = 0,
        .description = sInfiniteRepelDesc,
        .importance = 1,
@@ -15882,8 +15888,7 @@ const struct Item gItemsInfo[] =
     // Note: This only works with Level Caps
     [ITEM_HYPER_CANDY] =
     {
-        .name = _("Hyper Candy"),
-        .pluralName = _("Hyper Candy"),
+        .name = ITEM_NAME("Hyper Candy"),
         .price = 0,
         .holdEffectParam = LEVEL_CAP,
         .description = COMPOUND_STRING(
