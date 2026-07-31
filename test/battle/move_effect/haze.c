@@ -12,7 +12,7 @@ SINGLE_BATTLE_TEST("Haze resets stat changes", s16 damage)
     PARAMETRIZE { haze = FALSE; }
     PARAMETRIZE { haze = TRUE; }
     GIVEN {
-        ASSUME(GetMoveEffect(MOVE_MEDITATE) == EFFECT_ATTACK_UP);
+        ASSUME_STAT_CHANGE(MOVE_MEDITATE, attack: +1);
         ASSUME(GetMoveCategory(MOVE_SCRATCH) == DAMAGE_CATEGORY_PHYSICAL);
         PLAYER(SPECIES_WOBBUFFET);
         OPPONENT(SPECIES_WOBBUFFET);
@@ -30,3 +30,6 @@ SINGLE_BATTLE_TEST("Haze resets stat changes", s16 damage)
         EXPECT_EQ(results[0].damage, results[1].damage);
     }
 }
+
+TO_DO_BATTLE_TEST("Haze resets Focus Energy (Gen 1 and 4)")
+TO_DO_BATTLE_TEST("Haze doesn't reset Focus Energy (Gen 2-3 and 5+)")

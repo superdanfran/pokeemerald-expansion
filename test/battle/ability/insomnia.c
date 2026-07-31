@@ -12,6 +12,7 @@ SINGLE_BATTLE_TEST("Insomnia prevents sleep")
         TURN { MOVE(opponent, MOVE_SPORE); }
     } SCENE {
         ABILITY_POPUP(player, ABILITY_INSOMNIA);
+        MESSAGE("Drowzee made it ineffective!");
         NONE_OF {
             ANIMATION(ANIM_TYPE_MOVE, MOVE_SPORE, opponent);
             ANIMATION(ANIM_TYPE_STATUS, B_ANIM_STATUS_SLP, player);
@@ -40,7 +41,7 @@ SINGLE_BATTLE_TEST("Insomnia prevents yawn")
     }
 }
 
-SINGLE_BATTLE_TEST("Insomnia prevents rest")
+SINGLE_BATTLE_TEST("Insomnia prevents Rest")
 {
     GIVEN {
         ASSUME(GetMoveEffect(MOVE_REST) == EFFECT_REST);
