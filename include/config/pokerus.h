@@ -12,8 +12,8 @@
 #define P_POKERUS_FLAG_INFECTION         0          // If Pokérus can only get infected if this flag is set or undefined (0). This emulates a gen 2 mechanic where Pokémon can only get infected by Pokérus after visiting Goldernrod. This does not affect spreading
 
 // Weird Pokérus behaviors that could be considered bugs. They are TRUE in vanilla Emerald but set to FALSE by default in Expansion (behaviors in other gens is unknown)
-#define P_POKERUS_HERD_IMMUNITY          FALSE      // If TRUE, Pokémon that have been previously infected by the Pokérus in your party reduce the chances of your party getting infected by the Pokérus (because they can be rolled at the target of the infection but are now "immune")
-#define P_POKERUS_WEAK_VARIANT           FALSE      // If TRUE, the variant 0 of Pokérus can be erased by stronger variant when Pokérus is spreading
+#define P_POKERUS_HERD_IMMUNITY          TRUE      // If TRUE, Pokémon that have been previously infected by the Pokérus in your party reduce the chances of your party getting infected by the Pokérus (because they can be rolled at the target of the infection but are now "immune")
+#define P_POKERUS_WEAK_VARIANT           TRUE      // If TRUE, the variant 0 of Pokérus can be erased by stronger variant when Pokérus is spreading
 
 #define P_POKERUS_INFECTION_ODDS         3          // Actual probability is POKERUS_INFECTION_ODDS/65536
 #define P_POKERUS_SPREAD_ODDS            21846      // Actual probability is POKERUS_SPREAD_ODDS/65536 (21846 should correspond to the vanilla Random() % 3)

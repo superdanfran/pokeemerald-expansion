@@ -999,6 +999,30 @@ const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_PyramidKingBrandon, gTrainerPalette_PyramidKingBrandon),
     },
+    [TRAINER_PIC_NEMONA] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Nemona, gTrainerPalette_Nemona),
+    },
+    [TRAINER_PIC_NESSA] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Nessa, gTrainerPalette_Nessa),
+    },
+    [TRAINER_PIC_DENDRA] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Dendra, gTrainerPalette_Dendra),
+    },
+    [TRAINER_PIC_RIKA] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Rika, gTrainerPalette_Rika),
+    },
+    [TRAINER_PIC_BRASSIUS] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Brassius, gTrainerPalette_Brassius),
+    },
+    [TRAINER_PIC_ARVEN] =
+    {
+        .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Arven, gTrainerPalette_Arven),
+    },
     [TRAINER_PIC_YOUNGSTER_FRLG] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_YoungsterFrlg, gTrainerPalette_YoungsterFrlg),

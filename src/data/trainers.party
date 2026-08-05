@@ -351,50 +351,50 @@ Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
-Impidimp @ Focus Sash  
+Impidimp @ Eject Button
 Ability: Prankster  
 Level: 18  
 Modest Nature  
 - Draining Kiss  
 - Fake Out  
-- Scary Face  
+- Parting Shot  
+- Thief  
 
 Nickit @ Misty Seed
 Ability: Unburden  
 Level: 18  
 Naughty Nature  
-- Sucker Punch  
+- Quick Attack  
 - Snarl  
-- Parting Shot  
-- Fake Tears  
+- Icy Wind  
+- Parting Shot
 
-Sneasel @ Focus Sash  
-Ability: Keen Eye  
+Vullaby @ Leftovers  
+Ability: Big Pecks  
 Level: 18  
-Jolly Nature  
-- Fake Out  
-- Ice Punch  
-- Ice Shard  
-- Knock Off  
+- Roost  
+- Feather Dance  
+- Fake Tears  
+- Gust  
 
 Scraggy @ Rocky Helmet  
 Ability: Intimidate  
 Level: 18  
 Adamant Nature  
-- Drain Punch  
+- Acid Spray  
+- Payback  
 - Rock Tomb  
-- Lash Out  
-- Fake Out  
+- Low Sweep  
 
 Greavard @ Black Glasses  
 Ability: Pickup 
 Level: 18  
 Tera Type: Dark  
 Relaxed Nature  
-- Ice Fang  
 - Bite  
-- Stomping Tantrum  
-- Body Slam  
+- Bulldoze  
+- Ice Fang  
+- Shadow Sneak  
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: ETIENNE 
@@ -546,31 +546,30 @@ Double Battle: No
 AI: Smart Trainer
 
 Varoom @ Air Balloon  
-Ability: Overcoat  
+Ability: Slow Start
 Level: 18  
-Naughty Nature  
+Brave Nature  
 - Poison Gas  
-- Headbutt  
-- Iron Head  
-- Poison Jab  
+- Curse  
+- Gyro Ball
+- Assurance
 
-Murkrow @ Eviolite  
+Murkrow @ Lum Berry  
 Ability: Prankster  
 Level: 18  
 Hasty Nature  
 - Confuse Ray  
 - Thunder Wave  
 - Mud-Slap  
-- U-turn  
 
 Salandit @ Wacan Berry  
 Ability: Corrosion  
 Level: 18  
 Tera Type: Water  
 Modest Nature  
-- Belch  
-- Incinerate  
-- Venoshock  
+- Acid Spray 
+- Ember  
+- Mud Slap  
 - Toxic  
 
 === TRAINER_GRUNT_MUSEUM_2 ===
@@ -582,34 +581,33 @@ Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
-Grimer-Alola @ Eviolite  
-Ability: Poison Touch  
+Finneon @ Wacan Berry  
+Ability: Water Veil 
 Level: 18  
-Rash Nature  
-- Acid Armor  
-- Knock Off  
-- Shadow Sneak  
-- Toxic  
+Calm Nature  
+- Aqua Ring 
+- Whirlpool 
+- Confuse Ray  
+- Attract  
 
 Zorua-Hisui @ Bright Powder  
 Ability: Illusion  
 Level: 18  
-Tera Type: Dark  
 Hasty Nature  
-- Knock Off  
-- Bitter Malice  
-- Hex  
-- Will-O-Wisp  
+- Icy Wind
+- Night Shade
+- Detect  
+- Curse 
 
 Beedrill @ Chople Berry  
-Ability: Merciless 
+Ability: Swarm 
 Level: 18  
 Tera Type: Dark  
 Jolly Nature  
-- Knock Off  
-- Rock Smash  
-- U-turn  
-- Toxic  
+- Brutal Swing
+- Focus Energy
+- Lunge
+- Harden
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -1401,20 +1399,19 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Litwick  
-Ability: Flame Body
+Litwick @ Binding Band
+Ability: Flash Fire
 Level: 16
 Modest Nature
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Will-O-Wisp
-- Burning Jealousy
+- Minimize
 - Fire Spin
+- Confuse Ray
 
-Scorbunny
-Ability: Blaze
+Scorbunny @ Muscle Band
+Ability: Libero
 Level: 16
 Hasty Nature
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Fire Spin
 - Trailblaze
 - Quick Attack
@@ -1570,23 +1567,32 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Sinistea
-Ability: Cursed Body
+Sinistea @ Colbur Berry
+Ability: Weak Armor
 Level: 16
 Modest Nature
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Will-O-Wisp
 - Mega Drain
 - Shadow Ball
+- Shell Smash
 
-Vanillite @ Eviolite
+Vanillite @ Focus Sash
 Ability: Weak Armor
 Level: 16
 Bold Nature
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Icicle Spear
-- Iron Defense
+- Icy Wind
+- Acid Armor
 - Hyper Voice
+- Endure
+
+Milcery @ Big Root
+Ability: Sweet Veil
+Level: 16
+Gentle Nature
+- Sweet Kiss
+- Acid Armor
+- Draining Kiss
+- Attract
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -2818,11 +2824,18 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
+Yamper @ Poke Ball
+Ability: Ball Fetch
+Level: 10
+Impish Nature
+- Nuzzle
+- Roar
+- Lick
+
 Fidough @ Nugget
-Ability: Own Tempo
+Ability: Pixilate
 Level: 10
 Relaxed Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Baby-Doll Eyes
 - Tackle
 - Charm
@@ -4061,36 +4074,43 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
 Eiscue @ Never-melt Ice
 Ability: Ice Face
 Level: 19
 Impish Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Rain Dance
-- Chilling Water
-- Powder Snow
+- Flip Turn
+- Ice Punch
+- Headbutt
 
-Brionne
+Brionne @ Throat Spray
 Ability: Liquid Voice
 Level: 19
 Modest Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Chilling Water
 - Disarming Voice
 - Sing
 - Rain Dance
 
-Pincurchin
+Mantyke @ Eviolite
+Ability: Swift Swim
+Level: 19
+Bold Nature
+- Double Team
+- Tailwind
+- Mirror Coat
+- Water Pulse
+
+Pincurchin @ Rocky Helmet
 Ability: Lightning Rod
 Level: 19
 Calm Nature
 Tera Type: Water
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Chilling Water
-- Thunder Shock
+- Spark
 - Thunder Wave
 - Rain Dance
 
@@ -7145,23 +7165,27 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Tandemaus
+Tandemaus @ Oran Berry
 Ability: Own Tempo
 Level: 14
 Serious Nature
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Double Hit
-- Encore
-- Super Fang
+- Beat Up
 
-Deerling-Spring (F)
-Ability: Serene Grace
+Charmander @ Muscle Band
+Ability: Blaze
+Level: 14
+Lonely Nature
+- Scratch
+- Will-O-Wisp
+- Growl
+
+Phantump @ Oran Berry
+Ability: Harvest
 Level: 14
 Brave Nature
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Trailblaze
-- Body Slam
-- Bulldoze
+- Branch Poke
+- Leech Seed
+- Astonish
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -7963,21 +7987,20 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Yungoos
+Yungoos @ Oran Berry
 Ability: Strong Jaw
 Level: 10
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Mud-Slap
+- Super Fang
 
-Toedscool
+Toedscool @ Oran Berry
 Level: 10
 Mild Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mega Drain
 - Mud Slap
-- Stun Spore
+- Spore
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -7986,13 +8009,12 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Rockruff
+Rockruff @ Focus Sash
 Ability: Keen Eye
 Level: 14
 Adamant Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 - Fire Fang
 - Thunder Fang
@@ -8002,19 +8024,26 @@ Larvitar @ Flame Orb
 Ability: Guts
 Level: 14
 Lonely Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bite
 - Rock Tomb
+- Protect
+
+Meowth-Galar @ Lum Berry
+Ability: Tough Claws
+Level: 14
+Jolly Nature
+- Metal Claw
+- Fake Out
+- U-turn
 
 Bunnelby @ Oran Berry
 Ability: Huge Power
 Level: 15
 Tera Type: Rock
 Naughty Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 - Dig
-- Surf
+- Super Fang
 - Bounce
 
 === TRAINER_TOMMY ===
@@ -8024,24 +8053,22 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer / Double Battle
+AI: Smart Trainer / Double Battle
 
-Dwebble
+Dwebble @ White Herb
 Ability: Weak Armor
 Level: 14
 Impish Nature
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Stealth Rock
 - Shell Smash
 - Bug Bite
 - Rock Tomb
 
-Beedrill @ Oran Berry
+Beedrill @ Maranga Berry
 Ability: Sniper
 Level: 15
 Tera Type: Rock
 Hasty Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Fell Stinger
 - Aerial Ace
 - Bug Bite
@@ -8055,32 +8082,29 @@ Music: Male
 Double Battle: Yes
 AI: Basic Trainer / HP Aware / Powerful Status
 
-Helioptile
+Helioptile @ Starf Berry
 Ability: Dry Skin
 Level: 15
 Rash Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Shock
 - Charge
-- Bulldoze
+- Swift
 - Thunder Wave
 
-Wingull
+Wingull @ Focus Sash
 Ability: Rain Dish
 Level: 15
 Calm Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Water Pulse
 - Roost
 - Wing Attack
 - Rain Dance
 
-Croagunk
+Croagunk @ Rowap Berry
 Ability: Dry Skin
 Level: 15
-Naughty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Low Kick
+Rash Nature
+- Mud Slap
 - Chilling Water
 - Rain Dance
 - Acid Spray
@@ -8354,10 +8378,9 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Growl
 
 Smoliv
-Ability: Early Bird
+Ability: Triage
 Level: 6
 Impish Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Sweet Scent
 - Absorb
@@ -8584,29 +8607,41 @@ Music: Hiker
 Double Battle: Yes
 AI: Basic Trainer
 
-Arrokuda
+Arrokuda @ Muscle Band
 Ability: Swift Swim
 Level: 16
-Jolly Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Flip Turn
-- Aqua Jet
+Adamant Nature
+- Laser Focus  
+- Flip Turn  
+- Bite  
+- Peck  
 
-Wingull
-Ability: Hydration
+Wingull @ Wacan Berry
+Ability: Rain Dish
 Level: 16
-Gentle Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Rain Dance
-- Dual Wingbeat
+Modest Nature
+- Rain Dance  
+- Air Cutter  
+- Chilling Water  
+- Icy Wind  
 
-Tirtouga
-Ability: Swift Swim
+Shellos @ Oran Berry  
+Ability: Storm Drain  
 Level: 16
-Naughty Nature
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Flip Turn
-- Aqua Jet
+Calm Nature  
+- Mirror Coat  
+- Chilling Water  
+- Clear Smog  
+- Mud Shot  
+
+Lombre @ Berry Juice  
+Ability: Rain Dish    
+Level: 16
+Bold Nature  
+- Fake Out  
+- Mega Drain  
+- Bubble Beam  
+- Whirlpool  
 
 === TRAINER_DALE ===
 Name: DALE
@@ -10446,14 +10481,13 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Croagunk @ Sitrus Berry
 Ability: Dry Skin
 Level: 19
 Naughty Nature 
 Tera Type: Water
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Chilling Water
 - Low Kick
 - Sucker Punch
@@ -10463,8 +10497,7 @@ Crabrawler @ Punching Glove
 Ability: Iron Fist
 Level: 19
 Adamant Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Chilling Water
+- Rock Smash
 - Jet Punch
 - Upper Hand
 - Coaching
@@ -10476,38 +10509,44 @@ Pic: Lady
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Binacle
+Binacle @ Rindo Berry
 Ability: Tough Claws
 Level: 19
 Adamant Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Fury Swipes
+- Slash
 - Razor Shell
 - Sand Attack
-- Rock Blast
+- X-Scissor
 
-Shellder
+Shellder @ King's Rock
 Ability: Skill Link
 Level: 19
 Bold Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Shard
 - Chilling Water
 - Icicle Spear
 - Rock Blast
 
-Dratini
+Delibird @ Focus Sash
+Ability: Prankster
+Level: 19
+Timid Nature
+- Tailwind
+- Fake Out
+- Feather Dance
+- Air Slash
+
+Dratini @ Flame Orb
 Ability: Marvel Scale
 Level: 19
 Tera Type: Water
 Lax Nature
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Twister
 - Chilling Water
 - Thunder Wave
-- Scale Shot
+- Icy Wind
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -11815,21 +11854,28 @@ Music: Twins
 Double Battle: Yes
 AI: Basic Trainer / HP Aware
 
-Cappy (Hatenna)
+Cappy (Hatenna) @ Oran Berry
 Ability: Magic Bounce
-Level: 14
+Level: 12
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Life Dew
+- Aromatic Mist
 - Disarming Voice
 - Psybeam
 - Heal Pulse
 
-Milky (Milcery)
-Ability: Aroma Veil
+Pipi (Cleffa) @ Focus Sash
+Ability: Friend Guard
 Level: 14
+Bold Nature
+- Sing
+- Fairy Wind
+- Wish
+- Metronome
+
+Milky (Milcery) @ Oran Berry
+Ability: Aroma Veil
+Level: 12
 Gentle Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Draining Kiss
 - Attract
 - Charm
@@ -11966,23 +12012,31 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wattrel
+Wattrel @ Focus Sash
 Ability: Competitive
 Level: 16
 Rash Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Quick Attack
-- Discharge
+- Electroweb
 - Pluck
+- Uproar
 
-Inkay
-Ability: Suction Cups
+Inkay @ Tanga Berry
+Ability: Contrary
 Level: 16
 Quiet Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swagger
 - Psybeam
 - Pluck
+- Night Slash
+
+Clobbopus @ Enigma Berry
+Ability: Technician
+Level: 16
+Quiet Nature
+- Power-Up Punch
+- Bullet Punch
+- Detect
 
 === TRAINER_EDMOND ===
 Name: EDMOND
@@ -11993,23 +12047,30 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wiglett
-Ability: Sand Veil
+Wiglett @ Rocky Helmet
+Ability: Gooey
 Level: 16
-Brave Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Chilling Water
+Adamant Nature
+- Slam
 - Sucker Punch
 - Aqua Jet
+- Final Gambit
 
-Sandygast
-Ability: Water Compaction
+Wooper-Paldea @ Poison Barb
+Ability: Poison Point
 Level: 16
 Gentle Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sandstorm
-- Mega Drain
+- Poison Tail
+- Amnesia
 - Bulldoze
+
+Crabrawler @ Berry Juice
+Ability: Anger Point
+Level: 16
+Adamant Nature
+- Rock Smash
+- Slam
+- Mach Punch
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -14375,39 +14436,68 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Basic Trainer / Double Battle
+AI: Smart Trainer / Double Battle
 
-Geodude-Alola
+Geodude-Alola @ Custap Berry
 Ability: Sturdy
 Level: 14
 Brave Nature
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Thunder Punch
 - Stealth Rock
 - Rock Throw
 
-Slugma
-Ability: Flame Body
+Slugma @ Passho Berry
+Ability: Weak Armor
 Level: 15
 Tera Type: Rock
 Quiet Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ancient Power
 - Mud Shot
 - Incinerate
 
 === TRAINER_BRENDEN ===
-Name: BRENDEN
+Name: CLIVE
 Class: Sailor
-Pic: Sailor
+Pic: Sailor FRLG
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Machop
-Level: 13
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sneasel-Hisui @ Focus Sash
+Ability: Pickpocket
+Level: 19
+Adamant Nature
+- Fake Out
+- Rock Smash
+- Poison Jab
+- Quick Attack
+
+Drizzile @ Mystic Water
+Ability: Sniper
+Level: 19
+Modest Nature
+- Water Pulse
+- Mud Shot
+- Swift
+- Tearful Look
+
+Wattrel @ Charti Berry
+Ability: Volt Absorb
+Level: 19
+Timid Nature
+- Air Cutter
+- Volt Switch
+- Roost
+
+Dhelmise @ Iron Ball
+Ability: Steelworker
+Level: 19
+Impish Nature
+- Gyro Ball
+- Whirlpool
+- Switcheroo
+- Mega Drain
 
 === TRAINER_LILITH ===
 Name: LILITH
@@ -14435,7 +14525,6 @@ Pyukumuku @ Rocky Helmet
 Ability: Innards Out
 Level: 19
 Hardy Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rain Dance
 - Counter
 - Purify
@@ -14446,10 +14535,9 @@ Ability: Guts
 Level: 19
 Tera Type: Water
 Adamant Nature
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Chilling Water
+- Tera Blast
 - Low Sweep
-- Helping Hand
+- Detect
 - Fake Out
 
 === TRAINER_SYLVIA ===
@@ -14779,7 +14867,7 @@ Hardy Nature
 - Absorb
 - Water Gun
 - Charm
-- Dragon Breath
+- Twister
 
 Quaxly @ Lum Berry
 Ability: Torrent
@@ -14816,7 +14904,7 @@ Hardy Nature
 - Absorb
 - Water Gun
 - Charm
-- Dragon Breath
+- Twister
 
 Fuecoco @ Lum Berry
 Ability: Blaze
@@ -14853,7 +14941,7 @@ Hardy Nature
 - Absorb
 - Water Gun
 - Charm
-- Dragon Breath
+- Twister
 
 Sprigatito @ Lum Berry
 Ability: Overgrow
@@ -15219,24 +15307,30 @@ Music: Female
 Double Battle: Yes
 AI: Basic Trainer
 
-Smoliv
-Ability: Early Bird
-Level: 12
-Naive Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Trailblaze
-- Helping Hand
-- Mega Drain
-
-Squawkabilly-White
+Totodile @ Rindo Berry
 Ability: Intimidate
 Level: 12
-Naughty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Aerial Ace
-- Quick Attack
-- Protect
-- Pounce
+Adamant Nature
+- Bite
+- Aqua Jet
+- Metal Claw
+- Scary Face
+
+Charcadet @ Passho Berry
+Ability: Flame Body
+Level: 12
+Modest Nature
+- Fire Spin
+- Confuse Ray
+- Will-O-Wisp
+
+Skiddo @ Occa Berry
+Ability: Sap Sipper
+Level: 12
+Naive Nature
+- Leech Seed
+- Vine Whip
+- Growth
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -15505,26 +15599,25 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer / Try To Faint
+AI: Basic Trainer
 
-Paras
-Ability: Effect Spore
+Spidops @ Oran Berry
+Ability: Stakeout
 Level: 15
 Hasty Nature
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- X-Scissor
-- Spore
-- Giga Drain
+- Silk Trap
+- Pounce
+- Upper Hand
+- Sticky Web
 
-Skorupi
+Skorupi @ King's Rock
 Ability: Battle Armor
 Level: 15
 Lax Nature
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Fell Stinger
 - Poison Fang
-- Hone Claws
-- Bite
+- Fling
+- Thief
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -15982,21 +16075,16 @@ Nacli @ Salac Berry
 Ability: Sturdy
 Level: 14
 Naughty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Polish
 - Smack Down
-- Mud Shot
 - Stealth Rock
 
-Silicobra
-Ability: Shed Skin
+Pawmi @ Oran Berry
+Ability: Iron Fist
 Level: 14
 Brave Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Brutal Swing
-- Glare
-- Mud Slap
-- Poison Tail
+- Fake Out
+- Mach Punch
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -17728,44 +17816,40 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Pink
 
-Cupcake (Wooloo) @ Eviolite  
+Cupcake (Wooloo) @ Rocky Helmet
 Ability: Fluffy  
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Level: 12
 Relaxed Nature  
 - Headbutt  
 - Double Kick  
 - Cotton Guard  
-- Counter  
+- Charm 
 
-Crumpet (Flaaffy) @ Shuca Berry  
+Crumpet (Mareep) @ Leftovers 
 Ability: Static  
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Level: 12
 Rash Nature  
-- Electroweb  
-- Confuse Ray  
 - Trailblaze  
 - Thunder Wave  
+- Confuse Ray
+- Thunder Shock
 
-Muffin (Deerling) @ Chople Berry  
+Muffin (Deerling) @ Occa Berry
 Ability: Serene Grace  
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Level: 12
 Jolly Nature  
-- Headbutt  
-- Energy Ball  
-- Play Rough  
-- Leech Seed  
+- Double Kick  
+- Trailblaze
+- Sand Attack 
+- Tackle
 
-Biscuit (Stufful) @ Rocky Helmet  
-Ability: Fluffy  
-Level: 14
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Biscuit (Stufful) @ Lum Berry
+Ability: Cute Charm  
+Level: 12
 Adamant Nature  
-- Stomp  
-- Brutal Swing  
-- Low Sweep  
+- Tackle  
+- Brick Break
+- Rest
 - Baby-Doll Eyes  
 
 === TRAINER_HAILEY ===
@@ -17777,23 +17861,31 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Hippopotas
+Hippopotas @ Smooth Rock
 Ability: Sand Stream
 Level: 16
 Impish Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Helping Hand
-- Protect
+- Sand Tomb
+- Yawn
 - Fire Fang
+- Curse
 
-Silicobra
-Ability: Sand Veil
+Silicobra @ Loaded Dice
+Ability: Sand Spit
 Level: 16
 Lonely Nature
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Coil
 - Scale Shot
 - Bulldoze
+
+Trapinch @ Binding Band
+Ability: Arena Trap
+Level: 16
+Adamant Nature
+- Sand Tomb
+- Sand Attack
+- Rock Tomb
+- Endure
 
 === TRAINER_CHANDLER ===
 Name: CHANDLER
@@ -17804,24 +17896,22 @@ Music: Girl
 Double Battle: No
 AI: Basic Trainer
 
-Frillish
+Frillish @ Wacan Berry
 Ability: Water Absorb
 Level: 16
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Shadow Ball
-- Protect
+- Night Shade
+- Mega Drain
 - Will-O-Wisp
 - Water Pulse
 
-Wooper-Paldea
-Ability: Water Absorb
+Bramblin @ Berry Juice
+Ability: Wind Rider
 Level: 16
 Bold Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Chilling Water
-- Trailblaze
-- Toxic
+- Rapid Spin
+- Defense Curl
+- Rollout
 
 === TRAINER_KALEB ===
 Name: KALEB
@@ -19061,24 +19151,31 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Mudbray
+Mudbray @ Berry Juice
 Ability: Stamina
 Level: 14
 Impish Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Smash
 - Stomp
 - Bulldoze
-- Heavy Slam
+- Iron Defense
 
-Rockruff
-Ability: Steadfast
+Rockruff @ Maranga Berry
+Ability: Own Tempo
 Level: 14
 Hasty Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
-- Rock Tomb
+- Accelerock
 - Trailblaze
+- Howl
+
+Farfetchd-Galar @ Stick
+Ability: Scrappy
+Level: 14
+Adamant Nature
+- Rock Smash
+- Aerial Ace
+- Quick Attack
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -19089,18 +19186,18 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer / Double Battle
 
-Applin @ Salac Berry
-Ability: Ripen
+Nuzleaf
+Ability: Pickpocket
 Level: 14
 Jolly Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rollout
+- Fake Out
+- Razor Leaf
+- Astonish
 
-Grookey
+Grookey @ Oran Berry
 Ability: Grassy Surge
 Level: 14
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Grassy Glide
 - Low Kick
 - Fake Out

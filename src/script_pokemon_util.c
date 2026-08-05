@@ -476,10 +476,11 @@ static u32 ScriptGiveMonParameterized(u8 side, u8 slot, enum Species species, u8
     return MON_GIVEN_TO_PARTY;
 }
 
-u32 ScriptGiveMon(enum Species species, u8 level, enum Item item)
+u32 ScriptGiveMon(enum Species species, u8 level, enum Item item, bool8 isModernFatefulEncounter)
 {
     struct Pokemon mon;
     u8 heldItem[2];
+    metloc_u8_t metLocation;
 
     CreateRandomMon(&mon, species, level);
     if (item)
@@ -487,6 +488,13 @@ u32 ScriptGiveMon(enum Species species, u8 level, enum Item item)
         heldItem[0] = item;
         heldItem[1] = item >> 8;
         SetMonData(&mon, MON_DATA_HELD_ITEM, heldItem);
+    }
+
+    if (isModernFatefulEncounter)
+    {
+        metLocation = METLOC_FATEFUL_ENCOUNTER;
+        SetMonData(&mon, MON_DATA_MODERN_FATEFUL_ENCOUNTER, &isModernFatefulEncounter);
+        SetMonData(&mon, MON_DATA_MET_LOCATION, &metLocation);
     }
 
     return GiveScriptedMonToPlayer(&mon, PARTY_SIZE);

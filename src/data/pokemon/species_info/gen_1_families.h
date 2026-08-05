@@ -2187,7 +2187,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRattataTeachableLearnset,
         .eggMoveLearnset = sRattataEggMoveLearnset,
         .formSpeciesIdTable = sRattataFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_RATICATE}),
     },
 
     [SPECIES_RATICATE] =
@@ -2358,8 +2358,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRattataAlolaTeachableLearnset,
         .eggMoveLearnset = sRattataAlolaEggMoveLearnset,
         .formSpeciesIdTable = sRattataFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE_ALOLA, CONDITIONS({IF_TIME, TIME_NIGHT})},
-                                {EVO_NONE, 0, SPECIES_RATICATE_ALOLA_TOTEM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_RATICATE_ALOLA}),
     },
 
     [SPECIES_RATICATE_ALOLA] =
@@ -11272,7 +11271,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sFarfetchdGalarTeachableLearnset,
         .eggMoveLearnset = sFarfetchdGalarEggMoveLearnset,
         .formSpeciesIdTable = sFarfetchdFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_BATTLE_END, 0, SPECIES_SIRFETCHD, CONDITIONS({IF_CRITICAL_HITS_GE, 3})}),
+        .evolutions = EVOLUTION({EVO_BATTLE_END, 30, SPECIES_SIRFETCHD, CONDITIONS({IF_CRITICAL_HITS_GE, 1})}),
     },
 
     [SPECIES_SIRFETCHD] =

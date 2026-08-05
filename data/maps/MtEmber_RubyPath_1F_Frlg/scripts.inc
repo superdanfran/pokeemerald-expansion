@@ -1,2 +1,6 @@
+# 1 "data/maps/MtEmber_RubyPath_1F_Frlg/scripts.pory"
+
+# 2 "data/maps/MtEmber_RubyPath_1F_Frlg/scripts.pory"
 MtEmber_RubyPath_1F_Frlg_MapScripts::
+# 3 "data/maps/MtEmber_RubyPath_1F_Frlg/scripts.pory"
 	.byte 0

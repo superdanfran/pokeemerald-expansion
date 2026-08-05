@@ -1,7 +1,16 @@
-CeruleanCave_1F_Frlg_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, CeruleanCave_1F_OnTransition
-	.byte 0
+# 1 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
 
+# 2 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
+CeruleanCave_1F_Frlg_MapScripts::
+# 3 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, CeruleanCave_1F_OnTransition
+# 4 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
+	.byte 0
+# 5 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
+
+# 6 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
 CeruleanCave_1F_OnTransition::
+# 7 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
 	setworldmapflag FLAG_WORLD_MAP_CERULEAN_CAVE_1F
+# 8 "data/maps/CeruleanCave_1F_Frlg/scripts.pory"
 	end

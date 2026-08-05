@@ -1,10 +1,20 @@
+# 1 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
+
+# 2 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 CeladonCity_Condominiums_2F_Frlg_MapScripts::
+# 3 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 	.byte 0
+# 4 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 
+# 5 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign::
+# 6 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 	msgbox CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom, MSGBOX_SIGN
+# 7 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 	end
+# 8 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 
+# 9 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom::
+# 10 "data/maps/CeladonCity_Condominiums_2F_Frlg/scripts.pory"
 	.string "GAME FREAK Meeting Room$"
-
